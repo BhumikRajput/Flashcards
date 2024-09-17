@@ -74,7 +74,7 @@ async function fetchFlashcards() {
 
 function updateCardContent() {
     if ((x_list.length > 0)) {
-        if ((fl_list.length < 0) || (Date.now() - x_list[0][3] > 10000)) {
+        if ((fl_list.length < 0) || (Date.now() - x_list[0][3] > 30000)) {
             currentCard = [x_list[0][0], x_list[0][1], x_list[0][2]];
             cardFront.innerHTML = currentCard[0] || "No front text";
             cardBack.innerHTML = currentCard[1] || "No back text";
