@@ -1,0 +1,297 @@
+[
+    {
+        "front": "Ikimas",
+        "back": "To go",
+        "chapter": 6
+    },
+    {
+        "front": "Kimas",
+        "back": "to come",
+        "chapter": 6
+    },
+    {
+        "front": "Kaerimas",
+        "back": "To return",
+        "chapter": 6
+    },
+    {
+        "front": "Mimas",
+        "back": "To see",
+        "chapter": 6
+    },
+    {
+        "front": "Kikimas",
+        "back": "To hear",
+        "chapter": 6
+    },
+    {
+        "front": "Shimas",
+        "back": "To do",
+        "chapter": 6
+    },
+    {
+        "front": "Tabemas",
+        "back": "To eat",
+        "chapter": 6
+    },
+    {
+        "front": "Nomimas",
+        "back": "To drink",
+        "chapter": 6
+    },
+    {
+        "front": "Yomimas",
+        "back": "To read",
+        "chapter": 6
+    },
+    {
+        "front": "Nihon",
+        "back": "Japan",
+        "chapter": 6
+    },
+    {
+        "front": "Kankoku",
+        "back": "Korea",
+        "chapter": 6
+    },
+    {
+        "front": "Chūgoku",
+        "back": "China",
+        "chapter": 6
+    },
+    {
+        "front": "Indo",
+        "back": "India",
+        "chapter": 6
+    },
+    {
+        "front": "Kuni",
+        "back": "Country",
+        "chapter": 6
+    },
+    {
+        "front": "Uchi",
+        "back": "Home",
+        "chapter": 6
+    },
+    {
+        "front": "Ie",
+        "back": "House",
+        "chapter": 6
+    },
+    {
+        "front": "Suki",
+        "back": "Like         <adj.>",
+        "chapter": 6
+    },
+    {
+        "front": "Kirai",
+        "back": "Dislike",
+        "chapter": 6
+    },
+    {
+        "front": "Osake",
+        "back": "Wine, whisky, alcohol",
+        "chapter": 6
+    },
+    {
+        "front": "Shokuji",
+        "back": "Food (Meal)",
+        "chapter": 6
+    },
+    {
+        "front": "Gohan",
+        "back": "Food",
+        "chapter": 6
+    },
+    {
+        "front": "Sushi",
+        "back": "Raw fish rolled in rice",
+        "chapter": 6
+    },
+    {
+        "front": "Sakana",
+        "back": "Fish",
+        "chapter": 6
+    },
+    {
+        "front": "Niku",
+        "back": "Meat",
+        "chapter": 6
+    },
+    {
+        "front": "Gyūniku",
+        "back": "Beef",
+        "chapter": 6
+    },
+    {
+        "front": "Butaniku",
+        "back": "Pork",
+        "chapter": 6
+    },
+    {
+        "front": "Toriniku",
+        "back": "Chicken",
+        "chapter": 6
+    },
+    {
+        "front": "Tori",
+        "back": "Chicken",
+        "chapter": 6
+    },
+    {
+        "front": "Tamago",
+        "back": "Eggs",
+        "chapter": 6
+    },
+    {
+        "front": "Gyūnyu",
+        "back": "Milk",
+        "chapter": 6
+    },
+    {
+        "front": "Shigoto",
+        "back": "Work, job",
+        "chapter": 6
+    },
+    {
+        "front": "Eiga",
+        "back": "Film, movie",
+        "chapter": 6
+    },
+    {
+        "front": "Eigakan",
+        "back": "Movie theater",
+        "chapter": 6
+    },
+    {
+        "front": "Ongaku",
+        "back": "Music",
+        "chapter": 6
+    },
+    {
+        "front": "Shimbun",
+        "back": "Newspaper",
+        "chapter": 6
+    },
+    {
+        "front": "Hon",
+        "back": "Book",
+        "chapter": 6
+    },
+    {
+        "front": "Terebi",
+        "back": "TV",
+        "chapter": 6
+    },
+    {
+        "front": "Hanabi",
+        "back": "Fire crackers show",
+        "chapter": 6
+    },
+    {
+        "front": "Hanami",
+        "back": "Cherry flower",
+        "chapter": 6
+    },
+    {
+        "front": "Gakkō",
+        "back": "School",
+        "chapter": 6
+    },
+    {
+        "front": "Kaisha",
+        "back": "Company, office",
+        "chapter": 6
+    },
+    {
+        "front": "Ocha",
+        "back": "Tea",
+        "chapter": 6
+    },
+    {
+        "front": "Mizu",
+        "back": "Water",
+        "chapter": 6
+    },
+    {
+        "front": "Korekara",
+        "back": "From now on",
+        "chapter": 6
+    },
+    {
+        "front": "Sorekara",
+        "back": "After that",
+        "chapter": 6
+    },
+    {
+        "front": "Mashō",
+        "back": "‘let’s’",
+        "chapter": 6
+    },
+    {
+        "front": "to issho ni",
+        "back": "‘with’",
+        "chapter": 6
+    },
+    {
+        "front": "Benkyō",
+        "back": "Study",
+        "chapter": 6
+    },
+    {
+        "front": "Hirugohan",
+        "back": "Lunch",
+        "chapter": 6
+    },
+    {
+        "front": "Asa",
+        "back": "Morning",
+        "chapter": 6
+    },
+    {
+        "front": "Kesa",
+        "back": "Today Morning",
+        "chapter": 6
+    },
+    {
+        "front": "Yoru",
+        "back": "Night",
+        "chapter": 6
+    },
+    {
+        "front": "Raishū",
+        "back": "Next week",
+        "chapter": 6
+    },
+    {
+        "front": "Mainichi",
+        "back": "Daily",
+        "chapter": 6
+    },
+    {
+        "front": "Maiban",
+        "back": "Every evening",
+        "chapter": 6
+    },
+    {
+        "front": "Sakka",
+        "back": "Soccer",
+        "chapter": 6
+    },
+    {
+        "front": "Nara",
+        "back": "(Place)",
+        "chapter": 6
+    },
+    {
+        "front": "Uriba",
+        "back": "~department",
+        "chapter": 6
+    },
+    {
+        "front": "chika ikkai",
+        "back": "First basement floor",
+        "chapter": 6
+    }
+]

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toggle Flashcards</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="info">
+        <div class="left">.</div>
+        <!-- <div class="translate">Translation: </div> -->
+        <div class="chapter">.</div>
+    </div>
+    <div class="card-container">
+        <div class="card" id="card">
+            <div class="card-side front" id="cardFront">Empty</div>
+            <div class="card-side back" id="cardBack">Empty</div>
+        </div>
+    </div>
+
+    <div class="buttons-container">
+        <button id="importButton">Import</button>
+        <button id="exportButton">Export</button>
+        <input type="file" id="hiddenFileInput" accept=".json" onchange="importJSON()" tabindex="-1" />
+    </div>
+
+    <!-- Modal for filename input -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <h3>Export Flashcards</h3>
+            <input type="text" id="filenameInput" placeholder="Enter filename" />
+            <div>
+                <button id="okButton">OK</button>
+                <button id="cancelButton" class="cancel">Cancel</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js" charset="utf-8"></script>
+</body>
+
+</html>

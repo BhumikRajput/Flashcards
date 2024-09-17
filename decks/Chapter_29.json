@@ -1,0 +1,212 @@
+[
+    {
+        "front": "あきます|\n［ドアが～］ ",
+        "back": "[a door] open ",
+        "chapter": 29
+    },
+    {
+        "front": "しまります|\n［ドアが～］ ",
+        "back": "[a door] close, shut ",
+        "chapter": 29
+    },
+    {
+        "front": "つきます|\n［でんきが～］ ",
+        "back": "[a light] come on, be turned on ",
+        "chapter": 29
+    },
+    {
+        "front": "きえます||*\n［でんきが～］ ",
+        "back": "[a light] go off",
+        "chapter": 29
+    },
+    {
+        "front": "こわれます||*\n［いすが～］ ",
+        "back": "[a chair] break ",
+        "chapter": 29
+    },
+    {
+        "front": "われます||\n［ゴップが～］ ",
+        "back": "[a glass] break, smash ",
+        "chapter": 29
+    },
+    {
+        "front": "おれます||\n［きが～］ ",
+        "back": "[a tree] break, snap ",
+        "chapter": 29
+    },
+    {
+        "front": "やぶれます||\n［かみが～］ ",
+        "back": "[paper] tear ",
+        "chapter": 29
+    },
+    {
+        "front": "よごれます||\n［ふくが～］ ",
+        "back": "[clothes] get dirty ",
+        "chapter": 29
+    },
+    {
+        "front": "つきます|\n［ポケットが～］ ",
+        "back": "[a pocket] be attached ",
+        "chapter": 29
+    },
+    {
+        "front": "はずれます||\n［ボタンが～］ ",
+        "back": "[a button] be undone ",
+        "chapter": 29
+    },
+    {
+        "front": "とまります|\n［くるまが～］ ",
+        "back": "[an car] stop, park ",
+        "chapter": 29
+    },
+    {
+        "front": "まちがえます||",
+        "back": "make a mistake",
+        "chapter": 29
+    },
+    {
+        "front": "おとします|",
+        "back": "drop, lose",
+        "chapter": 29
+    },
+    {
+        "front": "かかります|\n[かぎが～]",
+        "back": "be locked",
+        "chapter": 29
+    },
+    {
+        "front": "ふきます|",
+        "back": "wipe",
+        "chapter": 29
+    },
+    {
+        "front": "とりかえます|",
+        "back": "change",
+        "chapter": 29
+    },
+    {
+        "front": "かたづけます|",
+        "back": "put (things) in order, tidy up",
+        "chapter": 29
+    },
+    {
+        "front": "［お］さら ",
+        "back": "plate, dish",
+        "chapter": 29
+    },
+    {
+        "front": "［お］ちゃわん＊",
+        "back": "(rice) bowl",
+        "chapter": 29
+    },
+    {
+        "front": "コップ ",
+        "back": "glass (vessel)",
+        "chapter": 29
+    },
+    {
+        "front": "ガラス ",
+        "back": "glass (material)",
+        "chapter": 29
+    },
+    {
+        "front": "ふくろ ",
+        "back": "bag",
+        "chapter": 29
+    },
+    {
+        "front": "しょるい",
+        "back": "document, papers",
+        "chapter": 29
+    },
+    {
+        "front": "えだ ",
+        "back": "branch, twig",
+        "chapter": 29
+    },
+    {
+        "front": "えきいん ",
+        "back": "station attendant",
+        "chapter": 29
+    },
+    {
+        "front": "こうばん",
+        "back": "police box",
+        "chapter": 29
+    },
+    {
+        "front": "スピーチ",
+        "back": "speech (～を します: give/make a speech)",
+        "chapter": 29
+    },
+    {
+        "front": "へんじ",
+        "back": "reply, answer (～を します: reply, answer)",
+        "chapter": 29
+    },
+    {
+        "front": "おさきにどうぞ",
+        "back": "After you./Go ahead, please",
+        "chapter": 29
+    },
+    {
+        "front": "※げんじものがたり",
+        "back": "\"The Tale of Genji\" (a novel written by Murasaki Shikibu in the Heian Era)",
+        "chapter": 29
+    },
+    {
+        "front": "いまのでんしゃ",
+        "back": "the train which had just left",
+        "chapter": 29
+    },
+    {
+        "front": "わすれもの ",
+        "back": "things left behind, lost property",
+        "chapter": 29
+    },
+    {
+        "front": "このくらい",
+        "back": "about this (big)",
+        "chapter": 29
+    },
+    {
+        "front": "～かわ ",
+        "back": "~ side",
+        "chapter": 29
+    },
+    {
+        "front": "ポケット ",
+        "back": "pocket",
+        "chapter": 29
+    },
+    {
+        "front": "～へん",
+        "back": "around ~, ~ about",
+        "chapter": 29
+    },
+    {
+        "front": "おぼえていません ",
+        "back": "I don't remember",
+        "chapter": 29
+    },
+    {
+        "front": "あみだな ",
+        "back": "overhead rack",
+        "chapter": 29
+    },
+    {
+        "front": "たしか ",
+        "back": "I'm pretty sure",
+        "chapter": 29
+    },
+    {
+        "front": "[ああ、] よかった。",
+        "back": "[Oh,] that's great!/Thank goodness! (used to express a feeling of relief)",
+        "chapter": 29
+    },
+    {
+        "front": "※しんじゅく",
+        "back": "name of a station/district in Tokyo",
+        "chapter": 29
+    }
+]
