@@ -1,4 +1,4 @@
-var org_list = null;
+ var org_list = null;
 let fl_list = [];
 let x_list = [];
 let left = 0;
@@ -70,11 +70,19 @@ async function fetchFlashcards() {
     } catch (error) {
         console.error('Error fetching flashcards:', error);
     }
+    if (card.classList.contains("flipped")) {
+        let temp = cardBack.textContent;
+        cardBack.textContent = "";
+        card.classList.remove("flipped");
+        setTimeout(() => {
+            cardBack.textContent = temp;
+        }, 600);
+    } 
 }
 
 function updateCardContent() {
     if ((x_list.length > 0)) {
-        if ((fl_list.length < 0) || (Date.now() - x_list[0][3] > 30000)) {
+        if ((fl_list.length < 0) || (Date.now() - x_list[0][3] > 10000)) {
             currentCard = [x_list[0][0], x_list[0][1], x_list[0][2]];
             cardFront.innerHTML = currentCard[0] || "No front text";
             cardBack.innerHTML = currentCard[1] || "No back text";

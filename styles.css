@@ -47,8 +47,9 @@ body {
 
 .card-side.back {
     color: black;
-    background-color: #ecdc95;
-    transform: rotateY(180deg);
+    /* background-color: #ecdc95; */
+    background-color: #8e8d97;
+    transform: rotateY(180deg); 
 }
 
 .flipped {
@@ -129,7 +130,7 @@ body {
     width: calc(100% - 20px);
     padding: 10px;
     margin: 0px 0px 10px 0px;
-    border-radius: 5px;
+    border-radius: 5px; 
     border: 1px solid #ccc;
     box-shadow: none;
 }
