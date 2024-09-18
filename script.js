@@ -1,4 +1,4 @@
- var org_list = null;
+var org_list = null;
 let fl_list = [];
 let x_list = [];
 let left = 0;
@@ -77,7 +77,7 @@ async function fetchFlashcards() {
         setTimeout(() => {
             cardBack.textContent = temp;
         }, 600);
-    } 
+    }
 }
 
 function updateCardContent() {
@@ -292,11 +292,12 @@ document.addEventListener("click", () => {
     if (modal.style.display === 'flex') {
         return; // Don't handle keydown if modal is visible
     }
-    if (chapter.textContent != "") {
-        card.classList.toggle("flipped");
-    }
-    else if (chapter.textContent == "" && card.classList.contains("flipped")) {
-        card.classList.remove("flipped");
+    else {
+        if (chapter.textContent != "") {
+            card.classList.toggle("flipped");
+        } else if (chapter.textContent == "" && card.classList.contains("flipped")) {
+            card.classList.remove("flipped");
+        }
     }
 });
 
@@ -307,6 +308,8 @@ okButton.addEventListener("click", () => {
     const filename = filenameInput.value.trim();
 
     src_list = create_src();
+
+    console.log("src_list", src_list);
 
     if (filename) {
         const json = JSON.stringify(src_list, null, 4);
