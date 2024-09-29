@@ -1,0 +1,167 @@
+[
+    {
+        "front": "Dama ",
+        "back": "(Suffix for Coin/s)",
+        "chapter": 2
+    },
+    {
+        "front": "Satsu",
+        "back": "(Suddix for Note/s)",
+        "chapter": 2
+    },
+    {
+        "front": "Ikura",
+        "back": "How much",
+        "chapter": 2
+    },
+    {
+        "front": "Kaban",
+        "back": "Bag",
+        "chapter": 2
+    },
+    {
+        "front": "Baiku",
+        "back": "Bike",
+        "chapter": 2
+    },
+    {
+        "front": "Kuruma",
+        "back": "Car",
+        "chapter": 2
+    },
+    {
+        "front": "Keitai Denwa, Sumahon",
+        "back": "Cell Phone, Smart Phone",
+        "chapter": 2
+    },
+    {
+        "front": "Pasokon",
+        "back": "Laptop, Computer",
+        "chapter": 2
+    },
+    {
+        "front": "Tokei",
+        "back": "Watch/Clock",
+        "chapter": 2
+    },
+    {
+        "front": "Ude Tokei",
+        "back": "Wrist Watch",
+        "chapter": 2
+    },
+    {
+        "front": "Isu",
+        "back": "Chair",
+        "chapter": 2
+    },
+    {
+        "front": "Tsukue",
+        "back": "Table",
+        "chapter": 2
+    },
+    {
+        "front": "Ie",
+        "back": "House",
+        "chapter": 2
+    },
+    {
+        "front": "Pen",
+        "back": "Pen",
+        "chapter": 2
+    },
+    {
+        "front": "Kutsu",
+        "back": "Shoes",
+        "chapter": 2
+    },
+    {
+        "front": "Chotto",
+        "back": "Little bit",
+        "chapter": 2
+    },
+    {
+        "front": "Totemo",
+        "back": "Very",
+        "chapter": 2
+    },
+    {
+        "front": "Doru",
+        "back": "Dollar",
+        "chapter": 2
+    },
+    {
+        "front": "Yasumi",
+        "back": "Holiday, Break",
+        "chapter": 2
+    },
+    {
+        "front": "Kyūjitsu",
+        "back": "National Holiday",
+        "chapter": 2
+    },
+    {
+        "front": "Kyukei",
+        "back": "Break",
+        "chapter": 2
+    },
+    {
+        "front": "Natsu Yasumi",
+        "back": "Summer Break",
+        "chapter": 2
+    },
+    {
+        "front": "Gakkō ",
+        "back": "School",
+        "chapter": 2
+    },
+    {
+        "front": "Kaban",
+        "back": "Bag",
+        "chapter": 2
+    },
+    {
+        "front": "Pasokon",
+        "back": "Computer",
+        "chapter": 2
+    },
+    {
+        "front": "Ocha",
+        "back": "(Green) Tea",
+        "chapter": 2
+    },
+    {
+        "front": "Osake",
+        "back": "Alcohol",
+        "chapter": 2
+    },
+    {
+        "front": "Shigoto",
+        "back": "Work/Job",
+        "chapter": 2
+    },
+    {
+        "front": "Seki",
+        "back": "Seat",
+        "chapter": 2
+    },
+    {
+        "front": "Shimbun",
+        "back": "Newspaper",
+        "chapter": 2
+    },
+    {
+        "front": "Biru ",
+        "back": "Building",
+        "chapter": 2
+    },
+    {
+        "front": "Biiru",
+        "back": "Bear",
+        "chapter": 2
+    },
+    {
+        "front": "Shukudai",
+        "back": "Homework",
+        "chapter": 2
+    }
+]

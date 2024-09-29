@@ -1,0 +1,857 @@
+[
+    {
+        "front": "Mother (mine)",
+        "back": "Haha",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Father (mine)",
+        "back": "Chichi",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Younger Sister (mine)",
+        "back": "Imōto",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Elder Sister (mine)",
+        "back": "Ane",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Younger Brother (mine)",
+        "back": "Otōto",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Elder Brother (mine)",
+        "back": "Ani",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Grandmother (mine)",
+        "back": "Sobo",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Grandfather (mine)",
+        "back": "Sofu",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Wife (mine) ",
+        "back": "Tsuma",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Husband (mine)",
+        "back": "Otto",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Daughter (mine)",
+        "back": "Musume",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Son (mine)",
+        "back": "Musuko",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Mother (someone else)",
+        "back": "Okōsan",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Father (someone else)",
+        "back": "Otōsan",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Younger Sister (someone else)",
+        "back": "Imōto",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Elder Sister (someone else)",
+        "back": "One-San",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Younger Brother (someone else)",
+        "back": "Otōto",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Elder Brother (someone else)",
+        "back": "Oni-San",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Grandmother (someone else)",
+        "back": "Obāsan",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Grandfather (someone else)",
+        "back": "Ojīsan",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Wife (someone else)",
+        "back": "Okusan",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Husband  (someone else)",
+        "back": "Goshujin",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Daughter (someone else)",
+        "back": "Musumesan",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Son (someone else)",
+        "back": "Musukosan",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Ringo ",
+        "back": "Apple",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Ichigo ",
+        "back": "Strawberry",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Momo",
+        "back": "Peach",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Suika",
+        "back": "Watermelon",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Mikan",
+        "back": "(Japanese) Orange",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Budō",
+        "back": "Grape",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Nashi",
+        "back": "Japanese Pear",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Kaki",
+        "back": "Persimmon",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Banana",
+        "back": "Banana",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Meron",
+        "back": "Melon",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Lemon",
+        "back": "Remon",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Kami",
+        "back": "Hair",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Atama",
+        "back": "Head",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Me",
+        "back": "Eyes",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Mimi",
+        "back": "Ears",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Hana",
+        "back": "Nose",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Kuchi",
+        "back": "Mouth",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Kao",
+        "back": "Face",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Kata",
+        "back": "Shoulders",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Ude",
+        "back": "Hands",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Ashi",
+        "back": "Legs",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Onaka",
+        "back": "Stomach",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Te",
+        "back": "Hand, arm",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Ha",
+        "back": "Teeth",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Kuruma",
+        "back": "Car",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Densha",
+        "back": "Train",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Jitensha",
+        "back": "Cycle",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Eki",
+        "back": "Station",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Basu tei",
+        "back": "Bus Stop",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Chikatetsu",
+        "back": "Subway",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Mise",
+        "back": "Shop",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Gakkō",
+        "back": "School",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Ginkō",
+        "back": "Bank",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Byōin",
+        "back": "Hospital",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Ie",
+        "back": "House",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Uchi",
+        "back": "Home",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Kōen",
+        "back": "Park",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Kyōshitsu",
+        "back": "Classroom",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Gakusei",
+        "back": "Student",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Shōgakkō",
+        "back": "Primary",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Chūgakko",
+        "back": "Middle",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Kōkō",
+        "back": "High School",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Daigaku",
+        "back": "University",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Tomodachi",
+        "back": "Friends",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Gohan",
+        "back": "Food",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Last Year",
+        "back": "Kyonen",
+        "chapter": "Additional"
+    },
+    {
+        "front": "This Year",
+        "back": "Kotoshi",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Next Year",
+        "back": "Rainen",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Last  Month",
+        "back": "Sengetsu",
+        "chapter": "Additional"
+    },
+    {
+        "front": "This Month",
+        "back": "Kongetsu",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Next Month",
+        "back": "Raigetsu",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Last Week",
+        "back": "Senshū",
+        "chapter": "Additional"
+    },
+    {
+        "front": "This Week",
+        "back": "Konshū",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Next Week",
+        "back": "Raishū",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Nichiyōbi",
+        "back": "Sunday",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Getsuyōbi",
+        "back": "Monday",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Kayōbi",
+        "back": "Tuesday",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Suiyōbi",
+        "back": "Wednesday",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Mokuyōbi",
+        "back": "Thursday",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Kinyōbi",
+        "back": "Friday",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Doyōbi",
+        "back": "Saturday",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Nan, Nani",
+        "back": "What",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Doko / Dochira",
+        "back": "Where",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Dare / Donata",
+        "back": "Who",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Dōshite / Naze",
+        "back": "Why",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Doyatte / Nande",
+        "back": "How",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Itsu",
+        "back": "When",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Ikura",
+        "back": "How Much",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Oikutsu",
+        "back": "How Old",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Dore / Dono",
+        "back": "Which",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Jagaimo",
+        "back": "Potato",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Tomato",
+        "back": "Tomato",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Tamanegi",
+        "back": "Onion",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Daikon",
+        "back": "(Japanese) Raddish",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Ninjin",
+        "back": "Carrot",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Kyabetsu",
+        "back": "Cabbage",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Kyūri",
+        "back": "Cucumber",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Mame",
+        "back": "Beans, Peas",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Retasu",
+        "back": "Lettuce",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Hakusai",
+        "back": "Chinese Cabbage",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Hōrensō",
+        "back": "Spinach",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Nasu",
+        "back": "Egg plant, Brinjal",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Negi",
+        "back": "Welsh Onion",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Amai",
+        "back": "Sweet",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Karai",
+        "back": "Spicy",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Sappai",
+        "back": "Salty",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Suppoi",
+        "back": "Sour",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Nigai",
+        "back": "Bitter",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Umai",
+        "back": "Tasty",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Samui",
+        "back": "Cold (Atmos.)",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Tsumetai",
+        "back": "Cold (Obj.)",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Atsui",
+        "back": "Hot",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Nihon",
+        "back": "Japan",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Indo",
+        "back": "India",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Chūgoku",
+        "back": "China",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Kankoku",
+        "back": "Korea",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Roshia",
+        "back": "Russia",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Amerika",
+        "back": "America",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Igirisu",
+        "back": "England",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Itaria",
+        "back": "Italy",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Doitsu",
+        "back": "Germany",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Tai",
+        "back": "Thailand",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Furansu",
+        "back": "France",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Burajiru",
+        "back": "Brazil",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Sushi",
+        "back": "(Dish)",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Okonomiyaki",
+        "back": "(Dish)",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Sashimi",
+        "back": "(Dish)",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Teishoku",
+        "back": "(Dish)",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Tempura",
+        "back": "(Dish)",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Udon",
+        "back": "(Dish)",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Soba",
+        "back": "(Dish)",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Onigiri",
+        "back": "(Dish)",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Gyōza",
+        "back": "(Dish)",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Miso",
+        "back": "(Dish)",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Yakiniku",
+        "back": "(Dish)",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Takoyaki",
+        "back": "(Dish)",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Mizu",
+        "back": "Water",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Kōhii",
+        "back": "Coffee",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Kōcha",
+        "back": "Black Tea",
+        "chapter": "Additional"
+    },
+    {
+        "front": "(O)cha",
+        "back": "Green Tea",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Jūsu",
+        "back": "Juice",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Miruku / Gyūnyū",
+        "back": "Milk",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Biiru",
+        "back": "Beer",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Wain",
+        "back": "Wine",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Osake",
+        "back": "Alcohol",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Hikōki",
+        "back": "Airplane",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Kuruma",
+        "back": "Car",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Bicycle",
+        "back": "Jitensha",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Baiku",
+        "back": "Bike",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Torakku",
+        "back": "Truck",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Chikatetsu",
+        "back": "Underground train",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Metoro",
+        "back": "Metro",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Densha",
+        "back": "Electric train",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Fune",
+        "back": "Ship",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Takushi",
+        "back": "Taxi",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Bullet Train",
+        "back": "Shinkansen",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Tōkyō",
+        "back": "(Major Cities)",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Ōsaka",
+        "back": "(Major Cities)",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Kyōto",
+        "back": "(Major Cities)",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Kōbe",
+        "back": "(Major Cities)",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Nagoya",
+        "back": "(Major Cities)",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Yokohama",
+        "back": "(Major Cities)",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Fukuoka",
+        "back": "(Major Cities)",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Shizuoka",
+        "back": "(Major Cities)",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Sendai",
+        "back": "(Major Cities)",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Fukushima",
+        "back": "(Major Cities)",
+        "chapter": "Additional"
+    },
+    {
+        "front": "Kanazawa",
+        "back": "(Major Cities)",
+        "chapter": "Additional"
+    }
+]

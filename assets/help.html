@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fdfdfd;
+            color: #333;
+            line-height: 1.6;
+            overflow-x: hidden; /* Prevent horizontal overflow */
+        }
+
+        body * {
+            margin: 5px;
+            box-sizing: border-box; /* Include padding and border in element's total width and height */
+        }
+
+        header {
+            background-color: #e8e8e8;
+            color: #333;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            padding: 20px;
+            max-width: 100%; /* Ensure it doesn't exceed the viewport width */
+            margin: auto;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden; /* Prevent overflow from content */
+        }
+
+        h2 {
+            margin-top: 20px;
+            color: black;
+        }
+
+        ol {
+            padding-left: 20px;
+        }
+
+        ul {
+            padding-left: 20px;
+            list-style-type: disc;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #e8e8e8;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .back-link {
+            display: block;
+            text-align: center;
+            margin: 20px 0;
+            text-decoration: none;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+
+        #scope1 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        #scope2 {
+            padding: 0;
+            font-size: 20px;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 600px) {
+            header, footer {
+                padding: 15px;
+            }
+
+            section {
+                padding: 15px;
+                margin: 10px;
+                border-radius: 5px; /* Slightly reduce the border radius for smaller screens */
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            #scope1 {
+                font-size: 20px;
+            }
+
+            #scope2 {
+                font-size: 18px;
+            }
+
+            /* Adjust padding and margins further for small devices */
+            ul, ol {
+                padding-left: 15px; /* Reduce padding */
+            }
+
+            li {
+                margin-bottom: 4px; /* Reduce margin for smaller devices */
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Help</h1>
+    </header>
+
+    <section>
+        <h2>Key Bindings</h2>
+        <ul>
+            <li>
+                <div id="scope1">Basic Gestures</div>
+                <ul>
+                    <li>
+                        <div id="scope2">Space / Tap Anywhere</div>
+                        <span>flips the card for the answer</span>
+                    </li>
+                    <li>
+                        <div id="scope2">Up Key / Swipe Up</div>
+                        <span>recognized the card</span>
+                    </li>
+                    <li>
+                        <div id="scope2">Down Key / Swipe Down</div>
+                        <span>didn't recognize the card</span>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <div id="scope1">Buttons</div>
+                <ul>
+                    <li>
+                        <div id="scope2">Inbuilt</div>
+                        <span>to use already built flashcards</span>
+                    </li>
+                    <li>
+                        <div id="scope2">Import</div>
+                        <span>to import json flashcards from local device</span>
+                    </li>
+                    <li>
+                        <div id="scope2">Export</div>
+                        <span>to save unfinished flashcards to study later</span>
+                    </li>
+                    <li>
+                        <div id="scope2">Help?</div>
+                        <span>...</span>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+        <h2>Logic</h2>
+        <ul>
+            <li>
+                When the card is recognized, it is removed from the current study deck.
+            </li>
+            <li>
+                When the card is unrecognized, that card will be called again after 60 seconds.
+            </li>
+            <li>
+                Unrecognizing that card will repeat the process again until it is recognized.
+            </li>
+        </ul>
+
+        <a href="../index.html" class="back-link"><u>Back to Home</u></a>
+    </section>
+
+    <footer>
+        &copy; 2024 Bhumik
+    </footer>
+
+</body>
+
+</html>
