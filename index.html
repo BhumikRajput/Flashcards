@@ -593,7 +593,7 @@
 
         // desktop exclusive 
         document.addEventListener("keydown", event => {
-            if (inputPage.style.display === 'flex') {
+            if (inputPage.style.display === 'flex' || inbuiltPage.style.display !== 'none') {
                 return; // Don't handle keydown if input page is visible
             }
 
@@ -666,7 +666,7 @@
         });
 
         document.addEventListener("click", () => {
-            if (inputPage.style.display === 'flex') {
+            if (inputPage.style.display === 'flex' || inbuiltPage.style.display !== 'none') {
                 return; // Don't handle keydown if inputPage is visible
             }
             else {
