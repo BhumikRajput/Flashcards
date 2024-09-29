@@ -109,13 +109,33 @@
             background-color: #c9b569;
         }
 
-        #flash-page .buttons-container button:focus {
+        #flash-page .buttons-container button:active {
             outline: none;
             /* Remove outline to make sure the button doesn't appear focused */
         }
 
         #flash-page #hiddenFileInput {
             display: none;
+        }
+
+        #flash-page .help {
+            text-align: center;
+            padding: 10px 20px;
+            margin: 5px 0;
+            color: #fff;
+            background-color: transparent;
+            border: 1px solid white;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        #flash-page .help:hover {
+            border-color: #c9b569;
+        }
+
+        #flash-page .help:active {
+            background-color: white;
+            color: black;
         }
 
         /* input page Styles */
@@ -270,6 +290,7 @@
             <button id="inbuiltButton">Inbuilt</button>
             <button id="importButton">Import</button>
             <button id="exportButton">Export</button>
+            <a href="./assets/help.html" class="help">Help?</a>
             <input type="file" id="hiddenFileInput" accept=".json" onchange="importJSON()" tabindex="-1" />
         </div>
     </div>
