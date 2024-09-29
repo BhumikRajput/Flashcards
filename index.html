@@ -331,6 +331,8 @@
         var inbuiltButton = document.querySelector("#flash-page #inbuiltButton");
         var importButton = document.querySelector("#flash-page #importButton");
         var exportButton = document.querySelector("#flash-page #exportButton");
+        var helpButton = document.querySelector("#flash-page .help");
+
         var filenameInput = document.querySelector("#input-page #filenameInput");
         var src_list = null;
         var inputPage = document.querySelector("#input-page");
@@ -749,6 +751,10 @@
             event.stopPropagation(); // Prevent click event from reaching the body
             document.querySelector("#inbuilt-page").style.display = "none"; // Hide the inbuilt-page
             showFlashPage();
+        });
+
+        helpButton.addEventListener("click", (event) => {
+            event.stopPropagation(); // Prevent click event from reaching the body
         });
 
     </script>
