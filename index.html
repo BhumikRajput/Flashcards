@@ -419,7 +419,7 @@
             // Fetch data for all selected JSON files
             for (const checkbox of checkboxes) {
                 const fileName = checkbox.value;
-                const url = `https://raw.githubusercontent.com/BhumikRajput/Flashcards/test/decks/${fileName}`;
+                const url = `https://raw.githubusercontent.com/BhumikRajput/Flashcards/main/decks/${fileName}`;
                 fetchPromises.push(fetch(url).then(res => res.json()).then(data => {
                     // Append each JSON file's data into the combined data list
                     combinedData = combinedData.concat(data); // Combine all data into a single list
