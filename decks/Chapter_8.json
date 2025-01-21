@@ -1,211 +1,211 @@
 [
     {
-        "front": "Kochira",
+        "front": "こちら",
         "back": "I am (here is) (Polite)",
         "chapter": 8
     },
     {
-        "front": "Kochirakoso",
+        "front": "こちらこそ",
         "back": "Same here",
         "chapter": 8
     },
     {
-        "front": "Jōzu",
+        "front": "じょうず",
         "back": "Good at\n<adj.>",
         "chapter": 8
     },
     {
-        "front": "Heta",
+        "front": "へた",
         "back": "Not good at",
         "chapter": 8
     },
     {
-        "front": "Suki",
+        "front": "すき",
         "back": "Like, love",
         "chapter": 8
     },
     {
-        "front": "Kirai",
+        "front": "きらい",
         "back": "Dislike",
         "chapter": 8
     },
     {
-        "front": "Dewa/Ja",
+        "front": "でわ/じゃ",
         "back": "Well then",
         "chapter": 8
     },
     {
-        "front": "Ginkō Kōza",
+        "front": "ぎんこう こうざ",
         "back": "Bank Account",
         "chapter": 8
     },
     {
-        "front": "Shiryō",
+        "front": "しりょう",
         "back": "Documents",
         "chapter": 8
     },
     {
-        "front": "Setsumei",
+        "front": "せつめい",
         "back": "Explanation",
         "chapter": 8
     },
     {
-        "front": "Kotae",
+        "front": "こたえ",
         "back": "Answer, Reply",
         "chapter": 8
     },
     {
-        "front": "Chotto",
+        "front": "ちょっと",
         "back": "Little bit",
         "chapter": 8
     },
     {
-        "front": "Dashimas",
+        "front": "だします",
         "back": "To Submit",
         "chapter": 8
     },
     {
-        "front": "Mada",
+        "front": "まだ",
         "back": "Still, yet",
         "chapter": 8
     },
     {
-        "front": "Mondai ",
+        "front": "もんだい",
         "back": "Problem",
         "chapter": 8
     },
     {
-        "front": "Shitsumon",
+        "front": "しつもん",
         "back": "Question",
         "chapter": 8
     },
     {
-        "front": "Hoka",
+        "front": "ほか",
         "back": "Other",
         "chapter": 8
     },
     {
-        "front": "Amari",
+        "front": "あまり",
         "back": "Not that much",
         "chapter": 8
     },
     {
-        "front": "Hi",
+        "front": "ひ",
         "back": "Day",
         "chapter": 8
     },
     {
-        "front": "Madamada",
+        "front": "まだまだ",
         "back": "\"not yet\"",
         "chapter": 8
     },
     {
-        "front": "Empitsu",
+        "front": "えんぴつ",
         "back": "Pencil",
         "chapter": 8
     },
     {
-        "front": "Dōshite",
+        "front": "どうして",
         "back": "Why",
         "chapter": 8
     },
     {
-        "front": "e",
+        "front": "え",
         "back": "Painting",
         "chapter": 8
     },
     {
-        "front": "Kara",
+        "front": "から",
         "back": "Therefore",
         "chapter": 8
     },
     {
-        "front": "Zenzen",
-        "back": "Not at all ",
+        "front": "ぜんぜん",
+        "back": "Not at all",
         "chapter": 8
     },
     {
-        "front": "Komakai",
+        "front": "こまかい",
         "back": "Change",
         "chapter": 8
     },
     {
-        "front": "Okane",
+        "front": "おかね",
         "back": "Money",
         "chapter": 8
     },
     {
-        "front": "Ikenai",
+        "front": "いけない",
         "back": "Can’t go",
         "chapter": 8
     },
     {
-        "front": "Bansen",
+        "front": "ばんせん",
         "back": "Platform",
         "chapter": 8
     },
     {
-        "front": "Tsugi",
+        "front": "つぎ",
         "back": "Next",
         "chapter": 8
     },
     {
-        "front": "Futsū",
+        "front": "ふつう",
         "back": "Local",
         "chapter": 8
     },
     {
-        "front": "Toshokan",
+        "front": "としょかん",
         "back": "Library",
         "chapter": 8
     },
     {
-        "front": "Shōgakkō",
+        "front": "しょうがっこう",
         "back": "Primary School",
         "chapter": 8
     },
     {
-        "front": "Kyōkai",
+        "front": "きょうかい",
         "back": "Church",
         "chapter": 8
     },
     {
-        "front": "Chūgakkō",
+        "front": "ちゅうがっこう",
         "back": "Middle School",
         "chapter": 8
     },
     {
-        "front": "Shiyakusho",
+        "front": "しやくしょ",
         "back": "City Hall",
         "chapter": 8
     },
     {
-        "front": "Byōin",
+        "front": "びょういん",
         "back": "Hospital",
         "chapter": 8
     },
     {
-        "front": "Kōshō",
+        "front": "こうしょう",
         "back": "Factory",
         "chapter": 8
     },
     {
-        "front": "Yūbinkyoku",
+        "front": "ゆうびんきょく",
         "back": "Post Office",
         "chapter": 8
     },
     {
-        "front": "Jinja",
+        "front": "じんじゃ",
         "back": "Temple",
         "chapter": 8
     },
     {
-        "front": "Hasami",
+        "front": "はさみ",
         "back": "Scissors",
         "chapter": 8
     },
     {
-        "front": "Kawa",
+        "front": "かわ",
         "back": "River",
         "chapter": 8
     }

@@ -1,296 +1,296 @@
 [
     {
-        "front": "Ikimas",
+        "front": "いきます",
         "back": "To go",
         "chapter": 6
     },
     {
-        "front": "Kimas",
+        "front": "きます",
         "back": "to come",
         "chapter": 6
     },
     {
-        "front": "Kaerimas",
+        "front": "かえります",
         "back": "To return",
         "chapter": 6
     },
     {
-        "front": "Mimas",
+        "front": "みます",
         "back": "To see",
         "chapter": 6
     },
     {
-        "front": "Kikimas",
+        "front": "ききます",
         "back": "To hear",
         "chapter": 6
     },
     {
-        "front": "Shimas",
+        "front": "します",
         "back": "To do",
         "chapter": 6
     },
     {
-        "front": "Tabemas",
+        "front": "たべます",
         "back": "To eat",
         "chapter": 6
     },
     {
-        "front": "Nomimas",
+        "front": "のみます",
         "back": "To drink",
         "chapter": 6
     },
     {
-        "front": "Yomimas",
+        "front": "よみます",
         "back": "To read",
         "chapter": 6
     },
     {
-        "front": "Nihon",
+        "front": "にほん",
         "back": "Japan",
         "chapter": 6
     },
     {
-        "front": "Kankoku",
+        "front": "かんこく",
         "back": "Korea",
         "chapter": 6
     },
     {
-        "front": "Chūgoku",
+        "front": "ちゅうごく",
         "back": "China",
         "chapter": 6
     },
     {
-        "front": "Indo",
+        "front": "いんど",
         "back": "India",
         "chapter": 6
     },
     {
-        "front": "Kuni",
+        "front": "くに",
         "back": "Country",
         "chapter": 6
     },
     {
-        "front": "Uchi",
+        "front": "うち",
         "back": "Home",
         "chapter": 6
     },
     {
-        "front": "Ie",
+        "front": "いえ",
         "back": "House",
         "chapter": 6
     },
     {
-        "front": "Suki",
+        "front": "すき",
         "back": "Like         <adj.>",
         "chapter": 6
     },
     {
-        "front": "Kirai",
+        "front": "きらい",
         "back": "Dislike",
         "chapter": 6
     },
     {
-        "front": "Osake",
+        "front": "おさけ",
         "back": "Wine, whisky, alcohol",
         "chapter": 6
     },
     {
-        "front": "Shokuji",
+        "front": "しょくじ",
         "back": "Food (Meal)",
         "chapter": 6
     },
     {
-        "front": "Gohan",
+        "front": "ごはん",
         "back": "Food",
         "chapter": 6
     },
     {
-        "front": "Sushi",
+        "front": "すし",
         "back": "Raw fish rolled in rice",
         "chapter": 6
     },
     {
-        "front": "Sakana",
+        "front": "さかな",
         "back": "Fish",
         "chapter": 6
     },
     {
-        "front": "Niku",
+        "front": "にく",
         "back": "Meat",
         "chapter": 6
     },
     {
-        "front": "Gyūniku",
+        "front": "ぎゅうにく",
         "back": "Beef",
         "chapter": 6
     },
     {
-        "front": "Butaniku",
+        "front": "ぶたにく",
         "back": "Pork",
         "chapter": 6
     },
     {
-        "front": "Toriniku",
+        "front": "とりにく",
         "back": "Chicken",
         "chapter": 6
     },
     {
-        "front": "Tori",
+        "front": "とり",
         "back": "Chicken",
         "chapter": 6
     },
     {
-        "front": "Tamago",
+        "front": "たまご",
         "back": "Eggs",
         "chapter": 6
     },
     {
-        "front": "Gyūnyu",
+        "front": "ぎゅうにゅ",
         "back": "Milk",
         "chapter": 6
     },
     {
-        "front": "Shigoto",
+        "front": "しごと",
         "back": "Work, job",
         "chapter": 6
     },
     {
-        "front": "Eiga",
+        "front": "えいが",
         "back": "Film, movie",
         "chapter": 6
     },
     {
-        "front": "Eigakan",
+        "front": "えいがかん",
         "back": "Movie theater",
         "chapter": 6
     },
     {
-        "front": "Ongaku",
+        "front": "おんがく",
         "back": "Music",
         "chapter": 6
     },
     {
-        "front": "Shimbun",
+        "front": "しんぶん",
         "back": "Newspaper",
         "chapter": 6
     },
     {
-        "front": "Hon",
+        "front": "ほん",
         "back": "Book",
         "chapter": 6
     },
     {
-        "front": "Terebi",
+        "front": "テレビ",
         "back": "TV",
         "chapter": 6
     },
     {
-        "front": "Hanabi",
+        "front": "はなび",
         "back": "Fire crackers show",
         "chapter": 6
     },
     {
-        "front": "Hanami",
+        "front": "はなみ",
         "back": "Cherry flower",
         "chapter": 6
     },
     {
-        "front": "Gakkō",
+        "front": "がっこう",
         "back": "School",
         "chapter": 6
     },
     {
-        "front": "Kaisha",
+        "front": "かいしゃ",
         "back": "Company, office",
         "chapter": 6
     },
     {
-        "front": "Ocha",
+        "front": "おちゃ",
         "back": "Tea",
         "chapter": 6
     },
     {
-        "front": "Mizu",
+        "front": "みず",
         "back": "Water",
         "chapter": 6
     },
     {
-        "front": "Korekara",
+        "front": "これから",
         "back": "From now on",
         "chapter": 6
     },
     {
-        "front": "Sorekara",
+        "front": "それから",
         "back": "After that",
         "chapter": 6
     },
     {
-        "front": "Mashō",
+        "front": "ましょう",
         "back": "‘let’s’",
         "chapter": 6
     },
     {
-        "front": "to issho ni",
+        "front": "と いっしょ に",
         "back": "‘with’",
         "chapter": 6
     },
     {
-        "front": "Benkyō",
+        "front": "べんきょう",
         "back": "Study",
         "chapter": 6
     },
     {
-        "front": "Hirugohan",
+        "front": "ひるごはん",
         "back": "Lunch",
         "chapter": 6
     },
     {
-        "front": "Asa",
+        "front": "あさ",
         "back": "Morning",
         "chapter": 6
     },
     {
-        "front": "Kesa",
+        "front": "けさ",
         "back": "Today Morning",
         "chapter": 6
     },
     {
-        "front": "Yoru",
+        "front": "よる",
         "back": "Night",
         "chapter": 6
     },
     {
-        "front": "Raishū",
+        "front": "らいしゅう",
         "back": "Next week",
         "chapter": 6
     },
     {
-        "front": "Mainichi",
+        "front": "まいにち",
         "back": "Daily",
         "chapter": 6
     },
     {
-        "front": "Maiban",
+        "front": "まいばん",
         "back": "Every evening",
         "chapter": 6
     },
     {
-        "front": "Sakka",
+        "front": "さっか",
         "back": "Soccer",
         "chapter": 6
     },
     {
-        "front": "Nara",
+        "front": "なら",
         "back": "(Place)",
         "chapter": 6
     },
     {
-        "front": "Uriba",
+        "front": "うりば",
         "back": "~department",
         "chapter": 6
     },
     {
-        "front": "chika ikkai",
+        "front": "ちか いっかい",
         "back": "First basement floor",
         "chapter": 6
     }

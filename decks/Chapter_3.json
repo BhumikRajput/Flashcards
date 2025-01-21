@@ -1,116 +1,116 @@
 [
     {
-        "front": "Jikan",
+        "front": "じかん",
         "back": "Time",
         "chapter": 3
     },
     {
-        "front": "Gozen",
+        "front": "ごぜん",
         "back": "A.M.",
         "chapter": 3
     },
     {
-        "front": "Gogo",
+        "front": "ごご",
         "back": "P.M.",
         "chapter": 3
     },
     {
-        "front": "Ima ",
+        "front": "いま",
         "back": "Now",
         "chapter": 3
     },
     {
-        "front": "Shucchō",
+        "front": "しゅっちょう",
         "back": "Business Trip",
         "chapter": 3
     },
     {
-        "front": "Kara",
+        "front": "から",
         "back": "From",
         "chapter": 3
     },
     {
-        "front": "Made",
+        "front": "まで",
         "back": "Till",
         "chapter": 3
     },
     {
-        "front": "Itsu",
+        "front": "いつ",
         "back": "When",
         "chapter": 3
     },
     {
-        "front": "Tanjōbi",
+        "front": "たんじょうび",
         "back": "Birthday",
         "chapter": 3
     },
     {
-        "front": "Sei nen gappi",
+        "front": "せい ねん がっぴ",
         "back": "D.O.B.",
         "chapter": 3
     },
     {
-        "front": "Nanji",
+        "front": "なんじ",
         "back": "What Time",
         "chapter": 3
     },
     {
-        "front": "Nanyōbi",
+        "front": "なんようび",
         "back": "What Day",
         "chapter": 3
     },
     {
-        "front": "Nan nichi",
+        "front": "なん にち",
         "back": "What Date",
         "chapter": 3
     },
     {
-        "front": "Ototoi",
-        "back": "Day before yesterday ",
+        "front": "おととい",
+        "back": "Day before yesterday",
         "chapter": 3
     },
     {
-        "front": "Kinō",
+        "front": "きのう",
         "back": "Yesterday",
         "chapter": 3
     },
     {
-        "front": "Kyō",
+        "front": "きょう",
         "back": "Today",
         "chapter": 3
     },
     {
-        "front": "Ashita",
+        "front": "あした",
         "back": "Tomorrow",
         "chapter": 3
     },
     {
-        "front": "Asatte",
+        "front": "あさって",
         "back": "Day after tomorrow",
         "chapter": 3
     },
     {
-        "front": "Ryokō",
+        "front": "りょこう",
         "back": "Travel, Trip",
         "chapter": 3
     },
     {
-        "front": "Deshita",
+        "front": "でした",
         "back": "Past form of des",
         "chapter": 3
     },
     {
-        "front": "Oshōgatsu",
+        "front": "おしょうがつ",
         "back": "New Year",
         "chapter": 3
     },
     {
-        "front": "Shiken",
+        "front": "しけん",
         "back": "Exam",
         "chapter": 3
     },
     {
-        "front": "Kaimono",
+        "front": "かいもの",
         "back": "Shopping",
         "chapter": 3
     }

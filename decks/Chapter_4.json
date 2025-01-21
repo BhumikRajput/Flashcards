@@ -1,301 +1,301 @@
 [
     {
-        "front": "Kore, Kono",
+        "front": "これ, この",
         "back": "This (near to the speaker)",
         "chapter": 4
     },
     {
-        "front": "Sore, Sono",
+        "front": "それ, その",
         "back": "That (near to the listener)",
         "chapter": 4
     },
     {
-        "front": "Are, Ano",
+        "front": "あれ, あの",
         "back": "That over there (far from both listener & speaker)",
         "chapter": 4
     },
     {
-        "front": "Dore, Dono",
+        "front": "どれ, どの",
         "back": "Which",
         "chapter": 4
     },
     {
-        "front": "Hon",
+        "front": "ほん",
         "back": "Book",
         "chapter": 4
     },
     {
-        "front": "Fairu",
+        "front": "ファイル",
         "back": "File",
         "chapter": 4
     },
     {
-        "front": "Tsukue",
+        "front": "つくえ",
         "back": "Table",
         "chapter": 4
     },
     {
-        "front": "Isu",
+        "front": "いす",
         "back": "Chair",
         "chapter": 4
     },
     {
-        "front": "Biru",
+        "front": "ビル",
         "back": "Building",
         "chapter": 4
     },
     {
-        "front": "Nan",
+        "front": "なん",
         "back": "What",
         "chapter": 4
     },
     {
-        "front": "Deskara",
+        "front": "ですから",
         "back": "Therefore",
         "chapter": 4
     },
     {
-        "front": "Tokei",
+        "front": "とけい",
         "back": "Watch, Clock",
         "chapter": 4
     },
     {
-        "front": "Sō des ne ",
+        "front": "そう です ね",
         "back": "That’s right",
         "chapter": 4
     },
     {
-        "front": "Kasa ",
+        "front": "かさ",
         "back": "Umbrella",
         "chapter": 4
     },
     {
-        "front": "Sugoi",
+        "front": "すごい",
         "back": "Wonderful, amazing",
         "chapter": 4
     },
     {
-        "front": "Dōzo",
+        "front": "どうぞ",
         "back": "Please (While offering something to someone)",
         "chapter": 4
     },
     {
-        "front": "Arigatō",
+        "front": "ありがとう",
         "back": "Casual way of saying thanks",
         "chapter": 4
     },
     {
-        "front": "Yo",
+        "front": "よ",
         "back": "(When spoken in the end) Making an appeal to someone",
         "chapter": 4
     },
     {
-        "front": "Etto",
+        "front": "えっと",
         "back": "Umm...",
         "chapter": 4
     },
     {
-        "front": "Koko; Kochira",
+        "front": "ここ; こちら",
         "back": "Here; (Polite)",
         "chapter": 4
     },
     {
-        "front": "Soko; Sochira",
+        "front": "そこ; そちら",
         "back": "There; (Polite)",
         "chapter": 4
     },
     {
-        "front": "Asoko; Achira",
+        "front": "あそこ; あちら",
         "back": "Over There; (Polite)",
         "chapter": 4
     },
     {
-        "front": "Doko; Dochira",
+        "front": "どこ; どちら",
         "back": "Where; (Polite)",
         "chapter": 4
     },
     {
-        "front": "Jimushitsu",
-        "back": "Office room ",
+        "front": "じむしつ",
+        "back": "Office room",
         "chapter": 4
     },
     {
-        "front": "Uketsuke",
+        "front": "うけつけ",
         "back": "Reception",
         "chapter": 4
     },
     {
-        "front": "Kaigishitsu",
+        "front": "かいぎしつ",
         "back": "Meeting room",
         "chapter": 4
     },
     {
-        "front": "Kaidan",
+        "front": "かいだん",
         "back": "Stairs",
         "chapter": 4
     },
     {
-        "front": "Denwa",
+        "front": "でんわ",
         "back": "Telephone",
         "chapter": 4
     },
     {
-        "front": "Erebeta",
+        "front": "エレベタ",
         "back": "Lift",
         "chapter": 4
     },
     {
-        "front": "Iriguchi",
+        "front": "いりぐち",
         "back": "Entrance",
         "chapter": 4
     },
     {
-        "front": "Deguchi",
+        "front": "でぐち",
         "back": "Exit",
         "chapter": 4
     },
     {
-        "front": "Shokudō",
+        "front": "しょくどう",
         "back": "Canteen",
         "chapter": 4
     },
     {
-        "front": "Ue",
+        "front": "うえ",
         "back": "Above",
         "chapter": 4
     },
     {
-        "front": "Shita",
+        "front": "した",
         "back": "Below",
         "chapter": 4
     },
     {
-        "front": "Soto",
+        "front": "そと",
         "back": "Outside",
         "chapter": 4
     },
     {
-        "front": "Naka",
+        "front": "なか",
         "back": "Inside",
         "chapter": 4
     },
     {
-        "front": "Hana ",
+        "front": "はな",
         "back": "Flowers",
         "chapter": 4
     },
     {
-        "front": "Neko",
+        "front": "ねこ",
         "back": "Cat",
         "chapter": 4
     },
     {
-        "front": "Inu",
+        "front": "いぬ",
         "back": "Dog",
         "chapter": 4
     },
     {
-        "front": "Ie",
+        "front": "いえ",
         "back": "House",
         "chapter": 4
     },
     {
-        "front": "Shachō",
+        "front": "しゃちょう",
         "back": "President",
         "chapter": 4
     },
     {
-        "front": "Kaichō",
+        "front": "かいちょう",
         "back": "Chairman",
         "chapter": 4
     },
     {
-        "front": "Buchō",
+        "front": "ぶちょう",
         "back": "Manager",
         "chapter": 4
     },
     {
-        "front": "Denwa Bangō",
+        "front": "でんわ ばんごう",
         "back": "Landline No.",
         "chapter": 4
     },
     {
-        "front": "Keitai",
+        "front": "けいたい",
         "back": "Mobile No.",
         "chapter": 4
     },
     {
-        "front": "Seki",
+        "front": "せき",
         "back": "Seat",
         "chapter": 4
     },
     {
-        "front": "Nōto",
+        "front": "ノート",
         "back": "Notebook",
         "chapter": 4
     },
     {
-        "front": "Techō",
+        "front": "てちょう",
         "back": "Pocket Diary",
         "chapter": 4
     },
     {
-        "front": "Meishi",
+        "front": "めいし",
         "back": "Visiting Card",
         "chapter": 4
     },
     {
-        "front": "Zasshi",
+        "front": "ざっし",
         "back": "Magazine",
         "chapter": 4
     },
     {
-        "front": "Jidōsha",
+        "front": "じどうしゃ",
         "back": "Automobile",
         "chapter": 4
     },
     {
-        "front": "Kasa",
+        "front": "かさ",
         "back": "Umbrella",
         "chapter": 4
     },
     {
-        "front": "Kagi",
+        "front": "かぎ",
         "back": "Keys",
         "chapter": 4
     },
     {
-        "front": "Shin Ōsaka",
+        "front": "しん おおさか",
         "back": "(Place Name)",
         "chapter": 4
     },
     {
-        "front": "Otearai",
+        "front": "おてあらい",
         "back": "Washroom",
         "chapter": 4
     },
     {
-        "front": "Jimusho",
+        "front": "じむしょ",
         "back": "Office",
         "chapter": 4
     },
     {
-        "front": "Erebeta",
+        "front": "エレベタ",
         "back": "Lift",
         "chapter": 4
     },
     {
-        "front": "Kuni",
+        "front": "くに",
         "back": "(Your) country",
         "chapter": 4
     },
     {
-        "front": "Kutsu",
+        "front": "くつ",
         "back": "Shoes",
         "chapter": 4
     },
     {
-        "front": "Keshōshitsu",
+        "front": "けしょうしつ",
         "back": "Make-Up Room",
         "chapter": 4
     }

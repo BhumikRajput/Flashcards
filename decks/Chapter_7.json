@@ -1,246 +1,236 @@
 [
     {
-        "front": "Tabako",
+        "front": "タバコ",
         "back": "Cigarette",
         "chapter": 7
     },
     {
-        "front": "Hoshii",
-        "back": "Need, Want  ",
+        "front": "ほしい",
+        "back": "Need, Want  \n<adj.>",
         "chapter": 7
     },
     {
-        "front": NaN,
-        "back": "<adj.>",
-        "chapter": 7
-    },
-    {
-        "front": "Yōji",
+        "front": "ようじ",
         "back": "Work, appointment",
         "chapter": 7
     },
     {
-        "front": "Suimas",
+        "front": "すいます",
         "back": "To smoke",
         "chapter": 7
     },
     {
-        "front": "Soshite",
+        "front": "そして",
         "back": "And (For sentences)",
         "chapter": 7
     },
     {
-        "front": "Omiyage",
+        "front": "おみやげ",
         "back": "Souvenir, Gift",
         "chapter": 7
     },
     {
-        "front": "Nenkan",
+        "front": "ねんかん",
         "back": "Period of years",
         "chapter": 7
     },
     {
-        "front": "Senshū",
+        "front": "せんしゅう",
         "back": "Last week",
         "chapter": 7
     },
     {
-        "front": "Konshū",
+        "front": "こんしゅう",
         "back": "This week",
         "chapter": 7
     },
     {
-        "front": "Raishū",
+        "front": "らいしゅう",
         "back": "Next week",
         "chapter": 7
     },
     {
-        "front": "Mata",
+        "front": "また",
         "back": "Again",
         "chapter": 7
     },
     {
-        "front": "Zannen",
+        "front": "ざっねん",
         "back": "Unfortunate",
         "chapter": 7
     },
     {
-        "front": "Tokidoki",
+        "front": "ときどき",
         "back": "Sometimes",
         "chapter": 7
     },
     {
-        "front": "Asa",
+        "front": "あさ",
         "back": "Morning",
         "chapter": 7
     },
     {
-        "front": "Hiru",
+        "front": "ひる",
         "back": "Noon",
         "chapter": 7
     },
     {
-        "front": "Yoru",
+        "front": "よる",
         "back": "Night",
         "chapter": 7
     },
     {
-        "front": "Tanoshii",
+        "front": "たのしい",
         "back": "Enjoyable",
         "chapter": 7
     },
     {
-        "front": "Saikin",
+        "front": "さいきん",
         "back": "Now a days",
         "chapter": 7
     },
     {
-        "front": "Takusan",
-        "back": "Too much",
+        "front": "たくさん",
+        "back": "Too much\n<na-adj.>",
         "chapter": 7
     },
     {
-        "front": NaN,
-        "back": "<na-adj.>",
-        "chapter": 7
-    },
-    {
-        "front": "Yūgata",
+        "front": "ゆうがた",
         "back": "Late evening",
         "chapter": 7
     },
     {
-        "front": "Ga / Demo (polite)",
-        "back": "But, However",
+        "front": "が / でも",
+        "back": "But, However (polite)",
         "chapter": 7
     },
     {
-        "front": "Hanashimas",
+        "front": "はなします",
         "back": "To speak",
         "chapter": 7
     },
     {
-        "front": "Kakimas",
+        "front": "かきます",
         "back": "To write",
         "chapter": 7
     },
     {
-        "front": "Arukimas",
+        "front": "あるきます",
         "back": "To walk",
         "chapter": 7
     },
     {
-        "front": "Imas",
+        "front": "います",
         "back": "To exist (Living things)",
         "chapter": 7
     },
     {
-        "front": "Arimas",
+        "front": "あります",
         "back": "To exist (Non-Living things)",
         "chapter": 7
     },
     {
-        "front": "Okimas",
+        "front": "おきます",
         "back": "To wake up",
         "chapter": 7
     },
     {
-        "front": "Nemas",
+        "front": "ねます",
         "back": "To sleep",
         "chapter": 7
     },
     {
-        "front": "Hatarakimas",
+        "front": "はたらきます",
         "back": "To Work",
         "chapter": 7
     },
     {
-        "front": "Okane",
+        "front": "おかね",
         "back": "Money",
         "chapter": 7
     },
     {
-        "front": "~kara / ~node",
+        "front": "~から / ~ので",
         "back": "‘therefore’",
         "chapter": 7
     },
     {
-        "front": "Benri",
+        "front": "べんり",
         "back": "Convenient\n<na-adj.>",
         "chapter": 7
     },
     {
-        "front": "Shinsetsu",
+        "front": "しんせつ",
         "back": "Kind\n<na-adj.>",
         "chapter": 7
     },
     {
-        "front": "Shizuka",
+        "front": "しずか",
         "back": "Quiet\n<na-adj.>",
         "chapter": 7
     },
     {
-        "front": "Yūmei",
+        "front": "ゆうめい",
         "back": "Famous\n<na-adj.>",
         "chapter": 7
     },
     {
-        "front": "Kirei",
+        "front": "きれい",
         "back": "Beautiful\n<na-adj.>",
         "chapter": 7
     },
     {
-        "front": "Yasai",
+        "front": "やさい",
         "back": "Vegetable",
         "chapter": 7
     },
     {
-        "front": "Tenki",
+        "front": "てんき",
         "back": "Weather",
         "chapter": 7
     },
     {
-        "front": "Chikatestsu",
+        "front": "ちかてつ",
         "back": "Subway",
         "chapter": 7
     },
     {
-        "front": "Mō",
+        "front": "もう",
         "back": "Already",
         "chapter": 7
     },
     {
-        "front": "Benkyō",
+        "front": "べんきょう",
         "back": "Studies",
         "chapter": 7
     },
     {
-        "front": "Kaimas",
+        "front": "かいます",
         "back": "To buy",
         "chapter": 7
     },
     {
-        "front": "Mekishiko",
+        "front": "メキシコ",
         "back": "Mexico",
         "chapter": 7
     },
     {
-        "front": "Toiu",
+        "front": "という",
         "back": "Called as",
         "chapter": 7
     },
     {
-        "front": "Asagohan",
+        "front": "あさごはん",
         "back": "Breakfast",
         "chapter": 7
     },
     {
-        "front": "Motteimas",
+        "front": "もっています",
         "back": "To have",
         "chapter": 7
     },
     {
-        "front": "Onegaishimas",
+        "front": "おねがいします",
         "back": "to request, to wish, to ask, to beg",
         "chapter": 7
     }

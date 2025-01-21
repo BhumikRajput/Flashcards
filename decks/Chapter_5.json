@@ -1,166 +1,166 @@
 [
     {
-        "front": "Atsui",
+        "front": "あつい",
         "back": "Hot (For Weather)",
         "chapter": 5
     },
     {
-        "front": "Atatakai",
+        "front": "あたたかい",
         "back": "Hot (For Object)",
         "chapter": 5
     },
     {
-        "front": "Tsumetai",
+        "front": "つめたい",
         "back": "Cold (For Objects)",
         "chapter": 5
     },
     {
-        "front": "Samui",
+        "front": "さむい",
         "back": "Cold (For Weather)",
         "chapter": 5
     },
     {
-        "front": "Kibishii",
+        "front": "きびしい",
         "back": "Strict",
         "chapter": 5
     },
     {
-        "front": "Takai",
+        "front": "たかい",
         "back": "Expensive, Tall",
         "chapter": 5
     },
     {
-        "front": "Yasui",
+        "front": "やすい",
         "back": "Inexpensive, Cheap",
         "chapter": 5
     },
     {
-        "front": "Muzukashii",
+        "front": "むずかしい",
         "back": "Difficult",
         "chapter": 5
     },
     {
-        "front": "Yasashii",
+        "front": "やさしい",
         "back": "Easy, Kind, Gentle",
         "chapter": 5
     },
     {
-        "front": "Omoshiroi",
+        "front": "おもしろい",
         "back": "Interesting",
         "chapter": 5
     },
     {
-        "front": "Hayai",
+        "front": "はやい",
         "back": "Fast, Quick",
         "chapter": 5
     },
     {
-        "front": "Osoi",
+        "front": "おそい",
         "back": "Slow",
         "chapter": 5
     },
     {
-        "front": "ii",
+        "front": "いい",
         "back": "Good",
         "chapter": 5
     },
     {
-        "front": "Yokunai",
+        "front": "よくない",
         "back": "Not Good",
         "chapter": 5
     },
     {
-        "front": "Oishii",
+        "front": "おいしい",
         "back": "Tasty",
         "chapter": 5
     },
     {
-        "front": "Sukunai",
+        "front": "すくない",
         "back": "Little",
         "chapter": 5
     },
     {
-        "front": "Totemo",
+        "front": "とても",
         "back": "Very",
         "chapter": 5
     },
     {
-        "front": "Kuni",
+        "front": "くに",
         "back": "Country",
         "chapter": 5
     },
     {
-        "front": "Itsumo",
+        "front": "いつも",
         "back": "Always",
         "chapter": 5
     },
     {
-        "front": "Nihongo",
+        "front": "にほんご",
         "back": "Japanese Language",
         "chapter": 5
     },
     {
-        "front": "Eigo",
+        "front": "えいご",
         "back": "English",
         "chapter": 5
     },
     {
-        "front": "Ryōri",
+        "front": "りょうり",
         "back": "Dish, food, cuisine",
         "chapter": 5
     },
     {
-        "front": "Kōhii",
+        "front": "コーヒー",
         "back": "Coffee",
         "chapter": 5
     },
     {
-        "front": "Atarashii",
+        "front": "あたらしい",
         "back": "New",
         "chapter": 5
     },
     {
-        "front": "Furui",
+        "front": "ふるい",
         "back": "Old (things)",
         "chapter": 5
     },
     {
-        "front": "Isogashii",
+        "front": "いそがしい",
         "back": "Busy",
         "chapter": 5
     },
     {
-        "front": "Tanoshii",
+        "front": "たのしい",
         "back": "Enjoyable",
         "chapter": 5
     },
     {
-        "front": "Ōkii",
+        "front": "おおきい",
         "back": "Big",
         "chapter": 5
     },
     {
-        "front": "Chiisai",
+        "front": "ちいさい",
         "back": "Small",
         "chapter": 5
     },
     {
-        "front": "Hikui",
+        "front": "ひくい",
         "back": "Low",
         "chapter": 5
     },
     {
-        "front": "Warui",
-        "back": "Bad ",
+        "front": "わるい",
+        "back": "Bad",
         "chapter": 5
     },
     {
-        "front": "Donna",
+        "front": "どっな",
         "back": "What kind of",
         "chapter": 5
     },
     {
-        "front": "Dōmo",
+        "front": "どうも",
         "back": "Thanks (informal)",
         "chapter": 5
     }

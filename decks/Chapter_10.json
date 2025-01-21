@@ -1,326 +1,326 @@
 [
     {
-        "front": "Genkan",
+        "front": "げんかん",
         "back": "Entrance Hall",
         "chapter": 10
     },
     {
-        "front": "Toire",
+        "front": "トイレ",
         "back": "Toilet",
         "chapter": 10
     },
     {
-        "front": "Ofuro",
+        "front": "おふろ",
         "back": "Bathroom",
         "chapter": 10
     },
     {
-        "front": "Senmenjo",
+        "front": "せんめんじょ",
         "back": "Washroom",
         "chapter": 10
     },
     {
-        "front": "Daidokoro",
+        "front": "だいどころ",
         "back": "Kitchen",
         "chapter": 10
     },
     {
-        "front": "Shokudō",
+        "front": "しょくどう",
         "back": "Dining Hall",
         "chapter": 10
     },
     {
-        "front": "Ima",
+        "front": "いま",
         "back": "Living Room",
         "chapter": 10
     },
     {
-        "front": "Shinshitsu",
+        "front": "しんしつ",
         "back": "Bedroom",
         "chapter": 10
     },
     {
-        "front": "Rōka",
+        "front": "ろうか",
         "back": "Gallery",
         "chapter": 10
     },
     {
-        "front": "Beranda",
+        "front": "ベランダ",
         "back": "Balcony",
         "chapter": 10
     },
     {
-        "front": "Okurimas",
+        "front": "おくります",
         "back": "To send, to gift",
         "chapter": 10
     },
     {
-        "front": "Owarimas",
+        "front": "おわります",
         "back": "To finish",
         "chapter": 10
     },
     {
-        "front": "Agemas",
+        "front": "あげます",
         "back": "To give",
         "chapter": 10
     },
     {
-        "front": "Moraimas",
+        "front": "もらいます",
         "back": "To receive",
         "chapter": 10
     },
     {
-        "front": "Kashimas",
+        "front": "かします",
         "back": "To lend",
         "chapter": 10
     },
     {
-        "front": "Karimas",
+        "front": "かります",
         "back": "To borrow",
         "chapter": 10
     },
     {
-        "front": "Kaimas",
+        "front": "かいます",
         "back": "To purchase",
         "chapter": 10
     },
     {
-        "front": "Kakimas",
+        "front": "かきます",
         "back": "To write",
         "chapter": 10
     },
     {
-        "front": "Naraimas",
+        "front": "ならいます",
         "back": "To learn, to practice (by someone)",
         "chapter": 10
     },
     {
-        "front": "Oshiemas",
+        "front": "おしえます",
         "back": "To teach",
         "chapter": 10
     },
     {
-        "front": "Kuremas",
+        "front": "くれます",
         "back": "to give (family or friend)",
         "chapter": 10
     },
     {
-        "front": "Manabimas",
+        "front": "まなびます",
         "back": "To learn",
         "chapter": 10
     },
     {
-        "front": "Te",
+        "front": "て",
         "back": "Hand/s",
         "chapter": 10
     },
     {
-        "front": "Hashi",
+        "front": "はし",
         "back": "Chopsticks",
         "chapter": 10
     },
     {
-        "front": "Hasami",
+        "front": "はさみ",
         "back": "Scissors",
         "chapter": 10
     },
     {
-        "front": "Kami",
+        "front": "かみ",
         "back": "Paper",
         "chapter": 10
     },
     {
-        "front": "Hana",
+        "front": "はな",
         "back": "Flowers",
         "chapter": 10
     },
     {
-        "front": "Empitsu",
+        "front": "えんぴつ",
         "back": "Pencil",
         "chapter": 10
     },
     {
-        "front": "Keshigomu",
+        "front": "けしごむ",
         "back": "Eraser",
         "chapter": 10
     },
     {
-        "front": "Shatsu",
+        "front": "シャツ",
         "back": "Shirt",
         "chapter": 10
     },
     {
-        "front": "Purezento",
+        "front": "プレゼント",
         "back": "Present, Gift",
         "chapter": 10
     },
     {
-        "front": "Nimotsu",
+        "front": "にもつ",
         "back": "Luggage, Bag",
         "chapter": 10
     },
     {
-        "front": "Okane",
+        "front": "おかね",
         "back": "Money",
         "chapter": 10
     },
     {
-        "front": "Kippu",
+        "front": "きっぷ",
         "back": "Ticket (Bus, train)",
         "chapter": 10
     },
     {
-        "front": "Korekara",
+        "front": "これから",
         "back": "From now on",
         "chapter": 10
     },
     {
-        "front": "Ane",
+        "front": "あね",
         "back": "(My) Elder sister",
         "chapter": 10
     },
     {
-        "front": "Onēsan",
+        "front": "おねえさん",
         "back": "Someone else’s elder sister",
         "chapter": 10
     },
     {
-        "front": "Ani",
+        "front": "あに",
         "back": "(My) Elder brother",
         "chapter": 10
     },
     {
-        "front": "Oniisan",
+        "front": "おにいさん",
         "back": "Someone else’s elder brother",
         "chapter": 10
     },
     {
-        "front": "Otto",
+        "front": "おっと",
         "back": "(My) Husband",
         "chapter": 10
     },
     {
-        "front": "Goshujin",
+        "front": "ごしゅじん",
         "back": "Someone else’s husband",
         "chapter": 10
     },
     {
-        "front": "Tsuma",
+        "front": "つま",
         "back": "(My) Wife",
         "chapter": 10
     },
     {
-        "front": "Okusan",
+        "front": "おくさん",
         "back": "Someone else’s wife",
         "chapter": 10
     },
     {
-        "front": "Musume",
+        "front": "むすめ",
         "back": "(My) Daughter",
         "chapter": 10
     },
     {
-        "front": "Musumesan",
+        "front": "むすめさん",
         "back": "Someone else’s Daughter",
         "chapter": 10
     },
     {
-        "front": "Musuko",
+        "front": "むすこ",
         "back": "(My) son",
         "chapter": 10
     },
     {
-        "front": "Musukosan",
+        "front": "むすこさん",
         "back": "Someone else’s son",
         "chapter": 10
     },
     {
-        "front": "Gambarimas",
+        "front": "がんばります",
         "back": "I will do my best",
         "chapter": 10
     },
     {
-        "front": "Subarashii",
+        "front": "すばらしい",
         "back": "Wonderful, amazing, admirable",
         "chapter": 10
     },
     {
-        "front": "Tokorode",
+        "front": "ところで",
         "back": "By the way (while changing a topic)",
         "chapter": 10
     },
     {
-        "front": "Hoshii",
+        "front": "ほしい",
         "back": "Want, Desire (for Noun)",
         "chapter": 10
     },
     {
-        "front": "~tai",
+        "front": "~たい",
         "back": "Want, Desire (for Verb)",
         "chapter": 10
     },
     {
-        "front": "Tenki",
+        "front": "てんき",
         "back": "Weather, Climate",
         "chapter": 10
     },
     {
-        "front": "Manga",
+        "front": "まんが",
         "back": "Comic book",
         "chapter": 10
     },
     {
-        "front": "Tokoro",
+        "front": "ところ",
         "back": "Place",
         "chapter": 10
     },
     {
-        "front": "Kakemas",
+        "front": "かけます",
         "back": "to call",
         "chapter": 10
     },
     {
-        "front": "Hagaki",
+        "front": "はがき",
         "back": "Postcard",
         "chapter": 10
     },
     {
-        "front": "‘Dare ni’",
+        "front": "だれ に",
         "back": "‘to whom’",
         "chapter": 10
     },
     {
-        "front": "Terebi",
+        "front": "テレビ",
         "back": "TV",
         "chapter": 10
     },
     {
-        "front": "Rajio",
+        "front": "ラジオ",
         "back": "Radio",
         "chapter": 10
     },
     {
-        "front": "Repōto",
+        "front": "レポート",
         "back": "Report",
         "chapter": 10
     },
     {
-        "front": "Kādo",
+        "front": "カード",
         "back": "Card",
         "chapter": 10
     },
     {
-        "front": "Kazoku",
+        "front": "かぞく",
         "back": "Family",
         "chapter": 10
     },
     {
-        "front": "Mō",
+        "front": "もう",
         "back": "Already",
         "chapter": 10
     },
     {
-        "front": "Mada",
+        "front": "まだ",
         "back": "Still, Not yet",
         "chapter": 10
     }

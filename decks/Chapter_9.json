@@ -1,196 +1,196 @@
 [
     {
-        "front": "Hatarakimas",
+        "front": "はたらきます",
         "back": "To work",
         "chapter": 9
     },
     {
-        "front": "Benkyō shimas",
+        "front": "べんきょう します",
         "back": "To study",
         "chapter": 9
     },
     {
-        "front": "Owarimas",
+        "front": "おわります",
         "back": "To finish",
         "chapter": 9
     },
     {
-        "front": "Maiasa",
+        "front": "まいあさ",
         "back": "Every morning",
         "chapter": 9
     },
     {
-        "front": "Maiban",
+        "front": "まいばん",
         "back": "Every Evening",
         "chapter": 9
     },
     {
-        "front": "Mainichi",
+        "front": "まいにち",
         "back": "Everyday",
         "chapter": 9
     },
     {
-        "front": "Yasumi",
+        "front": "やすみ",
         "back": "Holiday, Break",
         "chapter": 9
     },
     {
-        "front": "Hiruyasumi",
+        "front": "ひるやすみ",
         "back": "Lunch break",
         "chapter": 9
     },
     {
-        "front": "Yasumimas",
+        "front": "やすみます",
         "back": "To take a break",
         "chapter": 9
     },
     {
-        "front": "Eki",
+        "front": "えき",
         "back": "Station",
         "chapter": 9
     },
     {
-        "front": "Densha",
+        "front": "でんしゃ",
         "back": "Train",
         "chapter": 9
     },
     {
-        "front": "Hikōki",
+        "front": "ひこうき",
         "back": "Aeroplane",
         "chapter": 9
     },
     {
-        "front": "Fune",
+        "front": "ふね",
         "back": "Ship, boat",
         "chapter": 9
     },
     {
-        "front": "Fustū",
+        "front": "ふつう",
         "back": "Local (train)",
         "chapter": 9
     },
     {
-        "front": "Kaisoku",
+        "front": "かいそく",
         "back": "Rapid (train)",
         "chapter": 9
     },
     {
-        "front": "Shinkaisoku",
+        "front": "しんかいそく",
         "back": "Special rapid (train)",
         "chapter": 9
     },
     {
-        "front": "Shinkansen",
+        "front": "しんかんせん",
         "back": "Bullet Train",
         "chapter": 9
     },
     {
-        "front": "Jitensha",
+        "front": "じてんしゃ",
         "back": "Bycycle",
         "chapter": 9
     },
     {
-        "front": "Kare",
+        "front": "かれ",
         "back": "He, Boyfriend",
         "chapter": 9
     },
     {
-        "front": "Kanojo",
+        "front": "かのじょ",
         "back": "She, Girlfriend",
         "chapter": 9
     },
     {
-        "front": "Kazoku",
+        "front": "かぞく",
         "back": "Family",
         "chapter": 9
     },
     {
-        "front": "Sengetsu",
+        "front": "せんげつ",
         "back": "Last month",
         "chapter": 9
     },
     {
-        "front": "Kongetsu",
+        "front": "こんげつ",
         "back": "This month",
         "chapter": 9
     },
     {
-        "front": "Raigetsu",
+        "front": "らいげつ",
         "back": "Next month",
         "chapter": 9
     },
     {
-        "front": "Kyonen",
+        "front": "きょねん",
         "back": "Last year",
         "chapter": 9
     },
     {
-        "front": "Kotoshi",
+        "front": "ことし",
         "back": "This year",
         "chapter": 9
     },
     {
-        "front": "Rainen",
+        "front": "らいねん",
         "back": "Next year",
         "chapter": 9
     },
     {
-        "front": "Mō",
+        "front": "もう",
         "back": "Already",
         "chapter": 9
     },
     {
-        "front": "Nigiyaka",
+        "front": "にぎやか",
         "back": "Lively",
         "chapter": 9
     },
     {
-        "front": "Kyōshitsu",
+        "front": "きょうしつ",
         "back": "Classroom",
         "chapter": 9
     },
     {
-        "front": "Kantan",
+        "front": "かんたん",
         "back": "Simple",
         "chapter": 9
     },
     {
-        "front": "Tenki",
+        "front": "てんき",
         "back": "Weather",
         "chapter": 9
     },
     {
-        "front": "Ame",
+        "front": "あめ",
         "back": "Rain",
         "chapter": 9
     },
     {
-        "front": "Ichiban",
+        "front": "いちばん",
         "back": "most-",
         "chapter": 9
     },
     {
-        "front": "Hajimete",
+        "front": "はじめて",
         "back": "For the first time",
         "chapter": 9
     },
     {
-        "front": "1nen",
+        "front": "1ねん",
         "back": "1 year",
         "chapter": 9
     },
     {
-        "front": "Amari",
+        "front": "あまり",
         "back": "Not that much",
         "chapter": 9
     },
     {
-        "front": "Otoko",
+        "front": "おとこ",
         "back": "Male",
         "chapter": 9
     },
     {
-        "front": "Onna ",
+        "front": "おっな",
         "back": "Female",
         "chapter": 9
     },
@@ -200,57 +200,57 @@
         "chapter": 9
     },
     {
-        "front": "Kono chikaku",
+        "front": "この ちかく",
         "back": "Near this area",
         "chapter": 9
     },
     {
-        "front": "Niwa",
+        "front": "にわ",
         "back": "Garden",
         "chapter": 9
     },
     {
-        "front": "Yūbinkyoku",
+        "front": "ゆうびんきょく",
         "back": "Post office",
         "chapter": 9
     },
     {
-        "front": "Mae",
+        "front": "まえ",
         "back": "in front of",
         "chapter": 9
     },
     {
-        "front": "Zabuton",
+        "front": "ざぶとん",
         "back": "Sitting Cushion",
         "chapter": 9
     },
     {
-        "front": "Shōmei",
+        "front": "しょうめい",
         "back": "Proof",
         "chapter": 9
     },
     {
-        "front": "Kashikoi",
+        "front": "かしこい",
         "back": "Smart",
         "chapter": 9
     },
     {
-        "front": "Uta",
+        "front": "うた",
         "back": "Sing",
         "chapter": 9
     },
     {
-        "front": "Hako",
+        "front": "はこ",
         "back": "Box",
         "chapter": 9
     },
     {
-        "front": "Tegami",
+        "front": "てがみ",
         "back": "Letter",
         "chapter": 9
     },
     {
-        "front": "Kisetsu",
+        "front": "きせつ",
         "back": "Season",
         "chapter": 9
     }
