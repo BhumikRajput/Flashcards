@@ -368,17 +368,16 @@
         let left = 0;
         var currentCard = null;
         var flashcards = null;
+
         var cardFront = document.querySelector("#flash-page #cardFront");
         var cardBack = document.querySelector("#flash-page #cardBack");
         var card = document.querySelector("#flash-page #card");
         var leftElement = document.querySelector("#flash-page .left");
-        // var translation = document.querySelector(".translate");
         var chapter = document.querySelector("#flash-page .chapter");
         var menuButton = document.querySelector("#flash-page #menuButton");
         var inbuiltButton = document.querySelector("#menu-page #inbuiltButton");
         var importButton = document.querySelector("#menu-page #importButton");
         var exportButton = document.querySelector("#menu-page #exportButton");
-        var helpButton = document.querySelector("#flash-page .help");
 
         var filenameInput = document.querySelector("#input-page #filenameInput");
         var src_list = null;
@@ -513,31 +512,30 @@
             if ((x_list.length > 0)) {
                 if ((fl_list.length < 0) || (Date.now() - x_list[0][3] > 30000)) {
                     currentCard = [x_list[0][0], x_list[0][1], x_list[0][2]];
-                    cardFront.innerHTML = currentCard[0] || "No front text";
-                    cardBack.innerHTML = currentCard[1] || "No back text";
+                    cardFront.innerText = currentCard[0] || "No front text";
+                    cardBack.innerText = currentCard[1] || "No back text";
                     // translation.textContent = `Translation: ${currentCard[2]}`;
                     chapter.textContent = `Chapter: ${currentCard[2]}`;
                     x_list.shift();
                 }
                 else {
                     currentCard = fl_list[Math.floor(Math.random() * fl_list.length)];
-                    cardFront.innerHTML = currentCard[0] || "No front text";
-                    cardBack.innerHTML = currentCard[1] || "No back text";
+                    cardFront.innerText = currentCard[0] || "No front text";
+                    cardBack.innerText = currentCard[1] || "No back text";
                     // translation.textContent = `Translation: ${currentCard[2]}`;
                     chapter.textContent = `Chapter: ${currentCard[2]}`;
                     fl_list = fl_list.filter(item => item !== currentCard);
                 }
             } else if (fl_list.length > 0) {
                 currentCard = fl_list[Math.floor(Math.random() * fl_list.length)];
-                cardFront.innerHTML = currentCard[0] || "No front text";
-                cardBack.innerHTML = currentCard[1] || "No back text";
+                cardFront.innerText = currentCard[0] || "No front text";
+                cardBack.innerText = currentCard[1] || "No back text";
                 // translation.textContent = `Translation: ${currentCard[2]}`;
                 chapter.textContent = `Chapter: ${currentCard[2]}`;
                 fl_list = fl_list.filter(item => item !== currentCard);
             } else {
-                cardFront.textContent = "OVER";
-                cardBack.textContent = "OVER";
-                // translation.textContent = "";
+                cardFront.innerText = "OVER";
+                cardBack.innerText = "OVER";
                 chapter.textContent = "";
             }
         }
@@ -704,6 +702,7 @@
                     console.log("IN Q");
                     console.log("flashcards", flashcards);
                     console.log("fl_list", fl_list);
+                    console.log("currentCard", currentCard);
                     console.log("x_list", x_list);
                     console.log("src_list", src_list);
                     break;
@@ -780,7 +779,7 @@
         });
         menuCloseButton.addEventListener("click", (event) => {
             event.stopPropagation(); // Prevent click event from reaching the body
-            menuPage.style.display = "none";
+            hideMenuPage();
         });
         inbuiltButton.addEventListener("click", (event) => {
             event.stopPropagation(); // Prevent click event from reaching the body
@@ -835,10 +834,6 @@
             event.stopPropagation(); // Prevent click event from reaching the body
             document.querySelector("#inbuilt-page").style.display = "none"; // Hide the inbuilt-page
             showFlashPage();
-        });
-
-        helpButton.addEventListener("click", (event) => {
-            event.stopPropagation(); // Prevent click event from reaching the body
         });
 
     </script>
