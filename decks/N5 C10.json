@@ -1,0 +1,327 @@
+[
+    {
+        "front": "げんかん",
+        "back": "Entrance Hall",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "トイレ",
+        "back": "Toilet",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "おふろ",
+        "back": "Bathroom",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "せんめんじょ",
+        "back": "Washroom",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "だいどころ",
+        "back": "Kitchen",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "しょくどう",
+        "back": "Dining Hall",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "いま",
+        "back": "Living Room",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "しんしつ",
+        "back": "Bedroom",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "ろうか",
+        "back": "Gallery",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "ベランダ",
+        "back": "Balcony",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "おくります",
+        "back": "To send, to gift",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "おわります",
+        "back": "To finish",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "あげます",
+        "back": "To give",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "もらいます",
+        "back": "To receive",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "かします",
+        "back": "To lend",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "かります",
+        "back": "To borrow",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "かいます",
+        "back": "To purchase",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "かきます",
+        "back": "To write",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "ならいます",
+        "back": "To learn, to practice (by someone)",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "おしえます",
+        "back": "To teach",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "くれます",
+        "back": "to give (family or friend)",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "まなびます",
+        "back": "To learn",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "て",
+        "back": "Hand/s",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "はし",
+        "back": "Chopsticks",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "はさみ",
+        "back": "Scissors",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "かみ",
+        "back": "Paper",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "はな",
+        "back": "Flowers",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "えんぴつ",
+        "back": "Pencil",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "けしごむ",
+        "back": "Eraser",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "シャツ",
+        "back": "Shirt",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "プレゼント",
+        "back": "Present, Gift",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "にもつ",
+        "back": "Luggage, Bag",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "おかね",
+        "back": "Money",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "きっぷ",
+        "back": "Ticket (Bus, train)",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "これから",
+        "back": "From now on",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "あね",
+        "back": "(My) Elder sister",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "おねえさん",
+        "back": "Someone else’s elder sister",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "あに",
+        "back": "(My) Elder brother",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "おにいさん",
+        "back": "Someone else’s elder brother",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "おっと",
+        "back": "(My) Husband",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "ごしゅじん",
+        "back": "Someone else’s husband",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "つま",
+        "back": "(My) Wife",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "おくさん",
+        "back": "Someone else’s wife",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "むすめ",
+        "back": "(My) Daughter",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "むすめさん",
+        "back": "Someone else’s Daughter",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "むすこ",
+        "back": "(My) son",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "むすこさん",
+        "back": "Someone else’s son",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "がんばります",
+        "back": "I will do my best",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "すばらしい",
+        "back": "Wonderful, amazing, admirable",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "ところで",
+        "back": "By the way (while changing a topic)",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "ほしい",
+        "back": "Want, Desire (for Noun)",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "~たい",
+        "back": "Want, Desire (for Verb)",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "てんき",
+        "back": "Weather, Climate",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "まんが",
+        "back": "Comic book",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "ところ",
+        "back": "Place",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "かけます",
+        "back": "to call",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "はがき",
+        "back": "Postcard",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "だれ に",
+        "back": "‘to whom’",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "テレビ",
+        "back": "TV",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "ラジオ",
+        "back": "Radio",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "レポート",
+        "back": "Report",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "カード",
+        "back": "Card",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "かぞく",
+        "back": "Family",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "もう",
+        "back": "Already",
+        "chapter": "N5 C10"
+    },
+    {
+        "front": "まだ",
+        "back": "Still, Not yet",
+        "chapter": "N5 C10"
+    }
+]

@@ -1,0 +1,117 @@
+[
+    {
+        "front": "はなす",
+        "back": "話す \nTo speak/talk",
+        "chapter": "N5 K10"
+    },
+    {
+        "front": "はなし",
+        "back": "話 \nStory",
+        "chapter": "N5 K10"
+    },
+    {
+        "front": "よむ",
+        "back": "読む \nTo read",
+        "chapter": "N5 K10"
+    },
+    {
+        "front": "どくしょ",
+        "back": "読書 \nReading books",
+        "chapter": "N5 K10"
+    },
+    {
+        "front": "にほんご",
+        "back": "日本語 \nJapanese language",
+        "chapter": "N5 K10"
+    },
+    {
+        "front": "ちゅうごくご",
+        "back": "中国語 \nChinese language",
+        "chapter": "N5 K10"
+    },
+    {
+        "front": "みち",
+        "back": "道 \nStreet, road, way",
+        "chapter": "N5 K10"
+    },
+    {
+        "front": "あいだ",
+        "back": "間 \nbetween",
+        "chapter": "N5 K10"
+    },
+    {
+        "front": "じかん",
+        "back": "時間 \nTime",
+        "chapter": "N5 K10"
+    },
+    {
+        "front": "いちねんかん",
+        "back": "一年間 \n(for) a year",
+        "chapter": "N5 K10"
+    },
+    {
+        "front": "きく",
+        "back": "聞く \nTo listen to",
+        "chapter": "N5 K10"
+    },
+    {
+        "front": "きこえる",
+        "back": "聞こえる \nCan be heard",
+        "chapter": "N5 K10"
+    },
+    {
+        "front": "しんぶん",
+        "back": "新聞 \nNewspaper",
+        "chapter": "N5 K10"
+    },
+    {
+        "front": "かう",
+        "back": "買う \nTo buy",
+        "chapter": "N5 K10"
+    },
+    {
+        "front": "やすむ",
+        "back": "休む \nTo rest",
+        "chapter": "N5 K10"
+    },
+    {
+        "front": "やすみ",
+        "back": "休み \nHoliday",
+        "chapter": "N5 K10"
+    },
+    {
+        "front": "とき",
+        "back": "時 \nTime, when",
+        "chapter": "N5 K10"
+    },
+    {
+        "front": "よじ",
+        "back": "4 時 \n4 o’clock",
+        "chapter": "N5 K10"
+    },
+    {
+        "front": "いちじかん",
+        "back": "1 時間 \nOne hour",
+        "chapter": "N5 K10"
+    },
+    {
+        "front": "いつしゅうかん",
+        "back": "1 週間 \nOne week",
+        "chapter": "N5 K10"
+    },
+    {
+        "front": "らいしゅう",
+        "back": "来週 \nNext week",
+        "chapter": "N5 K10"
+    },
+    {
+        "front": "せんしゅう",
+        "back": "先週 \nLast week",
+        "chapter": "N5 K10"
+    },
+    {
+        "front": "こんしゅう",
+        "back": "今週 \nThis week",
+        "chapter": "N5 K10"
+    }
+]

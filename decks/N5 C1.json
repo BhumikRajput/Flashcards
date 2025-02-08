@@ -1,0 +1,292 @@
+[
+    {
+        "front": "はじめまして",
+        "back": "Nice to meet you",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "わたし",
+        "back": "I",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "です",
+        "back": "is, am, are",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "どうぞ",
+        "back": "(Spoken while offering something)",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "よろしく",
+        "back": "Favors (Greetings)",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "インド",
+        "back": "India",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "じん",
+        "back": "(Suffix for Nationality)",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "インドじん",
+        "back": "Indian",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "にほんじん",
+        "back": "Japanese",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "ちゅうごくじん",
+        "back": "Chinese",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "アメリカじん",
+        "back": "American",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "がくせい",
+        "back": "Student",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "せんせい",
+        "back": "Teacher, Professor",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "きれい",
+        "back": "Beautiful",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "たかい",
+        "back": "Expensive",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "ひろい",
+        "back": "Wide",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "ともだち",
+        "back": "Friend",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "しゃいん / かいしゃいん",
+        "back": "Employee / Company Employee",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "はい",
+        "back": "Yes",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "いいえ",
+        "back": "No",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "さん",
+        "back": "(Honorifics; “honorable Mr/Ms.”)",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "ちゃん",
+        "back": "(Honorific for Kids and…)",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "インド",
+        "back": "India",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "にほん",
+        "back": "Japan",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "アメリカ",
+        "back": "America",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "ちゅうごく",
+        "back": "China",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "かんこく",
+        "back": "Korea",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "フランス",
+        "back": "France",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "ドイツ",
+        "back": "Germany",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "イタリア",
+        "back": "Italy",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "ロシア",
+        "back": "Russia",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "インドじん",
+        "back": "Indian",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "にほんじん",
+        "back": "Japanese (citizen)",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "アメリカじん",
+        "back": "American",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "ちゅうごくじん",
+        "back": "Chinese (citizen)",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "かんこくじん",
+        "back": "Korean (citizen)",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "フランスじん",
+        "back": "French (citizen)",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "ドイツじん",
+        "back": "German (citizen)",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "イタリアあじん",
+        "back": "Italian (citizen)",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "ロシアじん",
+        "back": "Russian (citizen)",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "ヒンディゴ",
+        "back": "Hindi",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "にほんご",
+        "back": "Japanese (language)",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "えいご",
+        "back": "English",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "ちゅうごくご",
+        "back": "Chinese (language)",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "かんこくご",
+        "back": "Korean (language)",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "フランスご",
+        "back": "French (language)",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "ドイツご",
+        "back": "German (language)",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "イタリアご",
+        "back": "Italian (language)",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "ロシアご",
+        "back": "Russian (citizen)",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "みっな さん",
+        "back": "everyone, all of you",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "げんき",
+        "back": "health, energy, vigor",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "あなた",
+        "back": "You",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "インジニア",
+        "back": "Engineer",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "いしゃ",
+        "back": "Doctor",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "あの かた",
+        "back": "That Person",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "どなた",
+        "back": "Who",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "さくら",
+        "back": "Name of a University",
+        "chapter": "N5 C1"
+    },
+    {
+        "front": "だいがく",
+        "back": "University",
+        "chapter": "N5 C1"
+    }
+]

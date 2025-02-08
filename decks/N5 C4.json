@@ -1,0 +1,302 @@
+[
+    {
+        "front": "これ, この",
+        "back": "This (near to the speaker)",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "それ, その",
+        "back": "That (near to the listener)",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "あれ, あの",
+        "back": "That over there (far from both listener & speaker)",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "どれ, どの",
+        "back": "Which",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "ほん",
+        "back": "Book",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "ファイル",
+        "back": "File",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "つくえ",
+        "back": "Table",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "いす",
+        "back": "Chair",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "ビル",
+        "back": "Building",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "なん",
+        "back": "What",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "ですから",
+        "back": "Therefore",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "とけい",
+        "back": "Watch, Clock",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "そう です ね",
+        "back": "That’s right",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "かさ",
+        "back": "Umbrella",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "すごい",
+        "back": "Wonderful, amazing",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "どうぞ",
+        "back": "Please (While offering something to someone)",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "ありがとう",
+        "back": "Casual way of saying thanks",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "よ",
+        "back": "(When spoken in the end) Making an appeal to someone",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "えっと",
+        "back": "Umm...",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "ここ; こちら",
+        "back": "Here; (Polite)",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "そこ; そちら",
+        "back": "There; (Polite)",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "あそこ; あちら",
+        "back": "Over There; (Polite)",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "どこ; どちら",
+        "back": "Where; (Polite)",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "じむしつ",
+        "back": "Office room",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "うけつけ",
+        "back": "Reception",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "かいぎしつ",
+        "back": "Meeting room",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "かいだん",
+        "back": "Stairs",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "でんわ",
+        "back": "Telephone",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "エレベタ",
+        "back": "Lift",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "いりぐち",
+        "back": "Entrance",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "でぐち",
+        "back": "Exit",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "しょくどう",
+        "back": "Canteen",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "うえ",
+        "back": "Above",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "した",
+        "back": "Below",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "そと",
+        "back": "Outside",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "なか",
+        "back": "Inside",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "はな",
+        "back": "Flowers",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "ねこ",
+        "back": "Cat",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "いぬ",
+        "back": "Dog",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "いえ",
+        "back": "House",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "しゃちょう",
+        "back": "President",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "かいちょう",
+        "back": "Chairman",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "ぶちょう",
+        "back": "Manager",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "でんわ ばんごう",
+        "back": "Landline No.",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "けいたい",
+        "back": "Mobile No.",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "せき",
+        "back": "Seat",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "ノート",
+        "back": "Notebook",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "てちょう",
+        "back": "Pocket Diary",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "めいし",
+        "back": "Visiting Card",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "ざっし",
+        "back": "Magazine",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "じどうしゃ",
+        "back": "Automobile",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "かさ",
+        "back": "Umbrella",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "かぎ",
+        "back": "Keys",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "しん おおさか",
+        "back": "(Place Name)",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "おてあらい",
+        "back": "Washroom",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "じむしょ",
+        "back": "Office",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "エレベタ",
+        "back": "Lift",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "くに",
+        "back": "(Your) country",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "くつ",
+        "back": "Shoes",
+        "chapter": "N5 C4"
+    },
+    {
+        "front": "けしょうしつ",
+        "back": "Make-Up Room",
+        "chapter": "N5 C4"
+    }
+]

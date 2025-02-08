@@ -1,0 +1,857 @@
+[
+    {
+        "front": "はは",
+        "back": "Mother (mine)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "ちち",
+        "back": "Father (mine)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "いもうと",
+        "back": "Younger Sister (mine)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "あね",
+        "back": "Elder Sister (mine)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "おとうと",
+        "back": "Younger Brother (mine)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "あに",
+        "back": "Elder Brother (mine)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "そぼ",
+        "back": "Grandmother (mine)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "そふ",
+        "back": "Grandfather (mine)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "つま",
+        "back": "Wife (mine)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "おっと",
+        "back": "Husband (mine)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "むすめ",
+        "back": "Daughter (mine)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "むすこ",
+        "back": "Son (mine)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "おこうさん",
+        "back": "Mother (someone else)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "おとうさん",
+        "back": "Father (someone else)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "いもうと",
+        "back": "Younger Sister (someone else)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "おねさん",
+        "back": "Elder Sister (someone else)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "おとうと",
+        "back": "Younger Brother (someone else)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "おにさん",
+        "back": "Elder Brother (someone else)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "おばあさん",
+        "back": "Grandmother (someone else)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "おじいさん",
+        "back": "Grandfather (someone else)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "おくさん",
+        "back": "Wife (someone else)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "ごしゅじん",
+        "back": "Husband  (someone else)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "むすめさん",
+        "back": "Daughter (someone else)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "むすこさん",
+        "back": "Son (someone else)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "りんご",
+        "back": "Apple",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "いちご",
+        "back": "Strawberry",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "もも",
+        "back": "Peach",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "すいか",
+        "back": "Watermelon",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "みかん",
+        "back": "(Japanese) Orange",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "ぶどう",
+        "back": "Grape",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "なし",
+        "back": "Japanese Pear",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "かき",
+        "back": "Persimmon",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "バナナ",
+        "back": "Banana",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "メロン",
+        "back": "Melon",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "レモｎ",
+        "back": "Remon",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "かみ",
+        "back": "Hair",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "あたま",
+        "back": "Head",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "め",
+        "back": "Eyes",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "みみ",
+        "back": "Ears",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "はな",
+        "back": "Nose",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "くち",
+        "back": "Mouth",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "かお",
+        "back": "Face",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "かた",
+        "back": "Shoulders",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "うで",
+        "back": "Hands",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "あし",
+        "back": "Legs",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "おなか",
+        "back": "Stomach",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "て",
+        "back": "Hand, arm",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "は",
+        "back": "Teeth",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "くるま",
+        "back": "Car",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "でんしゃ",
+        "back": "Train",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "じてんしゃ",
+        "back": "Cycle",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "えき",
+        "back": "Station",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "ばす てい",
+        "back": "Bus Stop",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "ちかてつ",
+        "back": "Subway",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "みせ",
+        "back": "Shop",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "がっこう",
+        "back": "School",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "ぎんこう",
+        "back": "Bank",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "びょういん",
+        "back": "Hospital",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "いえ",
+        "back": "House",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "うち",
+        "back": "Home",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "こうえん",
+        "back": "Park",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "きょうしつ",
+        "back": "Classroom",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "がくせい",
+        "back": "Student",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "しょうがっこう",
+        "back": "Primary",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "ちゅうがっこ",
+        "back": "Middle",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "こうこう",
+        "back": "High School",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "だいがく",
+        "back": "University",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "ともだち",
+        "back": "Friends",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "ごはん",
+        "back": "Food",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "きょねん",
+        "back": "Last Year",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "ことし",
+        "back": "This Year",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "らいねん",
+        "back": "Next Year",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "せんげつ",
+        "back": "Last  Month",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "こんげつ",
+        "back": "This Month",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "らいげつ",
+        "back": "Next Month",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "せんしゅう",
+        "back": "Last Week",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "こんしゅう",
+        "back": "This Week",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "らいしゅう",
+        "back": "Next Week",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "にちようび",
+        "back": "Sunday",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "げつようび",
+        "back": "Monday",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "かようび",
+        "back": "Tuesday",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "すいようび",
+        "back": "Wednesday",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "もくようび",
+        "back": "Thursday",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "きんようび",
+        "back": "Friday",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "どようび",
+        "back": "Saturday",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "なん, なに",
+        "back": "What",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "どこ / どちら",
+        "back": "Where",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "だれ / どなた",
+        "back": "Who",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "どうして / なぜ",
+        "back": "Why",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "どやって / なんで",
+        "back": "How",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "いつ",
+        "back": "When",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "いくら",
+        "back": "How Much",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "おいくつ",
+        "back": "How Old",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "どれ / どの",
+        "back": "Which",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "じゃがいも",
+        "back": "Potato",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "トマト",
+        "back": "Tomato",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "たまねぎ",
+        "back": "Onion",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "だいこん",
+        "back": "(Japanese) Raddish",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "にんじん",
+        "back": "Carrot",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "きゃべつ",
+        "back": "Cabbage",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "きゅうり",
+        "back": "Cucumber",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "まめ",
+        "back": "Beans, Peas",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "レタス",
+        "back": "Lettuce",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "はくさい",
+        "back": "Chinese Cabbage",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "ほうれんそう",
+        "back": "Spinach",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "なす",
+        "back": "Egg plant, Brinjal",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "ねぎ",
+        "back": "Welsh Onion",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "あまい",
+        "back": "Sweet",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "からい",
+        "back": "Spicy",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "さっぱい",
+        "back": "Salty",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "すっぽい",
+        "back": "Sour",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "にがい",
+        "back": "Bitter",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "うまい",
+        "back": "Tasty",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "さむい",
+        "back": "Cold (Atmos.)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "つめたい",
+        "back": "Cold (Obj.)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "あつい",
+        "back": "Hot",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "にほん",
+        "back": "Japan",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "いんど",
+        "back": "India",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "ちゅうごく",
+        "back": "China",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "かんこく",
+        "back": "Korea",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "ろしあ",
+        "back": "Russia",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "あめりか",
+        "back": "America",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "イギリス",
+        "back": "England",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "イタリア",
+        "back": "Italy",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "ドイツ",
+        "back": "Germany",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "タイ",
+        "back": "Thailand",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "フランス",
+        "back": "France",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "ブラジル",
+        "back": "Brazil",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "すし",
+        "back": "(Dish)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "おこのみやき",
+        "back": "(Dish)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "さしみ",
+        "back": "(Dish)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "ていしょく",
+        "back": "(Dish)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "てんぷら",
+        "back": "(Dish)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "うどん",
+        "back": "(Dish)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "そば",
+        "back": "(Dish)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "おにぎり",
+        "back": "(Dish)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "ぎょうざ",
+        "back": "(Dish)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "みそ",
+        "back": "(Dish)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "やきにく",
+        "back": "(Dish)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "たこやき",
+        "back": "(Dish)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "みず",
+        "back": "Water",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "こうひい",
+        "back": "Coffee",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "こうちゃ",
+        "back": "Black Tea",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "(お)ちゃ",
+        "back": "Green Tea",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "ジュース",
+        "back": "Juice",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "みるく / ぎゅうにゅう",
+        "back": "Milk",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "ビール",
+        "back": "Beer",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "ワイン",
+        "back": "Wine",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "おさけ",
+        "back": "Alcohol",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "ひこうき",
+        "back": "Airplane",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "くるま",
+        "back": "Car",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "じてんしゃ",
+        "back": "Bicycle",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "バイク",
+        "back": "Bike",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "トラック",
+        "back": "Truck",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "ちかてつ",
+        "back": "Underground train",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "メトロ",
+        "back": "Metro",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "でんしゃ",
+        "back": "Electric train",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "ふね",
+        "back": "Ship",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "タクシ",
+        "back": "Taxi",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "しんかんせん",
+        "back": "Bullet Train",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "とうきょう",
+        "back": "(Major Cities)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "おおさか",
+        "back": "(Major Cities)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "きょうと",
+        "back": "(Major Cities)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "こうべ",
+        "back": "(Major Cities)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "なごや",
+        "back": "(Major Cities)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "よこはま",
+        "back": "(Major Cities)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "ふくおか",
+        "back": "(Major Cities)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "しずおか",
+        "back": "(Major Cities)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "せんだい",
+        "back": "(Major Cities)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "ふくしま",
+        "back": "(Major Cities)",
+        "chapter": "N5 C-Add"
+    },
+    {
+        "front": "かなざわ",
+        "back": "(Major Cities)",
+        "chapter": "N5 C-Add"
+    }
+]

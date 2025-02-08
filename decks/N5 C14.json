@@ -1,0 +1,207 @@
+[
+    {
+        "front": "つけます ❘",
+        "back": "turn on",
+        "chapter": "N5 C14"
+    },
+    {
+        "front": "けします ❘",
+        "back": "turn off",
+        "chapter": "N5 C14"
+    },
+    {
+        "front": "あけます❘❘",
+        "back": "open",
+        "chapter": "N5 C14"
+    },
+    {
+        "front": "しめます❘❘",
+        "back": "close, shut",
+        "chapter": "N5 C14"
+    },
+    {
+        "front": "いそぎます ❘",
+        "back": "hurry",
+        "chapter": "N5 C14"
+    },
+    {
+        "front": "まちます❘",
+        "back": "wait",
+        "chapter": "N5 C14"
+    },
+    {
+        "front": "とめます❘❘",
+        "back": "stop, park",
+        "chapter": "N5 C14"
+    },
+    {
+        "front": "まがります❘\n「みぎへ～」",
+        "back": "turn [to the right]",
+        "chapter": "N5 C14"
+    },
+    {
+        "front": "もちます ❘",
+        "back": "hold",
+        "chapter": "N5 C14"
+    },
+    {
+        "front": "とります ❘",
+        "back": "take, pass",
+        "chapter": "N5 C14"
+    },
+    {
+        "front": "てつだいます ❘",
+        "back": "help (with a task)",
+        "chapter": "N5 C14"
+    },
+    {
+        "front": "よびます ❘",
+        "back": "call",
+        "chapter": "N5 C14"
+    },
+    {
+        "front": "はなします ❘",
+        "back": "speak, talk",
+        "chapter": "N5 C14"
+    },
+    {
+        "front": "みせます ❘❘",
+        "back": "show",
+        "chapter": "N5 C14"
+    },
+    {
+        "front": "おしえます ❘❘\n[じゅうしょを～]",
+        "back": "tell [an address]",
+        "chapter": "N5 C14"
+    },
+    {
+        "front": "はじめます ❘❘",
+        "back": "start, begin",
+        "chapter": "N5 C14"
+    },
+    {
+        "front": "ふります ❘❘\n「あめが」",
+        "back": "rain",
+        "chapter": "N5 C14"
+    },
+    {
+        "front": "コピーします ❘❘❘",
+        "back": "copy",
+        "chapter": "N5 C14"
+    },
+    {
+        "front": "エアコン",
+        "back": "air conditioner",
+        "chapter": "N5 C14"
+    },
+    {
+        "front": "パスポート",
+        "back": "passport",
+        "chapter": "N5 C14"
+    },
+    {
+        "front": "なまえ",
+        "back": "name",
+        "chapter": "N5 C14"
+    },
+    {
+        "front": "じゅうしょ",
+        "back": "address",
+        "chapter": "N5 C14"
+    },
+    {
+        "front": "ちず",
+        "back": "map",
+        "chapter": "N5 C14"
+    },
+    {
+        "front": "しお",
+        "back": "salt",
+        "chapter": "N5 C14"
+    },
+    {
+        "front": "さとう",
+        "back": "sugar",
+        "chapter": "N5 C14"
+    },
+    {
+        "front": "よみかた",
+        "back": "how to read, way of reading",
+        "chapter": "N5 C14"
+    },
+    {
+        "front": "～かた",
+        "back": "how to ~, way of ‘ing",
+        "chapter": "N5 C14"
+    },
+    {
+        "front": "ゆっくり",
+        "back": "slowly, leisurely",
+        "chapter": "N5 C14"
+    },
+    {
+        "front": "すぐ",
+        "back": "immediately",
+        "chapter": "N5 C14"
+    },
+    {
+        "front": "また",
+        "back": "again",
+        "chapter": "N5 C14"
+    },
+    {
+        "front": "あとで",
+        "back": "later",
+        "chapter": "N5 C14"
+    },
+    {
+        "front": "もう すこし",
+        "back": "a little more",
+        "chapter": "N5 C14"
+    },
+    {
+        "front": "もう",
+        "back": "~more, another~",
+        "chapter": "N5 C14"
+    },
+    {
+        "front": "いいですよ",
+        "back": "Sure / Certainly",
+        "chapter": "N5 C14"
+    },
+    {
+        "front": "さあ",
+        "back": "(used when encouraging some course of action)",
+        "chapter": "N5 C14"
+    },
+    {
+        "front": "あれ？",
+        "back": "Oh! (In surprise or in wonder)",
+        "chapter": "N5 C14"
+    },
+    {
+        "front": "しんごうを みぎへ まがって ください",
+        "back": "Turn to at the signal",
+        "chapter": "N5 C14"
+    },
+    {
+        "front": "まっすぐ",
+        "back": "straight",
+        "chapter": "N5 C14"
+    },
+    {
+        "front": "これで おねがいします",
+        "back": "I’d like to pay with this",
+        "chapter": "N5 C14"
+    },
+    {
+        "front": "おつり",
+        "back": "Change",
+        "chapter": "N5 C14"
+    },
+    {
+        "front": "くすり",
+        "back": "medicine",
+        "chapter": "N5 C14"
+    }
+]

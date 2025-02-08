@@ -1,0 +1,117 @@
+[
+    {
+        "front": "にちようび",
+        "back": "日曜日 \nSunday",
+        "chapter": "N5 K1"
+    },
+    {
+        "front": "にほん",
+        "back": "日本 \nJapan",
+        "chapter": "N5 K1"
+    },
+    {
+        "front": "つき",
+        "back": "月 \nThe moon",
+        "chapter": "N5 K1"
+    },
+    {
+        "front": "げつようび",
+        "back": "月曜日 \nMonday",
+        "chapter": "N5 K1"
+    },
+    {
+        "front": "いちがつ",
+        "back": "一月 \nJanuary",
+        "chapter": "N5 K1"
+    },
+    {
+        "front": "こんげつ",
+        "back": "今月 \nThis month",
+        "chapter": "N5 K1"
+    },
+    {
+        "front": "ひ",
+        "back": "火 \nFire",
+        "chapter": "N5 K1"
+    },
+    {
+        "front": "かようび",
+        "back": "火曜日 \nTuesday",
+        "chapter": "N5 K1"
+    },
+    {
+        "front": "ふじさん",
+        "back": "ふじ山 \nMt.fuji",
+        "chapter": "N5 K1"
+    },
+    {
+        "front": "かわ",
+        "back": "川 \nRiver",
+        "chapter": "N5 K1"
+    },
+    {
+        "front": "やまかわ さん",
+        "back": "山川さん \nMr./Ms Yamakawa",
+        "chapter": "N5 K1"
+    },
+    {
+        "front": "たんぼ",
+        "back": "田 \nRice Field",
+        "chapter": "N5 K1"
+    },
+    {
+        "front": "やまだ さん",
+        "back": "山田さん \nMr./Ms Yamada",
+        "chapter": "N5 K1"
+    },
+    {
+        "front": "みず",
+        "back": "水 \nWater",
+        "chapter": "N5 K1"
+    },
+    {
+        "front": "すいようび",
+        "back": "水曜日 \nWednesday",
+        "chapter": "N5 K1"
+    },
+    {
+        "front": "き",
+        "back": "木 \ntree",
+        "chapter": "N5 K1"
+    },
+    {
+        "front": "もくようび",
+        "back": "木曜日 \nThursday",
+        "chapter": "N5 K1"
+    },
+    {
+        "front": "おかね",
+        "back": "お金 \nMoney",
+        "chapter": "N5 K1"
+    },
+    {
+        "front": "きん",
+        "back": "金 \nGold",
+        "chapter": "N5 K1"
+    },
+    {
+        "front": "きんようび",
+        "back": "金曜日 \nFriday",
+        "chapter": "N5 K1"
+    },
+    {
+        "front": "つち",
+        "back": "土 \nSiol, earth",
+        "chapter": "N5 K1"
+    },
+    {
+        "front": "どようび",
+        "back": "土曜日 \nSaturday",
+        "chapter": "N5 K1"
+    },
+    {
+        "front": "ひ",
+        "back": "日 \nThe sun",
+        "chapter": "N5 K1"
+    }
+]

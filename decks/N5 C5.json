@@ -1,0 +1,167 @@
+[
+    {
+        "front": "あつい",
+        "back": "Hot (For Weather)",
+        "chapter": "N5 C5"
+    },
+    {
+        "front": "あたたかい",
+        "back": "Hot (For Object)",
+        "chapter": "N5 C5"
+    },
+    {
+        "front": "つめたい",
+        "back": "Cold (For Objects)",
+        "chapter": "N5 C5"
+    },
+    {
+        "front": "さむい",
+        "back": "Cold (For Weather)",
+        "chapter": "N5 C5"
+    },
+    {
+        "front": "きびしい",
+        "back": "Strict",
+        "chapter": "N5 C5"
+    },
+    {
+        "front": "たかい",
+        "back": "Expensive, Tall",
+        "chapter": "N5 C5"
+    },
+    {
+        "front": "やすい",
+        "back": "Inexpensive, Cheap",
+        "chapter": "N5 C5"
+    },
+    {
+        "front": "むずかしい",
+        "back": "Difficult",
+        "chapter": "N5 C5"
+    },
+    {
+        "front": "やさしい",
+        "back": "Easy, Kind, Gentle",
+        "chapter": "N5 C5"
+    },
+    {
+        "front": "おもしろい",
+        "back": "Interesting",
+        "chapter": "N5 C5"
+    },
+    {
+        "front": "はやい",
+        "back": "Fast, Quick",
+        "chapter": "N5 C5"
+    },
+    {
+        "front": "おそい",
+        "back": "Slow",
+        "chapter": "N5 C5"
+    },
+    {
+        "front": "いい",
+        "back": "Good",
+        "chapter": "N5 C5"
+    },
+    {
+        "front": "よくない",
+        "back": "Not Good",
+        "chapter": "N5 C5"
+    },
+    {
+        "front": "おいしい",
+        "back": "Tasty",
+        "chapter": "N5 C5"
+    },
+    {
+        "front": "すくない",
+        "back": "Little",
+        "chapter": "N5 C5"
+    },
+    {
+        "front": "とても",
+        "back": "Very",
+        "chapter": "N5 C5"
+    },
+    {
+        "front": "くに",
+        "back": "Country",
+        "chapter": "N5 C5"
+    },
+    {
+        "front": "いつも",
+        "back": "Always",
+        "chapter": "N5 C5"
+    },
+    {
+        "front": "にほんご",
+        "back": "Japanese Language",
+        "chapter": "N5 C5"
+    },
+    {
+        "front": "えいご",
+        "back": "English",
+        "chapter": "N5 C5"
+    },
+    {
+        "front": "りょうり",
+        "back": "Dish, food, cuisine",
+        "chapter": "N5 C5"
+    },
+    {
+        "front": "コーヒー",
+        "back": "Coffee",
+        "chapter": "N5 C5"
+    },
+    {
+        "front": "あたらしい",
+        "back": "New",
+        "chapter": "N5 C5"
+    },
+    {
+        "front": "ふるい",
+        "back": "Old (things)",
+        "chapter": "N5 C5"
+    },
+    {
+        "front": "いそがしい",
+        "back": "Busy",
+        "chapter": "N5 C5"
+    },
+    {
+        "front": "たのしい",
+        "back": "Enjoyable",
+        "chapter": "N5 C5"
+    },
+    {
+        "front": "おおきい",
+        "back": "Big",
+        "chapter": "N5 C5"
+    },
+    {
+        "front": "ちいさい",
+        "back": "Small",
+        "chapter": "N5 C5"
+    },
+    {
+        "front": "ひくい",
+        "back": "Low",
+        "chapter": "N5 C5"
+    },
+    {
+        "front": "わるい",
+        "back": "Bad",
+        "chapter": "N5 C5"
+    },
+    {
+        "front": "どっな",
+        "back": "What kind of",
+        "chapter": "N5 C5"
+    },
+    {
+        "front": "どうも",
+        "back": "Thanks (informal)",
+        "chapter": "N5 C5"
+    }
+]
