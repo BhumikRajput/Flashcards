@@ -118,26 +118,6 @@
             display: none;
         }
 
-        #flash-page .help {
-            text-align: center;
-            padding: 10px 20px;
-            margin: 5px 0;
-            color: #fff;
-            background-color: transparent;
-            border: 1px solid white;
-            border-radius: 5px;
-            text-decoration: none;
-        }
-
-        #flash-page .help:hover {
-            border-color: #c9b569;
-        }
-
-        #flash-page .help:active {
-            background-color: white;
-            color: black;
-        }
-
         /* input page Styles */
         #input-page {
             display: none;
@@ -269,6 +249,65 @@
             background-color: #555;
             cursor: not-allowed;
         }
+
+        #menu-page {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0);
+            color: white;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #menu-page .menu-options {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+
+        #menu-page button,
+        #menu-page a {
+            display: block;
+            /* Ensures both have the same layout */
+            width: 200px;
+            /* Same width for both */
+            padding: 15px 20px;
+            border: none;
+            color: white;
+            font-size: 24px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+            text-align: center;
+            transition: background-color 0.3s;
+            cursor: pointer;
+            text-decoration: none;
+            box-sizing: border-box;
+            /* Makes sure padding and border are included in width */
+        }
+
+        #menu-page button:hover,
+        #menu-page a:hover {
+            background-color: rgba(255, 255, 255, 0.4);
+        }
+
+        #menu-page a {
+            background-color: #437bb8;
+        }
+
+        #menu-close-button {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 30px;
+            cursor: pointer;
+            color: white;
+        }
     </style>
 </head>
 
@@ -287,15 +326,22 @@
         </div>
 
         <div class="buttons-container">
-            <button id="inbuiltButton">Inbuilt</button>
-            <button id="importButton">Import</button>
-            <button id="exportButton">Export</button>
-            <a href="./assets/help.html" class="help">Help?</a>
+            <button id="menuButton">Menu</button>
             <input type="file" id="hiddenFileInput" accept=".json" onchange="importJSON()" tabindex="-1" />
         </div>
     </div>
 
-
+    <div id="menu-page">
+        <span id="menu-close-button">&times;</span>
+        <div class="menu-options">
+            <button id="inbuiltButton">Inbuilt</button>
+            <button id="importButton">Import</button>
+            <button id="exportButton">Export</button>
+            <a href="./assets/help.html" class="help">Help?</a>
+            <a href="./assets/old_index.html" class="help">Old Version</a>
+            <!-- <button onclick="optionSelected(0)">Options ...</button> -->
+        </div>
+    </div>
 
 
     <div id="input-page">
@@ -328,13 +374,15 @@
         var leftElement = document.querySelector("#flash-page .left");
         // var translation = document.querySelector(".translate");
         var chapter = document.querySelector("#flash-page .chapter");
-        var inbuiltButton = document.querySelector("#flash-page #inbuiltButton");
-        var importButton = document.querySelector("#flash-page #importButton");
-        var exportButton = document.querySelector("#flash-page #exportButton");
+        var menuButton = document.querySelector("#flash-page #menuButton");
+        var inbuiltButton = document.querySelector("#menu-page #inbuiltButton");
+        var importButton = document.querySelector("#menu-page #importButton");
+        var exportButton = document.querySelector("#menu-page #exportButton");
         var helpButton = document.querySelector("#flash-page .help");
 
         var filenameInput = document.querySelector("#input-page #filenameInput");
         var src_list = null;
+        var menuPage = document.querySelector("#menu-page");
         var inputPage = document.querySelector("#input-page");
         var flashPage = document.querySelector("#flash-page");
         var inbuiltPage = document.querySelector("#inbuilt-page");
@@ -342,11 +390,14 @@
         var inputCancelButton = document.querySelector("#input-page #cancelButton");
         var inbuiltImportButton = document.querySelector("#inbuilt-page .importButton");
         var inbuiltCancelButton = document.querySelector("#inbuilt-page .cancelButton");
+        var menuCloseButton = document.querySelector("#menu-close-button");
 
 
 
         function triggerFileInput() {
             document.querySelector('#flash-page #hiddenFileInput').click();
+            hideAllPages();
+            showFlashPage();
         }
 
         async function getDeckOnline() {
@@ -510,9 +561,32 @@
             flashPage.style.display = 'none';
         }
 
+        function showInbuiltPage() {
+            inbuiltPage.style.display = "block"; // Show the inbuilt-page
+        }
+
+        function hideInbuiltPage() {
+            inbuiltPage.style.display = "none"; // Hide the inbuilt-page
+        }
+
+        function showMenuPage() {
+            menuPage.style.display = "flex";
+        }
+
+        function hideMenuPage() {
+            menuPage.style.display = "none";
+        }
+
+        function hideAllPages() {
+            hideInputPage();
+            hideFlashPage();
+            hideInbuiltPage();
+            hideMenuPage();
+        }
+
         // Function to export flashcards as JSON
         function exportFlashcards() {
-            // hideFlashPage();
+            hideMenuPage();
             showInputPage();
         }
 
@@ -698,11 +772,21 @@
         });
 
         // for-all
+        menuButton.addEventListener("click", (event) => {
+            event.stopPropagation(); // Prevent click event from reaching the body
+
+            showMenuPage();
+
+        });
+        menuCloseButton.addEventListener("click", (event) => {
+            event.stopPropagation(); // Prevent click event from reaching the body
+            menuPage.style.display = "none";
+        });
         inbuiltButton.addEventListener("click", (event) => {
             event.stopPropagation(); // Prevent click event from reaching the body
             getDeckOnline();
-            hideFlashPage();
-            inbuiltPage.style.display = "block"; // Show the inbuilt-page
+            hideAllPages();
+            showInbuiltPage();
         });
         importButton.addEventListener("click", triggerFileInput);
         exportButton.addEventListener("click", exportFlashcards);
@@ -740,7 +824,7 @@
             try {
                 await importJSONsOnline();  // Wait for the data to be fetched
                 await convertFlashcards();   // Then convert the flashcards
-                inbuiltPage.style.display = "none"; // Hide the inbuilt-page
+                hideInbuiltPage();
                 showFlashPage(); // Show the flash page
             } catch (error) {
                 console.error('Error loading flashcards:', error);
