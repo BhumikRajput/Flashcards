@@ -649,11 +649,11 @@
                     updateCardContent();
                     if (fl_list.length >= 0) {
                         if (chapter.textContent != "") {
-                            let temp = cardBack.textContent;
+                            let temp = cardBack.innerText;
                             cardBack.textContent = "";
                             card.classList.remove("flipped");
                             setTimeout(() => {
-                                cardBack.textContent = temp;
+                                cardBack.innerText = temp;
                             }, 600);
 
                             if (left > 0) {
@@ -673,11 +673,11 @@
                     x_list.push(currentCard);
                     updateCardContent();
                     if (fl_list.length >= 0) {
-                        let temp = cardBack.textContent;
+                        let temp = cardBack.innerText;
                         cardBack.textContent = "";
                         card.classList.remove("flipped");
                         setTimeout(() => {
-                            cardBack.textContent = temp;
+                            cardBack.innerText = temp;
                         }, 600);
                     }
                 }
