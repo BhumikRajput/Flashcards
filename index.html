@@ -404,11 +404,25 @@
             const files = await response.json();
             const jsonFiles = files.filter(file => file.name.endsWith('.json'));
 
-            // Sort the files using a custom sorting function
+            // Natural sorting function (shorter version)
             jsonFiles.sort((a, b) => {
-                const numA = parseInt(a.name.replace(/\D/g, '')); // Extract number from filename
-                const numB = parseInt(b.name.replace(/\D/g, ''));
-                return numA - numB || a.name.localeCompare(b.name); // Sort numerically, then alphabetically
+                const re = /(\d+|\D+)/g;
+                const aParts = a.name.match(re);
+                const bParts = b.name.match(re);
+
+                for (let i = 0; i < Math.max(aParts.length, bParts.length); i++) {
+                    const aPart = aParts[i] || '';
+                    const bPart = bParts[i] || '';
+                    const isANum = !isNaN(aPart), isBNum = !isNaN(bPart);
+
+                    // Compare numerically if both parts are numbers, otherwise lexicographically
+                    if (isANum && isBNum) {
+                        if (+aPart !== +bPart) return +aPart - +bPart;
+                    } else if (aPart !== bPart) {
+                        return aPart.localeCompare(bPart);
+                    }
+                }
+                return 0;
             });
 
             const fileListContainer = document.querySelector("#inbuilt-page .file-list");
@@ -418,14 +432,13 @@
                 const checkbox = document.createElement('input');
                 checkbox.type = 'checkbox';
                 checkbox.id = file.name;
-                checkbox.value = file.name; // Store file name
+                checkbox.value = file.name;
 
                 const label = document.createElement('label');
                 label.htmlFor = file.name;
-                // label.innerText = file.name;
-                label.innerText = file.name.replace('.json', ''); // Remove the .json extension
+                label.innerText = file.name.replace('.json', '');
 
-                label.prepend(checkbox); // Move checkbox before label text
+                label.prepend(checkbox);
                 fileListContainer.appendChild(label);
             });
         }
