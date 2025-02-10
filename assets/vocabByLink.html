@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel Sheet of Data</title>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+        }
+
+        table {
+            display: none;
+            width: 100%;
+            border-collapse: collapse;
+            margin: 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        tr {
+            height: 50px;
+        }
+
+        th,
+        td {
+            padding: 5px;
+            padding-left: 10px;
+            text-align: left;
+            border: 1px solid red;
+            font-size: 25px;
+            vertical-align: middle;
+        }
+
+        th {
+            background-color: #ff9800;
+            color: white;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: #ffcc80;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #ffeb99;
+        }
+
+        tbody tr:hover {
+            background-color: #ff7043;
+            color: white;
+            transition: 0.3s;
+        }
+
+        .front-column {
+            width: 35%;
+        }
+
+        .back-column {
+            width: 50%;
+        }
+
+        .chapter-column {
+            width: 15%;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="excelTable">
+        <thead>
+            <tr>
+                <th class="front-column">Front</th>
+                <th class="back-column">Back</th>
+                <th class="chapter-column">Chapter</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data will be inserted here -->
+        </tbody>
+    </table>
+
+    <script>
+        let list = [];
+
+        // Array of JSON file names
+        // const filesName = ["N4 C1", "N5 C6", "N4 K1"];
+        const filesName = [
+            ...[...Array(6)].map((_, i) => `N4 C${i + 1}`),
+            ...[...Array(4)].map((_, i) => `N4 K${i + 1}`),
+            ...[...Array(24)].map((_, i) => `N5 C${i + 1}`),
+            ...[...Array(11)].map((_, i) => `N5 K${i + 1}`),
+        ];
+        ;
+
+        function loadData() {
+            // Build raw URLs based on file names, ensuring spaces are encoded as %20
+            const rawLinks = filesName.map(fileName =>
+                `https://raw.githubusercontent.com/BhumikRajput/Flashcards/main/decks/${encodeURIComponent(fileName)}.json`
+            );
+
+            // Fetch each JSON file and concatenate its data
+            Promise.all(rawLinks.map(url => fetch(url).then(response => response.json())))
+                .then(jsonArray => {
+                    // Concatenate all the JSON data into one list
+                    list = jsonArray.flat();
+                    generateTable();
+                })
+                .catch(error => {
+                    alert('Error loading JSON content: ' + error);
+                });
+        }
+
+        function generateTable() {
+            const tableBody = document.querySelector("#excelTable tbody");
+            tableBody.innerHTML = "";
+            list.forEach(item => {
+                const row = document.createElement("tr");
+
+                // Ensure that chapter, front, and back are always strings
+                const front = item.front || "";
+                const back = item.back || "";
+                const chapter = item.chapter ? String(item.chapter) : ""; // Ensure chapter is a string
+
+                row.innerHTML = `
+                    <td>${front.replace(/\n/g, '<br>')}</td>
+                    <td>${back.replace(/\n/g, '<br>')}</td>
+                    <td>${chapter.replace(/\n/g, '<br>')}</td>
+                `;
+                tableBody.appendChild(row);
+            });
+            document.getElementById('excelTable').style.display = "table";
+        }
+
+        window.onload = loadData;
+    </script>
+</body>
+
+</html>

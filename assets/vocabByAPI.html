@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel Sheet of Data</title>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+        }
+
+        table {
+            display: none;
+            width: 100%;
+            border-collapse: collapse;
+            margin: 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        tr {
+            height: 50px;
+        }
+
+        th,
+        td {
+            padding: 5px;
+            padding-left: 10px;
+            text-align: left;
+            border: 1px solid red;
+            font-size: 25px;
+            vertical-align: middle;
+        }
+
+        th {
+            background-color: #ff9800;
+            color: white;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: #ffcc80;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #ffeb99;
+        }
+
+        tbody tr:hover {
+            background-color: #ff7043;
+            color: white;
+            transition: 0.3s;
+        }
+
+        .front-column {
+            width: 35%;
+        }
+
+        .back-column {
+            width: 50%;
+        }
+
+        .chapter-column {
+            width: 15%;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="excelTable">
+        <thead>
+            <tr>
+                <th class="front-column">Front</th>
+                <th class="back-column">Back</th>
+                <th class="chapter-column">Chapter</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data will be inserted here -->
+        </tbody>
+    </table>
+
+    <script>
+        let list = [];
+
+        function loadData() {
+            fetch('https://api.github.com/repos/BhumikRajput/Flashcards/contents/decks')
+                .then(response => response.json())
+                .then(data => {
+                    // Filter to get only JSON files
+                    const jsonFiles = data.filter(file => file.name.endsWith('.json'));
+
+                    if (jsonFiles.length > 0) {
+                        // Fetch each JSON file and concatenate its data
+                        Promise.all(jsonFiles.map(file => fetch(file.download_url).then(response => response.json())))
+                            .then(jsonArray => {
+                                // Concatenate all the JSON data into one list
+                                list = jsonArray.flat();
+                                generateTable();
+                            })
+                            .catch(error => {
+                                alert('Error loading JSON content: ' + error);
+                            });
+                    } else {
+                        alert('No JSON files found in the "decks" directory.');
+                    }
+                })
+                .catch(error => {
+                    alert('Error loading file list from GitHub: ' + error);
+                });
+        }
+
+        function generateTable() {
+            const tableBody = document.querySelector("#excelTable tbody");
+            tableBody.innerHTML = "";
+            list.forEach(item => {
+                const row = document.createElement("tr");
+
+                // Ensure that chapter, front, and back are always strings
+                const front = item.front || "";
+                const back = item.back || "";
+                const chapter = item.chapter ? String(item.chapter) : ""; // Ensure chapter is a string
+
+                row.innerHTML = `
+                    <td>${front.replace(/\n/g, '<br>')}</td>
+                    <td>${back.replace(/\n/g, '<br>')}</td>
+                    <td>${chapter.replace(/\n/g, '<br>')}</td>
+                `;
+                tableBody.appendChild(row);
+            });
+            document.getElementById('excelTable').style.display = "table";
+        }
+
+        window.onload = loadData;
+    </script>
+</body>
+
+</html>
