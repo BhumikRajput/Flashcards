@@ -19,6 +19,8 @@
             justify-content: center;
             align-items: center;
             align-content: center;
+            overflow-x: auto;
+            /* Allow scrolling if table overflows */
         }
 
         table {
@@ -27,6 +29,10 @@
             border-collapse: collapse;
             margin: 0;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            table-layout: fixed;
+            /* Prevent resizing */
+            overflow-x: auto;
+            /* Enable horizontal scroll */
         }
 
         tr {
@@ -72,6 +78,20 @@
 
         .chapter-column {
             width: 15%;
+        }
+
+        @media (max-width: 400px) {
+            .front-column {
+                min-width: 20px;
+            }
+
+            .back-column {
+                min-width: 50px;
+            }
+
+            .chapter-column {
+                min-width: 15px;
+            }
         }
     </style>
 </head>
