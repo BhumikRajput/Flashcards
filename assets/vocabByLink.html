@@ -33,7 +33,6 @@
             /* Prevent resizing */
             overflow-x: auto;
             /* Enable horizontal scroll */
-            transition: transform 0.3s ease-in-out; /* Smooth transition for zooming */
         }
 
         tr {
@@ -48,10 +47,8 @@
             border: 1px solid red;
             font-size: 25px;
             vertical-align: middle;
-            word-wrap: break-word;
-            /* Allows the word to wrap to the next line */
-            word-break: break-word;
-            /* Breaks long words if needed */
+            word-wrap: break-word;  /* Allows the word to wrap to the next line */
+            word-break: break-word; /* Breaks long words if needed */
         }
 
         th {
@@ -171,21 +168,6 @@
         }
 
         window.onload = loadData;
-
-        let lastTap = 0; // Variable to keep track of last tap time
-
-        // Function to detect double-tap and reset zoom
-        function handleDoubleTap(event) {
-            const currentTime = new Date().getTime();
-            if (currentTime - lastTap < 300) {
-                // If the time between taps is less than 300ms, it's a double tap
-                document.querySelector("#excelTable").style.transform = "scale(1)"; // Reset to 100% zoom
-            }
-            lastTap = currentTime;
-        }
-
-        // Attach double-tap event listener to the table
-        document.querySelector("#excelTable").addEventListener('touchend', handleDoubleTap);
     </script>
 </body>
 
