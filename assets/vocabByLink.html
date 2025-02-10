@@ -20,7 +20,6 @@
             align-items: center;
             align-content: center;
             overflow-x: auto;
-            /* Allow scrolling if table overflows */
         }
 
         table {
@@ -30,9 +29,7 @@
             margin: 0;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             table-layout: fixed;
-            /* Prevent resizing */
             overflow-x: auto;
-            /* Enable horizontal scroll */
         }
 
         tr {
@@ -47,8 +44,8 @@
             border: 1px solid red;
             font-size: 25px;
             vertical-align: middle;
-            word-wrap: break-word;  /* Allows the word to wrap to the next line */
-            word-break: break-word; /* Breaks long words if needed */
+            word-wrap: break-word;
+            word-break: break-word;
         }
 
         th {
@@ -90,13 +87,138 @@
             }
         }
 
-        /* for pc's */
         @media (pointer: fine) {
             tbody tr:hover {
                 background-color: #ff7043;
                 color: white;
                 transition: 0.3s;
             }
+        }
+
+        /* Improved Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+            z-index: 1000;
+            max-width: 350px;
+            min-width: 200px;
+            width: 75%;
+            max-height: 90%;
+            height: auto;
+            overflow-y: auto;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+        }
+
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+        }
+
+        .checkbox-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            max-height: 400px;
+            overflow-y: auto;
+            margin-bottom: 20px;
+        }
+
+        .checkbox-container label {
+            font-size: 20px;
+            /* Increase the font size of filenames */
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 500;
+            vertical-align: middle;
+            /* Align checkbox vertically with the label text */
+        }
+
+        .checkbox-container input[type="checkbox"] {
+            margin-right: 10px;
+            /* Ensure checkbox is on the left */
+            width: 20px;
+            /* Increase the size of the checkbox */
+            height: 20px;
+            /* Increase the size of the checkbox */
+            cursor: pointer;
+            vertical-align: middle;
+            /* Align checkbox vertically with the label text */
+        }
+
+        .modal-header {
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .modal-footer {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+        }
+
+        .modal-footer button {
+            padding: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+            border: none;
+            border-radius: 6px;
+            transition: background-color 0.3s, transform 0.2s;
+            width: 48%;
+            /* This ensures both buttons have the same width */
+        }
+
+        .modal-footer button:hover {
+            transform: translateY(-2px);
+        }
+
+        .close-button {
+            background-color: #f44336;
+            color: white;
+        }
+
+        .load-button {
+            background-color: #4caf50;
+            color: white;
+        }
+
+        .close-button:hover {
+            background-color: #e53935;
+        }
+
+        .load-button:hover {
+            background-color: #388e3c;
+        }
+
+        /* Check/Uncheck All Button Style */
+        #toggleAllButton {
+            padding: 10px;
+            font-size: 20px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            border-radius: 6px;
+            background-color: #2196F3;
+            color: white;
+            border: none;
+            width: 100%;
         }
     </style>
 </head>
@@ -115,47 +237,111 @@
         </tbody>
     </table>
 
+    <!-- Modal -->
+    <div id="checkboxModal" class="modal">
+        <div class="modal-header">
+            <h2>Select Files</h2>
+        </div>
+        <div class="checkbox-container">
+            <!-- Checkboxes will be dynamically inserted here -->
+        </div>
+
+        <!-- Button to toggle check/uncheck all checkboxes moved here -->
+        <button id="toggleAllButton">Check/Uncheck All</button>
+
+        <div class="modal-footer">
+            <button id="closeModalButton" class="close-button">Close</button>
+            <button id="loadSelectedFilesButton" class="load-button">Load</button>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="modalOverlay"></div>
+
     <script>
         let list = [];
 
         // Array of JSON file names
-        // const filesName = ["N4 C1", "N5 C6", "N4 K1"];
         const filesName = [
             ...[...Array(6)].map((_, i) => `N4 C${i + 1}`),
             ...[...Array(4)].map((_, i) => `N4 K${i + 1}`),
             ...[...Array(24)].map((_, i) => `N5 C${i + 1}`),
             ...[...Array(11)].map((_, i) => `N5 K${i + 1}`),
         ];
-        ;
 
-        function loadData() {
-            // Build raw URLs based on file names, ensuring spaces are encoded as %20
-            const rawLinks = filesName.map(fileName =>
+        // Open modal and display checkboxes
+        function openModal() {
+            const modal = document.getElementById("checkboxModal");
+            const modalOverlay = document.getElementById("modalOverlay");
+            const checkboxContainer = document.querySelector(".checkbox-container");
+
+            // Clear the previous checkboxes
+            checkboxContainer.innerHTML = "";
+
+            // Create checkboxes dynamically
+            filesName.forEach(file => {
+                const checkbox = document.createElement("input");
+                checkbox.type = "checkbox";
+                checkbox.id = file;
+                checkbox.name = file;
+
+                const label = document.createElement("label");
+                label.setAttribute("for", file);
+                label.textContent = file;
+
+                const div = document.createElement("div");
+                div.appendChild(checkbox);
+                div.appendChild(label);
+                checkboxContainer.appendChild(div);
+            });
+
+            // Show modal
+            modal.style.display = "block";
+            modalOverlay.style.display = "block";
+        }
+
+        // Close modal
+        function closeModal() {
+            const modal = document.getElementById("checkboxModal");
+            const modalOverlay = document.getElementById("modalOverlay");
+
+            modal.style.display = "none";
+            modalOverlay.style.display = "none";
+        }
+
+        // Load selected files
+        function loadSelectedFiles() {
+            const selectedFiles = [];
+            const checkboxes = document.querySelectorAll('.checkbox-container input[type="checkbox"]:checked');
+
+            checkboxes.forEach(checkbox => {
+                selectedFiles.push(checkbox.id);
+            });
+
+            const rawLinks = selectedFiles.map(fileName =>
                 `https://raw.githubusercontent.com/BhumikRajput/Flashcards/main/decks/${encodeURIComponent(fileName)}.json`
             );
 
-            // Fetch each JSON file and concatenate its data
             Promise.all(rawLinks.map(url => fetch(url).then(response => response.json())))
                 .then(jsonArray => {
-                    // Concatenate all the JSON data into one list
                     list = jsonArray.flat();
                     generateTable();
+                    closeModal(); // Close the modal after loading data
                 })
                 .catch(error => {
                     alert('Error loading JSON content: ' + error);
                 });
         }
 
+        // Generate table based on loaded data
         function generateTable() {
             const tableBody = document.querySelector("#excelTable tbody");
             tableBody.innerHTML = "";
             list.forEach(item => {
                 const row = document.createElement("tr");
 
-                // Ensure that chapter, front, and back are always strings
                 const front = item.front || "";
                 const back = item.back || "";
-                const chapter = item.chapter ? String(item.chapter) : ""; // Ensure chapter is a string
+                const chapter = item.chapter ? String(item.chapter) : "";
 
                 row.innerHTML = `
                     <td>${front.replace(/\n/g, '<br>')}</td>
@@ -167,7 +353,25 @@
             document.getElementById('excelTable').style.display = "table";
         }
 
-        window.onload = loadData;
+        // Function to toggle check/uncheck all checkboxes
+        function toggleAllCheckboxes() {
+            const checkboxes = document.querySelectorAll('.checkbox-container input[type="checkbox"]');
+            const allChecked = Array.from(checkboxes).every(checkbox => checkbox.checked);
+
+            checkboxes.forEach(checkbox => {
+                checkbox.checked = !allChecked;  // Toggle the state
+            });
+        }
+
+        window.onload = () => {
+            // Open the modal when the page loads
+            openModal();
+
+            // Button event listeners
+            document.getElementById("toggleAllButton").addEventListener("click", toggleAllCheckboxes);
+            document.getElementById("closeModalButton").addEventListener("click", closeModal);
+            document.getElementById("loadSelectedFilesButton").addEventListener("click", loadSelectedFiles);
+        };
     </script>
 </body>
 
