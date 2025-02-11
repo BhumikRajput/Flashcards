@@ -259,6 +259,7 @@
 
     <script>
         let list = [];
+        let openTabs = [];
 
         // Array of JSON file names
         const filesName = [
@@ -380,7 +381,8 @@
 
                     // Ensure searchUrl is defined before opening the link
                     if (searchUrl) {
-                        window.open(searchUrl, "_blank");
+                        const newTab = window.open(searchUrl, "_blank");
+                        openTabs.push(newTab);
                     }
                 });
                 // Listener End
@@ -408,6 +410,14 @@
             document.getElementById("toggleAllButton").addEventListener("click", toggleAllCheckboxes);
             document.getElementById("closeModalButton").addEventListener("click", closeModal);
             document.getElementById("loadSelectedFilesButton").addEventListener("click", loadSelectedFiles);
+
+
+            document.querySelector("th.chapter-column").addEventListener("click", () => {
+                openTabs.forEach(tab => {
+                    tab.close();
+                });
+                openTabs = []; // Clear the open tabs list
+            });
         };
     </script>
 </body>
