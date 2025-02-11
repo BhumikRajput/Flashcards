@@ -1,0 +1,182 @@
+[
+    {
+        "front": "からだ",
+        "back": "体 \nbody",
+        "chapter": "N4 K9"
+    },
+    {
+        "front": "たいりょく",
+        "back": "体力 \nbody power",
+        "chapter": "N4 K9"
+    },
+    {
+        "front": "たいじゅう",
+        "back": "体重 \nbody weight",
+        "chapter": "N4 K9"
+    },
+    {
+        "front": "あたま",
+        "back": "頭 \nhead",
+        "chapter": "N4 K9"
+    },
+    {
+        "front": "ずつう",
+        "back": "頭痛 \nheadache",
+        "chapter": "N4 K9"
+    },
+    {
+        "front": "あたまがいい",
+        "back": "頭がいい \nintelligent",
+        "chapter": "N4 K9"
+    },
+    {
+        "front": "かお",
+        "back": "顔 \nface",
+        "chapter": "N4 K9"
+    },
+    {
+        "front": "かおいろ",
+        "back": "顔色 \ncomplexion",
+        "chapter": "N4 K9"
+    },
+    {
+        "front": "くび",
+        "back": "首 \nneck",
+        "chapter": "N4 K9"
+    },
+    {
+        "front": "しゅと",
+        "back": "首都 \ncapital",
+        "chapter": "N4 K9"
+    },
+    {
+        "front": "てくび",
+        "back": "手首 \nwrist",
+        "chapter": "N4 K9"
+    },
+    {
+        "front": "あしくび",
+        "back": "足首 \nankle",
+        "chapter": "N4 K9"
+    },
+    {
+        "front": "しゅしょう",
+        "back": "首相 \nprime minister",
+        "chapter": "N4 K9"
+    },
+    {
+        "front": "こころ",
+        "back": "心 \nheart, spirit",
+        "chapter": "N4 K9"
+    },
+    {
+        "front": "ちゅうしん",
+        "back": "中心 \ncenter",
+        "chapter": "N4 K9"
+    },
+    {
+        "front": "しんぞう",
+        "back": "心臓 \nheart (in medical terms)",
+        "chapter": "N4 K9"
+    },
+    {
+        "front": "しんぱい",
+        "back": "心配 \nworry",
+        "chapter": "N4 K9"
+    },
+    {
+        "front": "あんしんする",
+        "back": "安心する \nto be relaxed",
+        "chapter": "N4 K9"
+    },
+    {
+        "front": "いえ",
+        "back": "声 \nvoice",
+        "chapter": "N4 K9"
+    },
+    {
+        "front": "おおごえ",
+        "back": "大声 \nloud voice",
+        "chapter": "N4 K9"
+    },
+    {
+        "front": "おんせい",
+        "back": "音声 \nnoise",
+        "chapter": "N4 K9"
+    },
+    {
+        "front": "びょうき",
+        "back": "病気 \ndisease",
+        "chapter": "N4 K9"
+    },
+    {
+        "front": "びょういん",
+        "back": "病院 \nhospital",
+        "chapter": "N4 K9"
+    },
+    {
+        "front": "びょうにん",
+        "back": "病人 \nill, sick person",
+        "chapter": "N4 K9"
+    },
+    {
+        "front": "きゅうびょう",
+        "back": "急病 \nsudden illness",
+        "chapter": "N4 K9"
+    },
+    {
+        "front": "くすり",
+        "back": "薬 \nmedicine",
+        "chapter": "N4 K9"
+    },
+    {
+        "front": "やくひん",
+        "back": "薬品 \npharmaceuticals, medicine",
+        "chapter": "N4 K9"
+    },
+    {
+        "front": "めぐすり",
+        "back": "目薬 \neye drops",
+        "chapter": "N4 K9"
+    },
+    {
+        "front": "かがく",
+        "back": "科学 \nscience",
+        "chapter": "N4 K9"
+    },
+    {
+        "front": "きょうかしょ",
+        "back": "教科書 \nstudy material, textbooks",
+        "chapter": "N4 K9"
+    },
+    {
+        "front": "げか",
+        "back": "外科 \nsurgery",
+        "chapter": "N4 K9"
+    },
+    {
+        "front": "ないか",
+        "back": "内科 \ninternal medicine",
+        "chapter": "N4 K9"
+    },
+    {
+        "front": "うちがわ",
+        "back": "内側 \ninside",
+        "chapter": "N4 K9"
+    },
+    {
+        "front": "しゃない",
+        "back": "社内 \ninside the company",
+        "chapter": "N4 K9"
+    },
+    {
+        "front": "しゃない",
+        "back": "車内 \ninside the car",
+        "chapter": "N4 K9"
+    },
+    {
+        "front": "あんないする",
+        "back": "案内する \nto guide",
+        "chapter": "N4 K9"
+    }
+]
