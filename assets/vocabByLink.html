@@ -321,11 +321,24 @@
                 `https://raw.githubusercontent.com/BhumikRajput/Flashcards/main/decks/${encodeURIComponent(fileName)}.json`
             );
 
-            Promise.all(rawLinks.map(url => fetch(url).then(response => response.json())))
+            // Using Promise.all with individual error handling for each file
+            Promise.all(rawLinks.map(url =>
+                fetch(url)
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error(`File not found: ${url}`);
+                        }
+                        return response.json();
+                    })
+                    .catch(error => {
+                        console.warn(error.message); // Warn if a file is not found
+                        return null; // Return null for files that failed to load
+                    })
+            ))
                 .then(jsonArray => {
-                    list = jsonArray.flat();
+                    list = jsonArray.filter(item => item !== null).flat(); // Filter out nulls
                     generateTable();
-                    closeModal(); // Close the modal after loading data
+                    closeModal(); // Close modal after loading data
                 })
                 .catch(error => {
                     alert('Error loading JSON content: ' + error);
