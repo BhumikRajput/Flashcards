@@ -348,6 +348,30 @@
                     <td>${back.replace(/\n/g, '<br>')}</td>
                     <td>${chapter.replace(/\n/g, '<br>')}</td>
                 `;
+
+                // Event Listener
+                const firstCell = row.cells[0];
+                const secondCell = row.cells[1];
+                const thirdCell = row.cells[2];
+                thirdCell.addEventListener("click", () => {
+                    let searchUrl = '';
+
+                    if (thirdCell.innerText.includes("N4 K") || thirdCell.innerText.includes("N5 K")) {
+                        const query = encodeURIComponent(secondCell.textContent);
+                        searchUrl = `https://jisho.org/search/%23kanji%20${query}`;
+
+                    } else if (thirdCell.innerText.includes("N5 C") || thirdCell.innerText.includes("N4 C")) {
+                        const query = encodeURIComponent(firstCell.textContent);
+                        searchUrl = `https://jisho.org/search/${query}`;
+                    }
+
+                    // Ensure searchUrl is defined before opening the link
+                    if (searchUrl) {
+                        window.open(searchUrl, "_blank");
+                    }
+                });
+                // Listener End
+
                 tableBody.appendChild(row);
             });
             document.getElementById('excelTable').style.display = "table";
