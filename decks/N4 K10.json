@@ -110,6 +110,11 @@
         "chapter": "N4 K10"
     },
     {
+        "front": "まいばん",
+        "back": "毎晩 \nevery evening",
+        "chapter": "N4 K10"
+    },
+    {
         "front": "けいかく",
         "back": "計画 \nplan",
         "chapter": "N4 K10"
@@ -117,6 +122,16 @@
     {
         "front": "とけい",
         "back": "時計 \nwatch, clock",
+        "chapter": "N4 K10"
+    },
+    {
+        "front": "はかる",
+        "back": "計る \nto measure",
+        "chapter": "N4 K10"
+    },
+    {
+        "front": "ごうけい",
+        "back": "合計 \ntotal",
         "chapter": "N4 K10"
     },
     {
@@ -140,6 +155,16 @@
         "chapter": "N4 K10"
     },
     {
+        "front": "いがい",
+        "back": "以外 \nexcept for",
+        "chapter": "N4 K10"
+    },
+    {
+        "front": "いぜん",
+        "back": "以前 \npreviously",
+        "chapter": "N4 K10"
+    },
+    {
         "front": "おんど",
         "back": "温度 \ntemperature",
         "chapter": "N4 K10"
@@ -147,6 +172,16 @@
     {
         "front": "こんど",
         "back": "今度 \nnext time",
+        "chapter": "N4 K10"
+    },
+    {
+        "front": "いちど",
+        "back": "一度 \nonce",
+        "chapter": "N4 K10"
+    },
+    {
+        "front": "～ど",
+        "back": "～度 \ndegree celsius",
         "chapter": "N4 K10"
     }
 ]
