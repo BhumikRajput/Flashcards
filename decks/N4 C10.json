@@ -95,32 +95,212 @@
         "chapter": "N4 C10"
     },
     {
-        "front": "さめる (tr.)",
+        "front": "おとす\n「落とす」",
+        "back": "to drop (tr.)",
+        "chapter": "N4 C10"
+    },
+    {
+        "front": "おちる\n「落ちる」",
+        "back": "to fall (intr.)",
+        "chapter": "N4 C10"
+    },
+    {
+        "front": "なおす\n「治す」",
+        "back": "to cure (tr.)",
+        "chapter": "N4 C10"
+    },
+    {
+        "front": "なおる\n「治る」",
+        "back": "to recover (intr.)",
+        "chapter": "N4 C10"
+    },
+    {
+        "front": "きる\n「切る」",
+        "back": "to cut (tr.)",
+        "chapter": "N4 C10"
+    },
+    {
+        "front": "きれる\n「切れる」",
+        "back": "to be cut; to break (intr.)",
+        "chapter": "N4 C10"
+    },
+    {
+        "front": "あける\n「開ける」",
+        "back": "to open (tr.)",
+        "chapter": "N4 C10"
+    },
+    {
+        "front": "あく\n「開く」",
+        "back": "to open (intr.)",
+        "chapter": "N4 C10"
+    },
+    {
+        "front": "しめる\n「閉める」",
+        "back": "to close (tr.)",
+        "chapter": "N4 C10"
+    },
+    {
+        "front": "しまる\n「閉まる」",
+        "back": "to close (intr.)",
+        "chapter": "N4 C10"
+    },
+    {
+        "front": "きめる\n「決める」",
+        "back": "to decide (tr.)",
+        "chapter": "N4 C10"
+    },
+    {
+        "front": "きまる\n「決まる」",
+        "back": "to be decided (intr.)",
+        "chapter": "N4 C10"
+    },
+    {
+        "front": "つける",
+        "back": "to attach (tr.)",
+        "chapter": "N4 C10"
+    },
+    {
+        "front": "つく",
+        "back": "to stick (to) (intr.)",
+        "chapter": "N4 C10"
+    },
+    {
+        "front": "はじめる\n「始める」",
+        "back": "to start (tr.)",
+        "chapter": "N4 C10"
+    },
+    {
+        "front": "はじまる\n「始まる」",
+        "back": "to start (intr.)",
+        "chapter": "N4 C10"
+    },
+    {
+        "front": "かえる\n「変える」",
+        "back": "to change (tr.)",
+        "chapter": "N4 C10"
+    },
+    {
+        "front": "かわる\n「変わる」",
+        "back": "to change (intr.)",
+        "chapter": "N4 C10"
+    },
+    {
+        "front": "だす\n「出す」",
+        "back": "to take out (tr.)",
+        "chapter": "N4 C10"
+    },
+    {
+        "front": "でる\n「出る」",
+        "back": "to go / come out (intr.)",
+        "chapter": "N4 C10"
+    },
+    {
+        "front": "こわす\n「壊す」",
+        "back": "to break (repairable) (tr.)",
+        "chapter": "N4 C10"
+    },
+    {
+        "front": "こわれる\n「壊れる」",
+        "back": "to break (repairable) (intr.)",
+        "chapter": "N4 C10"
+    },
+    {
+        "front": "わる\n「割る」",
+        "back": "to break (unrepairable) (tr.)",
+        "chapter": "N4 C10"
+    },
+    {
+        "front": "われる\n「割れる」",
+        "back": "to break (unrepairable) (intr.)",
+        "chapter": "N4 C10"
+    },
+    {
+        "front": "けす\n「消す」",
+        "back": "to turn off (tr.)",
+        "chapter": "N4 C10"
+    },
+    {
+        "front": "きえる\n「消える」",
+        "back": "to go off (intr.)",
+        "chapter": "N4 C10"
+    },
+    {
+        "front": "ひやす\n「冷やす」",
+        "back": "to cool (tr.)",
+        "chapter": "N4 C10"
+    },
+    {
+        "front": "ひえる\n「冷える」",
+        "back": "to grow cold (intr.)",
+        "chapter": "N4 C10"
+    },
+    {
+        "front": "たおす\n「倒す」",
+        "back": "to knock (something) down (tr.)",
+        "chapter": "N4 C10"
+    },
+    {
+        "front": "たおれる\n「倒れる」",
+        "back": "to fall down (intr.)",
+        "chapter": "N4 C10"
+    },
+    {
+        "front": "おこす\n「起こす」",
+        "back": "to wake (something) up (tr.)",
+        "chapter": "N4 C10"
+    },
+    {
+        "front": "おきる\n「起きる」",
+        "back": "to get up (intr.)",
+        "chapter": "N4 C10"
+    },
+    {
+        "front": "とめる\n「止める」",
+        "back": "to stop (tr.)",
+        "chapter": "N4 C10"
+    },
+    {
+        "front": "とまる\n「止まる」",
+        "back": "to stop (intr.)",
+        "chapter": "N4 C10"
+    },
+    {
+        "front": "よごす\n「汚す」",
+        "back": "to soil (tr.)",
+        "chapter": "N4 C10"
+    },
+    {
+        "front": "よごれる\n「汚れる」",
+        "back": "to become dirty (intr.)",
+        "chapter": "N4 C10"
+    },
+    {
+        "front": "さめる",
         "back": "cold on room temp (tr.)",
         "chapter": "N4 C10"
     },
     {
-        "front": "さまる (intr.)",
+        "front": "さまる",
         "back": "cold on room temp (intr.)",
         "chapter": "N4 C10"
     },
     {
-        "front": "やぶる (tr.)",
+        "front": "やぶる",
         "back": "to tear, rip (tr.)",
         "chapter": "N4 C10"
     },
     {
-        "front": "やぶれる (intr.)",
+        "front": "やぶれる",
         "back": "to be torn, ripped (intr.)",
         "chapter": "N4 C10"
     },
     {
-        "front": "おる (tr.)",
+        "front": "おる",
         "back": "to break, bent (flexible objects) (tr.)",
         "chapter": "N4 C10"
     },
     {
-        "front": "おれる (intr.)",
+        "front": "おれる",
         "back": "to break, bent (flexible objects) (intr.)",
         "chapter": "N4 C10"
     },
