@@ -384,7 +384,8 @@
 
                     } else if (thirdCell.innerText.includes("N5 C") || thirdCell.innerText.includes("N4 C")) {
                         const query = encodeURIComponent(firstCell.textContent);
-                        searchUrl = `https://jisho.org/search/${query}`;
+                        // searchUrl = `https://jisho.org/search/${query}`;
+                        searchUrl = `https://takoboto.jp/?q=${query}`;
                     }
 
                     // Ensure searchUrl is defined before opening the link
