@@ -95,6 +95,21 @@
         "chapter": "N4 K11"
     },
     {
+        "front": "まちあわせ",
+        "back": "待ち合わせ \nto meet",
+        "chapter": "N4 K11"
+    },
+    {
+        "front": "しょうたいする",
+        "back": "招待する \nto invite",
+        "chapter": "N4 K11"
+    },
+    {
+        "front": "まちあいしつ",
+        "back": "待合室 \nwaiting room",
+        "chapter": "N4 K11"
+    },
+    {
         "front": "かりる",
         "back": "借りる \nto borrow",
         "chapter": "N4 K11"
@@ -111,7 +126,12 @@
     },
     {
         "front": "ちんたい",
-        "back": "賃貸 \nretend",
+        "back": "賃貸 \nrented",
+        "chapter": "N4 K11"
+    },
+    {
+        "front": "かしや",
+        "back": "貸家 \nhouse for rent",
         "chapter": "N4 K11"
     },
     {
@@ -125,6 +145,16 @@
         "chapter": "N4 K11"
     },
     {
+        "front": "はじめる",
+        "back": "始める \nto start",
+        "chapter": "N4 K11"
+    },
+    {
+        "front": "しはつ",
+        "back": "始発 \nfirst train of the day",
+        "chapter": "N4 K11"
+    },
+    {
         "front": "おわる",
         "back": "終わる \nto  finish, to end",
         "chapter": "N4 K11"
@@ -132,6 +162,11 @@
     {
         "front": "しゅうでん",
         "back": "終電 \nlast train",
+        "chapter": "N4 K11"
+    },
+    {
+        "front": "さいしゅうかい",
+        "back": "最終回 \nlast episode of the series",
         "chapter": "N4 K11"
     }
 ]

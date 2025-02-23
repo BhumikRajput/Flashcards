@@ -1,0 +1,207 @@
+[
+    {
+        "front": "いえ",
+        "back": "家 \nhouse",
+        "chapter": "N4 K12"
+    },
+    {
+        "front": "かぞく",
+        "back": "家族 \nfamily",
+        "chapter": "N4 K12"
+    },
+    {
+        "front": "かない",
+        "back": "家内 \nwife (for only yours)",
+        "chapter": "N4 K12"
+    },
+    {
+        "front": "がか",
+        "back": "画家 \npainter",
+        "chapter": "N4 K12"
+    },
+    {
+        "front": "かてい",
+        "back": "家庭 \nfamily, household",
+        "chapter": "N4 K12"
+    },
+    {
+        "front": "かぞく",
+        "back": "家族 \nfamily",
+        "chapter": "N4 K12"
+    },
+    {
+        "front": "みんぞく",
+        "back": "民族 \nrace, mankind",
+        "chapter": "N4 K12"
+    },
+    {
+        "front": "すいぞくかん",
+        "back": "水族館 \naquarium",
+        "chapter": "N4 K12"
+    },
+    {
+        "front": "わたし",
+        "back": "私 \nme, i",
+        "chapter": "N4 K12"
+    },
+    {
+        "front": "しりつ",
+        "back": "私立 \nprivate",
+        "chapter": "N4 K12"
+    },
+    {
+        "front": "しせいかつ",
+        "back": "私生活 \npersonal life",
+        "chapter": "N4 K12"
+    },
+    {
+        "front": "みずから",
+        "back": "自ら \noneself",
+        "chapter": "N4 K12"
+    },
+    {
+        "front": "じぶん",
+        "back": "自分 \noneself",
+        "chapter": "N4 K12"
+    },
+    {
+        "front": "じどう",
+        "back": "自動 \nautomatic",
+        "chapter": "N4 K12"
+    },
+    {
+        "front": "じどうし",
+        "back": "自動詞 \nintransitive verbs",
+        "chapter": "N4 K12"
+    },
+    {
+        "front": "じゆう",
+        "back": "自由 \nfreedom",
+        "chapter": "N4 K12"
+    },
+    {
+        "front": "じゆうに",
+        "back": "自由に \nfreely",
+        "chapter": "N4 K12"
+    },
+    {
+        "front": "しぜん",
+        "back": "自然 \nnature",
+        "chapter": "N4 K12"
+    },
+    {
+        "front": "しぜんに",
+        "back": "自然に \nnaturally",
+        "chapter": "N4 K12"
+    },
+    {
+        "front": "おや",
+        "back": "親子 \nparents",
+        "chapter": "N4 K12"
+    },
+    {
+        "front": "りょうしん",
+        "back": "両親 \nparents",
+        "chapter": "N4 K12"
+    },
+    {
+        "front": "ははおや",
+        "back": "母親 \nmother",
+        "chapter": "N4 K12"
+    },
+    {
+        "front": "ちちおや",
+        "back": "父親 \nfather",
+        "chapter": "N4 K12"
+    },
+    {
+        "front": "しんせつ",
+        "back": "親切 \nkind",
+        "chapter": "N4 K12"
+    },
+    {
+        "front": "したしい",
+        "back": "親しい \nclose ones",
+        "chapter": "N4 K12"
+    },
+    {
+        "front": "りょうしん",
+        "back": "両親 \nparents",
+        "chapter": "N4 K12"
+    },
+    {
+        "front": "りょうがわ",
+        "back": "両側 \nboth sides",
+        "chapter": "N4 K12"
+    },
+    {
+        "front": "りょうほう",
+        "back": "両方 \nboth",
+        "chapter": "N4 K12"
+    },
+    {
+        "front": "りょうて",
+        "back": "両手 \nboth hands",
+        "chapter": "N4 K12"
+    },
+    {
+        "front": "りょうがえ",
+        "back": "両替 \nmoney exchange",
+        "chapter": "N4 K12"
+    },
+    {
+        "front": "あに",
+        "back": "兄 \nelder brother",
+        "chapter": "N4 K12"
+    },
+    {
+        "front": "きょうだい",
+        "back": "兄弟 \nbrothers and sisters",
+        "chapter": "N4 K12"
+    },
+    {
+        "front": "おにいさん",
+        "back": "お兄さん \nelder brother (someone else's)",
+        "chapter": "N4 K12"
+    },
+    {
+        "front": "おとうと",
+        "back": "弟 \nyounger brother",
+        "chapter": "N4 K12"
+    },
+    {
+        "front": "きょうだい",
+        "back": "兄弟 \nbrothers and sisters",
+        "chapter": "N4 K12"
+    },
+    {
+        "front": "あね",
+        "back": "姉 \nelder sister",
+        "chapter": "N4 K12"
+    },
+    {
+        "front": "しまい",
+        "back": "姉妹 \nsisters",
+        "chapter": "N4 K12"
+    },
+    {
+        "front": "おねえさん",
+        "back": "お姉さん \nolder sister(someone else's)",
+        "chapter": "N4 K12"
+    },
+    {
+        "front": "いもうと",
+        "back": "妹 \nyounger sister",
+        "chapter": "N4 K12"
+    },
+    {
+        "front": "しまい",
+        "back": "姉妹 \nsisters",
+        "chapter": "N4 K12"
+    },
+    {
+        "front": "しまいとし",
+        "back": "姉妹都市 \nsister cities",
+        "chapter": "N4 K12"
+    }
+]
