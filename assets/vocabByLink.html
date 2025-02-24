@@ -222,7 +222,7 @@
             width: 100%;
         }
 
-        th:nth-child(3):active,
+        th:active,
         td:nth-child(3):active {
             background-color: #80c4ff;
             color: white;
@@ -427,7 +427,21 @@
                 });
                 openTabs = []; // Clear the open tabs list
             });
+            document.querySelector("th.front-column").addEventListener("click", () => {
+                console.log(`Number of <tr> elements: ${document.querySelectorAll("tr").length - 1}`);
+                alert(`Number of <tr> elements: ${document.querySelectorAll("tr").length - 1}`);
+            });
+            document.querySelector("th.back-column").addEventListener("click", () => {
+                console.log(`Number of <tr> elements: ${document.querySelectorAll("tr").length - 1}`);
+                alert(`Number of <tr> elements: ${document.querySelectorAll("tr").length - 1}`);
+            });
         };
+        document.addEventListener("keydown", (event) => {
+            if (event.key === "t") {
+                console.log(`Number of <tr> elements: ${document.querySelectorAll("tr").length - 1}`);
+                alert(`Number of <tr> elements: ${document.querySelectorAll("tr").length - 1}`);
+            }
+        });
     </script>
 </body>
 
