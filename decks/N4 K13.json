@@ -110,8 +110,98 @@
         "chapter": "N4 K13"
     },
     {
-        "front": "remaining",
-        "back": "remaining",
-        "chapter": "remaining"
+        "front": "しな",
+        "back": "品 \ngoods, products",
+        "chapter": "N4 K13"
+    },
+    {
+        "front": "しょうひん",
+        "back": "商品 \ngoods, products",
+        "chapter": "N4 K13"
+    },
+    {
+        "front": "しなもの",
+        "back": "品物 \ngoods",
+        "chapter": "N4 K13"
+    },
+    {
+        "front": "しょくりょうひん",
+        "back": "食料品 \nfood items",
+        "chapter": "N4 K13"
+    },
+    {
+        "front": "でんきせいひん",
+        "back": "電気製品 \nelectric products",
+        "chapter": "N4 K13"
+    },
+    {
+        "front": "さくひん",
+        "back": "作品 \nmasterpiece",
+        "chapter": "N4 K13"
+    },
+    {
+        "front": "みんぞく",
+        "back": "民族 \nrace, mankind",
+        "chapter": "N4 K13"
+    },
+    {
+        "front": "じゅうみん",
+        "back": "住民 \nresident",
+        "chapter": "N4 K13"
+    },
+    {
+        "front": "みんしゅしゅぎ",
+        "back": "民主主義 \ndemocracy",
+        "chapter": "N4 K13"
+    },
+    {
+        "front": "ふく",
+        "back": "服 \nclothes",
+        "chapter": "N4 K13"
+    },
+    {
+        "front": "ようふく",
+        "back": "洋服 \nwestern clothes",
+        "chapter": "N4 K13"
+    },
+    {
+        "front": "わふく",
+        "back": "和服 \njapanese style clothes",
+        "chapter": "N4 K13"
+    },
+    {
+        "front": "せいふく",
+        "back": "制服 \nuniform",
+        "chapter": "N4 K13"
+    },
+    {
+        "front": "いぬ",
+        "back": "犬 \ndog",
+        "chapter": "N4 K13"
+    },
+    {
+        "front": "にほんけん",
+        "back": "日本犬 \njapanese dog",
+        "chapter": "N4 K13"
+    },
+    {
+        "front": "こいぬ",
+        "back": "子犬 \npuppy",
+        "chapter": "N4 K13"
+    },
+    {
+        "front": "おなじ",
+        "back": "同じ \nsame",
+        "chapter": "N4 K13"
+    },
+    {
+        "front": "どうじに",
+        "back": "同時に \nat the same time",
+        "chapter": "N4 K13"
+    },
+    {
+        "front": "どうきゅうせい",
+        "back": "同級生 \nclassmate",
+        "chapter": "N4 K13"
     }
 ]
