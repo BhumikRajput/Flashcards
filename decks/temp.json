@@ -1,187 +1,147 @@
 [
     {
-        "front": "かつどう",
-        "back": "活動 \nactivity",
-        "chapter": "N4 K13"
+        "front": "うける",
+        "back": "to take",
+        "chapter": "N4 C17"
     },
     {
-        "front": "かっぱつ",
-        "back": "活発 \nactive",
-        "chapter": "N4 K13"
+        "front": "つごう",
+        "back": "convenience",
+        "chapter": "N4 C17"
     },
     {
-        "front": "しゅしょく",
-        "back": "主食 \nstaple food",
-        "chapter": "N4 K13"
+        "front": "きけん",
+        "back": "dangerous",
+        "chapter": "N4 C17"
     },
     {
-        "front": "とくしょく",
-        "back": "特色 \nspecial feature",
-        "chapter": "N4 K13"
+        "front": "あんぜん",
+        "back": "safe",
+        "chapter": "N4 C17"
     },
     {
-        "front": "ずけい",
-        "back": "図形 \nfigure",
-        "chapter": "N4 K13"
+        "front": "ただしい",
+        "back": "correct",
+        "chapter": "N4 C17"
     },
     {
-        "front": "さくひん",
-        "back": "作品 \nmasterpiece",
-        "chapter": "N4 K13"
+        "front": "がくぶ",
+        "back": "department",
+        "chapter": "N4 C18"
     },
     {
-        "front": "みんぞく",
-        "back": "民族 \nrace, mankind",
-        "chapter": "N4 K13"
+        "front": "そうぎょう",
+        "back": "to graduate",
+        "chapter": "N4 C18"
     },
     {
-        "front": "じゅうみん",
-        "back": "住民 \nresident",
-        "chapter": "N4 K13"
+        "front": "よしゅう",
+        "back": "preparation for classes",
+        "chapter": "N4 C18"
     },
     {
-        "front": "せいふく",
-        "back": "制服 \nuniform",
-        "chapter": "N4 K13"
+        "front": "ふくしゅう",
+        "back": "revision",
+        "chapter": "N4 C18"
     },
     {
-        "front": "どうじに",
-        "back": "同時に \nat the same time",
-        "chapter": "N4 K13"
+        "front": "たのしみにする",
+        "back": "to look forward to",
+        "chapter": "N4 C18"
     },
     {
-        "front": "どうきゅうせい",
-        "back": "同級生 \nclassmate",
-        "chapter": "N4 K13"
+        "front": "つもり",
+        "back": "intention",
+        "chapter": "N4 C18"
     },
     {
-        "front": "おうべい",
-        "back": "欧米 \nwestern countries",
-        "chapter": "N4 K14"
+        "front": "ようちえん",
+        "back": "kindergarten (3)",
+        "chapter": "N4 C18"
     },
     {
-        "front": "べいこく",
-        "back": "米国 \nUSA",
-        "chapter": "N4 K14"
+        "front": "ようちえんじ",
+        "back": "kindergarten students",
+        "chapter": "N4 C18"
     },
     {
-        "front": "しりょう",
-        "back": "資料 \ndocuments",
-        "chapter": "N4 K14"
+        "front": "せんしゅ",
+        "back": "athlete",
+        "chapter": "N4 C19"
     },
     {
-        "front": "ざいりょう",
-        "back": "材料 \ningredients",
-        "chapter": "N4 K14"
+        "front": "しょうらい",
+        "back": "future",
+        "chapter": "N4 C19"
     },
     {
-        "front": "りゆう",
-        "back": "理由 \nreason",
-        "chapter": "N4 K14"
+        "front": "だいじ",
+        "back": "important",
+        "chapter": "N4 C19"
     },
     {
-        "front": "やちょう",
-        "back": "野鳥 \nwild birds",
-        "chapter": "N4 K14"
+        "front": "あつまる",
+        "back": "to get together; to gather (i.)",
+        "chapter": "N4 C19"
     },
     {
-        "front": "あおな",
-        "back": "青菜 \nleafy green vegetables",
-        "chapter": "N4 K14"
+        "front": "（～を）あつめる",
+        "back": "to gather (t.)",
+        "chapter": "N4 C19"
     },
     {
-        "front": "めし",
-        "back": "飯 \nfood",
-        "chapter": "N4 K14"
+        "front": "よごれる",
+        "back": "to become dirty (intr.)",
+        "chapter": "N4 C19"
     },
     {
-        "front": "しゅみ",
-        "back": "趣味 \nhobby",
-        "chapter": "N4 K14"
+        "front": "（～を）よごす",
+        "back": "to soil (tr.)",
+        "chapter": "N4 C19"
     },
     {
-        "front": "きょうみ",
-        "back": "興味 \ninterests",
-        "chapter": "N4 K14"
+        "front": "しかる",
+        "back": "to scold",
+        "chapter": "N4 C19"
     },
     {
-        "front": "じだい",
-        "back": "時代 \nera",
-        "chapter": "N4 K15"
+        "front": "わざと",
+        "back": "on purpose",
+        "chapter": "N4 C19"
     },
     {
-        "front": "ガスだい",
-        "back": "ガス代 \ngas-bill",
-        "chapter": "N4 K15"
+        "front": "せいせき",
+        "back": "marks",
+        "chapter": "N4 C20"
     },
     {
-        "front": "つかう",
-        "back": "使う \nto use",
-        "chapter": "N4 K15"
+        "front": "まじめな",
+        "back": "serious",
+        "chapter": "N4 C20"
     },
     {
-        "front": "しよう",
-        "back": "使用 \nto use",
-        "chapter": "N4 K15"
+        "front": "たいかい",
+        "back": "contest",
+        "chapter": "N4 C20"
     },
     {
-        "front": "たいしかん",
-        "back": "大使館 \nembassy",
-        "chapter": "N4 K15"
+        "front": "ゆうしょう（する）",
+        "back": "to win",
+        "chapter": "N4 C20"
     },
     {
-        "front": "さくぶん",
-        "back": "作文 \nparagraph",
-        "chapter": "N4 K15"
+        "front": "ほめる",
+        "back": "to praise",
+        "chapter": "N4 C20"
     },
     {
-        "front": "さぎょう",
-        "back": "作業 \noperate",
-        "chapter": "N4 K15"
+        "front": "なくなる",
+        "back": "to disappear (i.)",
+        "chapter": "N4 C20"
     },
     {
-        "front": "ぶんか",
-        "back": "文化 \nculture",
-        "chapter": "N4 K15"
-    },
-    {
-        "front": "へんか",
-        "back": "変化 \nchange, transformation",
-        "chapter": "N4 K15"
-    },
-    {
-        "front": "すすむ",
-        "back": "進む \nto proceed",
-        "chapter": "N4 K15"
-    },
-    {
-        "front": "せんしんこく",
-        "back": "先進国 \ndeveloped country",
-        "chapter": "N4 K15"
-    },
-    {
-        "front": "おくる",
-        "back": "送る \nto send",
-        "chapter": "N4 K15"
-    },
-    {
-        "front": "ほうそう",
-        "back": "放送 \nbrodcasting",
-        "chapter": "N4 K15"
-    },
-    {
-        "front": "くりかえす",
-        "back": "繰り返す \nrepeat",
-        "chapter": "N4 K15"
-    },
-    {
-        "front": "そそぐ",
-        "back": "注ぐ \nto pour",
-        "chapter": "N4 K15"
-    },
-    {
-        "front": "ちゅうもん",
-        "back": "注文 \nto order",
-        "chapter": "N4 K15"
+        "front": "（～を）なくす",
+        "back": "to lose (t.)",
+        "chapter": "N4 C20"
     }
 ]
