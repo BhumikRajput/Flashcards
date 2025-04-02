@@ -1,147 +1,252 @@
 [
     {
-        "front": "うける",
-        "back": "to take",
-        "chapter": "N4 C17"
+        "front": "ばしょ",
+        "back": "場所 \nplace",
+        "chapter": "N4 K16"
     },
     {
-        "front": "つごう",
-        "back": "convenience",
-        "chapter": "N4 C17"
+        "front": "ひろば",
+        "back": "広場 \nplaza",
+        "chapter": "N4 K16"
     },
     {
-        "front": "きけん",
-        "back": "dangerous",
-        "chapter": "N4 C17"
+        "front": "けんせつ",
+        "back": "建設 \nbuilding construction",
+        "chapter": "N4 K16"
     },
     {
-        "front": "あんぜん",
-        "back": "safe",
-        "chapter": "N4 C17"
+        "front": "にもつ",
+        "back": "荷物 \nbag",
+        "chapter": "N4 K16"
     },
     {
-        "front": "ただしい",
-        "back": "correct",
-        "chapter": "N4 C17"
+        "front": "たいいん",
+        "back": "退院 \ndischarge",
+        "chapter": "N4 K16"
     },
     {
-        "front": "がくぶ",
-        "back": "department",
-        "chapter": "N4 C18"
+        "front": "りょかん",
+        "back": "旅館 \njapanese style inn",
+        "chapter": "N4 K16"
     },
     {
-        "front": "そうぎょう",
-        "back": "to graduate",
-        "chapter": "N4 C18"
+        "front": "びじゅつかん",
+        "back": "美術館 \nart gallery / museum",
+        "chapter": "N4 K16"
+    },
+    {
+        "front": "こうどう",
+        "back": "講堂 \nlecture hall",
+        "chapter": "N4 K16"
+    },
+    {
+        "front": "かいぎしつ",
+        "back": "会議室 \nmeeting room",
+        "chapter": "N4 K16"
+    },
+    {
+        "front": "じむしつ",
+        "back": "事務室 \noffice room",
+        "chapter": "N4 K16"
+    },
+    {
+        "front": "こうぎょう",
+        "back": "工業 \nmanufacturing  industry",
+        "chapter": "N4 K16"
+    },
+    {
+        "front": "こうじ",
+        "back": "工事 \nconstruction",
+        "chapter": "N4 K16"
+    },
+    {
+        "front": "こうさく",
+        "back": "工作 \nhandicraft",
+        "chapter": "N4 K16"
+    },
+    {
+        "front": "としょかん",
+        "back": "図書館 \nlibrary",
+        "chapter": "N4 K16"
+    },
+    {
+        "front": "しんごう",
+        "back": "信号 \ntraffic signal",
+        "chapter": "N4 K16"
+    },
+    {
+        "front": "３ごうしつ",
+        "back": "３号室 \nroom number 3",
+        "chapter": "N4 K16"
+    },
+    {
+        "front": "ごうれい",
+        "back": "号令 \ncommand",
+        "chapter": "N4 K16"
+    },
+    {
+        "front": "こうばん",
+        "back": "交番 \npolice box",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "とおる",
+        "back": "通る \nto cross",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "かよう",
+        "back": "通う \nto commute",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "つうきん",
+        "back": "通勤 \ncommuting to work",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "うごく",
+        "back": "動く \nto move",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "じょうしゃ",
+        "back": "乗車 \nto board (a vehicle)",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "こうすいりょう",
+        "back": "降水量 \nprecipitation amount, rainfall volume",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "はこぶ",
+        "back": "運ぶ \nto transport",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "うんちん",
+        "back": "運賃 \nfare",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "ころがる",
+        "back": "転がる \nto roll, to fall",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "うんてん",
+        "back": "運転 \ndriving",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "てんきん",
+        "back": "転勤 \njob transfer",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "しゅっぱつ",
+        "back": "出発 \ndeparture",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "はつめい",
+        "back": "発明 \ninvention",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "はっけん",
+        "back": "発見 \ndiscovery",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "きもの",
+        "back": "着物 \nkimono",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "ちゃくしん",
+        "back": "着信 \nincoming message",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "しゅうじ",
+        "back": "習字 \ncalligraphy",
+        "chapter": "N4 K18"
+    },
+    {
+        "front": "ぶんがく",
+        "back": "文学 \nliterature",
+        "chapter": "N4 K18"
+    },
+    {
+        "front": "ちゅうもん",
+        "back": "注文 \norder",
+        "chapter": "N4 K18"
+    },
+    {
+        "front": "＊もじ",
+        "back": "＊文字 \ncharacter",
+        "chapter": "N4 K18"
+    },
+    {
+        "front": "おしえる",
+        "back": "教える \nto teach",
+        "chapter": "N4 K18"
+    },
+    {
+        "front": "きょうかい",
+        "back": "教会 \nchurch",
+        "chapter": "N4 K18"
+    },
+    {
+        "front": "きょうかしょ",
+        "back": "教科書 \ntextbook",
+        "chapter": "N4 K18"
+    },
+    {
+        "front": "べんきょう",
+        "back": "勉強 \nstudies",
+        "chapter": "N4 K18"
+    },
+    {
+        "front": "ならう",
+        "back": "習う \nto learn",
+        "chapter": "N4 K18"
     },
     {
         "front": "よしゅう",
-        "back": "preparation for classes",
-        "chapter": "N4 C18"
+        "back": "予習 \npreparation for class",
+        "chapter": "N4 K18"
     },
     {
-        "front": "ふくしゅう",
-        "back": "revision",
-        "chapter": "N4 C18"
+        "front": "しゅうかん",
+        "back": "習慣 \ncustom",
+        "chapter": "N4 K18"
     },
     {
-        "front": "たのしみにする",
-        "back": "to look forward to",
-        "chapter": "N4 C18"
+        "front": "さんこうしょ",
+        "back": "参考書 \nreference book",
+        "chapter": "N4 K18"
     },
     {
-        "front": "つもり",
-        "back": "intention",
-        "chapter": "N4 C18"
+        "front": "かんがえる",
+        "back": "考える \nto consider",
+        "chapter": "N4 K18"
     },
     {
-        "front": "ようちえん",
-        "back": "kindergarten (3)",
-        "chapter": "N4 C18"
+        "front": "けんきゅう",
+        "back": "研究 \nresearch",
+        "chapter": "N4 K18"
     },
     {
-        "front": "ようちえんじ",
-        "back": "kindergarten students",
-        "chapter": "N4 C18"
+        "front": "けんきゅうしゃ",
+        "back": "研究者 \nresearcher",
+        "chapter": "N4 K18"
     },
     {
-        "front": "せんしゅ",
-        "back": "athlete",
-        "chapter": "N4 C19"
-    },
-    {
-        "front": "しょうらい",
-        "back": "future",
-        "chapter": "N4 C19"
-    },
-    {
-        "front": "だいじ",
-        "back": "important",
-        "chapter": "N4 C19"
-    },
-    {
-        "front": "あつまる",
-        "back": "to get together; to gather (i.)",
-        "chapter": "N4 C19"
-    },
-    {
-        "front": "（～を）あつめる",
-        "back": "to gather (t.)",
-        "chapter": "N4 C19"
-    },
-    {
-        "front": "よごれる",
-        "back": "to become dirty (intr.)",
-        "chapter": "N4 C19"
-    },
-    {
-        "front": "（～を）よごす",
-        "back": "to soil (tr.)",
-        "chapter": "N4 C19"
-    },
-    {
-        "front": "しかる",
-        "back": "to scold",
-        "chapter": "N4 C19"
-    },
-    {
-        "front": "わざと",
-        "back": "on purpose",
-        "chapter": "N4 C19"
-    },
-    {
-        "front": "せいせき",
-        "back": "marks",
-        "chapter": "N4 C20"
-    },
-    {
-        "front": "まじめな",
-        "back": "serious",
-        "chapter": "N4 C20"
-    },
-    {
-        "front": "たいかい",
-        "back": "contest",
-        "chapter": "N4 C20"
-    },
-    {
-        "front": "ゆうしょう（する）",
-        "back": "to win",
-        "chapter": "N4 C20"
-    },
-    {
-        "front": "ほめる",
-        "back": "to praise",
-        "chapter": "N4 C20"
-    },
-    {
-        "front": "なくなる",
-        "back": "to disappear (i.)",
-        "chapter": "N4 C20"
-    },
-    {
-        "front": "（～を）なくす",
-        "back": "to lose (t.)",
-        "chapter": "N4 C20"
+        "front": "けんきゅうしつ",
+        "back": "研究室 \nresearch room",
+        "chapter": "N4 K18"
     }
 ]
