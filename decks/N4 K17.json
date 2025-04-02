@@ -1,0 +1,202 @@
+[
+    {
+        "front": "こうつう",
+        "back": "交通 \ntraffic",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "こうさてん",
+        "back": "交差点 \ncrossing",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "こうばん",
+        "back": "交番 \npolice box",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "とおる",
+        "back": "通る \nto cross",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "かよう",
+        "back": "通う \nto commute",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "こうつう",
+        "back": "交通 \ntraffic",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "つうがく",
+        "back": "通学 \ncommuting to school",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "つうきん",
+        "back": "通勤 \ncommuting to work",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "おおどおり",
+        "back": "大通り \nmain street",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "うごく",
+        "back": "動く \nto move",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "うんどう",
+        "back": "運動 \nexercise",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "じどうしゃ",
+        "back": "自動車 \nautomobile",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "じどうし",
+        "back": "自動詞 \nintransitive verbs",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "どうぶつ",
+        "back": "動物 \nanimals",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "のる",
+        "back": "乗る \nto  board",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "じょうしゃ",
+        "back": "乗車 \nto board (a vehicle)",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "のりば",
+        "back": "乗り場 \nboarding stand",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "おりる",
+        "back": "降りる \nto deboard",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "ふる",
+        "back": "降る \nto rain",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "こうすいりょう",
+        "back": "降水量 \nprecipitation amount, rainfall volume",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "のりおり",
+        "back": "乗り降り \ngetting on and off",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "はこぶ",
+        "back": "運ぶ \nto transport",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "うんどう",
+        "back": "運動 \nexercise",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "うんがいい",
+        "back": "運がいい \ngood luck",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "うんがわるい",
+        "back": "運が悪い \nbad luck",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "うんちん",
+        "back": "運賃 \nfare",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "ころがる",
+        "back": "転がる \nto roll, to fall",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "うんてん",
+        "back": "運転 \ndriving",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "じてんしゃ",
+        "back": "自転車 \nbicycle",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "てんきん",
+        "back": "転勤 \njob transfer",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "かえる",
+        "back": "帰る \nto return",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "きこく",
+        "back": "帰国 \nto return to one's country",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "おかえり",
+        "back": "お帰り \nwelcome back",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "じはつ",
+        "back": "12時発 \ndeparting at 12",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "しゅっぱつ",
+        "back": "出発 \ndeparture",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "はつめい",
+        "back": "発明 \ninvention",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "はっけん",
+        "back": "発見 \ndiscovery",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "きる",
+        "back": "着る \nto wear",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "きもの",
+        "back": "着物 \nkimono",
+        "chapter": "N4 K17"
+    },
+    {
+        "front": "ちゃくしん",
+        "back": "着信 \nincoming message",
+        "chapter": "N4 K17"
+    }
+]
