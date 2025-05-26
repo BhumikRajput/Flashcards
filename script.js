@@ -36,50 +36,67 @@ function triggerFileInput() {
 }
 
 async function getDeckOnline() {
-    const response = await fetch('https://api.github.com/repos/BhumikRajput/Flashcards/contents/decks');
-    const files = await response.json();
-    const jsonFiles = files.filter(file => file.name.endsWith('.json'));
+    // 🧾 Manual list
+    function namesAsManual() {
+        return [
+            ...[...Array(32)].map((_, i) => `N4 C${i + 1}`),
+            ...[...Array(20)].map((_, i) => `N4 K${i + 1}`),
+            ...[...Array(24)].map((_, i) => `N5 C${i + 1}`),
+            ...[...Array(11)].map((_, i) => `N5 K${i + 1}`),
+            "temp",
+            "test"
+        ];
+    }
 
-    console.log(jsonFiles);
+    // 🌐 API list
+    async function namesByAPI() {
+        const response = await fetch('https://api.github.com/repos/BhumikRajput/Flashcards/contents/decks');
+        const files = await response.json();
+        const jsonFiles = files.filter(file => file.name.endsWith('.json'));
 
-    // Natural sorting function (shorter version)
-    jsonFiles.sort((a, b) => {
-        const re = /(\d+|\D+)/g;
-        const aParts = a.name.match(re);
-        const bParts = b.name.match(re);
-
-        for (let i = 0; i < Math.max(aParts.length, bParts.length); i++) {
-            const aPart = aParts[i] || '';
-            const bPart = bParts[i] || '';
-            const isANum = !isNaN(aPart), isBNum = !isNaN(bPart);
-
-            // Compare numerically if both parts are numbers, otherwise lexicographically
-            if (isANum && isBNum) {
-                if (+aPart !== +bPart) return +aPart - +bPart;
-            } else if (aPart !== bPart) {
-                return aPart.localeCompare(bPart);
+        // Natural sorting
+        jsonFiles.sort((a, b) => {
+            const re = /(\d+|\D+)/g;
+            const aParts = a.name.match(re);
+            const bParts = b.name.match(re);
+            for (let i = 0; i < Math.max(aParts.length, bParts.length); i++) {
+                const aPart = aParts[i] || '';
+                const bPart = bParts[i] || '';
+                const isANum = !isNaN(aPart), isBNum = !isNaN(bPart);
+                if (isANum && isBNum) {
+                    if (+aPart !== +bPart) return +aPart - +bPart;
+                } else if (aPart !== bPart) {
+                    return aPart.localeCompare(bPart);
+                }
             }
-        }
-        return 0;
-    });
+            return 0;
+        });
 
+        return jsonFiles.map(file => file.name.replace('.json', ''));
+    }
+
+    // const filesName = await namesByAPI();
+    const filesName = namesAsManual();
+
+    // 🧩 Display
     const fileListContainer = document.querySelector("#inbuilt-page .file-list");
     fileListContainer.innerHTML = ''; // Clear previous list
 
-    jsonFiles.forEach(file => {
+    filesName.forEach(name => {
         const checkbox = document.createElement('input');
         checkbox.type = 'checkbox';
-        checkbox.id = file.name;
-        checkbox.value = file.name;
+        checkbox.id = name;
+        checkbox.value = name + '.json';
 
         const label = document.createElement('label');
-        label.htmlFor = file.name;
-        label.innerText = file.name.replace('.json', '');
+        label.htmlFor = name;
+        label.innerText = name;
 
         label.prepend(checkbox);
         fileListContainer.appendChild(label);
     });
 }
+
 
 // Function to import flashcards from a JSON file
 function importJSON() {
