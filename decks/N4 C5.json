@@ -1,21 +1,21 @@
 [
     {
-        "front": "さらいしゅう\n「再来週」",
+        "front": "さらいしゅう",
         "back": "the week after next",
         "chapter": "N4 C5"
     },
     {
-        "front": "さらいげつ\n「再来月」",
+        "front": "さらいげつ",
         "back": "the month after next",
         "chapter": "N4 C5"
     },
     {
-        "front": "ひっこす\n「引っ越す」",
+        "front": "ひっこす",
         "back": "to move",
         "chapter": "N4 C5"
     },
     {
-        "front": "ひっこし\n「引っ越し」",
+        "front": "ひっこし",
         "back": "moving",
         "chapter": "N4 C5"
     },
@@ -25,27 +25,27 @@
         "chapter": "N4 C5"
     },
     {
-        "front": "たてる\n「建てる」",
+        "front": "たてる",
         "back": "to build",
         "chapter": "N4 C5"
     },
     {
-        "front": "にかいだてのいえ\n「二階建ての家」",
+        "front": "にかいだてのいえ",
         "back": "two storey house",
         "chapter": "N4 C5"
     },
     {
-        "front": "うつり\n「移る」",
+        "front": "うつり",
         "back": "to move",
         "chapter": "N4 C5"
     },
     {
-        "front": "せんもん\n「専門」",
+        "front": "せんもん",
         "back": "specially",
         "chapter": "N4 C5"
     },
     {
-        "front": "じゅんび（する）\n「準備」",
+        "front": "じゅんび（する）",
         "back": "preparations / to prepare",
         "chapter": "N4 C5"
     },
@@ -55,7 +55,7 @@
         "chapter": "N4 C5"
     },
     {
-        "front": "（～を）かたづける\n「片づける」",
+        "front": "（～を）かたづける",
         "back": "to tidy up",
         "chapter": "N4 C5"
     },
@@ -70,7 +70,7 @@
         "chapter": "N4 C5"
     },
     {
-        "front": "ちいき\n「地域」",
+        "front": "ちいき",
         "back": "area",
         "chapter": "N4 C5"
     },
@@ -80,7 +80,7 @@
         "chapter": "N4 C5"
     },
     {
-        "front": "すてる\n「捨てる」",
+        "front": "すてる",
         "back": "throw away",
         "chapter": "N4 C5"
     }

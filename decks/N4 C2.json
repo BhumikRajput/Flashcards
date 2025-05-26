@@ -1,16 +1,16 @@
 [
     {
-        "front": "せんぱい\n「先輩」",
+        "front": "せんぱい",
         "back": "senior colleague",
         "chapter": "N4 C2"
     },
     {
-        "front": "こうはい\n「後輩」",
+        "front": "こうはい",
         "back": "junior colleague",
         "chapter": "N4 C2"
     },
     {
-        "front": "しき\n「式」",
+        "front": "しき",
         "back": "ceremony",
         "chapter": "N4 C2"
     },
@@ -35,12 +35,12 @@
         "chapter": "N4 C2"
     },
     {
-        "front": "きめる\n「決める」",
+        "front": "きめる",
         "back": "to decide",
         "chapter": "N4 C2"
     },
     {
-        "front": "（～が）きまる\n「決まる」",
+        "front": "（～が）きまる",
         "back": "to be decided",
         "chapter": "N4 C2"
     },
@@ -50,7 +50,7 @@
         "chapter": "N4 C2"
     },
     {
-        "front": "さがす\n「さがす」",
+        "front": "さがす",
         "back": "to look for",
         "chapter": "N4 C2"
     },
@@ -95,7 +95,7 @@
         "chapter": "N4 C2"
     },
     {
-        "front": "てぶくろ\n「手袋」",
+        "front": "てぶくろ",
         "back": "gloves",
         "chapter": "N4 C2"
     },
@@ -115,7 +115,7 @@
         "chapter": "N4 C2"
     },
     {
-        "front": "したぎ\n「下着」",
+        "front": "したぎ",
         "back": "underwear",
         "chapter": "N4 C2"
     }

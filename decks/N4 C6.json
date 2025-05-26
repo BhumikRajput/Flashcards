@@ -1,6 +1,6 @@
 [
     {
-        "front": "こぎょうだんち\n「工業団地」",
+        "front": "こぎょうだんち",
         "back": "industrial complex",
         "chapter": "N4 C6"
     },
@@ -15,17 +15,17 @@
         "chapter": "N4 C6"
     },
     {
-        "front": "かわる\n「変わる」",
+        "front": "かわる",
         "back": "to change (i.)",
         "chapter": "N4 C6"
     },
     {
-        "front": "（～を）かえる\n「変える」",
+        "front": "（～を）かえる",
         "back": "to change (t.)",
         "chapter": "N4 C6"
     },
     {
-        "front": "まんなか\n「真ん中」",
+        "front": "まんなか",
         "back": "center",
         "chapter": "N4 C6"
     },
@@ -35,47 +35,47 @@
         "chapter": "N4 C6"
     },
     {
-        "front": "どうろ\n「道路」",
+        "front": "どうろ",
         "back": "road",
         "chapter": "N4 C6"
     },
     {
-        "front": "とうる\n「通る」",
+        "front": "とうる",
         "back": "to pass",
         "chapter": "N4 C6"
     },
     {
-        "front": "こうじょう\n「工場」",
+        "front": "こうじょう",
         "back": "factory",
         "chapter": "N4 C6"
     },
     {
-        "front": "せいさん（する）\n「生産」",
+        "front": "せいさん（する）",
         "back": "production / to produce",
         "chapter": "N4 C6"
     },
     {
-        "front": "はこぶ\n「運ぶ」",
+        "front": "はこぶ",
         "back": "to carry",
         "chapter": "N4 C6"
     },
     {
-        "front": "ゆにゅう（する）\n「輸入」",
+        "front": "ゆにゅう（する）",
         "back": "importation / to important",
         "chapter": "N4 C6"
     },
     {
-        "front": "ゆしゅつ（する）\n「輸出」",
+        "front": "ゆしゅつ（する）",
         "back": "exportation / to export",
         "chapter": "N4 C6"
     },
     {
-        "front": "ぼうえき\n「貿易」",
+        "front": "ぼうえき",
         "back": "trade",
         "chapter": "N4 C6"
     },
     {
-        "front": "みなと\n「港」",
+        "front": "みなと",
         "back": "harbor",
         "chapter": "N4 C6"
     },
@@ -85,7 +85,7 @@
         "chapter": "N4 C6"
     },
     {
-        "front": "すすむ\n「進む」",
+        "front": "すすむ",
         "back": "to advance",
         "chapter": "N4 C6"
     }

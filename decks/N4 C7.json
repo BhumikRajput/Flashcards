@@ -1,56 +1,56 @@
 [
     {
-        "front": "こうつう\n「交通」",
+        "front": "こうつう",
         "back": "traffic",
         "chapter": "N4 C7"
     },
     {
-        "front": "いなか\n「田舎」",
+        "front": "いなか",
         "back": "countryside",
         "chapter": "N4 C7"
     },
     {
-        "front": "くらす\n「暮らす」",
+        "front": "くらす",
         "back": "to live",
         "chapter": "N4 C7"
     },
     {
-        "front": "くうこう\n「空港」",
+        "front": "くうこう",
         "back": "airport",
         "chapter": "N4 C7"
     },
     {
-        "front": "むかえる\n「迎える」",
+        "front": "むかえる",
         "back": "to pick ~ up",
         "chapter": "N4 C7"
     },
     {
-        "front": "（ひと）おくる\n「（人を）送る」",
+        "front": "（ひと）おくる",
         "back": "to send (someone) off",
         "chapter": "N4 C7"
     },
     {
-        "front": "うんてん（する）\n「運転」",
+        "front": "うんてん（する）",
         "back": "driving / to drive",
         "chapter": "N4 C7"
     },
     {
-        "front": "とちゅう\n「途中」",
+        "front": "とちゅう",
         "back": "on the way; during",
         "chapter": "N4 C7"
     },
     {
-        "front": "のりかえる\n「乗り換える」",
+        "front": "のりかえる",
         "back": "to change lines; to transfer",
         "chapter": "N4 C7"
     },
     {
-        "front": "こむ\n「混む」",
+        "front": "こむ",
         "back": "to be crowded",
         "chapter": "N4 C7"
     },
     {
-        "front": "まにあう\n「間に合う」",
+        "front": "まにあう",
         "back": "to be on time",
         "chapter": "N4 C7"
     },
@@ -60,7 +60,7 @@
         "chapter": "N4 C7"
     },
     {
-        "front": "のりものいろいろ\n「乗り物いろいろ」",
+        "front": "のりものいろいろ",
         "back": "various vehicles",
         "chapter": "N4 C7"
     },
@@ -70,12 +70,12 @@
         "chapter": "N4 C7"
     },
     {
-        "front": "じてんしゃ\n「自転車」",
+        "front": "じてんしゃ",
         "back": "bicycle",
         "chapter": "N4 C7"
     },
     {
-        "front": "じどうしゃ（くるま）\n「自動車（車）」",
+        "front": "じどうしゃ（くるま）",
         "back": "car",
         "chapter": "N4 C7"
     },
@@ -90,42 +90,42 @@
         "chapter": "N4 C7"
     },
     {
-        "front": "ひこうき\n「飛行機」",
+        "front": "ひこうき",
         "back": "airplane",
         "chapter": "N4 C7"
     },
     {
-        "front": "ふね\n「船」",
+        "front": "ふね",
         "back": "ship",
         "chapter": "N4 C7"
     },
     {
-        "front": "でんしゃ\n「電車」",
+        "front": "でんしゃ",
         "back": "train",
         "chapter": "N4 C7"
     },
     {
-        "front": "しんかんせん\n「新幹線」",
+        "front": "しんかんせん",
         "back": "shinkansen",
         "chapter": "N4 C7"
     },
     {
-        "front": "ちかてつ\n「地下鉄」",
+        "front": "ちかてつ",
         "back": "subway",
         "chapter": "N4 C7"
     },
     {
-        "front": "ふつう\n「普通」",
+        "front": "ふつう",
         "back": "local",
         "chapter": "N4 C7"
     },
     {
-        "front": "きゅうこう\n「急行」",
+        "front": "きゅうこう",
         "back": "express",
         "chapter": "N4 C7"
     },
     {
-        "front": "とっきゅう\n「特急」",
+        "front": "とっきゅう",
         "back": "special express",
         "chapter": "N4 C7"
     }

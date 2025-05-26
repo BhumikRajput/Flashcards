@@ -1,36 +1,36 @@
 [
     {
-        "front": "てんいん\n「店員」",
+        "front": "てんいん",
         "back": "clerk",
         "chapter": "N4 C11"
     },
     {
-        "front": "きゃく\n「客」",
+        "front": "きゃく",
         "back": "customer",
         "chapter": "N4 C11"
     },
     {
-        "front": "よやく（する）\n「予約」",
+        "front": "よやく（する）",
         "back": "reservation / to reserve",
         "chapter": "N4 C11"
     },
     {
-        "front": "とまる\n「泊まる」",
+        "front": "とまる",
         "back": "to stay",
         "chapter": "N4 C11"
     },
     {
-        "front": "～はく\n「～泊」",
+        "front": "～はく",
         "back": "~nights of stay",
         "chapter": "N4 C11"
     },
     {
-        "front": "あく\n「空く」",
+        "front": "あく",
         "back": "to be free",
         "chapter": "N4 C11"
     },
     {
-        "front": "もうしわけありません\n「申し訳ありません」",
+        "front": "もうしわけありません",
         "back": "I'm terribly sorry",
         "chapter": "N4 C11"
     },
@@ -45,27 +45,27 @@
         "chapter": "N4 C11"
     },
     {
-        "front": "きせつ\n「季節」",
+        "front": "きせつ",
         "back": "season",
         "chapter": "N4 C11"
     },
     {
-        "front": "けしき\n「景色」",
+        "front": "けしき",
         "back": "scenery",
         "chapter": "N4 C11"
     },
     {
-        "front": "おんせん\n「温泉」",
+        "front": "おんせん",
         "back": "hot spring",
         "chapter": "N4 C11"
     },
     {
-        "front": "おんせんりょかん\n「温泉旅館」",
+        "front": "おんせんりょかん",
         "back": "japanese style inn with hot  spring",
         "chapter": "N4 C11"
     },
     {
-        "front": "こころ\n「心」",
+        "front": "こころ",
         "back": "mind; heart",
         "chapter": "N4 C11"
     },

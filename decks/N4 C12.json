@@ -1,31 +1,31 @@
 [
     {
-        "front": "れきし\n「歴史」",
+        "front": "れきし",
         "back": "history",
         "chapter": "N4 C12"
     },
     {
-        "front": "てら\n「寺」",
+        "front": "てら",
         "back": "temple",
         "chapter": "N4 C12"
     },
     {
-        "front": "じんじゃ\n「神社」",
+        "front": "じんじゃ",
         "back": "shrine",
         "chapter": "N4 C12"
     },
     {
-        "front": "だいぶつ\n「大仏」",
+        "front": "だいぶつ",
         "back": "large statue of the Buddha",
         "chapter": "N4 C12"
     },
     {
-        "front": "せかい\n「世界」",
+        "front": "せかい",
         "back": "world",
         "chapter": "N4 C12"
     },
     {
-        "front": "ざんねんな\n「残念な」",
+        "front": "ざんねんな",
         "back": "pity",
         "chapter": "N4 C12"
     },
@@ -35,32 +35,32 @@
         "chapter": "N4 C12"
     },
     {
-        "front": "ひじょうに\n「非常に」",
+        "front": "ひじょうに",
         "back": "really",
         "chapter": "N4 C12"
     },
     {
-        "front": "めずらしい\n「珍しい」",
+        "front": "めずらしい",
         "back": "rare",
         "chapter": "N4 C12"
     },
     {
-        "front": "どうぶつ\n「動物」",
+        "front": "どうぶつ",
         "back": "animal",
         "chapter": "N4 C12"
     },
     {
-        "front": "どうぶつえん\n「動物園」",
+        "front": "どうぶつえん",
         "back": "zoo",
         "chapter": "N4 C12"
     },
     {
-        "front": "うつくしい\n「美しい」",
+        "front": "うつくしい",
         "back": "beautiful",
         "chapter": "N4 C12"
     },
     {
-        "front": "たいけん（する）\n「体験」",
+        "front": "たいけん（する）",
         "back": "experience / to experience",
         "chapter": "N4 C12"
     }
