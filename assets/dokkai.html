@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comprehensions Example</title>
     <style>
-        * { font-size: 40px; }
-        body { font-family: Arial, sans-serif; padding: 20px; background-color: rgb(255, 255, 255); }
-        h1 { color: #333; text-align: center; }
-        ul { list-style-type: none; padding: 0; }
+        * {
+            font-size: 30px;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(255, 255, 255);
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
         li {
             background-color: #fff;
             margin: 10px 0;
@@ -17,38 +33,70 @@
             border-radius: 5px;
             transition: background-color 0.3s;
         }
-        li:hover { background-color: #e0e0e0; }
-        li:active { background-color: red; }
-        #comprehension { display: none; margin-top: 50px; }
+
+        li:hover {
+            background-color: #e0e0e0;
+        }
+
+        li:active {
+            background-color: red;
+        }
+
+        #comprehension {
+            display: none;
+            margin-top: 50px;
+        }
+
         .toggle-box {
             display: inline-block;
-            width: 25px;
-            height: 25px;
+            width: 20px;
+            height: 20px;
             background-color: #3399ff;
             cursor: pointer;
             margin-right: 3px;
             vertical-align: middle;
         }
+
         .difficult {
             cursor: pointer;
             background-color: rgb(233, 233, 233);
         }
-        .difficult:hover { background-color: #A4E1F6; }
+
+        .difficult:hover {
+            background-color: #A4E1F6;
+        }
+
         .popup {
             display: none;
             position: absolute;
-            background: #f0f0f0;
+            background: #fcedff;
             border: 1px solid #333;
             padding: 12px;
             border-radius: 6px;
             min-width: 150px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
             z-index: 1000;
         }
-        .translation { display: none; padding: 8px; background: #3399ff; border-radius: 4px; }
-        .romaji { color: gray; }
-        .meaning { color: green; }
-        p { margin: 0; }
+
+        .translation {
+            display: none;
+            padding: 8px;
+            background: #3399ff;
+            border-radius: 4px;
+        }
+
+        .romaji {
+            color: gray;
+        }
+
+        .meaning {
+            color: green;
+        }
+
+        p {
+            margin: 0;
+        }
+
         .back-footer {
             display: block;
             margin-top: 40px;
@@ -58,9 +106,18 @@
             color: #3399ff;
             text-decoration: underline;
         }
-        .back-footer:hover { color: #ff9933; }
+
+        .back-footer:hover {
+            color: #ff9933;
+        }
+
+        .sentence {
+            margin-bottom: 20px;
+
+        }
     </style>
 </head>
+
 <body>
     <h1>Comprehensions</h1>
 
@@ -100,7 +157,7 @@
                     const text = await response.text();
                     try {
                         comprehensionData[name] = JSON.parse(text);
-                    } catch(err) {
+                    } catch (err) {
                         console.error("JSON parse error:", err, "raw data:", text);
                         return null;
                     }
@@ -214,4 +271,5 @@
         });
     </script>
 </body>
+
 </html>

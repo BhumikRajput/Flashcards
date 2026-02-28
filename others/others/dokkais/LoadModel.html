@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprehensions Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            background-color: #fff;
+            margin: 10px 0;
+            padding: 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        li:hover {
+            background-color: #e0e0e0;
+        }
+
+        li:active {
+            background-color: red;
+        }
+
+        #comprehension {
+            display: none;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Comprehensions</h1>
+
+    <ul id="comprehension-list">
+        <li data-type="List Comprehension">List Comprehension</li>
+        <li data-type="Dictionary Comprehension">Dictionary Comprehension</li>
+        <li data-type="Set Comprehension">Set Comprehension</li>
+        <li data-type="Generator Comprehension">Generator Comprehension</li>
+    </ul>
+
+    <div id="comprehension">
+    </div>
+
+    <script>
+        const items = document.querySelectorAll('#comprehension-list li');
+        const list = document.getElementById('comprehension-list');
+        const comprehension = document.getElementById('comprehension');
+
+        items.forEach(item => {
+            item.addEventListener('click', () => {
+                const typeName = item.getAttribute('data-type');
+                console.log(`You clicked on ${typeName}!`);
+
+                try {
+                    // Load JSON
+                    (async function () {
+                        const response = await fetch('new.json'); 
+                        const data = await response.json();   // <-- JSON stored in variable
+
+                        Object.entries(data).forEach(([key, value]) => {
+                            console.log(`${key}`);
+                        });
+
+                        // comprehension.innerHTML += `
+
+                        // `
+                    })()
+                    
+                    comprehension.style.display = 'block';
+
+                } catch (error) {
+                    console.error("Error loading JSON:", error);
+                }
+
+                // Hide the list 
+                list.style.display = 'none';
+
+                // Show the comprehension with the clicked item name
+                comprehension.textContent = typeName;
+                comprehension.style.display = 'block';
+            });
+        });
+    </script>
+</body>
+
+</html>

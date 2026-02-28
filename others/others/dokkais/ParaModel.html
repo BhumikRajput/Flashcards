@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Interactive Reading</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        padding: 40px;
+        line-height: 1.6;
+    }
+
+    .toggle-box {
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        background-color: #3399ff;
+        cursor: pointer;
+        margin-right: 3px;
+        vertical-align: middle;
+    }
+
+    .difficult {
+        text-decoration: underline;
+        color: darkblue;
+        cursor: pointer;
+    }
+
+    .popup {
+        display: none;
+        position: absolute;
+        background: #f0f0f0;
+        border: 1px solid #333;
+        padding: 12px;
+        border-radius: 6px;
+        width: 220px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        z-index: 1000;
+    }
+
+    .translation {
+        display: none;
+        padding: 8px;
+        background: #eef6ff;
+        border-left: 4px solid #3399ff;
+        border-radius: 4px;
+    }
+
+    p {
+        margin: 0;
+    }
+</style>
+</head>
+<body>
+
+<h2>Reading Passage</h2>
+
+<div class="sentence" data-meaning="The scientist relied on real observations from the experiment.">
+    <div class="text-container">
+        <p>
+            <span class="toggle-box"></span>
+            The scientist made an 
+            <span class="difficult" data-meaning="Based on observation or experience rather than theory.">empirical</span> 
+            observation during the experiment.
+        </p>
+        <div class="meaning"></div>
+    </div>
+</div>
+
+<div class="sentence" data-meaning="The results could be changed when conditions were different.">
+    <div class="text-container">
+        <p>
+            <span class="toggle-box"></span>
+            Her results were 
+            <span class="difficult" data-meaning="Able to be changed or adapted.">malleable</span> 
+            under different conditions.
+        </p>
+        <div ctranslation"></div>
+    </div>
+</div>
+
+<div class="sentence" data-meaning="This discovery revealed something new about the material.">
+    <div class="text-container">
+        <p>
+            <span class="toggle-box"></span>
+            This led to a 
+            <span class="difficult" data-meaning="A surprising and previously unknown fact.">revelation</span> 
+            about the nature of the material.
+        </p>
+        <div class="translation"></div>
+    </div>
+</div>
+
+<div id="popup" class="popup"></div>
+
+<script>
+    const popup = document.getElementById("popup");
+    const difficultWords = document.querySelectorAll(".difficult");
+
+    // Word meaning popup
+    difficultWords.forEach(word => {
+        word.addEventListener("click", function(event) {
+            event.stopPropagation();
+            popup.textContent = this.getAttribute("data-meaning");
+            popup.style.display = "block";
+
+            const rect = this.getBoundingClientRect();
+            popup.style.top = window.scrollY + rect.bottom + 5 + "px";
+            popup.style.left = window.scrollX + rect.left + "px";
+        });
+    });
+
+    popup.addEventListener("click", function() {
+        popup.style.display = "none";
+    });
+
+    // Toggle box click
+    const toggleBoxes = document.querySelectorAll(".toggle-box");
+
+    toggleBoxes.forEach(box => {
+        box.addEventListener("click", function() {
+            const sentence = this.closest(".sentence");
+            const meaningDiv = sentence.querySelector(".translation");
+
+            if (meaningDiv.style.display === "block") {
+                meaningDiv.style.display = "none";
+                this.style.backgroundColor = "#3399ff";
+            } else {
+                meaningDiv.textContent = sentence.getAttribute("data-meaning");
+                meaningDiv.style.display = "block";
+                this.style.backgroundColor = "#ff9933";
+            }
+        });
+    });
+
+    // Hide popup when clicking anywhere else
+    document.body.addEventListener("click", function() {
+        popup.style.display = "none";
+    });
+</script>
+
+</body>
+</html>
