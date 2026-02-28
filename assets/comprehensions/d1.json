@@ -2,11 +2,23 @@
     {
         "sentence": [
             {
-                "morpheme": "私",
-                "romaji": "watashi",
+                "morpheme": "生物",
+                "romaji": "seibutsu",
                 "meaning": [
-                    "I",
-                    "me"
+                    "living thing",
+                    "organism",
+                    "creature",
+                    "life"
+                ]
+            },
+            {
+                "morpheme": "に",
+                "romaji": "ni",
+                "meaning": [
+                    "at (place, time)",
+                    "in",
+                    "on",
+                    "during"
                 ]
             },
             {
@@ -17,15 +29,390 @@
                 ]
             },
             {
-                "morpheme": "学生",
-                "romaji": "gakusei",
+                "morpheme": "ふしぎ",
+                "romaji": "fushigi",
                 "meaning": [
-                    "student (esp. a university student)"
+                    "wonderful",
+                    "marvelous",
+                    "strange",
+                    "incredible",
+                    "amazing",
+                    "curious",
+                    "miraculous",
+                    "mysterious"
                 ]
             },
             {
-                "morpheme": "です",
-                "romaji": "desu",
+                "morpheme": "な",
+                "romaji": "na",
+                "meaning": [
+                    "don't"
+                ]
+            },
+            {
+                "morpheme": "力",
+                "romaji": "chikara",
+                "meaning": [
+                    "strength",
+                    "power",
+                    "proficiency",
+                    "ability"
+                ]
+            },
+            {
+                "morpheme": "が",
+                "romaji": "ga",
+                "meaning": [
+                    "indicates the subject of a sentence"
+                ]
+            },
+            {
+                "morpheme": "ある",
+                "romaji": "aru",
+                "meaning": [
+                    "a certain ...",
+                    "some ..."
+                ]
+            },
+            {
+                "morpheme": "。",
+                "romaji": ".",
+                "meaning": []
+            }
+        ],
+        "romaji": "seibutsu ni ha fushigi na chikara ga aru .",
+        "translation": "Living things have mysterious powers."
+    },
+    {
+        "sentence": [
+            {
+                "morpheme": "例えば",
+                "romaji": "tatoeba",
+                "meaning": [
+                    "for example",
+                    "for instance",
+                    "e.g."
+                ]
+            },
+            {
+                "morpheme": "、",
+                "romaji": ",",
+                "meaning": []
+            },
+            {
+                "morpheme": "植物",
+                "romaji": "shokubutsu",
+                "meaning": [
+                    "plant",
+                    "vegetation"
+                ]
+            },
+            {
+                "morpheme": "は",
+                "romaji": "ha",
+                "meaning": [
+                    "indicates sentence topic"
+                ]
+            },
+            {
+                "morpheme": "生きる",
+                "romaji": "ikiru",
+                "meaning": [
+                    "to live",
+                    "to exist"
+                ]
+            },
+            {
+                "morpheme": "力",
+                "romaji": "chikara",
+                "meaning": [
+                    "strength",
+                    "power",
+                    "proficiency",
+                    "ability"
+                ]
+            },
+            {
+                "morpheme": "が",
+                "romaji": "ga",
+                "meaning": [
+                    "indicates the subject of a sentence"
+                ]
+            },
+            {
+                "morpheme": "とても",
+                "romaji": "totemo",
+                "meaning": [
+                    "very",
+                    "awfully",
+                    "exceedingly"
+                ]
+            },
+            {
+                "morpheme": "強い",
+                "romaji": "tsuyoi",
+                "meaning": [
+                    "strong",
+                    "potent",
+                    "competent",
+                    "domineering",
+                    "tough"
+                ]
+            },
+            {
+                "morpheme": "。",
+                "romaji": ".",
+                "meaning": []
+            }
+        ],
+        "romaji": "tatoeba , shokubutsu ha ikiru chikara ga totemo tsuyoi .",
+        "translation": "For example, plants have a very strong ability to survive."
+    },
+    {
+        "sentence": [
+            {
+                "morpheme": "切り取っ",
+                "romaji": "kiritotsu",
+                "meaning": []
+            },
+            {
+                "morpheme": "た",
+                "romaji": "ta",
+                "meaning": [
+                    "other (esp. people and abstract matters)"
+                ]
+            },
+            {
+                "morpheme": "茎",
+                "romaji": "kuki",
+                "meaning": [
+                    "stalk",
+                    "stem"
+                ]
+            },
+            {
+                "morpheme": "を",
+                "romaji": "wo",
+                "meaning": [
+                    "indicates direct object of action"
+                ]
+            },
+            {
+                "morpheme": "土",
+                "romaji": "tsuchi",
+                "meaning": [
+                    "earth",
+                    "soil",
+                    "dirt",
+                    "clay",
+                    "mud"
+                ]
+            },
+            {
+                "morpheme": "に",
+                "romaji": "ni",
+                "meaning": [
+                    "at (place, time)",
+                    "in",
+                    "on",
+                    "during"
+                ]
+            },
+            {
+                "morpheme": "さし",
+                "romaji": "sashi",
+                "meaning": [
+                    "grain thief",
+                    "sharpened tube for testing rice in bags"
+                ]
+            },
+            {
+                "morpheme": "て",
+                "romaji": "te",
+                "meaning": [
+                    "you said",
+                    "he said",
+                    "she said",
+                    "they said"
+                ]
+            },
+            {
+                "morpheme": "おく",
+                "romaji": "oku",
+                "meaning": [
+                    "to put",
+                    "to place"
+                ]
+            },
+            {
+                "morpheme": "だけ",
+                "romaji": "dake",
+                "meaning": [
+                    "(high) mountain",
+                    "Mount",
+                    "Mt."
+                ]
+            },
+            {
+                "morpheme": "で",
+                "romaji": "de",
+                "meaning": [
+                    "at",
+                    "in"
+                ]
+            },
+            {
+                "morpheme": "、",
+                "romaji": ",",
+                "meaning": []
+            },
+            {
+                "morpheme": "あっ",
+                "romaji": "atsu",
+                "meaning": [
+                    "ah",
+                    "oh"
+                ]
+            },
+            {
+                "morpheme": "と",
+                "romaji": "to",
+                "meaning": [
+                    "way",
+                    "route"
+                ]
+            },
+            {
+                "morpheme": "いう",
+                "romaji": "iu",
+                "meaning": [
+                    "to say",
+                    "to utter",
+                    "to declare"
+                ]
+            },
+            {
+                "morpheme": "間",
+                "romaji": "kan",
+                "meaning": [
+                    "interval",
+                    "period of time"
+                ]
+            },
+            {
+                "morpheme": "に",
+                "romaji": "ni",
+                "meaning": [
+                    "at (place, time)",
+                    "in",
+                    "on",
+                    "during"
+                ]
+            },
+            {
+                "morpheme": "元",
+                "romaji": "moto",
+                "meaning": [
+                    "origin",
+                    "source",
+                    "beginning"
+                ]
+            },
+            {
+                "morpheme": "の",
+                "romaji": "no",
+                "meaning": [
+                    "field",
+                    "plain"
+                ]
+            },
+            {
+                "morpheme": "大き",
+                "romaji": "ooki",
+                "meaning": [
+                    "great",
+                    "grand",
+                    "large"
+                ]
+            },
+            {
+                "morpheme": "さ",
+                "romaji": "sa",
+                "meaning": [
+                    "-ness"
+                ]
+            },
+            {
+                "morpheme": "に",
+                "romaji": "ni",
+                "meaning": [
+                    "at (place, time)",
+                    "in",
+                    "on",
+                    "during"
+                ]
+            },
+            {
+                "morpheme": "成長",
+                "romaji": "seichou",
+                "meaning": [
+                    "growth",
+                    "development",
+                    "growing up",
+                    "becoming an adult"
+                ]
+            },
+            {
+                "morpheme": "する",
+                "romaji": "suru",
+                "meaning": [
+                    "to rub",
+                    "to chafe",
+                    "to strike (match)",
+                    "to file",
+                    "to frost (glass)"
+                ]
+            },
+            {
+                "morpheme": "こと",
+                "romaji": "koto",
+                "meaning": [
+                    "word",
+                    "remark",
+                    "statement"
+                ]
+            },
+            {
+                "morpheme": "も",
+                "romaji": "mo",
+                "meaning": [
+                    "too",
+                    "also",
+                    "in addition",
+                    "as well",
+                    "(not) either (in a negative sentence)"
+                ]
+            },
+            {
+                "morpheme": "ある",
+                "romaji": "aru",
+                "meaning": [
+                    "a certain ...",
+                    "some ..."
+                ]
+            },
+            {
+                "morpheme": "ほど",
+                "romaji": "hodo",
+                "meaning": [
+                    "extent",
+                    "degree",
+                    "measure"
+                ]
+            },
+            {
+                "morpheme": "だ",
+                "romaji": "da",
                 "meaning": [
                     "be",
                     "is"
@@ -37,55 +424,45 @@
                 "meaning": []
             }
         ],
-        "romaji": "watashi ha gakusei desu .",
-        "translation": "I'm a student."
+        "romaji": "kiritotsu ta kuki wo tsuchi ni sashi te oku dake de , atsu to iu kan ni moto no ooki sa ni seichou suru koto mo aru hodo da .",
+        "translation": "If you just put a cut stem in the soil, it will grow back to its original size in no time."
     },
     {
         "sentence": [
             {
-                "morpheme": "昨日",
-                "romaji": "kinou",
+                "morpheme": "動物",
+                "romaji": "doubutsu",
                 "meaning": [
-                    "yesterday"
+                    "animal"
                 ]
             },
             {
-                "morpheme": "は",
-                "romaji": "ha",
+                "morpheme": "に",
+                "romaji": "ni",
                 "meaning": [
-                    "indicates sentence topic"
+                    "at (place, time)",
+                    "in",
+                    "on",
+                    "during"
                 ]
             },
             {
-                "morpheme": "雨",
-                "romaji": "ame",
+                "morpheme": "も",
+                "romaji": "mo",
                 "meaning": [
-                    "rain"
+                    "too",
+                    "also",
+                    "in addition",
+                    "as well",
+                    "(not) either (in a negative sentence)"
                 ]
             },
             {
-                "morpheme": "が",
-                "romaji": "ga",
+                "morpheme": "似",
+                "romaji": "ji",
                 "meaning": [
-                    "indicates the subject of a sentence"
-                ]
-            },
-            {
-                "morpheme": "降り",
-                "romaji": "ori",
-                "meaning": [
-                    "down-train",
-                    "train heading toward the ending point of its route"
-                ]
-            },
-            {
-                "morpheme": "まし",
-                "romaji": "mashi",
-                "meaning": [
-                    "better",
-                    "preferable",
-                    "less objectionable",
-                    "least-worst"
+                    "looking like (someone)",
+                    "taking after (either of one's parents)"
                 ]
             },
             {
@@ -96,12 +473,624 @@
                 ]
             },
             {
+                "morpheme": "こと",
+                "romaji": "koto",
+                "meaning": [
+                    "word",
+                    "remark",
+                    "statement"
+                ]
+            },
+            {
+                "morpheme": "が",
+                "romaji": "ga",
+                "meaning": [
+                    "indicates the subject of a sentence"
+                ]
+            },
+            {
+                "morpheme": "起こる",
+                "romaji": "okoru",
+                "meaning": [
+                    "to occur",
+                    "to happen"
+                ]
+            },
+            {
                 "morpheme": "。",
                 "romaji": ".",
                 "meaning": []
             }
         ],
-        "romaji": "kinou ha ame ga ori mashi ta .",
-        "translation": "It rained yesterday."
+        "romaji": "doubutsu ni mo ji ta koto ga okoru .",
+        "translation": "Something similar happens with animals."
+    },
+    {
+        "sentence": [
+            {
+                "morpheme": "トカゲ",
+                "romaji": "tokage",
+                "meaning": [
+                    "lizard"
+                ]
+            },
+            {
+                "morpheme": "の",
+                "romaji": "no",
+                "meaning": [
+                    "field",
+                    "plain"
+                ]
+            },
+            {
+                "morpheme": "しっぽ",
+                "romaji": "shippo",
+                "meaning": [
+                    "tail (of an animal)"
+                ]
+            },
+            {
+                "morpheme": "や",
+                "romaji": "ya",
+                "meaning": [
+                    "such things as ...",
+                    "and ... and"
+                ]
+            },
+            {
+                "morpheme": "かに",
+                "romaji": "kani",
+                "meaning": [
+                    "crab"
+                ]
+            },
+            {
+                "morpheme": "の",
+                "romaji": "no",
+                "meaning": [
+                    "field",
+                    "plain"
+                ]
+            },
+            {
+                "morpheme": "はさみ",
+                "romaji": "hasami",
+                "meaning": [
+                    "scissors",
+                    "shears",
+                    "clippers"
+                ]
+            },
+            {
+                "morpheme": "は",
+                "romaji": "ha",
+                "meaning": [
+                    "indicates sentence topic"
+                ]
+            },
+            {
+                "morpheme": "、",
+                "romaji": ",",
+                "meaning": []
+            },
+            {
+                "morpheme": "なくなる",
+                "romaji": "nakunaru",
+                "meaning": [
+                    "to be lost (e.g. luggage)",
+                    "to be missing"
+                ]
+            },
+            {
+                "morpheme": "と",
+                "romaji": "to",
+                "meaning": [
+                    "way",
+                    "route"
+                ]
+            },
+            {
+                "morpheme": "新しく",
+                "romaji": "atarashiku",
+                "meaning": [
+                    "newly",
+                    "new",
+                    "anew"
+                ]
+            },
+            {
+                "morpheme": "生え",
+                "romaji": "hae",
+                "meaning": [
+                    "raw",
+                    "uncooked",
+                    "fresh"
+                ]
+            },
+            {
+                "morpheme": "て",
+                "romaji": "te",
+                "meaning": [
+                    "you said",
+                    "he said",
+                    "she said",
+                    "they said"
+                ]
+            },
+            {
+                "morpheme": "くる",
+                "romaji": "kuru",
+                "meaning": [
+                    "to come (spatially or temporally)",
+                    "to approach",
+                    "to arrive"
+                ]
+            },
+            {
+                "morpheme": "。",
+                "romaji": ".",
+                "meaning": []
+            }
+        ],
+        "romaji": "tokage no shippo ya kani no hasami ha , nakunaru to atarashiku hae te kuru .",
+        "translation": "When the lizard's tail and crab's pincers disappear, new ones grow."
+    },
+    {
+        "sentence": [
+            {
+                "morpheme": "しかし",
+                "romaji": "shikashi",
+                "meaning": [
+                    "however",
+                    "but"
+                ]
+            },
+            {
+                "morpheme": "、",
+                "romaji": ",",
+                "meaning": []
+            },
+            {
+                "morpheme": "人間",
+                "romaji": "ningen",
+                "meaning": [
+                    "human being",
+                    "human",
+                    "person",
+                    "man",
+                    "mankind",
+                    "humankind"
+                ]
+            },
+            {
+                "morpheme": "の",
+                "romaji": "no",
+                "meaning": [
+                    "field",
+                    "plain"
+                ]
+            },
+            {
+                "morpheme": "指",
+                "romaji": "yubi",
+                "meaning": [
+                    "finger",
+                    "toe",
+                    "digit"
+                ]
+            },
+            {
+                "morpheme": "は",
+                "romaji": "ha",
+                "meaning": [
+                    "indicates sentence topic"
+                ]
+            },
+            {
+                "morpheme": "なくなる",
+                "romaji": "nakunaru",
+                "meaning": [
+                    "to be lost (e.g. luggage)",
+                    "to be missing"
+                ]
+            },
+            {
+                "morpheme": "と",
+                "romaji": "to",
+                "meaning": [
+                    "way",
+                    "route"
+                ]
+            },
+            {
+                "morpheme": "、",
+                "romaji": ",",
+                "meaning": []
+            },
+            {
+                "morpheme": "二",
+                "romaji": "ni",
+                "meaning": [
+                    "two",
+                    "2"
+                ]
+            },
+            {
+                "morpheme": "度",
+                "romaji": "do",
+                "meaning": [
+                    "degree (angle, temperature, scale, etc.)"
+                ]
+            },
+            {
+                "morpheme": "と",
+                "romaji": "to",
+                "meaning": [
+                    "way",
+                    "route"
+                ]
+            },
+            {
+                "morpheme": "元",
+                "romaji": "moto",
+                "meaning": [
+                    "origin",
+                    "source",
+                    "beginning"
+                ]
+            },
+            {
+                "morpheme": "に",
+                "romaji": "ni",
+                "meaning": [
+                    "at (place, time)",
+                    "in",
+                    "on",
+                    "during"
+                ]
+            },
+            {
+                "morpheme": "は",
+                "romaji": "ha",
+                "meaning": [
+                    "indicates sentence topic"
+                ]
+            },
+            {
+                "morpheme": "戻ら",
+                "romaji": "modora",
+                "meaning": []
+            },
+            {
+                "morpheme": "ない",
+                "romaji": "nai",
+                "meaning": [
+                    "not"
+                ]
+            },
+            {
+                "morpheme": "。",
+                "romaji": ".",
+                "meaning": []
+            }
+        ],
+        "romaji": "shikashi , ningen no yubi ha nakunaru to , ni do to moto ni ha modora nai .",
+        "translation": "However, once a human's fingers are gone, they never grow back."
+    },
+    {
+        "sentence": [
+            {
+                "morpheme": "ただ",
+                "romaji": "tada",
+                "meaning": [
+                    "ordinary",
+                    "common",
+                    "usual"
+                ]
+            },
+            {
+                "morpheme": "、",
+                "romaji": ",",
+                "meaning": []
+            },
+            {
+                "morpheme": "髪の毛",
+                "romaji": "kaminoke",
+                "meaning": [
+                    "hair (on the head)",
+                    "(a) hair"
+                ]
+            },
+            {
+                "morpheme": "や",
+                "romaji": "ya",
+                "meaning": [
+                    "such things as ...",
+                    "and ... and"
+                ]
+            },
+            {
+                "morpheme": "手",
+                "romaji": "te",
+                "meaning": [
+                    "hand",
+                    "arm"
+                ]
+            },
+            {
+                "morpheme": "の",
+                "romaji": "no",
+                "meaning": [
+                    "field",
+                    "plain"
+                ]
+            },
+            {
+                "morpheme": "爪",
+                "romaji": "tsume",
+                "meaning": [
+                    "nail (e.g. fingernail, toenail)",
+                    "claw",
+                    "talon",
+                    "hoof"
+                ]
+            },
+            {
+                "morpheme": "は",
+                "romaji": "ha",
+                "meaning": [
+                    "indicates sentence topic"
+                ]
+            },
+            {
+                "morpheme": "切っ",
+                "romaji": "kitsu",
+                "meaning": [
+                    "end",
+                    "finish",
+                    "place to stop"
+                ]
+            },
+            {
+                "morpheme": "て",
+                "romaji": "te",
+                "meaning": [
+                    "you said",
+                    "he said",
+                    "she said",
+                    "they said"
+                ]
+            },
+            {
+                "morpheme": "も",
+                "romaji": "mo",
+                "meaning": [
+                    "too",
+                    "also",
+                    "in addition",
+                    "as well",
+                    "(not) either (in a negative sentence)"
+                ]
+            },
+            {
+                "morpheme": "また",
+                "romaji": "mata",
+                "meaning": [
+                    "again",
+                    "once more",
+                    "once again",
+                    "another time",
+                    "some other time"
+                ]
+            },
+            {
+                "morpheme": "伸びる",
+                "romaji": "nobiru",
+                "meaning": [
+                    "to stretch",
+                    "to extend",
+                    "to lengthen",
+                    "to grow (of hair, height, grass, etc.)"
+                ]
+            },
+            {
+                "morpheme": "。",
+                "romaji": ".",
+                "meaning": []
+            }
+        ],
+        "romaji": "tada , kaminoke ya te no tsume ha kitsu te mo mata nobiru .",
+        "translation": "However, even if you cut your hair and fingernails, they will grow back."
+    },
+    {
+        "sentence": [
+            {
+                "morpheme": "この",
+                "romaji": "kono",
+                "meaning": [
+                    "this"
+                ]
+            },
+            {
+                "morpheme": "よう",
+                "romaji": "you",
+                "meaning": [
+                    "(the) positive"
+                ]
+            },
+            {
+                "morpheme": "に",
+                "romaji": "ni",
+                "meaning": [
+                    "at (place, time)",
+                    "in",
+                    "on",
+                    "during"
+                ]
+            },
+            {
+                "morpheme": "、",
+                "romaji": ",",
+                "meaning": []
+            },
+            {
+                "morpheme": "生物",
+                "romaji": "seibutsu",
+                "meaning": [
+                    "living thing",
+                    "organism",
+                    "creature",
+                    "life"
+                ]
+            },
+            {
+                "morpheme": "に",
+                "romaji": "ni",
+                "meaning": [
+                    "at (place, time)",
+                    "in",
+                    "on",
+                    "during"
+                ]
+            },
+            {
+                "morpheme": "は",
+                "romaji": "ha",
+                "meaning": [
+                    "indicates sentence topic"
+                ]
+            },
+            {
+                "morpheme": "切り取ら",
+                "romaji": "kiritora",
+                "meaning": []
+            },
+            {
+                "morpheme": "れ",
+                "romaji": "re",
+                "meaning": []
+            },
+            {
+                "morpheme": "た",
+                "romaji": "ta",
+                "meaning": [
+                    "other (esp. people and abstract matters)"
+                ]
+            },
+            {
+                "morpheme": "体",
+                "romaji": "karada",
+                "meaning": [
+                    "body"
+                ]
+            },
+            {
+                "morpheme": "の",
+                "romaji": "no",
+                "meaning": [
+                    "field",
+                    "plain"
+                ]
+            },
+            {
+                "morpheme": "一部",
+                "romaji": "ichibu",
+                "meaning": [
+                    "one part",
+                    "one portion",
+                    "one section"
+                ]
+            },
+            {
+                "morpheme": "を",
+                "romaji": "wo",
+                "meaning": [
+                    "indicates direct object of action"
+                ]
+            },
+            {
+                "morpheme": "、",
+                "romaji": ",",
+                "meaning": []
+            },
+            {
+                "morpheme": "元",
+                "romaji": "moto",
+                "meaning": [
+                    "origin",
+                    "source",
+                    "beginning"
+                ]
+            },
+            {
+                "morpheme": "に",
+                "romaji": "ni",
+                "meaning": [
+                    "at (place, time)",
+                    "in",
+                    "on",
+                    "during"
+                ]
+            },
+            {
+                "morpheme": "戻す",
+                "romaji": "modosu",
+                "meaning": [
+                    "to put back",
+                    "to return",
+                    "to give back",
+                    "to restore (to a previous state, e.g. defrosting, reconstituting, reconciling)",
+                    "to turn back (e.g. clock hand)"
+                ]
+            },
+            {
+                "morpheme": "力",
+                "romaji": "chikara",
+                "meaning": [
+                    "strength",
+                    "power",
+                    "proficiency",
+                    "ability"
+                ]
+            },
+            {
+                "morpheme": "が",
+                "romaji": "ga",
+                "meaning": [
+                    "indicates the subject of a sentence"
+                ]
+            },
+            {
+                "morpheme": "ある",
+                "romaji": "aru",
+                "meaning": [
+                    "a certain ...",
+                    "some ..."
+                ]
+            },
+            {
+                "morpheme": "の",
+                "romaji": "no",
+                "meaning": [
+                    "field",
+                    "plain"
+                ]
+            },
+            {
+                "morpheme": "だ",
+                "romaji": "da",
+                "meaning": [
+                    "be",
+                    "is"
+                ]
+            },
+            {
+                "morpheme": "。",
+                "romaji": ".",
+                "meaning": []
+            }
+        ],
+        "romaji": "kono you ni , seibutsu ni ha kiritora re ta karada no ichibu wo , moto ni modosu chikara ga aru no da .",
+        "translation": "In this way, living things have the power to restore parts of their bodies that have been cut off."
     }
 ]

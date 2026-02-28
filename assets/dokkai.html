@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comprehensions Example</title>
+
     <style>
         * {
             font-size: 30px;
@@ -47,19 +48,23 @@
             margin-top: 50px;
         }
 
-        .toggle-box {
-            display: inline-block;
-            width: 20px;
-            height: 20px;
-            background-color: #3399ff;
+        /* Arrow toggle */
+        .toggle-arrow {
             cursor: pointer;
-            margin-right: 3px;
-            vertical-align: middle;
+            color: #3399ff;
+            margin-left: 8px;
+            font-size: 24px;
+            user-select: none;
+        }
+
+        .toggle-arrow:hover {
+            color: #ff9933;
         }
 
         .difficult {
             cursor: pointer;
             background-color: rgb(233, 233, 233);
+            border-right: 5px solid white;
         }
 
         .difficult:hover {
@@ -74,8 +79,15 @@
             padding: 12px;
             border-radius: 6px;
             min-width: 150px;
+            max-width: 300px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
             z-index: 1000;
+
+            box-sizing: border-box;
+
+            white-space: normal;
+            word-break: normal;
+            overflow-wrap: normal;
         }
 
         .translation {
@@ -83,6 +95,7 @@
             padding: 8px;
             background: #3399ff;
             border-radius: 4px;
+            margin-top: 10px;
         }
 
         .romaji {
@@ -113,16 +126,15 @@
 
         .sentence {
             margin-bottom: 20px;
-
         }
     </style>
 </head>
 
 <body>
+
     <h1>Comprehensions</h1>
 
     <ul id="comprehension-list"></ul>
-
     <div id="comprehension"></div>
     <div id="popup" class="popup"></div>
 
@@ -132,8 +144,8 @@
         const popup = document.getElementById('popup');
 
         let comprehensionData = {};
+        let activeWord = null;
 
-        // Listing dokkais
         let comprehensionList = [
             { name: "d1", text: "Dokkai 1" }
         ];
@@ -142,7 +154,6 @@
             list.innerHTML += `<li data-name="${item.name}">${item.text}</li>`;
         });
 
-        // Safe JSON fetch
         async function loadJSON(item) {
             const name = item.getAttribute('data-name');
             const url = `https://raw.githubusercontent.com/BhumikRajput/Flashcards/main/assets/comprehensions/${name}.json`;
@@ -150,26 +161,17 @@
             if (!comprehensionData[name]) {
                 try {
                     const response = await fetch(url);
-                    if (!response.ok) {
-                        console.error(`Failed to fetch ${url} — status: ${response.status}`);
-                        return null;
-                    }
+                    if (!response.ok) return null;
                     const text = await response.text();
-                    try {
-                        comprehensionData[name] = JSON.parse(text);
-                    } catch (err) {
-                        console.error("JSON parse error:", err, "raw data:", text);
-                        return null;
-                    }
+                    comprehensionData[name] = JSON.parse(text);
                 } catch (err) {
-                    console.error("Network error:", err);
+                    console.error("Error loading JSON:", err);
                     return null;
                 }
             }
             return comprehensionData[name];
         }
 
-        // Click on comprehension type
         list.addEventListener('click', async (e) => {
             const item = e.target.closest('li');
             if (!item) return;
@@ -181,95 +183,139 @@
             list.style.display = 'none';
 
             let html = "";
+
             data.forEach(sentenceDict => {
-                let sentenceObj = '<span class="toggle-box"></span>';
+
+                let sentenceObj = '';
+
                 sentenceDict.sentence.forEach(tokenDict => {
                     if (tokenDict.meaning === null) {
                         sentenceObj += tokenDict.morpheme;
                     } else {
-                        sentenceObj += `<span class="difficult" data-meaning="${tokenDict.meaning}" data-romaji="${tokenDict.romaji}">${tokenDict.morpheme}</span>`;
+                        sentenceObj += `
+                            <span class="difficult"
+                                  data-meaning="${tokenDict.meaning}"
+                                  data-romaji="${tokenDict.romaji}">
+                                ${tokenDict.morpheme}
+                            </span>
+                        `;
                     }
                 });
+
                 html += `
-                    <div class="sentence" data-meaning="${sentenceDict.translation}" data-romaji="${sentenceDict.romaji}">
+                    <div class="sentence"
+                         data-meaning="${sentenceDict.translation}">
                         <div class="text-container">
-                            <p>${sentenceObj}</p>
+                            <p>
+                                ${sentenceObj}
+                                <span class="toggle-arrow">▼</span>
+                            </p>
                             <div class="translation"></div>
                         </div>
                     </div>
                 `;
             });
 
-            // Add back footer link
             html += `<span class="back-footer">Back to list</span>`;
 
             comprehension.innerHTML = html;
             comprehension.style.display = 'block';
         });
 
-        // Event delegation inside comprehension
         comprehension.addEventListener('click', function (e) {
-            // Back footer link
+
             if (e.target.classList.contains('back-footer')) {
                 comprehension.style.display = 'none';
                 comprehension.innerHTML = '';
                 list.style.display = 'block';
+                popup.style.display = 'none';
+                activeWord = null;
                 return;
             }
 
-            // Difficult word popup
+            /* Word popup */
             if (e.target.classList.contains('difficult')) {
                 e.stopPropagation();
+
+                if (activeWord === e.target) return;
+                activeWord = e.target;
+
                 const meaning = e.target.getAttribute('data-meaning');
                 const romaji = e.target.getAttribute('data-romaji');
 
-                popup.innerHTML = `<div class="romaji">${romaji}</div><div class="meaning">${meaning}</div>`;
+                popup.innerHTML = `
+                    <div class="romaji">${romaji}</div>
+                    <div class="meaning">${meaning}</div>
+                `;
+
                 popup.style.display = 'block';
+                popup.style.visibility = 'hidden';
+                popup.style.width = 'auto';
 
-                const rect = e.target.getBoundingClientRect();
-                const popupRect = popup.getBoundingClientRect();
+                requestAnimationFrame(() => {
 
-                let top = window.scrollY + rect.bottom + 5;
-                let left = window.scrollX + rect.left;
+                    const rect = e.target.getBoundingClientRect();
+                    const measuredWidth = popup.offsetWidth;
+                    popup.style.width = measuredWidth + 'px';
 
-                if (left + popupRect.width > window.scrollX + window.innerWidth) left = window.scrollX + window.innerWidth - popupRect.width - 10;
-                if (left < window.scrollX) left = window.scrollX + 10;
-                if (top + popupRect.height > window.scrollY + window.innerHeight) top = window.scrollY + rect.top - popupRect.height - 5;
+                    const popupRect = popup.getBoundingClientRect();
 
-                popup.style.top = top + 'px';
-                popup.style.left = left + 'px';
+                    let top = rect.bottom + window.scrollY + 8;
+                    let left = rect.left + window.scrollX;
+
+                    if (left + popupRect.width > window.innerWidth + window.scrollX) {
+                        left = window.innerWidth + window.scrollX - popupRect.width - 10;
+                    }
+
+                    if (left < window.scrollX) {
+                        left = window.scrollX + 10;
+                    }
+
+                    if (top + popupRect.height > window.innerHeight + window.scrollY) {
+                        top = rect.top + window.scrollY - popupRect.height - 8;
+                    }
+
+                    popup.style.top = `${top}px`;
+                    popup.style.left = `${left}px`;
+                    popup.style.visibility = 'visible';
+                });
             }
 
-            // Toggle translation
-            if (e.target.classList.contains('toggle-box')) {
+            /* Toggle translation */
+            if (e.target.classList.contains('toggle-arrow')) {
                 const sentence = e.target.closest('.sentence');
                 const meaningDiv = sentence.querySelector('.translation');
+
                 if (meaningDiv.style.display === 'block') {
                     meaningDiv.style.display = 'none';
-                    e.target.style.backgroundColor = '#3399ff';
+                    e.target.textContent = '▼';
                 } else {
                     meaningDiv.textContent = sentence.getAttribute('data-meaning');
                     meaningDiv.style.display = 'block';
-                    e.target.style.backgroundColor = '#ff9933';
+                    e.target.textContent = '▲';
                 }
             }
         });
 
-        // Hide popup on click elsewhere
         document.body.addEventListener('click', function () {
             popup.style.display = 'none';
+            activeWord = null;
         });
 
-        // Hide popup on scroll
         window.addEventListener('scroll', () => {
             popup.style.display = 'none';
+            activeWord = null;
         });
 
-        // Hide popup on Escape
         document.addEventListener('keydown', (e) => {
-            if (e.key === "Escape") popup.style.display = 'none';
+            if (e.key === "Escape") {
+                popup.style.display = 'none';
+                activeWord = null;
+            }
         });
+
     </script>
+
 </body>
 
 </html>
