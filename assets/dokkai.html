@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprehensions Example</title>
+    <style>
+        * { font-size: 40px; }
+        body { font-family: Arial, sans-serif; padding: 20px; background-color: rgb(255, 255, 255); }
+        h1 { color: #333; text-align: center; }
+        ul { list-style-type: none; padding: 0; }
+        li {
+            background-color: #fff;
+            margin: 10px 0;
+            padding: 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        li:hover { background-color: #e0e0e0; }
+        li:active { background-color: red; }
+        #comprehension { display: none; margin-top: 50px; }
+        .toggle-box {
+            display: inline-block;
+            width: 25px;
+            height: 25px;
+            background-color: #3399ff;
+            cursor: pointer;
+            margin-right: 3px;
+            vertical-align: middle;
+        }
+        .difficult {
+            cursor: pointer;
+            background-color: rgb(233, 233, 233);
+        }
+        .difficult:hover { background-color: #A4E1F6; }
+        .popup {
+            display: none;
+            position: absolute;
+            background: #f0f0f0;
+            border: 1px solid #333;
+            padding: 12px;
+            border-radius: 6px;
+            min-width: 150px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            z-index: 1000;
+        }
+        .translation { display: none; padding: 8px; background: #3399ff; border-radius: 4px; }
+        .romaji { color: gray; }
+        .meaning { color: green; }
+        p { margin: 0; }
+        .back-footer {
+            display: block;
+            margin-top: 40px;
+            font-size: 30px;
+            text-align: center;
+            cursor: pointer;
+            color: #3399ff;
+            text-decoration: underline;
+        }
+        .back-footer:hover { color: #ff9933; }
+    </style>
+</head>
+<body>
+    <h1>Comprehensions</h1>
+
+    <ul id="comprehension-list"></ul>
+
+    <div id="comprehension"></div>
+    <div id="popup" class="popup"></div>
+
+    <script>
+        const list = document.getElementById('comprehension-list');
+        const comprehension = document.getElementById('comprehension');
+        const popup = document.getElementById('popup');
+
+        let comprehensionData = {};
+
+        // Listing dokkais
+        let comprehensionList = [
+            { name: "d1", text: "Dokkai 1" }
+        ];
+
+        comprehensionList.forEach(item => {
+            list.innerHTML += `<li data-name="${item.name}">${item.text}</li>`;
+        });
+
+        // Safe JSON fetch
+        async function loadJSON(item) {
+            const name = item.getAttribute('data-name');
+            const url = `https://raw.githubusercontent.com/BhumikRajput/Flashcards/main/assets/comprehensions/${name}.json`;
+
+            if (!comprehensionData[name]) {
+                try {
+                    const response = await fetch(url);
+                    if (!response.ok) {
+                        console.error(`Failed to fetch ${url} — status: ${response.status}`);
+                        return null;
+                    }
+                    const text = await response.text();
+                    try {
+                        comprehensionData[name] = JSON.parse(text);
+                    } catch(err) {
+                        console.error("JSON parse error:", err, "raw data:", text);
+                        return null;
+                    }
+                } catch (err) {
+                    console.error("Network error:", err);
+                    return null;
+                }
+            }
+            return comprehensionData[name];
+        }
+
+        // Click on comprehension type
+        list.addEventListener('click', async (e) => {
+            const item = e.target.closest('li');
+            if (!item) return;
+
+            const data = await loadJSON(item);
+            if (!data) return;
+
+            comprehension.innerHTML = "";
+            list.style.display = 'none';
+
+            let html = "";
+            data.forEach(sentenceDict => {
+                let sentenceObj = '<span class="toggle-box"></span>';
+                sentenceDict.sentence.forEach(tokenDict => {
+                    if (tokenDict.meaning === null) {
+                        sentenceObj += tokenDict.morpheme;
+                    } else {
+                        sentenceObj += `<span class="difficult" data-meaning="${tokenDict.meaning}" data-romaji="${tokenDict.romaji}">${tokenDict.morpheme}</span>`;
+                    }
+                });
+                html += `
+                    <div class="sentence" data-meaning="${sentenceDict.translation}" data-romaji="${sentenceDict.romaji}">
+                        <div class="text-container">
+                            <p>${sentenceObj}</p>
+                            <div class="translation"></div>
+                        </div>
+                    </div>
+                `;
+            });
+
+            // Add back footer link
+            html += `<span class="back-footer">Back to list</span>`;
+
+            comprehension.innerHTML = html;
+            comprehension.style.display = 'block';
+        });
+
+        // Event delegation inside comprehension
+        comprehension.addEventListener('click', function (e) {
+            // Back footer link
+            if (e.target.classList.contains('back-footer')) {
+                comprehension.style.display = 'none';
+                comprehension.innerHTML = '';
+                list.style.display = 'block';
+                return;
+            }
+
+            // Difficult word popup
+            if (e.target.classList.contains('difficult')) {
+                e.stopPropagation();
+                const meaning = e.target.getAttribute('data-meaning');
+                const romaji = e.target.getAttribute('data-romaji');
+
+                popup.innerHTML = `<div class="romaji">${romaji}</div><div class="meaning">${meaning}</div>`;
+                popup.style.display = 'block';
+
+                const rect = e.target.getBoundingClientRect();
+                const popupRect = popup.getBoundingClientRect();
+
+                let top = window.scrollY + rect.bottom + 5;
+                let left = window.scrollX + rect.left;
+
+                if (left + popupRect.width > window.scrollX + window.innerWidth) left = window.scrollX + window.innerWidth - popupRect.width - 10;
+                if (left < window.scrollX) left = window.scrollX + 10;
+                if (top + popupRect.height > window.scrollY + window.innerHeight) top = window.scrollY + rect.top - popupRect.height - 5;
+
+                popup.style.top = top + 'px';
+                popup.style.left = left + 'px';
+            }
+
+            // Toggle translation
+            if (e.target.classList.contains('toggle-box')) {
+                const sentence = e.target.closest('.sentence');
+                const meaningDiv = sentence.querySelector('.translation');
+                if (meaningDiv.style.display === 'block') {
+                    meaningDiv.style.display = 'none';
+                    e.target.style.backgroundColor = '#3399ff';
+                } else {
+                    meaningDiv.textContent = sentence.getAttribute('data-meaning');
+                    meaningDiv.style.display = 'block';
+                    e.target.style.backgroundColor = '#ff9933';
+                }
+            }
+        });
+
+        // Hide popup on click elsewhere
+        document.body.addEventListener('click', function () {
+            popup.style.display = 'none';
+        });
+
+        // Hide popup on scroll
+        window.addEventListener('scroll', () => {
+            popup.style.display = 'none';
+        });
+
+        // Hide popup on Escape
+        document.addEventListener('keydown', (e) => {
+            if (e.key === "Escape") popup.style.display = 'none';
+        });
+    </script>
+</body>
+</html>
