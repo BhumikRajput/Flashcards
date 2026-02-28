@@ -78,7 +78,7 @@
             border: 1px solid #333;
             padding: 12px;
             border-radius: 6px;
-            min-width: 150px;
+            min-width: 50px;
             max-width: 300px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
             z-index: 1000;
@@ -240,7 +240,7 @@
                 if (activeWord === e.target) return;
                 activeWord = e.target;
 
-                const meaning = e.target.getAttribute('data-meaning');
+                const meaning = e.target.getAttribute('data-meaning').split(',').join('; ');
                 const romaji = e.target.getAttribute('data-romaji');
 
                 popup.innerHTML = `
