@@ -135,6 +135,164 @@
         ]
     },
     {
+        "type": "paragraph",
+        "data": [
+            {
+                "sentence": [
+                    {
+                        "morpheme": "動物",
+                        "romaji": "doubutsu",
+                        "meaning": [
+                            "animal"
+                        ]
+                    },
+                    {
+                        "morpheme": "も",
+                        "romaji": "mo",
+                        "meaning": [
+                            "too",
+                            "also",
+                            "in addition",
+                            "as well",
+                            "(not) either (in a negative sentence)"
+                        ]
+                    },
+                    {
+                        "morpheme": "すばらしい",
+                        "romaji": "subarashii",
+                        "meaning": [
+                            "wonderful",
+                            "splendid",
+                            "magnificent"
+                        ]
+                    },
+                    {
+                        "morpheme": "力",
+                        "romaji": "chikara",
+                        "meaning": [
+                            "strength",
+                            "power",
+                            "proficiency",
+                            "ability"
+                        ]
+                    },
+                    {
+                        "morpheme": "を",
+                        "romaji": "wo",
+                        "meaning": [
+                            "indicates direct object of action"
+                        ]
+                    },
+                    {
+                        "morpheme": "もっ",
+                        "romaji": "motsu",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "て",
+                        "romaji": "te",
+                        "meaning": [
+                            "you said",
+                            "he said",
+                            "she said",
+                            "they said"
+                        ]
+                    },
+                    {
+                        "morpheme": "いる",
+                        "romaji": "iru",
+                        "meaning": [
+                            "to cast",
+                            "to mint",
+                            "to coin"
+                        ]
+                    },
+                    {
+                        "morpheme": "。",
+                        "romaji": ".",
+                        "meaning": []
+                    }
+                ],
+                "romaji": "doubutsu mo subarashii chikara wo motsu te iru .",
+                "translation": "Animals also have amazing powers."
+            },
+            {
+                "sentence": [
+                    {
+                        "morpheme": "鳥",
+                        "romaji": "tori",
+                        "meaning": [
+                            "bird"
+                        ]
+                    },
+                    {
+                        "morpheme": "は",
+                        "romaji": "ha",
+                        "meaning": [
+                            "indicates sentence topic"
+                        ]
+                    },
+                    {
+                        "morpheme": "空",
+                        "romaji": "sora",
+                        "meaning": [
+                            "sky",
+                            "the air",
+                            "the heavens"
+                        ]
+                    },
+                    {
+                        "morpheme": "を",
+                        "romaji": "wo",
+                        "meaning": [
+                            "indicates direct object of action"
+                        ]
+                    },
+                    {
+                        "morpheme": "飛ぶ",
+                        "romaji": "tobu",
+                        "meaning": [
+                            "to fly",
+                            "to soar"
+                        ]
+                    },
+                    {
+                        "morpheme": "こと",
+                        "romaji": "koto",
+                        "meaning": [
+                            "word",
+                            "remark",
+                            "statement"
+                        ]
+                    },
+                    {
+                        "morpheme": "が",
+                        "romaji": "ga",
+                        "meaning": [
+                            "indicates the subject of a sentence"
+                        ]
+                    },
+                    {
+                        "morpheme": "できる",
+                        "romaji": "dekiru",
+                        "meaning": [
+                            "to be able to do",
+                            "to be possible",
+                            "to be permitted (to do)"
+                        ]
+                    },
+                    {
+                        "morpheme": "。",
+                        "romaji": ".",
+                        "meaning": []
+                    }
+                ],
+                "romaji": "tori ha sora wo tobu koto ga dekiru .",
+                "translation": "Birds can fly."
+            }
+        ]
+    },
+    {
         "type": "mcq",
         "data": [
             {
@@ -417,6 +575,339 @@
                 ],
                 "translationOption": [
                     "force",
+                    "water",
+                    "wind",
+                    "fire"
+                ]
+            },
+            {
+                "question": [
+                    {
+                        "morpheme": "鳥",
+                        "romaji": "tori",
+                        "meaning": [
+                            "bird"
+                        ]
+                    },
+                    {
+                        "morpheme": "は",
+                        "romaji": "ha",
+                        "meaning": [
+                            "indicates sentence topic"
+                        ]
+                    },
+                    {
+                        "morpheme": "何",
+                        "romaji": "nani",
+                        "meaning": [
+                            "what"
+                        ]
+                    },
+                    {
+                        "morpheme": "が",
+                        "romaji": "ga",
+                        "meaning": [
+                            "indicates the subject of a sentence"
+                        ]
+                    },
+                    {
+                        "morpheme": "でき",
+                        "romaji": "deki",
+                        "meaning": [
+                            "workmanship",
+                            "craftsmanship",
+                            "execution",
+                            "finish"
+                        ]
+                    },
+                    {
+                        "morpheme": "ます",
+                        "romaji": "masu",
+                        "meaning": [
+                            "to increase",
+                            "to grow"
+                        ]
+                    },
+                    {
+                        "morpheme": "か",
+                        "romaji": "ka",
+                        "meaning": [
+                            "indicates a question"
+                        ]
+                    },
+                    {
+                        "morpheme": "。",
+                        "romaji": ".",
+                        "meaning": []
+                    }
+                ],
+                "options": [
+                    [
+                        {
+                            "morpheme": "泳ぐ",
+                            "romaji": "oyogu",
+                            "meaning": [
+                                "to swim"
+                            ]
+                        },
+                        {
+                            "morpheme": "こと",
+                            "romaji": "koto",
+                            "meaning": [
+                                "word",
+                                "remark",
+                                "statement"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "morpheme": "走る",
+                            "romaji": "hashiru",
+                            "meaning": [
+                                "to run"
+                            ]
+                        },
+                        {
+                            "morpheme": "こと",
+                            "romaji": "koto",
+                            "meaning": [
+                                "word",
+                                "remark",
+                                "statement"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "morpheme": "空",
+                            "romaji": "sora",
+                            "meaning": [
+                                "sky",
+                                "the air",
+                                "the heavens"
+                            ]
+                        },
+                        {
+                            "morpheme": "を",
+                            "romaji": "wo",
+                            "meaning": [
+                                "indicates direct object of action"
+                            ]
+                        },
+                        {
+                            "morpheme": "飛ぶ",
+                            "romaji": "tobu",
+                            "meaning": [
+                                "to fly",
+                                "to soar"
+                            ]
+                        },
+                        {
+                            "morpheme": "こと",
+                            "romaji": "koto",
+                            "meaning": [
+                                "word",
+                                "remark",
+                                "statement"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "morpheme": "土",
+                            "romaji": "tsuchi",
+                            "meaning": [
+                                "earth",
+                                "soil",
+                                "dirt",
+                                "clay",
+                                "mud"
+                            ]
+                        },
+                        {
+                            "morpheme": "に",
+                            "romaji": "ni",
+                            "meaning": [
+                                "at (place, time)",
+                                "in",
+                                "on",
+                                "during"
+                            ]
+                        },
+                        {
+                            "morpheme": "もぐる",
+                            "romaji": "moguru",
+                            "meaning": [
+                                "to dive (into or under water)"
+                            ]
+                        },
+                        {
+                            "morpheme": "こと",
+                            "romaji": "koto",
+                            "meaning": [
+                                "word",
+                                "remark",
+                                "statement"
+                            ]
+                        }
+                    ]
+                ],
+                "answer": 2,
+                "romajiQues": "tori ha nani ga deki masu ka .",
+                "translationQues": "What can birds do?",
+                "romajiOption": [
+                    "oyogu koto",
+                    "hashiru koto",
+                    "sora wo tobu koto",
+                    "tsuchi ni moguru koto"
+                ],
+                "translationOption": [
+                    "swimming",
+                    "running",
+                    "flying in the sky",
+                    "crawling into the ground"
+                ]
+            },
+            {
+                "question": [
+                    {
+                        "morpheme": "動物",
+                        "romaji": "doubutsu",
+                        "meaning": [
+                            "animal"
+                        ]
+                    },
+                    {
+                        "morpheme": "は",
+                        "romaji": "ha",
+                        "meaning": [
+                            "indicates sentence topic"
+                        ]
+                    },
+                    {
+                        "morpheme": "何",
+                        "romaji": "nani",
+                        "meaning": [
+                            "what"
+                        ]
+                    },
+                    {
+                        "morpheme": "を",
+                        "romaji": "wo",
+                        "meaning": [
+                            "indicates direct object of action"
+                        ]
+                    },
+                    {
+                        "morpheme": "もっ",
+                        "romaji": "motsu",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "て",
+                        "romaji": "te",
+                        "meaning": [
+                            "you said",
+                            "he said",
+                            "she said",
+                            "they said"
+                        ]
+                    },
+                    {
+                        "morpheme": "い",
+                        "romaji": "i",
+                        "meaning": [
+                            "Italy"
+                        ]
+                    },
+                    {
+                        "morpheme": "ます",
+                        "romaji": "masu",
+                        "meaning": [
+                            "to increase",
+                            "to grow"
+                        ]
+                    },
+                    {
+                        "morpheme": "か",
+                        "romaji": "ka",
+                        "meaning": [
+                            "indicates a question"
+                        ]
+                    },
+                    {
+                        "morpheme": "。",
+                        "romaji": ".",
+                        "meaning": []
+                    }
+                ],
+                "options": [
+                    [
+                        {
+                            "morpheme": "すばらしい",
+                            "romaji": "subarashii",
+                            "meaning": [
+                                "wonderful",
+                                "splendid",
+                                "magnificent"
+                            ]
+                        },
+                        {
+                            "morpheme": "力",
+                            "romaji": "chikara",
+                            "meaning": [
+                                "strength",
+                                "power",
+                                "proficiency",
+                                "ability"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "morpheme": "水",
+                            "romaji": "mizu",
+                            "meaning": [
+                                "water (esp. cool or cold)"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "morpheme": "風",
+                            "romaji": "kaze",
+                            "meaning": [
+                                "method",
+                                "manner",
+                                "way",
+                                "style"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "morpheme": "火",
+                            "romaji": "hi",
+                            "meaning": [
+                                "fire",
+                                "flame",
+                                "blaze"
+                            ]
+                        }
+                    ]
+                ],
+                "answer": 0,
+                "romajiQues": "doubutsu ha nani wo motsu te i masu ka .",
+                "translationQues": "What do animals have?",
+                "romajiOption": [
+                    "subarashii chikara",
+                    "mizu",
+                    "kaze",
+                    "hi"
+                ],
+                "translationOption": [
+                    "amazing power",
                     "water",
                     "wind",
                     "fire"
