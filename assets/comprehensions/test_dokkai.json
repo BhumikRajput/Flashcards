@@ -1,0 +1,427 @@
+[
+    {
+        "type": "paragraph",
+        "data": [
+            {
+                "sentence": [
+                    {
+                        "morpheme": "生物",
+                        "romaji": "seibutsu",
+                        "meaning": [
+                            "living thing",
+                            "organism",
+                            "creature",
+                            "life"
+                        ]
+                    },
+                    {
+                        "morpheme": "に",
+                        "romaji": "ni",
+                        "meaning": [
+                            "at (place, time)",
+                            "in",
+                            "on",
+                            "during"
+                        ]
+                    },
+                    {
+                        "morpheme": "は",
+                        "romaji": "ha",
+                        "meaning": [
+                            "indicates sentence topic"
+                        ]
+                    },
+                    {
+                        "morpheme": "ふしぎ",
+                        "romaji": "fushigi",
+                        "meaning": [
+                            "wonderful",
+                            "marvelous",
+                            "strange",
+                            "incredible",
+                            "amazing",
+                            "curious",
+                            "miraculous",
+                            "mysterious"
+                        ]
+                    },
+                    {
+                        "morpheme": "な",
+                        "romaji": "na",
+                        "meaning": [
+                            "don't"
+                        ]
+                    },
+                    {
+                        "morpheme": "力",
+                        "romaji": "chikara",
+                        "meaning": [
+                            "strength",
+                            "power",
+                            "proficiency",
+                            "ability"
+                        ]
+                    },
+                    {
+                        "morpheme": "が",
+                        "romaji": "ga",
+                        "meaning": [
+                            "indicates the subject of a sentence"
+                        ]
+                    },
+                    {
+                        "morpheme": "ある",
+                        "romaji": "aru",
+                        "meaning": [
+                            "a certain ...",
+                            "some ..."
+                        ]
+                    },
+                    {
+                        "morpheme": "。",
+                        "romaji": ".",
+                        "meaning": []
+                    }
+                ],
+                "romaji": "seibutsu ni ha fushigi na chikara ga aru .",
+                "translation": "Living things have mysterious powers."
+            },
+            {
+                "sentence": [
+                    {
+                        "morpheme": "植物",
+                        "romaji": "shokubutsu",
+                        "meaning": [
+                            "plant",
+                            "vegetation"
+                        ]
+                    },
+                    {
+                        "morpheme": "は",
+                        "romaji": "ha",
+                        "meaning": [
+                            "indicates sentence topic"
+                        ]
+                    },
+                    {
+                        "morpheme": "とても",
+                        "romaji": "totemo",
+                        "meaning": [
+                            "very",
+                            "awfully",
+                            "exceedingly"
+                        ]
+                    },
+                    {
+                        "morpheme": "強い",
+                        "romaji": "tsuyoi",
+                        "meaning": [
+                            "strong",
+                            "potent",
+                            "competent",
+                            "domineering",
+                            "tough"
+                        ]
+                    },
+                    {
+                        "morpheme": "。",
+                        "romaji": ".",
+                        "meaning": []
+                    }
+                ],
+                "romaji": "shokubutsu ha totemo tsuyoi .",
+                "translation": "Plants are very strong."
+            }
+        ]
+    },
+    {
+        "type": "mcq",
+        "data": [
+            {
+                "question": [
+                    {
+                        "morpheme": "植物",
+                        "romaji": "shokubutsu",
+                        "meaning": [
+                            "plant",
+                            "vegetation"
+                        ]
+                    },
+                    {
+                        "morpheme": "は",
+                        "romaji": "ha",
+                        "meaning": [
+                            "indicates sentence topic"
+                        ]
+                    },
+                    {
+                        "morpheme": "何",
+                        "romaji": "nani",
+                        "meaning": [
+                            "what"
+                        ]
+                    },
+                    {
+                        "morpheme": "が",
+                        "romaji": "ga",
+                        "meaning": [
+                            "indicates the subject of a sentence"
+                        ]
+                    },
+                    {
+                        "morpheme": "強い",
+                        "romaji": "tsuyoi",
+                        "meaning": [
+                            "strong",
+                            "potent",
+                            "competent",
+                            "domineering",
+                            "tough"
+                        ]
+                    },
+                    {
+                        "morpheme": "です",
+                        "romaji": "desu",
+                        "meaning": [
+                            "be",
+                            "is"
+                        ]
+                    },
+                    {
+                        "morpheme": "か",
+                        "romaji": "ka",
+                        "meaning": [
+                            "indicates a question"
+                        ]
+                    },
+                    {
+                        "morpheme": "。",
+                        "romaji": ".",
+                        "meaning": []
+                    }
+                ],
+                "options": [
+                    [
+                        {
+                            "morpheme": "力",
+                            "romaji": "chikara",
+                            "meaning": [
+                                "strength",
+                                "power",
+                                "proficiency",
+                                "ability"
+                            ]
+                        },
+                        {
+                            "morpheme": "です",
+                            "romaji": "desu",
+                            "meaning": [
+                                "be",
+                                "is"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "morpheme": "水",
+                            "romaji": "mizu",
+                            "meaning": [
+                                "water (esp. cool or cold)"
+                            ]
+                        },
+                        {
+                            "morpheme": "です",
+                            "romaji": "desu",
+                            "meaning": [
+                                "be",
+                                "is"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "morpheme": "風",
+                            "romaji": "kaze",
+                            "meaning": [
+                                "method",
+                                "manner",
+                                "way",
+                                "style"
+                            ]
+                        },
+                        {
+                            "morpheme": "です",
+                            "romaji": "desu",
+                            "meaning": [
+                                "be",
+                                "is"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "morpheme": "土",
+                            "romaji": "tsuchi",
+                            "meaning": [
+                                "earth",
+                                "soil",
+                                "dirt",
+                                "clay",
+                                "mud"
+                            ]
+                        },
+                        {
+                            "morpheme": "です",
+                            "romaji": "desu",
+                            "meaning": [
+                                "be",
+                                "is"
+                            ]
+                        }
+                    ]
+                ],
+                "answer": 0,
+                "romajiQues": "shokubutsu ha nani ga tsuyoi desu ka .",
+                "translationQues": "What makes plants strong?",
+                "romajiOption": [
+                    "chikara desu",
+                    "mizu desu",
+                    "kaze desu",
+                    "tsuchi desu"
+                ],
+                "translationOption": [
+                    "It's power",
+                    "It's water",
+                    "It's the wind",
+                    "It's soil"
+                ]
+            },
+            {
+                "question": [
+                    {
+                        "morpheme": "生物",
+                        "romaji": "seibutsu",
+                        "meaning": [
+                            "living thing",
+                            "organism",
+                            "creature",
+                            "life"
+                        ]
+                    },
+                    {
+                        "morpheme": "に",
+                        "romaji": "ni",
+                        "meaning": [
+                            "at (place, time)",
+                            "in",
+                            "on",
+                            "during"
+                        ]
+                    },
+                    {
+                        "morpheme": "は",
+                        "romaji": "ha",
+                        "meaning": [
+                            "indicates sentence topic"
+                        ]
+                    },
+                    {
+                        "morpheme": "何",
+                        "romaji": "nani",
+                        "meaning": [
+                            "what"
+                        ]
+                    },
+                    {
+                        "morpheme": "が",
+                        "romaji": "ga",
+                        "meaning": [
+                            "indicates the subject of a sentence"
+                        ]
+                    },
+                    {
+                        "morpheme": "ある",
+                        "romaji": "aru",
+                        "meaning": [
+                            "a certain ...",
+                            "some ..."
+                        ]
+                    },
+                    {
+                        "morpheme": "か",
+                        "romaji": "ka",
+                        "meaning": [
+                            "indicates a question"
+                        ]
+                    },
+                    {
+                        "morpheme": "。",
+                        "romaji": ".",
+                        "meaning": []
+                    }
+                ],
+                "options": [
+                    [
+                        {
+                            "morpheme": "力",
+                            "romaji": "chikara",
+                            "meaning": [
+                                "strength",
+                                "power",
+                                "proficiency",
+                                "ability"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "morpheme": "水",
+                            "romaji": "mizu",
+                            "meaning": [
+                                "water (esp. cool or cold)"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "morpheme": "風",
+                            "romaji": "kaze",
+                            "meaning": [
+                                "method",
+                                "manner",
+                                "way",
+                                "style"
+                            ]
+                        }
+                    ],
+                    [
+                        {
+                            "morpheme": "火",
+                            "romaji": "hi",
+                            "meaning": [
+                                "fire",
+                                "flame",
+                                "blaze"
+                            ]
+                        }
+                    ]
+                ],
+                "answer": 0,
+                "romajiQues": "seibutsu ni ha nani ga aru ka .",
+                "translationQues": "What are there in living things?",
+                "romajiOption": [
+                    "chikara",
+                    "mizu",
+                    "kaze",
+                    "hi"
+                ],
+                "translationOption": [
+                    "force",
+                    "water",
+                    "wind",
+                    "fire"
+                ]
+            }
+        ]
+    }
+]
