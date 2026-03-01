@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comprehensions Example</title>
+    <title>Comprehensions</title>
 
     <style>
         * {
@@ -13,7 +13,7 @@
 
         body {
             font-family: Arial, sans-serif;
-            background-color: rgb(255, 255, 255);
+            background-color: white;
         }
 
         h1 {
@@ -21,6 +21,21 @@
             text-align: center;
         }
 
+        /* Section Headings */
+        .section-heading {
+            font-size: 36px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            color: #222;
+        }
+
+        .section-divider {
+            border: none;
+            border-top: 3px solid #ccc;
+            margin: 40px 0;
+        }
+
+        /* List */
         ul {
             list-style-type: none;
             padding: 0;
@@ -39,31 +54,34 @@
             background-color: #e0e0e0;
         }
 
-        li:active {
-            background-color: red;
-        }
-
+        /* Content */
         #comprehension {
             display: none;
-            margin-top: 50px;
+            margin-top: 40px;
         }
 
-        /* Arrow toggle */
-        .toggle-arrow {
+        .sentence {
+            margin-bottom: 25px;
+        }
+
+        /* Toggle arrows */
+        .toggle-arrow,
+        .toggle-mcq-arrow {
             cursor: pointer;
             color: #3399ff;
             margin-left: 8px;
             font-size: 24px;
-            user-select: none;
         }
 
-        .toggle-arrow:hover {
+        .toggle-arrow:hover,
+        .toggle-mcq-arrow:hover {
             color: #ff9933;
         }
 
+        /* Word popup */
         .difficult {
             cursor: pointer;
-            background-color: rgb(233, 233, 233);
+            background-color: #e9e9e9;
             border-right: 5px solid white;
         }
 
@@ -78,24 +96,9 @@
             border: 1px solid #333;
             padding: 12px;
             border-radius: 6px;
-            min-width: 50px;
             max-width: 300px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
             z-index: 1000;
-
-            box-sizing: border-box;
-
-            white-space: normal;
-            word-break: normal;
-            overflow-wrap: normal;
-        }
-
-        .translation {
-            display: none;
-            padding: 8px;
-            background: #3399ff;
-            border-radius: 4px;
-            margin-top: 10px;
         }
 
         .romaji {
@@ -106,26 +109,29 @@
             color: green;
         }
 
-        p {
-            margin: 0;
+        .translation {
+            display: none;
+            padding: 8px;
+            background: #3399ff;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+
+        .mcq-answer {
+            display: none;
+            padding: 8px;
+            background: #d4edda;
+            border-radius: 5px;
+            margin-top: 8px;
         }
 
         .back-footer {
             display: block;
             margin-top: 40px;
-            font-size: 30px;
             text-align: center;
             cursor: pointer;
             color: #3399ff;
             text-decoration: underline;
-        }
-
-        .back-footer:hover {
-            color: #ff9933;
-        }
-
-        .sentence {
-            margin-bottom: 20px;
         }
     </style>
 </head>
@@ -147,7 +153,8 @@
         let activeWord = null;
 
         let comprehensionList = [
-            { name: "d1", text: "Dokkai 1" }
+            { name: "d1", text: "Dokkai 1" },
+            { name: "test_dokkai", text: "Test" }
         ];
 
         comprehensionList.forEach(item => {
@@ -159,24 +166,21 @@
             const url = `https://raw.githubusercontent.com/BhumikRajput/Flashcards/main/assets/comprehensions/${name}.json`;
 
             if (!comprehensionData[name]) {
-                try {
-                    const response = await fetch(url);
-                    if (!response.ok) return null;
-                    const text = await response.text();
-                    comprehensionData[name] = JSON.parse(text);
-                } catch (err) {
-                    console.error("Error loading JSON:", err);
-                    return null;
-                }
+                const response = await fetch(url);
+                if (!response.ok) return null;
+                const text = await response.text();
+                comprehensionData[name] = JSON.parse(text);
             }
             return comprehensionData[name];
         }
+
+        /* ============================= */
 
         list.addEventListener('click', async (e) => {
             const item = e.target.closest('li');
             if (!item) return;
 
-            const data = await loadJSON(item);
+            let data = await loadJSON(item);
             if (!data) return;
 
             comprehension.innerHTML = "";
@@ -184,36 +188,110 @@
 
             let html = "";
 
-            data.forEach(sentenceDict => {
+            if (data[0] && !data[0].type) {
+                data = [{ type: "paragraph", data: data }];
+            }
 
-                let sentenceObj = '';
+            data.forEach(section => {
 
-                sentenceDict.sentence.forEach(tokenDict => {
-                    if (tokenDict.meaning === null) {
-                        sentenceObj += tokenDict.morpheme;
-                    } else {
-                        sentenceObj += `
+                /* -------- PARAGRAPH SECTION -------- */
+                if (section.type === "paragraph") {
+
+                    html += `<div class="section-heading">📖 Reading Passage</div>`;
+
+                    section.data.forEach(sentenceDict => {
+
+                        let sentenceObj = '';
+
+                        sentenceDict.sentence.forEach(token => {
+                            if (token.meaning === null) {
+                                sentenceObj += token.morpheme;
+                            } else {
+                                sentenceObj += `
                             <span class="difficult"
-                                  data-meaning="${tokenDict.meaning}"
-                                  data-romaji="${tokenDict.romaji}">
-                                ${tokenDict.morpheme}
+                                data-meaning="${token.meaning}"
+                                data-romaji="${token.romaji}">
+                                ${token.morpheme}
                             </span>
                         `;
-                    }
-                });
+                            }
+                        });
 
-                html += `
-                    <div class="sentence"
-                         data-meaning="${sentenceDict.translation}">
-                        <div class="text-container">
-                            <p>
-                                ${sentenceObj}
-                                <span class="toggle-arrow">▼</span>
-                            </p>
-                            <div class="translation"></div>
+                        html += `
+                    <div class="sentence" data-meaning="${sentenceDict.translation}">
+                        <p>
+                            ${sentenceObj}
+                            <span class="toggle-arrow">▼</span>
+                        </p>
+                        <div class="translation"></div>
+                    </div>
+                `;
+                    });
+
+                    html += `<hr class="section-divider">`;
+                }
+
+                /* -------- MCQ SECTION -------- */
+                if (section.type === "mcq") {
+
+                    html += `<div class="section-heading">📝 Questions</div>`;
+
+                    section.data.forEach((questionObj, index) => {
+
+                        let questionHTML = '';
+
+                        questionObj.question.forEach(token => {
+                            if (token.meaning === null) {
+                                questionHTML += token.morpheme;
+                            } else {
+                                questionHTML += `
+                            <span class="difficult"
+                                data-meaning="${token.meaning}"
+                                data-romaji="${token.romaji}">
+                                ${token.morpheme}
+                            </span>
+                        `;
+                            }
+                        });
+
+                        html += `
+                    <div class="sentence">
+                        <p>
+                            <strong>Q${index + 1}:</strong>
+                            ${questionHTML}
+                            <span class="toggle-mcq-arrow">▼</span>
+                        </p>
+                `;
+
+                        questionObj.options.forEach((option, i) => {
+
+                            let optionHTML = '';
+
+                            option.forEach(token => {
+                                if (token.meaning === null) {
+                                    optionHTML += token.morpheme;
+                                } else {
+                                    optionHTML += `
+                                <span class="difficult"
+                                    data-meaning="${token.meaning}"
+                                    data-romaji="${token.romaji}">
+                                    ${token.morpheme}
+                                </span>
+                            `;
+                                }
+                            });
+
+                            html += `<p>${i + 1}. ${optionHTML}</p>`;
+                        });
+
+                        html += `
+                        <div class="mcq-answer">
+                            Correct Answer: ${questionObj.answer + 1}
                         </div>
                     </div>
                 `;
+                    });
+                }
             });
 
             html += `<span class="back-footer">Back to list</span>`;
@@ -221,6 +299,10 @@
             comprehension.innerHTML = html;
             comprehension.style.display = 'block';
         });
+
+        /* ============================= */
+        /* INTERACTIONS */
+        /* ============================= */
 
         comprehension.addEventListener('click', function (e) {
 
@@ -233,87 +315,55 @@
                 return;
             }
 
-            /* Word popup */
             if (e.target.classList.contains('difficult')) {
                 e.stopPropagation();
 
                 if (activeWord === e.target) return;
                 activeWord = e.target;
 
-                const meaning = e.target.getAttribute('data-meaning').split(',').join('; ');
-                const romaji = e.target.getAttribute('data-romaji');
-
                 popup.innerHTML = `
-                    <div class="romaji">${romaji}</div>
-                    <div class="meaning">${meaning}</div>
-                `;
+            <div class="romaji">${e.target.dataset.romaji}</div>
+            <div class="meaning">${e.target.dataset.meaning}</div>
+        `;
 
                 popup.style.display = 'block';
-                popup.style.visibility = 'hidden';
-                popup.style.width = 'auto';
-
-                requestAnimationFrame(() => {
-
-                    const rect = e.target.getBoundingClientRect();
-                    const measuredWidth = popup.offsetWidth;
-                    popup.style.width = measuredWidth + 'px';
-
-                    const popupRect = popup.getBoundingClientRect();
-
-                    let top = rect.bottom + window.scrollY + 8;
-                    let left = rect.left + window.scrollX;
-
-                    if (left + popupRect.width > window.innerWidth + window.scrollX) {
-                        left = window.innerWidth + window.scrollX - popupRect.width - 10;
-                    }
-
-                    if (left < window.scrollX) {
-                        left = window.scrollX + 10;
-                    }
-
-                    if (top + popupRect.height > window.innerHeight + window.scrollY) {
-                        top = rect.top + window.scrollY - popupRect.height - 8;
-                    }
-
-                    popup.style.top = `${top}px`;
-                    popup.style.left = `${left}px`;
-                    popup.style.visibility = 'visible';
-                });
+                const rect = e.target.getBoundingClientRect();
+                popup.style.top = rect.bottom + window.scrollY + 8 + "px";
+                popup.style.left = rect.left + window.scrollX + "px";
             }
 
-            /* Toggle translation */
             if (e.target.classList.contains('toggle-arrow')) {
                 const sentence = e.target.closest('.sentence');
-                const meaningDiv = sentence.querySelector('.translation');
+                const div = sentence.querySelector('.translation');
 
-                if (meaningDiv.style.display === 'block') {
-                    meaningDiv.style.display = 'none';
+                if (div.style.display === 'block') {
+                    div.style.display = 'none';
                     e.target.textContent = '▼';
                 } else {
-                    meaningDiv.textContent = sentence.getAttribute('data-meaning');
-                    meaningDiv.style.display = 'block';
+                    div.textContent = sentence.dataset.meaning;
+                    div.style.display = 'block';
+                    e.target.textContent = '▲';
+                }
+            }
+
+            if (e.target.classList.contains('toggle-mcq-arrow')) {
+                const sentence = e.target.closest('.sentence');
+                const div = sentence.querySelector('.mcq-answer');
+
+                if (div.style.display === 'block') {
+                    div.style.display = 'none';
+                    e.target.textContent = '▼';
+                } else {
+                    div.style.display = 'block';
                     e.target.textContent = '▲';
                 }
             }
         });
 
-        document.body.addEventListener('click', function () {
+        document.body.addEventListener('click', () => {
             popup.style.display = 'none';
             activeWord = null;
         });
-
-        window.addEventListener('scroll', () => {
-            popup.style.display = 'none';
-            activeWord = null;
-        });
-
-        document.addEventListener('keydown', (e) => {
-            if (e.key === "Escape") {
-                popup.style.display = 'none';
-                activeWord = null;
-            }
-        });
-
     </script>
 
 </body>
