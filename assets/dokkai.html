@@ -8,13 +8,13 @@
 
     <style>
         * {
-            font-size: 30px;
             box-sizing: border-box;
         }
 
         body {
             font-family: Arial, sans-serif;
             background-color: white;
+            font-size: 30px;
         }
 
         h1 {
@@ -67,7 +67,14 @@
             margin: 6px 0;
         }
 
-        .toggle-arrow,
+        /* 🔥 FIXED ARROW SIZE */
+        .toggle-arrow {
+            cursor: pointer;
+            color: #3399ff;
+            font-size: 24px;
+            /* force consistent size */
+        }
+
         .toggle-answer {
             cursor: pointer;
             color: #3399ff;
