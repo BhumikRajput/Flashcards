@@ -22,15 +22,12 @@
                     {
                         "morpheme": "に",
                         "romaji": "ni",
-                        "meaning": [
-                            "at (place, time)",
-                            "in",
-                            "on",
-                            "during"
-                        ],
+                        "meaning": null,
                         "format": [
                             "b"
-                        ]
+                        ],
+                        "furigana": "に"
+                        
                     },
                     {
                         "morpheme": "は",
