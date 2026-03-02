@@ -84,7 +84,6 @@
             border-right: 5px solid white;
         }
 
-        /* Disable hover when popup is active */
         #comprehension.popup-active .difficult:hover {
             background-color: #e9e9e9;
         }
@@ -138,6 +137,11 @@
             color: #3399ff;
             text-decoration: underline;
         }
+
+        ruby rt {
+            font-size: 0.7em;
+            color: gray;
+        }
     </style>
 </head>
 
@@ -148,7 +152,6 @@
     <ul id="comprehension-list"></ul>
     <div id="comprehension"></div>
     <div id="popup" class="popup"></div>
-
 
     <script>
         const list = document.getElementById('comprehension-list');
@@ -163,7 +166,6 @@
             { name: "test_dokkai", text: "Test" }
         ];
 
-        // Populate list
         comprehensionList.forEach(item => {
             list.innerHTML += `<li data-name="${item.name}">${item.text}</li>`;
         });
@@ -179,6 +181,37 @@
             return comprehensionData[name];
         }
 
+        // 🔥 NEW: Render Token Function
+        function renderToken(token) {
+            let text = token.morpheme;
+
+            // Apply formatting
+            if (token.format && Array.isArray(token.format)) {
+                token.format.forEach(f => {
+                    if (f === 'b') text = `<b>${text}</b>`;
+                    if (f === 'i') text = `<i>${text}</i>`;
+                    if (f === 'u') text = `<u>${text}</u>`;
+                    if (f === 's') text = `<s>${text}</s>`;
+                });
+            }
+
+            // Apply furigana
+            if (token.furigana) {
+                text = `<ruby>${text}<rt>${token.furigana}</rt></ruby>`;
+            }
+
+            // If has meaning → popup word
+            if (token.meaning !== null && token.meaning !== undefined) {
+                text = `<span class="difficult"
+                            data-meaning="${token.meaning}"
+                            data-romaji="${token.romaji || ''}">
+                            ${text}
+                        </span>`;
+            }
+
+            return text;
+        }
+
         // Show comprehension
         list.addEventListener('click', async (e) => {
             const item = e.target.closest('li');
@@ -190,60 +223,66 @@
             list.style.display = 'none';
 
             let html = "";
+
             data.forEach(section => {
+
                 if (section.type === "paragraph") {
                     html += `<div class="section-heading">📖 Reading Passage</div>`;
+
                     section.data.forEach(sentenceDict => {
                         let sentenceObj = '';
                         sentenceDict.sentence.forEach(token => {
-                            if (token.meaning === null) sentenceObj += token.morpheme;
-                            else sentenceObj += `<span class="difficult" data-meaning="${token.meaning}" data-romaji="${token.romaji}">${token.morpheme}</span>`;
+                            sentenceObj += renderToken(token);
                         });
+
                         html += `<div class="sentence" data-meaning="${sentenceDict.translation || ''}">
                             <p>${sentenceObj} <span class="toggle-arrow">▼</span></p>
                             <div class="translation"></div>
                         </div>`;
                     });
+
                     html += `<hr class="section-divider">`;
                 }
 
                 if (section.type === "mcq") {
                     html += `<div class="section-heading">📝 Questions</div>`;
+
                     section.data.forEach((questionObj, index) => {
+
                         let questionHTML = '';
                         questionObj.question.forEach(token => {
-                            if (token.meaning === null) questionHTML += token.morpheme;
-                            else questionHTML += `<span class="difficult" data-meaning="${token.meaning}" data-romaji="${token.romaji}">${token.morpheme}</span>`;
+                            questionHTML += renderToken(token);
                         });
 
                         html += `<div class="sentence" data-meaning="${questionObj.translationQues || ''}">
                             <p><strong>Q${index + 1}:</strong> ${questionHTML} <span class="toggle-arrow">▼</span></p>
                             <div class="translation"></div>`;
+
                         questionObj.options.forEach((option, i) => {
                             let optionHTML = '';
                             option.forEach(token => {
-                                if (token.meaning === null) optionHTML += token.morpheme;
-                                else optionHTML += `<span class="difficult" data-meaning="${token.meaning}" data-romaji="${token.romaji}">${token.morpheme}</span>`;
+                                optionHTML += renderToken(token);
                             });
                             html += `<p>${i + 1}. ${optionHTML}</p>`;
                         });
+
                         html += `<p><span class="toggle-answer">Show Answer</span></p>
-                         <div class="mcq-answer">Correct Answer: ${questionObj.answer + 1}</div>
-                         </div>`;
+                                 <div class="mcq-answer">Correct Answer: ${questionObj.answer + 1}</div>
+                                 </div>`;
                     });
                 }
+
             });
 
             html += `<span class="back-footer">Back to list</span>`;
+
             comprehension.innerHTML = html;
             comprehension.style.display = 'block';
         });
 
-        // Handle clicks inside comprehension
         comprehension.addEventListener('click', function (e) {
             const target = e.target;
 
-            // If popup is open, any click closes it and stops further action
             if (popup.style.display === 'block') {
                 popup.style.display = 'none';
                 activeWord = null;
@@ -253,11 +292,10 @@
                 return;
             }
 
-            // Open popup for difficult word
             if (target.classList.contains('difficult')) {
                 activeWord = target;
                 popup.innerHTML = `<div class="romaji">${target.dataset.romaji}</div>
-                           <div class="meaning">${target.dataset.meaning.split(',').join('; ')}</div>`;
+                                   <div class="meaning">${target.dataset.meaning.split(',').join('; ')}</div>`;
                 popup.style.display = 'block';
                 comprehension.classList.add('popup-active');
                 const rect = target.getBoundingClientRect();
@@ -266,7 +304,6 @@
                 return;
             }
 
-            // Toggle translation
             if (target.classList.contains('toggle-arrow')) {
                 const sentence = target.closest('.sentence');
                 const div = sentence.querySelector('.translation');
@@ -281,7 +318,6 @@
                 return;
             }
 
-            // Toggle MCQ answer
             if (target.classList.contains('toggle-answer')) {
                 const sentence = target.closest('.sentence');
                 const div = sentence.querySelector('.mcq-answer');
@@ -295,7 +331,6 @@
                 return;
             }
 
-            // Back to list
             if (target.classList.contains('back-footer')) {
                 comprehension.style.display = 'none';
                 comprehension.innerHTML = '';
@@ -304,7 +339,6 @@
             }
         });
 
-        // Document click: close popup anywhere (ignore clicks on .difficult)
         document.addEventListener('click', (e) => {
             if (popup.style.display === 'block' && !e.target.classList.contains('difficult')) {
                 popup.style.display = 'none';
@@ -312,6 +346,7 @@
                 comprehension.classList.remove('popup-active');
             }
         });
+
     </script>
 </body>
 
