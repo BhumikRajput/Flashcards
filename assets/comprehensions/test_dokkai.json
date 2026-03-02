@@ -12,6 +12,11 @@
                             "organism",
                             "creature",
                             "life"
+                        ],
+                        "furigana": "せいぶつ",
+                        "format": [
+                            "s",
+                            "i"
                         ]
                     },
                     {
@@ -22,6 +27,9 @@
                             "in",
                             "on",
                             "during"
+                        ],
+                        "format": [
+                            "b"
                         ]
                     },
                     {
@@ -60,7 +68,8 @@
                             "power",
                             "proficiency",
                             "ability"
-                        ]
+                        ],
+                        "furigana": "ちから"
                     },
                     {
                         "morpheme": "が",
