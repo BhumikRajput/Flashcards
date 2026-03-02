@@ -287,17 +287,19 @@
 
             const target = e.target;
 
-            // Close popup if clicking outside difficult word
+            // 🔥 NEW LOGIC: If popup is open, close it and STOP everything else
             if (popup.style.display === 'block') {
-                const clickedDifficult = target.closest('.difficult');
-                if (!clickedDifficult) {
-                    popup.style.display = 'none';
-                    activeWord = null;
-                    comprehension.classList.remove('popup-active');
-                }
+                popup.style.display = 'none';
+                activeWord = null;
+                comprehension.classList.remove('popup-active');
+
+                e.stopPropagation();
+                e.preventDefault();
+                return; // 🚀 Prevents ANY other action
             }
 
-            // 🔥 FIXED: Works with formatting + furigana
+            // 🔥 Normal behavior below (only runs if popup is NOT open)
+
             const difficultWord = target.closest('.difficult');
             if (difficultWord) {
                 activeWord = difficultWord;
@@ -355,15 +357,6 @@
                 list.style.display = 'block';
                 popup.style.display = 'none';
                 return;
-            }
-        });
-
-        // Close popup when clicking anywhere outside comprehension
-        document.addEventListener('click', (e) => {
-            if (!e.target.closest('.difficult') && !e.target.closest('#popup')) {
-                popup.style.display = 'none';
-                activeWord = null;
-                comprehension.classList.remove('popup-active');
             }
         });
     </script>
