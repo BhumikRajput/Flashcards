@@ -51,7 +51,13 @@
                         "morpheme": "、",
                         "romaji": ",",
                         "meaning": []
-                    },
+                    }
+                ],
+                "romaji": "bunshou wo yon da ato ,",
+                "translation": "After reading the article,"
+            },
+            {
+                "sentence": [
                     {
                         "morpheme": "下",
                         "romaji": "shita",
@@ -107,8 +113,8 @@
                         "meaning": []
                     }
                 ],
-                "romaji": "bunshou wo yon da ato , shita no toi ni kotae nasai .",
-                "translation": "After reading the passage, answer the questions below."
+                "romaji": "shita no toi ni kotae nasai .",
+                "translation": "Answer the questions below."
             }
         ]
     },
@@ -152,7 +158,13 @@
                         "morpheme": "、",
                         "romaji": ",",
                         "meaning": []
-                    },
+                    }
+                ],
+                "romaji": "1 ) mukashi kara ,",
+                "translation": "1) Since ancient times,"
+            },
+            {
+                "sentence": [
                     {
                         "morpheme": "いい",
                         "romaji": "ii",
@@ -306,7 +318,13 @@
                         "morpheme": "、",
                         "romaji": ",",
                         "meaning": []
-                    },
+                    }
+                ],
+                "romaji": "ii tenki ni naru you ni o negai suru ningyou wo ( teru teru bouzu ) to yon de ,",
+                "translation": "The dolls that pray for nice weather are called ``Teruterubouzu''."
+            },
+            {
+                "sentence": [
                     {
                         "morpheme": "学校",
                         "romaji": "gakkou",
@@ -451,8 +469,8 @@
                         "meaning": []
                     }
                 ],
-                "romaji": "1 ) mukashi kara , ii tenki ni naru you ni o negai suru ningyou wo ( teru teru bouzu ) to yon de , gakkou no ensoku ya undou kai no mae no nichi ni ① kore wo tsukuri masu .",
-                "translation": "1) Traditionally, dolls that pray for nice weather are called ``teruteru bozu,'' and they are made on the day before a school field trip or sports day."
+                "romaji": "gakkou no ensoku ya undou kai no mae no nichi ni ① kore wo tsukuri masu .",
+                "translation": "①Make this the day before a school field trip or sports day."
             },
             {
                 "sentence": [
@@ -552,7 +570,13 @@
                         "morpheme": "、",
                         "romaji": ",",
                         "meaning": []
-                    },
+                    }
+                ],
+                "romaji": "kodomo tachi ha ie no nin ni ② tetsudatsu te moratsu te ,",
+                "translation": "The children ask their family members to help them,"
+            },
+            {
+                "sentence": [
                     {
                         "morpheme": "白い",
                         "romaji": "shiroi",
@@ -602,7 +626,13 @@
                         "morpheme": "、",
                         "romaji": ",",
                         "meaning": []
-                    },
+                    }
+                ],
+                "romaji": "shiroi nunoya kami de tsukuri ,",
+                "translation": "Made from white cloth or paper,"
+            },
+            {
+                "sentence": [
                     {
                         "morpheme": "家",
                         "romaji": "ie",
@@ -718,8 +748,8 @@
                         "meaning": []
                     }
                 ],
-                "romaji": "kodomo tachi ha ie no nin ni ② tetsudatsu te moratsu te , shiroi nunoya kami de tsukuri , ie no yane no shita ni tsurushi te ( ※ 1 ) ③ inori masu .",
-                "translation": "With the help of family members ②, the children make one out of white cloth or paper, hang it under the roof of their house (*1)③ and pray."
+                "romaji": "ie no yane no shita ni tsurushi te ( ※ 1 ) ③ inori masu .",
+                "translation": "Hang it under the roof of your house (*1)③ and pray."
             },
             {
                 "sentence": [
@@ -778,7 +808,13 @@
                         "morpheme": "、",
                         "romaji": ",",
                         "meaning": []
-                    },
+                    }
+                ],
+                "romaji": "( ※ 1 ) tsurusu : mono wo ,",
+                "translation": "(*1) Hanging: something,"
+            },
+            {
+                "sentence": [
                     {
                         "morpheme": "ひも",
                         "romaji": "himo",
@@ -858,8 +894,8 @@
                         ]
                     }
                 ],
-                "romaji": "( ※ 1 ) tsurusu : mono wo , himo nado de musun de ue kara sageru koto",
-                "translation": "(*1) Hanging: Hanging something from above by tying it with string etc."
+                "romaji": "himo nado de musun de ue kara sageru koto",
+                "translation": "Tie it with a string and hang it from above"
             }
         ]
     },
