@@ -163,6 +163,7 @@
     <div id="popup" class="popup"></div>
 
     <script>
+
         const list = document.getElementById('comprehension-list');
         const comprehension = document.getElementById('comprehension');
         const popup = document.getElementById('popup');
@@ -191,11 +192,11 @@
             return comprehensionData[name];
         }
 
-        // 🔥 Render Token Function
+        // Render token
         function renderToken(token) {
             let text = token.morpheme;
 
-            // Apply formatting
+            // formatting
             if (token.format && Array.isArray(token.format)) {
                 token.format.forEach(f => {
                     if (f === 'b') text = `<b>${text}</b>`;
@@ -205,18 +206,18 @@
                 });
             }
 
-            // Apply furigana
+            // furigana
             if (token.furigana) {
                 text = `<ruby>${text}<rt>${token.furigana}</rt></ruby>`;
             }
 
-            // Wrap difficult word
+            // difficult word
             if (token.meaning !== null && token.meaning !== undefined) {
                 text = `<span class="difficult"
-                    data-meaning="${token.meaning}"
-                    data-romaji="${token.romaji || ''}">
-                    ${text}
-                </span>`;
+        data-meaning="${token.meaning}"
+        data-romaji="${token.romaji || ''}">
+        ${text}
+    </span>`;
             }
 
             return text;
@@ -237,52 +238,75 @@
 
             data.forEach(section => {
 
+                if (section.type === "heading") {
+                    html += `<div class="section-heading">${section.text}</div>`;
+                }
+
+                // type "break" adds blank line
+                if (section.type === "break") {
+                    html += `<br>`;
+                }
+
+                // type "line" adds visible horizontal rule
+                if (section.type === "line") {
+                    html += `<hr class="section-divider">`;
+                }
+
                 if (section.type === "paragraph") {
-                    html += `<div class="section-heading">📖 Reading Passage</div>`;
 
                     section.data.forEach(sentenceDict => {
+
                         let sentenceObj = '';
+
                         sentenceDict.sentence.forEach(token => {
                             sentenceObj += renderToken(token);
                         });
 
-                        html += `<div class="sentence" data-meaning="${sentenceDict.translation || ''}">
-                    <p>${sentenceObj} <span class="toggle-arrow">▼</span></p>
-                    <div class="translation"></div>
-                </div>`;
+                        html += `
+        <div class="sentence" data-meaning="${sentenceDict.translation || ''}">
+            <p>${sentenceObj} <span class="toggle-arrow">▼</span></p>
+            <div class="translation"></div>
+        </div>
+        `;
                     });
 
-                    html += `<hr class="section-divider">`;
+                    // Removed automatic <hr>
                 }
 
                 if (section.type === "mcq") {
-                    html += `<div class="section-heading">📝 Questions</div>`;
 
                     section.data.forEach((questionObj, index) => {
 
                         let questionHTML = '';
+
                         questionObj.question.forEach(token => {
                             questionHTML += renderToken(token);
                         });
 
-                        html += `<div class="sentence" data-meaning="${questionObj.translationQues || ''}">
-                    <p><strong>Q${index + 1}:</strong> ${questionHTML} <span class="toggle-arrow">▼</span></p>
-                    <div class="translation"></div>`;
+                        html += `
+        <div class="sentence" data-meaning="${questionObj.translationQues || ''}">
+            <p><strong>Q${index + 1}:</strong> ${questionHTML} <span class="toggle-arrow">▼</span></p>
+            <div class="translation"></div>
+        `;
 
                         questionObj.options.forEach((option, i) => {
+
                             let optionHTML = '';
+
                             option.forEach(token => {
                                 optionHTML += renderToken(token);
                             });
+
                             html += `<p>${i + 1}. ${optionHTML}</p>`;
                         });
 
-                        html += `<p><span class="toggle-answer">Show Answer</span></p>
-                         <div class="mcq-answer">Correct Answer: ${questionObj.answer + 1}</div>
-                         </div>`;
+                        html += `
+            <p><span class="toggle-answer">Show Answer</span></p>
+            <div class="mcq-answer">Correct Answer: ${questionObj.answer + 1}</div>
+        </div>
+        `;
                     });
                 }
-
             });
 
             html += `<span class="back-footer">Back to list</span>`;
@@ -291,37 +315,38 @@
             comprehension.style.display = 'block';
         });
 
-        // 🔥 Main Click Handler
+        // Main click handler
         comprehension.addEventListener('click', function (e) {
 
             const target = e.target;
 
-            // 🔥 NEW LOGIC: If popup is open, close it and STOP everything else
+            // If popup is open, close it first
             if (popup.style.display === 'block') {
                 popup.style.display = 'none';
                 activeWord = null;
                 comprehension.classList.remove('popup-active');
-
                 e.stopPropagation();
                 e.preventDefault();
-                return; // 🚀 Prevents ANY other action
+                return;
             }
 
-            // 🔥 Normal behavior below (only runs if popup is NOT open)
-
+            // Difficult word popup
             const difficultWord = target.closest('.difficult');
+
             if (difficultWord) {
+
                 activeWord = difficultWord;
 
                 popup.innerHTML = `
-            <div class="romaji">${difficultWord.dataset.romaji}</div>
-            <div class="meaning">${difficultWord.dataset.meaning.split(',').join('; ')}</div>
-        `;
+        <div class="romaji">${difficultWord.dataset.romaji}</div>
+        <div class="meaning">${difficultWord.dataset.meaning.split(',').join('; ')}</div>
+    `;
 
                 popup.style.display = 'block';
                 comprehension.classList.add('popup-active');
 
                 const rect = difficultWord.getBoundingClientRect();
+
                 popup.style.top = rect.bottom + window.scrollY + 8 + "px";
                 popup.style.left = rect.left + window.scrollX + "px";
 
@@ -330,6 +355,7 @@
 
             // Toggle translation
             if (target.classList.contains('toggle-arrow')) {
+
                 const sentence = target.closest('.sentence');
                 const div = sentence.querySelector('.translation');
 
@@ -341,11 +367,13 @@
                     div.style.display = 'block';
                     target.textContent = '▲';
                 }
+
                 return;
             }
 
             // Toggle MCQ answer
             if (target.classList.contains('toggle-answer')) {
+
                 const sentence = target.closest('.sentence');
                 const div = sentence.querySelector('.mcq-answer');
 
@@ -356,6 +384,7 @@
                     div.style.display = 'block';
                     target.textContent = 'Hide Answer';
                 }
+
                 return;
             }
 
@@ -367,7 +396,9 @@
                 popup.style.display = 'none';
                 return;
             }
+
         });
+
     </script>
 </body>
 
