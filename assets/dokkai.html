@@ -337,10 +337,17 @@
 
                 activeWord = difficultWord;
 
+                const morpheme = difficultWord.textContent.trim();
+
                 popup.innerHTML = `
-        <div class="romaji">${difficultWord.dataset.romaji}</div>
-        <div class="meaning">${difficultWord.dataset.meaning.split(',').join('; ')}</div>
-    `;
+    <div class="romaji">${difficultWord.dataset.romaji}</div>
+    <div class="meaning">${difficultWord.dataset.meaning.split(',').join('; ')}</div>
+    <div style="margin-top:6px;">
+        <a href="https://jisho.org/search/${encodeURIComponent(morpheme)}" target="_blank" style="color:#3399ff; text-decoration:underline;">
+            jisho
+        </a>
+    </div>
+`;
 
                 popup.style.display = 'block';
                 comprehension.classList.add('popup-active');
