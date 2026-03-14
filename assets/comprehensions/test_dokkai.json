@@ -1,6 +1,10 @@
 [
     {
         "type": "paragraph",
+        "text": "this is is"
+    },
+    {
+        "type": "paragraph",
         "data": [
             {
                 "sentence": [
