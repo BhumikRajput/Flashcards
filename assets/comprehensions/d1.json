@@ -5,7 +5,7 @@
             {
                 "sentence": [
                     {
-                        "morpheme": "12文章",
+                        "morpheme": "文章",
                         "romaji": "bunshou",
                         "meaning": [
                             "writing",
@@ -25,24 +25,21 @@
                         ]
                     },
                     {
-                        "morpheme": "読ん",
-                        "romaji": "yon",
+                        "morpheme": "読んだ",
+                        "romaji": "yonda",
                         "meaning": [
                             "to read"
-                        ]
-                    },
-                    {
-                        "morpheme": "だ",
-                        "romaji": "da",
-                        "meaning": [
-                            "other (esp. people and abstract matters)"
-                        ]
+                        ],
+                        "baseForm": "読む"
                     },
                     {
                         "morpheme": "あと",
                         "romaji": "ato",
                         "meaning": [
-                            "after"
+                            "trace",
+                            "tracks",
+                            "mark",
+                            "sign"
                         ]
                     },
                     {
@@ -51,7 +48,7 @@
                         "meaning": []
                     }
                 ],
-                "romaji": "bunshou wo yon da ato ,",
+                "romaji": "bunshou wo yonda ato ,",
                 "translation": "After reading the article,"
             },
             {
@@ -93,16 +90,19 @@
                         "morpheme": "答え",
                         "romaji": "kotae",
                         "meaning": [
-                            "to answer",
-                            "to reply"
-                        ]
+                            "answer",
+                            "reply",
+                            "response"
+                        ],
+                        "baseForm": "答える"
                     },
                     {
                         "morpheme": "なさい",
                         "romaji": "nasai",
                         "meaning": [
-                            "to do"
-                        ]
+                            "do ..."
+                        ],
+                        "baseForm": "為さる"
                     },
                     {
                         "morpheme": "。",
@@ -166,7 +166,8 @@
                             "nice",
                             "pleasant",
                             "agreeable"
-                        ]
+                        ],
+                        "baseForm": "良い"
                     },
                     {
                         "morpheme": "天気",
@@ -189,28 +190,25 @@
                         "morpheme": "なる",
                         "romaji": "naru",
                         "meaning": [
-                            "to become",
-                            "to get",
-                            "to grow",
-                            "to turn",
-                            "to reach",
-                            "to attain"
-                        ]
+                            "to bear fruit"
+                        ],
+                        "baseForm": "成る"
                     },
                     {
                         "morpheme": "よう",
                         "romaji": "you",
                         "meaning": [
-                            "appearing ...",
-                            "looking ..."
+                            "(the) positive"
                         ]
                     },
                     {
                         "morpheme": "に",
                         "romaji": "ni",
                         "meaning": [
-                            "be",
-                            "is"
+                            "at (place, time)",
+                            "in",
+                            "on",
+                            "during"
                         ]
                     },
                     {
@@ -224,22 +222,23 @@
                         "morpheme": "願い",
                         "romaji": "negai",
                         "meaning": [
-                            "to desire",
-                            "to wish",
-                            "to hope"
-                        ]
+                            "desire",
+                            "wish",
+                            "hope"
+                        ],
+                        "baseForm": "願う"
                     },
                     {
                         "morpheme": "する",
                         "romaji": "suru",
                         "meaning": [
-                            "to become",
-                            "to get",
-                            "to grow",
-                            "to turn",
-                            "to reach",
-                            "to attain"
-                        ]
+                            "to rub",
+                            "to chafe",
+                            "to strike (match)",
+                            "to file",
+                            "to frost (glass)"
+                        ],
+                        "baseForm": "為る"
                     },
                     {
                         "morpheme": "人形",
@@ -298,23 +297,14 @@
                         ]
                     },
                     {
-                        "morpheme": "呼ん",
-                        "romaji": "yon",
+                        "morpheme": "呼んで",
+                        "romaji": "yonde",
                         "meaning": [
                             "to call out (to)",
                             "to call",
                             "to invoke"
-                        ]
-                    },
-                    {
-                        "morpheme": "で",
-                        "romaji": "de",
-                        "meaning": [
-                            "you said",
-                            "he said",
-                            "she said",
-                            "they said"
-                        ]
+                        ],
+                        "baseForm": "呼ぶ"
                     },
                     {
                         "morpheme": "、",
@@ -322,7 +312,7 @@
                         "meaning": []
                     }
                 ],
-                "romaji": "ii tenki ni naru you ni o negai suru ningyou wo ( teru teru bouzu ) to yon de ,",
+                "romaji": "ii tenki ni naru you ni o negai suru ningyou wo ( teru teru bouzu ) to yonde ,",
                 "translation": "The dolls that pray for nice weather are called ``Teruterubouzu''."
             },
             {
@@ -453,23 +443,16 @@
                         ]
                     },
                     {
-                        "morpheme": "作り",
-                        "romaji": "tsukuri",
+                        "morpheme": "作ります",
+                        "romaji": "tsukurimasu",
                         "meaning": [
                             "to make",
                             "to produce",
                             "to manufacture",
                             "to build",
                             "to construct"
-                        ]
-                    },
-                    {
-                        "morpheme": "ます",
-                        "romaji": "masu",
-                        "meaning": [
-                            "to increase",
-                            "to grow"
-                        ]
+                        ],
+                        "baseForm": "作る"
                     },
                     {
                         "morpheme": "。",
@@ -477,7 +460,7 @@
                         "meaning": []
                     }
                 ],
-                "romaji": "gakkou no ensoku ya undou kai no mae no nichi ni ① kore wo tsukuri masu .",
+                "romaji": "gakkou no ensoku ya undou kai no mae no nichi ni ① kore wo tsukurimasu .",
                 "translation": "①Make this the day before a school field trip or sports day."
             },
             {
@@ -494,7 +477,9 @@
                         "morpheme": "たち",
                         "romaji": "tachi",
                         "meaning": [
-                            "pluralizing suffix (esp. for people and animals; formerly honorific)"
+                            "departure",
+                            "setting off",
+                            "start"
                         ]
                     },
                     {
@@ -549,51 +534,27 @@
                         ]
                     },
                     {
-                        "morpheme": "手伝っ",
-                        "romaji": "tetsudatsu",
+                        "morpheme": "手伝って",
+                        "romaji": "tetsudatsute",
                         "meaning": [
                             "to help",
                             "to assist",
                             "to aid"
                         ],
+                        "baseForm": "手伝う",
                         "format": [
                             "u"
                         ]
                     },
                     {
-                        "morpheme": "て",
-                        "romaji": "te",
-                        "meaning": [
-                            "you said",
-                            "he said",
-                            "she said",
-                            "they said"
-                        ],
-                        "format": [
-                            "u"
-                        ]
-                    },
-                    {
-                        "morpheme": "もらっ",
-                        "romaji": "moratsu",
+                        "morpheme": "もらって",
+                        "romaji": "moratte",
                         "meaning": [
                             "to receive",
                             "to take",
                             "to accept"
                         ],
-                        "format": [
-                            "u"
-                        ]
-                    },
-                    {
-                        "morpheme": "て",
-                        "romaji": "te",
-                        "meaning": [
-                            "you said",
-                            "he said",
-                            "she said",
-                            "they said"
-                        ],
+                        "baseForm": "貰う",
                         "format": [
                             "u"
                         ]
@@ -604,7 +565,7 @@
                         "meaning": []
                     }
                 ],
-                "romaji": "kodomo tachi ha ie no nin ni ② tetsudatsu te moratsu te ,",
+                "romaji": "kodomo tachi ha ie no nin ni ② tetsudatsute moratte ,",
                 "translation": "The children ask their family members to help them,"
             },
             {
@@ -645,12 +606,15 @@
                         "morpheme": "作り",
                         "romaji": "tsukuri",
                         "meaning": [
-                            "to make",
-                            "to produce",
-                            "to manufacture",
-                            "to build",
-                            "to construct"
-                        ]
+                            "making",
+                            "producing",
+                            "manufacturing",
+                            "building",
+                            "construction",
+                            "make",
+                            "structure"
+                        ],
+                        "baseForm": "作る"
                     },
                     {
                         "morpheme": "、",
@@ -712,22 +676,13 @@
                         ]
                     },
                     {
-                        "morpheme": "つるし",
-                        "romaji": "tsurushi",
+                        "morpheme": "つるして",
+                        "romaji": "tsurushite",
                         "meaning": [
                             "to hang",
                             "to hang up"
-                        ]
-                    },
-                    {
-                        "morpheme": "て",
-                        "romaji": "te",
-                        "meaning": [
-                            "you said",
-                            "he said",
-                            "she said",
-                            "they said"
-                        ]
+                        ],
+                        "baseForm": "吊るす"
                     },
                     {
                         "morpheme": "(",
@@ -761,24 +716,14 @@
                         ]
                     },
                     {
-                        "morpheme": "祈り",
-                        "romaji": "inori",
+                        "morpheme": "祈ります",
+                        "romaji": "inorimasu",
                         "meaning": [
                             "to pray",
                             "to say a prayer",
                             "to say grace"
                         ],
-                        "format": [
-                            "u"
-                        ]
-                    },
-                    {
-                        "morpheme": "ます",
-                        "romaji": "masu",
-                        "meaning": [
-                            "to increase",
-                            "to grow"
-                        ],
+                        "baseForm": "祈る",
                         "format": [
                             "u"
                         ]
@@ -789,7 +734,7 @@
                         "meaning": []
                     }
                 ],
-                "romaji": "ie no yane no shita ni tsurushi te ( ※ 1 ) ③ inori masu .",
+                "romaji": "ie no yane no shita ni tsurushite ( ※ 1 ) ③ inorimasu .",
                 "translation": "Hang it under the roof of your house (*1)③ and pray."
             },
             {
@@ -820,7 +765,8 @@
                         "meaning": [
                             "to hang",
                             "to hang up"
-                        ]
+                        ],
+                        "baseForm": "吊るす"
                     },
                     {
                         "morpheme": "：",
@@ -883,23 +829,14 @@
                         ]
                     },
                     {
-                        "morpheme": "結ん",
-                        "romaji": "musun",
+                        "morpheme": "結んで",
+                        "romaji": "musunde",
                         "meaning": [
                             "to tie",
                             "to bind",
                             "to link"
-                        ]
-                    },
-                    {
-                        "morpheme": "で",
-                        "romaji": "de",
-                        "meaning": [
-                            "you said",
-                            "he said",
-                            "she said",
-                            "they said"
-                        ]
+                        ],
+                        "baseForm": "結ぶ"
                     },
                     {
                         "morpheme": "上",
@@ -935,12 +872,13 @@
                         "morpheme": "こと",
                         "romaji": "koto",
                         "meaning": [
-                            "thing",
-                            "matter"
+                            "word",
+                            "remark",
+                            "statement"
                         ]
                     }
                 ],
-                "romaji": "himo nado de musun de ue kara sageru koto",
+                "romaji": "himo nado de musunde ue kara sageru koto",
                 "translation": "Tie it with a string and hang it from above"
             }
         ]
@@ -1014,9 +952,7 @@
                         "morpheme": "どれ",
                         "romaji": "dore",
                         "meaning": [
-                            "which",
-                            "where",
-                            "who"
+                            "which (of three or more)"
                         ]
                     },
                     {
@@ -1044,7 +980,8 @@
                                 "nice",
                                 "pleasant",
                                 "agreeable"
-                            ]
+                            ],
+                            "baseForm": "良い"
                         },
                         {
                             "morpheme": "天気",
@@ -1152,51 +1089,27 @@
                         ]
                     },
                     {
-                        "morpheme": "手伝っ",
-                        "romaji": "tetsudatsu",
+                        "morpheme": "手伝って",
+                        "romaji": "tetsudatsute",
                         "meaning": [
                             "to help",
                             "to assist",
                             "to aid"
                         ],
+                        "baseForm": "手伝う",
                         "format": [
                             "u"
                         ]
                     },
                     {
-                        "morpheme": "て",
-                        "romaji": "te",
-                        "meaning": [
-                            "you said",
-                            "he said",
-                            "she said",
-                            "they said"
-                        ],
-                        "format": [
-                            "u"
-                        ]
-                    },
-                    {
-                        "morpheme": "もらっ",
-                        "romaji": "moratsu",
+                        "morpheme": "もらって",
+                        "romaji": "moratte",
                         "meaning": [
                             "to receive",
                             "to take",
                             "to accept"
                         ],
-                        "format": [
-                            "u"
-                        ]
-                    },
-                    {
-                        "morpheme": "て",
-                        "romaji": "te",
-                        "meaning": [
-                            "you said",
-                            "he said",
-                            "she said",
-                            "they said"
-                        ],
+                        "baseForm": "貰う",
                         "format": [
                             "u"
                         ]
@@ -1213,20 +1126,14 @@
                         ]
                     },
                     {
-                        "morpheme": "ある",
-                        "romaji": "aru",
+                        "morpheme": "あるが",
+                        "romaji": "aruga",
                         "meaning": [
                             "to be",
                             "to exist",
                             "to live"
-                        ]
-                    },
-                    {
-                        "morpheme": "が",
-                        "romaji": "ga",
-                        "meaning": [
-                            "indicates the subject of a sentence"
-                        ]
+                        ],
+                        "baseForm": "有る"
                     },
                     {
                         "morpheme": "、",
@@ -1239,23 +1146,14 @@
                         "meaning": []
                     },
                     {
-                        "morpheme": "手伝っ",
-                        "romaji": "tetsudatsu",
+                        "morpheme": "手伝って",
+                        "romaji": "tetsudatsute",
                         "meaning": [
                             "to help",
                             "to assist",
                             "to aid"
-                        ]
-                    },
-                    {
-                        "morpheme": "て",
-                        "romaji": "te",
-                        "meaning": [
-                            "you said",
-                            "he said",
-                            "she said",
-                            "they said"
-                        ]
+                        ],
+                        "baseForm": "手伝う"
                     },
                     {
                         "morpheme": "もらう",
@@ -1264,7 +1162,8 @@
                             "to receive",
                             "to take",
                             "to accept"
-                        ]
+                        ],
+                        "baseForm": "貰う"
                     },
                     {
                         "morpheme": "」",
@@ -1397,7 +1296,7 @@
                     ]
                 ],
                 "answer": 1,
-                "romajiQues": "ton 2 ② tetsudatsu te moratsu te to aru ga , ( tetsudatsu te morau ) no ha dare ka .",
+                "romajiQues": "ton 2 ② tetsudatsute moratte to aruga , ( tetsudatsute morau ) no ha dare ka .",
                 "translationQues": "Question 2 ② It says that you will be asked to help, but who will be the one to \"help\"?",
                 "romajiOption": [
                     "ie no nin",
@@ -1432,54 +1331,27 @@
                         "meaning": []
                     },
                     {
-                        "morpheme": "祈り",
-                        "romaji": "inori",
+                        "morpheme": "祈りますと",
+                        "romaji": "inorimasuto",
                         "meaning": [
                             "to pray",
                             "to say a prayer",
                             "to say grace"
                         ],
+                        "baseForm": "祈る",
                         "format": [
                             "u"
                         ]
                     },
                     {
-                        "morpheme": "ます",
-                        "romaji": "masu",
-                        "meaning": [
-                            "to increase",
-                            "to grow"
-                        ],
-                        "format": [
-                            "u"
-                        ]
-                    },
-                    {
-                        "morpheme": "と",
-                        "romaji": "to",
-                        "meaning": [
-                            "way",
-                            "route"
-                        ],
-                        "format": [
-                            "u"
-                        ]
-                    },
-                    {
-                        "morpheme": "ある",
-                        "romaji": "aru",
+                        "morpheme": "あるが",
+                        "romaji": "aruga",
                         "meaning": [
                             "to be",
                             "to exist",
                             "to live"
-                        ]
-                    },
-                    {
-                        "morpheme": "が",
-                        "romaji": "ga",
-                        "meaning": [
-                            "indicates the subject of a sentence"
-                        ]
+                        ],
+                        "baseForm": "有る"
                     },
                     {
                         "morpheme": "、",
@@ -1631,7 +1503,7 @@
                     ]
                 ],
                 "answer": 1,
-                "romajiQues": "ton 3 ③ inori masu to aru ga , ( inoru ) no ha dare ka .",
+                "romajiQues": "ton 3 ③ inorimasuto aruga , ( inoru ) no ha dare ka .",
                 "translationQues": "Question 3 ③ It says that we pray, but who is the one who “prays”?",
                 "romajiOption": [
                     "ie no nin",
@@ -1782,13 +1654,13 @@
                         "morpheme": "する",
                         "romaji": "suru",
                         "meaning": [
-                            "to become",
-                            "to get",
-                            "to grow",
-                            "to turn",
-                            "to reach",
-                            "to attain"
-                        ]
+                            "to rub",
+                            "to chafe",
+                            "to strike (match)",
+                            "to file",
+                            "to frost (glass)"
+                        ],
+                        "baseForm": "為る"
                     },
                     {
                         "morpheme": "（",
@@ -1815,21 +1687,14 @@
                         ]
                     },
                     {
-                        "morpheme": "あり",
-                        "romaji": "ari",
+                        "morpheme": "あります",
+                        "romaji": "arimasu",
                         "meaning": [
                             "to be",
                             "to exist",
                             "to live"
-                        ]
-                    },
-                    {
-                        "morpheme": "ます",
-                        "romaji": "masu",
-                        "meaning": [
-                            "to increase",
-                            "to grow"
-                        ]
+                        ],
+                        "baseForm": "有る"
                     },
                     {
                         "morpheme": "。",
@@ -1837,7 +1702,7 @@
                         "meaning": []
                     }
                 ],
-                "romaji": "natsu to fuyu ni aisatsu no imi de okurimono wo suru ( ① ) ga ari masu .",
+                "romaji": "natsu to fuyu ni aisatsu no imi de okurimono wo suru ( ① ) ga arimasu .",
                 "translation": "In summer and winter, people sometimes give gifts as a greeting (①)."
             },
             {
@@ -1987,28 +1852,14 @@
                         ]
                     },
                     {
-                        "morpheme": "呼ば",
-                        "romaji": "yoba",
+                        "morpheme": "呼ばれます",
+                        "romaji": "yobaremasu",
                         "meaning": [
                             "to call out (to)",
                             "to call",
                             "to invoke"
-                        ]
-                    },
-                    {
-                        "morpheme": "れ",
-                        "romaji": "re",
-                        "meaning": [
-                            "indicates passive voice (incl. the \"suffering passive\")"
-                        ]
-                    },
-                    {
-                        "morpheme": "ます",
-                        "romaji": "masu",
-                        "meaning": [
-                            "to increase",
-                            "to grow"
-                        ]
+                        ],
+                        "baseForm": "呼ぶ"
                     },
                     {
                         "morpheme": "。",
@@ -2016,7 +1867,7 @@
                         "meaning": []
                     }
                 ],
-                "romaji": "fuyu no ② sore ha ( o seibo ) to yoba re masu .",
+                "romaji": "fuyu no ② sore ha ( o seibo ) to yobaremasu .",
                 "translation": "②It is called ``Oshibo'' in winter."
             },
             {
@@ -2076,8 +1927,8 @@
                         ]
                     },
                     {
-                        "morpheme": "送ら",
-                        "romaji": "okura",
+                        "morpheme": "送られた",
+                        "romaji": "okurareta",
                         "meaning": [
                             "to send",
                             "to dispatch",
@@ -2085,28 +1936,14 @@
                             "to transmit",
                             "to ship",
                             "to remit"
-                        ]
-                    },
-                    {
-                        "morpheme": "れ",
-                        "romaji": "re",
-                        "meaning": [
-                            "indicates passive voice (incl. the \"suffering passive\")"
-                        ]
-                    },
-                    {
-                        "morpheme": "た",
-                        "romaji": "ta",
-                        "meaning": [
-                            "other (esp. people and abstract matters)"
-                        ]
+                        ],
+                        "baseForm": "送る"
                     },
                     {
                         "morpheme": "よう",
                         "romaji": "you",
                         "meaning": [
-                            "appearing ...",
-                            "looking ..."
+                            "(the) positive"
                         ]
                     },
                     {
@@ -2130,7 +1967,7 @@
                         "meaning": []
                     }
                 ],
-                "romaji": "mukashi ha sakana ya o sake ga okura re ta you desu ga ,",
+                "romaji": "mukashi ha sakana ya o sake ga okurareta you desu ga ,",
                 "translation": "It seems that in the past, fish and alcohol were sent."
             },
             {
@@ -2218,8 +2055,7 @@
                         "morpheme": "な",
                         "romaji": "na",
                         "meaning": [
-                            "be",
-                            "is"
+                            "don't"
                         ]
                     },
                     {
@@ -2252,8 +2088,8 @@
                         ]
                     },
                     {
-                        "morpheme": "送ら",
-                        "romaji": "okura",
+                        "morpheme": "送られる",
+                        "romaji": "okurareru",
                         "meaning": [
                             "to send",
                             "to dispatch",
@@ -2262,16 +2098,7 @@
                             "to ship",
                             "to remit"
                         ],
-                        "format": [
-                            "u"
-                        ]
-                    },
-                    {
-                        "morpheme": "れる",
-                        "romaji": "reru",
-                        "meaning": [
-                            "indicates passive voice (incl. the \"suffering passive\")"
-                        ],
+                        "baseForm": "送る",
                         "format": [
                             "u"
                         ]
@@ -2280,21 +2107,22 @@
                         "morpheme": "よう",
                         "romaji": "you",
                         "meaning": [
-                            "appearing ...",
-                            "looking ..."
+                            "(the) positive"
                         ]
                     },
                     {
                         "morpheme": "に",
                         "romaji": "ni",
                         "meaning": [
-                            "be",
-                            "is"
+                            "at (place, time)",
+                            "in",
+                            "on",
+                            "during"
                         ]
                     },
                     {
-                        "morpheme": "なり",
-                        "romaji": "nari",
+                        "morpheme": "なりました",
+                        "romaji": "narimashita",
                         "meaning": [
                             "to become",
                             "to get",
@@ -2302,22 +2130,8 @@
                             "to turn",
                             "to reach",
                             "to attain"
-                        ]
-                    },
-                    {
-                        "morpheme": "まし",
-                        "romaji": "mashi",
-                        "meaning": [
-                            "to increase",
-                            "to grow"
-                        ]
-                    },
-                    {
-                        "morpheme": "た",
-                        "romaji": "ta",
-                        "meaning": [
-                            "other (esp. people and abstract matters)"
-                        ]
+                        ],
+                        "baseForm": "成る"
                     },
                     {
                         "morpheme": "。",
@@ -2325,7 +2139,7 @@
                         "meaning": []
                     }
                 ],
-                "romaji": "samazama na shinamono ga ③ okura reru you ni nari mashi ta .",
+                "romaji": "samazama na shinamono ga ③ okurareru you ni narimashita .",
                 "translation": "Various items are now being sent ③."
             }
         ]
@@ -2397,9 +2211,7 @@
                         "morpheme": "どれ",
                         "romaji": "dore",
                         "meaning": [
-                            "which",
-                            "where",
-                            "who"
+                            "which (of three or more)"
                         ]
                     },
                     {
@@ -2542,9 +2354,7 @@
                         "morpheme": "どれ",
                         "romaji": "dore",
                         "meaning": [
-                            "which",
-                            "where",
-                            "who"
+                            "which (of three or more)"
                         ]
                     },
                     {
@@ -2657,8 +2467,8 @@
                         "meaning": []
                     },
                     {
-                        "morpheme": "送ら",
-                        "romaji": "okura",
+                        "morpheme": "送られる",
+                        "romaji": "okurareru",
                         "meaning": [
                             "to send",
                             "to dispatch",
@@ -2667,16 +2477,7 @@
                             "to ship",
                             "to remit"
                         ],
-                        "format": [
-                            "u"
-                        ]
-                    },
-                    {
-                        "morpheme": "れる",
-                        "romaji": "reru",
-                        "meaning": [
-                            "indicates passive voice (incl. the \"suffering passive\")"
-                        ],
+                        "baseForm": "送る",
                         "format": [
                             "u"
                         ]
@@ -2800,8 +2601,7 @@
                             "morpheme": "な",
                             "romaji": "na",
                             "meaning": [
-                                "be",
-                                "is"
+                                "don't"
                             ]
                         },
                         {
@@ -2818,7 +2618,7 @@
                     ]
                 ],
                 "answer": 3,
-                "romajiQues": "ton 3 ③ okura reru no ha nani ka .",
+                "romajiQues": "ton 3 ③ okurareru no ha nani ka .",
                 "translationQues": "Question 3 ③What will be sent?",
                 "romajiOption": [
                     "sakana ya o sake",
@@ -2989,18 +2789,12 @@
                         ]
                     },
                     {
-                        "morpheme": "かかれ",
-                        "romaji": "kakare",
+                        "morpheme": "かかれた",
+                        "romaji": "kakareta",
                         "meaning": [
                             "to take (a resource, e.g. time or money)"
-                        ]
-                    },
-                    {
-                        "morpheme": "た",
-                        "romaji": "ta",
-                        "meaning": [
-                            "other (esp. people and abstract matters)"
-                        ]
+                        ],
+                        "baseForm": "掛かる"
                     },
                     {
                         "morpheme": "大きな",
@@ -3039,37 +2833,26 @@
                         ]
                     },
                     {
-                        "morpheme": "掛かっ",
-                        "romaji": "kakatsu",
+                        "morpheme": "掛かって",
+                        "romaji": "kakatte",
                         "meaning": [
                             "to take (a resource, e.g. time or money)"
                         ],
+                        "baseForm": "掛かる",
                         "format": [
                             "u"
                         ],
                         "furigana": "か"
                     },
                     {
-                        "morpheme": "て",
-                        "romaji": "te",
-                        "meaning": [
-                            "you said",
-                            "he said",
-                            "she said",
-                            "they said"
-                        ],
-                        "format": [
-                            "u"
-                        ]
-                    },
-                    {
                         "morpheme": "いる",
                         "romaji": "iru",
                         "meaning": [
-                            "to be (animate)",
-                            "to be",
-                            "to exist"
-                        ]
+                            "to cast",
+                            "to mint",
+                            "to coin"
+                        ],
+                        "baseForm": "居る"
                     },
                     {
                         "morpheme": "。",
@@ -3077,7 +2860,7 @@
                         "meaning": []
                     }
                 ],
-                "romaji": "moji ya e nado ga kakare ta ookina nuno ga ① kakatsu te iru .",
+                "romaji": "moji ya e nado ga kakareta ookina nuno ga ① kakatte iru .",
                 "translation": "There is a large cloth with letters and pictures hanging on it."
             },
             {
@@ -3138,20 +2921,12 @@
                         ]
                     },
                     {
-                        "morpheme": "呼ば",
-                        "romaji": "yoba",
+                        "morpheme": "呼ばれる",
+                        "romaji": "yobareru",
                         "meaning": [
-                            "to call out (to)",
-                            "to call",
-                            "to invoke"
-                        ]
-                    },
-                    {
-                        "morpheme": "れる",
-                        "romaji": "reru",
-                        "meaning": [
-                            "indicates passive voice (incl. the \"suffering passive\")"
-                        ]
+                            "to be called out"
+                        ],
+                        "baseForm": "呼ぶ"
                     },
                     {
                         "morpheme": "。",
@@ -3159,7 +2934,7 @@
                         "meaning": []
                     }
                 ],
-                "romaji": "② kore ha ( noren ) to yoba reru .",
+                "romaji": "② kore ha ( noren ) to yobareru .",
                 "translation": "②This is called \"goodwill.\""
             },
             {
@@ -3174,49 +2949,31 @@
                         ]
                     },
                     {
-                        "morpheme": "し",
-                        "romaji": "shi",
+                        "morpheme": "して",
+                        "romaji": "shite",
                         "meaning": [
-                            "to become",
-                            "to get",
-                            "to grow",
-                            "to turn",
-                            "to reach",
-                            "to attain"
-                        ]
+                            "doer",
+                            "performer"
+                        ],
+                        "baseForm": "為る"
                     },
                     {
-                        "morpheme": "て",
-                        "romaji": "te",
+                        "morpheme": "いない",
+                        "romaji": "inai",
                         "meaning": [
-                            "you said",
-                            "he said",
-                            "she said",
-                            "they said"
-                        ]
-                    },
-                    {
-                        "morpheme": "い",
-                        "romaji": "i",
-                        "meaning": [
-                            "to be (animate)",
-                            "to be",
-                            "to exist"
-                        ]
-                    },
-                    {
-                        "morpheme": "ない",
-                        "romaji": "nai",
-                        "meaning": [
-                            "not"
-                        ]
+                            "within",
+                            "inside of",
+                            "less than"
+                        ],
+                        "baseForm": "居る"
                     },
                     {
                         "morpheme": "とき",
                         "romaji": "toki",
                         "meaning": [
+                            "time",
                             "hour",
-                            "o'clock"
+                            "moment"
                         ]
                     },
                     {
@@ -3263,25 +3020,16 @@
                         ]
                     },
                     {
-                        "morpheme": "しまっ",
-                        "romaji": "shimatsu",
+                        "morpheme": "しまって",
+                        "romaji": "shimatte",
                         "meaning": [
                             "to finish",
                             "to stop",
                             "to end",
                             "to put an end to",
                             "to bring to a close"
-                        ]
-                    },
-                    {
-                        "morpheme": "て",
-                        "romaji": "te",
-                        "meaning": [
-                            "you said",
-                            "he said",
-                            "she said",
-                            "they said"
-                        ]
+                        ],
+                        "baseForm": "仕舞う"
                     },
                     {
                         "morpheme": "おく",
@@ -3289,7 +3037,8 @@
                         "meaning": [
                             "to put",
                             "to place"
-                        ]
+                        ],
+                        "baseForm": "置く"
                     },
                     {
                         "morpheme": "の",
@@ -3303,8 +3052,8 @@
                         "morpheme": "で",
                         "romaji": "de",
                         "meaning": [
-                            "be",
-                            "is"
+                            "at",
+                            "in"
                         ]
                     },
                     {
@@ -3313,7 +3062,7 @@
                         "meaning": []
                     }
                 ],
-                "romaji": "eigyou shi te i nai toki ha mise no naka ni shimatsu te oku no de ,",
+                "romaji": "eigyou shite inai toki ha mise no naka ni shimatte oku no de ,",
                 "translation": "When the store is not open, it is kept inside the store."
             },
             {
@@ -3372,38 +3121,21 @@
                         ]
                     },
                     {
-                        "morpheme": "掛かっ",
-                        "romaji": "kakatsu",
+                        "morpheme": "掛かって",
+                        "romaji": "kakatte",
                         "meaning": [
                             "to take (a resource, e.g. time or money)"
-                        ]
+                        ],
+                        "baseForm": "掛かる"
                     },
                     {
-                        "morpheme": "て",
-                        "romaji": "te",
+                        "morpheme": "いれば",
+                        "romaji": "ireba",
                         "meaning": [
-                            "you said",
-                            "he said",
-                            "she said",
-                            "they said"
-                        ]
-                    },
-                    {
-                        "morpheme": "いれ",
-                        "romaji": "ire",
-                        "meaning": [
-                            "to be (animate)",
-                            "to be",
-                            "to exist"
-                        ]
-                    },
-                    {
-                        "morpheme": "ば",
-                        "romaji": "ba",
-                        "meaning": [
-                            "if ... then",
-                            "when"
-                        ]
+                            "false tooth",
+                            "denture"
+                        ],
+                        "baseForm": "居る"
                     },
                     {
                         "morpheme": "③",
@@ -3455,32 +3187,34 @@
                             "to say",
                             "to utter",
                             "to declare"
-                        ]
+                        ],
+                        "baseForm": "言う"
                     },
                     {
                         "morpheme": "こと",
                         "romaji": "koto",
                         "meaning": [
-                            "thing",
-                            "matter"
+                            "word",
+                            "remark",
+                            "statement"
                         ]
                     },
                     {
                         "morpheme": "で",
                         "romaji": "de",
                         "meaning": [
-                            "be",
-                            "is"
+                            "at",
+                            "in"
                         ]
                     },
                     {
                         "morpheme": "ある",
                         "romaji": "aru",
                         "meaning": [
-                            "to be",
-                            "to exist",
-                            "to live"
-                        ]
+                            "a certain ...",
+                            "some ..."
+                        ],
+                        "baseForm": "有る"
                     },
                     {
                         "morpheme": "。",
@@ -3488,7 +3222,7 @@
                         "meaning": []
                     }
                 ],
-                "romaji": "no renga mise no iriguchi ni kakatsu te ire ba ③ eigyou naka to iu koto de aru .",
+                "romaji": "no renga mise no iriguchi ni kakatte ireba ③ eigyou naka to iu koto de aru .",
                 "translation": "③ If a brick is hanging at the entrance of the store, it means that the store is open."
             }
         ]
@@ -3521,24 +3255,12 @@
                         ]
                     },
                     {
-                        "morpheme": "掛かっ",
-                        "romaji": "kakatsu",
+                        "morpheme": "掛かって",
+                        "romaji": "kakatte",
                         "meaning": [
                             "to take (a resource, e.g. time or money)"
                         ],
-                        "format": [
-                            "u"
-                        ]
-                    },
-                    {
-                        "morpheme": "て",
-                        "romaji": "te",
-                        "meaning": [
-                            "you said",
-                            "he said",
-                            "she said",
-                            "they said"
-                        ],
+                        "baseForm": "掛かる",
                         "format": [
                             "u"
                         ]
@@ -3547,10 +3269,11 @@
                         "morpheme": "いる",
                         "romaji": "iru",
                         "meaning": [
-                            "to be (animate)",
-                            "to be",
-                            "to exist"
+                            "to cast",
+                            "to mint",
+                            "to coin"
                         ],
+                        "baseForm": "居る",
                         "format": [
                             "u"
                         ]
@@ -3701,7 +3424,7 @@
                     ]
                 ],
                 "answer": 2,
-                "romajiQues": "ton 1 ① kakatsu te iru no ha nani ka .",
+                "romajiQues": "ton 1 ① kakatte iru no ha nani ka .",
                 "translationQues": "Question 1 ①What is hanging?",
                 "romajiOption": [
                     "e ya moji",
@@ -4226,16 +3949,17 @@
                         "morpheme": "よう",
                         "romaji": "you",
                         "meaning": [
-                            "appearing ...",
-                            "looking ..."
+                            "(the) positive"
                         ]
                     },
                     {
                         "morpheme": "に",
                         "romaji": "ni",
                         "meaning": [
-                            "be",
-                            "is"
+                            "at (place, time)",
+                            "in",
+                            "on",
+                            "during"
                         ]
                     },
                     {
@@ -4246,7 +3970,8 @@
                             "to consider",
                             "to believe",
                             "to reckon"
-                        ]
+                        ],
+                        "baseForm": "思う"
                     },
                     {
                         "morpheme": "、",
@@ -4295,8 +4020,9 @@
                         "morpheme": "こと",
                         "romaji": "koto",
                         "meaning": [
-                            "thing",
-                            "matter"
+                            "word",
+                            "remark",
+                            "statement"
                         ]
                     },
                     {
@@ -4308,8 +4034,8 @@
                         ]
                     },
                     {
-                        "morpheme": "困っ",
-                        "romaji": "komatsu",
+                        "morpheme": "困って",
+                        "romaji": "komatsute",
                         "meaning": [
                             "to be troubled",
                             "to have difficulty",
@@ -4317,26 +4043,18 @@
                             "to be at a loss",
                             "to be stumped",
                             "to be embarrassed"
-                        ]
-                    },
-                    {
-                        "morpheme": "て",
-                        "romaji": "te",
-                        "meaning": [
-                            "you said",
-                            "he said",
-                            "she said",
-                            "they said"
-                        ]
+                        ],
+                        "baseForm": "困る"
                     },
                     {
                         "morpheme": "いる",
                         "romaji": "iru",
                         "meaning": [
-                            "to be (animate)",
-                            "to be",
-                            "to exist"
-                        ]
+                            "to cast",
+                            "to mint",
+                            "to coin"
+                        ],
+                        "baseForm": "居る"
                     },
                     {
                         "morpheme": "（",
@@ -4361,7 +4079,7 @@
                         "meaning": []
                     }
                 ],
-                "romaji": "shingaku ya shuushoku no koto de komatsu te iru ( ① ) ,",
+                "romaji": "shingaku ya shuushoku no koto de komatsute iru ( ① ) ,",
                 "translation": "I am having troubles about going to higher education or getting a job (①),"
             },
             {
@@ -4408,37 +4126,22 @@
                         ]
                     },
                     {
-                        "morpheme": "聞い",
-                        "romaji": "kii",
+                        "morpheme": "聞いて",
+                        "romaji": "kiite",
                         "meaning": [
                             "to hear"
-                        ]
+                        ],
+                        "baseForm": "聞く"
                     },
                     {
-                        "morpheme": "て",
-                        "romaji": "te",
-                        "meaning": [
-                            "you said",
-                            "he said",
-                            "she said",
-                            "they said"
-                        ]
-                    },
-                    {
-                        "morpheme": "もらっ",
-                        "romaji": "moratsu",
+                        "morpheme": "もらった",
+                        "romaji": "moratta",
                         "meaning": [
                             "to receive",
                             "to take",
                             "to accept"
-                        ]
-                    },
-                    {
-                        "morpheme": "た",
-                        "romaji": "ta",
-                        "meaning": [
-                            "other (esp. people and abstract matters)"
-                        ]
+                        ],
+                        "baseForm": "貰う"
                     },
                     {
                         "morpheme": "。",
@@ -4446,7 +4149,7 @@
                         "meaning": []
                     }
                 ],
-                "romaji": "iroiro ② hanashi wo kii te moratsu ta .",
+                "romaji": "iroiro ② hanashi wo kiite moratta .",
                 "translation": "I listened to various stories."
             },
             {
@@ -4486,8 +4189,7 @@
                         "morpheme": "な",
                         "romaji": "na",
                         "meaning": [
-                            "be",
-                            "is"
+                            "don't"
                         ]
                     },
                     {
@@ -4526,8 +4228,8 @@
                         "morpheme": "いつ",
                         "romaji": "itsu",
                         "meaning": [
-                            "what time",
-                            "which hour"
+                            "five",
+                            "5"
                         ]
                     },
                     {
@@ -4565,22 +4267,16 @@
                         ]
                     },
                     {
-                        "morpheme": "立っ",
-                        "romaji": "tatsu",
+                        "morpheme": "立った",
+                        "romaji": "tatsuta",
                         "meaning": [
                             "to stand (up)",
                             "to rise",
                             "to get to one's feet",
                             "to stand on end (e.g. of hairs)",
                             "to stick up"
-                        ]
-                    },
-                    {
-                        "morpheme": "た",
-                        "romaji": "ta",
-                        "meaning": [
-                            "other (esp. people and abstract matters)"
-                        ]
+                        ],
+                        "baseForm": "立つ"
                     },
                     {
                         "morpheme": "。",
@@ -4588,7 +4284,7 @@
                         "meaning": []
                     }
                 ],
-                "romaji": "jinsei keiken ga yutaka na oji no hanashi ha itsu mo yaku ni tatsu ta .",
+                "romaji": "jinsei keiken ga yutaka na oji no hanashi ha itsu mo yaku ni tatsuta .",
                 "translation": "It was always helpful to hear from my uncle, who had a wealth of life experience."
             },
             {
@@ -4619,8 +4315,9 @@
                         "morpheme": "その",
                         "romaji": "sono",
                         "meaning": [
-                            "that",
-                            "the"
+                            "garden",
+                            "orchard",
+                            "park"
                         ]
                     },
                     {
@@ -4638,37 +4335,22 @@
                         ]
                     },
                     {
-                        "morpheme": "教え",
-                        "romaji": "oshie",
+                        "morpheme": "教えて",
+                        "romaji": "oshiete",
                         "meaning": [
                             "to teach",
                             "to instruct"
-                        ]
+                        ],
+                        "baseForm": "教える"
                     },
                     {
-                        "morpheme": "て",
-                        "romaji": "te",
-                        "meaning": [
-                            "you said",
-                            "he said",
-                            "she said",
-                            "they said"
-                        ]
-                    },
-                    {
-                        "morpheme": "くれ",
-                        "romaji": "kure",
+                        "morpheme": "くれた",
+                        "romaji": "kureta",
                         "meaning": [
                             "to give",
                             "to let (one) have"
-                        ]
-                    },
-                    {
-                        "morpheme": "た",
-                        "romaji": "ta",
-                        "meaning": [
-                            "other (esp. people and abstract matters)"
-                        ]
+                        ],
+                        "baseForm": "呉れる"
                     },
                     {
                         "morpheme": "本",
@@ -4698,70 +4380,36 @@
                         ]
                     },
                     {
-                        "morpheme": "買っ",
-                        "romaji": "katsu",
+                        "morpheme": "買って",
+                        "romaji": "katsute",
                         "meaning": [
                             "to buy",
                             "to purchase"
                         ],
+                        "baseForm": "買う",
                         "format": [
                             "u"
                         ]
                     },
                     {
-                        "morpheme": "て",
-                        "romaji": "te",
-                        "meaning": [
-                            "you said",
-                            "he said",
-                            "she said",
-                            "they said"
-                        ],
-                        "format": [
-                            "u"
-                        ]
-                    },
-                    {
-                        "morpheme": "読ん",
-                        "romaji": "yon",
+                        "morpheme": "読んで",
+                        "romaji": "yonde",
                         "meaning": [
                             "to read"
-                        ]
+                        ],
+                        "baseForm": "読む"
                     },
                     {
-                        "morpheme": "で",
-                        "romaji": "de",
-                        "meaning": [
-                            "you said",
-                            "he said",
-                            "she said",
-                            "they said"
-                        ]
-                    },
-                    {
-                        "morpheme": "み",
-                        "romaji": "mi",
+                        "morpheme": "みたが",
+                        "romaji": "mitaga",
                         "meaning": [
                             "to see",
                             "to look",
                             "to watch",
                             "to view",
                             "to observe"
-                        ]
-                    },
-                    {
-                        "morpheme": "た",
-                        "romaji": "ta",
-                        "meaning": [
-                            "other (esp. people and abstract matters)"
-                        ]
-                    },
-                    {
-                        "morpheme": "が",
-                        "romaji": "ga",
-                        "meaning": [
-                            "indicates the subject of a sentence"
-                        ]
+                        ],
+                        "baseForm": "見る"
                     },
                     {
                         "morpheme": "、",
@@ -4769,7 +4417,7 @@
                         "meaning": []
                     }
                 ],
-                "romaji": "sono oji ga oshie te kure ta hon wo ③ katsu te yon de mi ta ga ,",
+                "romaji": "sono oji ga oshiete kureta hon wo ③ katsute yonde mitaga ,",
                 "translation": "I bought the book ③ that my uncle told me about and read it."
             },
             {
@@ -4793,21 +4441,15 @@
                         ]
                     },
                     {
-                        "morpheme": "面白かっ",
-                        "romaji": "omoshirokatsu",
+                        "morpheme": "面白かった",
+                        "romaji": "omoshirokatta",
                         "meaning": [
                             "interesting",
                             "fascinating",
                             "intriguing",
                             "enthralling"
-                        ]
-                    },
-                    {
-                        "morpheme": "た",
-                        "romaji": "ta",
-                        "meaning": [
-                            "other (esp. people and abstract matters)"
-                        ]
+                        ],
+                        "baseForm": "面白い"
                     },
                     {
                         "morpheme": "。",
@@ -4815,7 +4457,7 @@
                         "meaning": []
                     }
                 ],
-                "romaji": "yahari totemo omoshirokatsu ta .",
+                "romaji": "yahari totemo omoshirokatta .",
                 "translation": "It was still very interesting."
             }
         ]
@@ -4887,9 +4529,7 @@
                         "morpheme": "どれ",
                         "romaji": "dore",
                         "meaning": [
-                            "which",
-                            "where",
-                            "who"
+                            "which (of three or more)"
                         ]
                     },
                     {
@@ -4911,8 +4551,9 @@
                             "morpheme": "こと",
                             "romaji": "koto",
                             "meaning": [
-                                "thing",
-                                "matter"
+                                "word",
+                                "remark",
+                                "statement"
                             ]
                         }
                     ],
@@ -4933,11 +4574,7 @@
                             "morpheme": "もの",
                             "romaji": "mono",
                             "meaning": [
-                                "thing",
-                                "object",
-                                "article",
-                                "stuff",
-                                "substance"
+                                "indicates reason or excuse"
                             ]
                         }
                     ],
@@ -4946,8 +4583,9 @@
                             "morpheme": "とき",
                             "romaji": "toki",
                             "meaning": [
+                                "time",
                                 "hour",
-                                "o'clock"
+                                "moment"
                             ]
                         }
                     ]
@@ -5011,37 +4649,22 @@
                         ]
                     },
                     {
-                        "morpheme": "聞い",
-                        "romaji": "kii",
+                        "morpheme": "聞いて",
+                        "romaji": "kiite",
                         "meaning": [
                             "to hear"
-                        ]
+                        ],
+                        "baseForm": "聞く"
                     },
                     {
-                        "morpheme": "て",
-                        "romaji": "te",
-                        "meaning": [
-                            "you said",
-                            "he said",
-                            "she said",
-                            "they said"
-                        ]
-                    },
-                    {
-                        "morpheme": "もらっ",
-                        "romaji": "moratsu",
+                        "morpheme": "もらった",
+                        "romaji": "moratta",
                         "meaning": [
                             "to receive",
                             "to take",
                             "to accept"
-                        ]
-                    },
-                    {
-                        "morpheme": "た",
-                        "romaji": "ta",
-                        "meaning": [
-                            "other (esp. people and abstract matters)"
-                        ]
+                        ],
+                        "baseForm": "貰う"
                     },
                     {
                         "morpheme": "の",
@@ -5105,8 +4728,8 @@
                             "morpheme": "わたし",
                             "romaji": "watashi",
                             "meaning": [
-                                "I",
-                                "me"
+                                "ferry (crossing)",
+                                "ferry(boat)"
                             ]
                         }
                     ],
@@ -5121,7 +4744,7 @@
                     ]
                 ],
                 "answer": 2,
-                "romajiQues": "ton 2 ② hanashi wo kii te moratsu ta no ha dare ka .",
+                "romajiQues": "ton 2 ② hanashi wo kiite moratta no ha dare ka .",
                 "translationQues": "Question 2 ②Who spoke to you?",
                 "romajiOption": [
                     "otouto",
@@ -5156,25 +4779,13 @@
                         "meaning": []
                     },
                     {
-                        "morpheme": "買っ",
-                        "romaji": "katsu",
+                        "morpheme": "買って",
+                        "romaji": "katsute",
                         "meaning": [
                             "to buy",
                             "to purchase"
                         ],
-                        "format": [
-                            "u"
-                        ]
-                    },
-                    {
-                        "morpheme": "て",
-                        "romaji": "te",
-                        "meaning": [
-                            "you said",
-                            "he said",
-                            "she said",
-                            "they said"
-                        ],
+                        "baseForm": "買う",
                         "format": [
                             "u"
                         ]
@@ -5191,20 +4802,14 @@
                         ]
                     },
                     {
-                        "morpheme": "ある",
-                        "romaji": "aru",
+                        "morpheme": "あるが",
+                        "romaji": "aruga",
                         "meaning": [
                             "to be",
                             "to exist",
                             "to live"
-                        ]
-                    },
-                    {
-                        "morpheme": "が",
-                        "romaji": "ga",
-                        "meaning": [
-                            "indicates the subject of a sentence"
-                        ]
+                        ],
+                        "baseForm": "有る"
                     },
                     {
                         "morpheme": "、",
@@ -5217,19 +4822,13 @@
                         "meaning": []
                     },
                     {
-                        "morpheme": "買っ",
-                        "romaji": "katsu",
+                        "morpheme": "買った",
+                        "romaji": "katsuta",
                         "meaning": [
                             "to buy",
                             "to purchase"
-                        ]
-                    },
-                    {
-                        "morpheme": "た",
-                        "romaji": "ta",
-                        "meaning": [
-                            "other (esp. people and abstract matters)"
-                        ]
+                        ],
+                        "baseForm": "買う"
                     },
                     {
                         "morpheme": "」",
@@ -5298,8 +4897,8 @@
                             "morpheme": "わたし",
                             "romaji": "watashi",
                             "meaning": [
-                                "I",
-                                "me"
+                                "ferry (crossing)",
+                                "ferry(boat)"
                             ]
                         }
                     ],
@@ -5314,7 +4913,7 @@
                     ]
                 ],
                 "answer": 2,
-                "romajiQues": "ton 3 ③ katsu te to aru ga , ( katsu ta ) no ha dare ka .",
+                "romajiQues": "ton 3 ③ katsute to aruga , ( katsuta ) no ha dare ka .",
                 "translationQues": "Question 3: ③It says \"bought\", but who \"bought\" it?",
                 "romajiOption": [
                     "otouto",
@@ -5540,7 +5139,10 @@
                         "morpheme": "ほか",
                         "romaji": "hoka",
                         "meaning": [
-                            "other (esp. people and abstract matters)"
+                            "another place",
+                            "some other place",
+                            "somewhere else",
+                            "outside"
                         ]
                     },
                     {
@@ -5598,6 +5200,7 @@
                             "to be possible",
                             "to be permitted (to do)"
                         ],
+                        "baseForm": "出来る",
                         "format": [
                             "u"
                         ]
@@ -5606,8 +5209,7 @@
                         "morpheme": "よう",
                         "romaji": "you",
                         "meaning": [
-                            "appearing ...",
-                            "looking ..."
+                            "(the) positive"
                         ],
                         "format": [
                             "u"
@@ -5617,16 +5219,18 @@
                         "morpheme": "に",
                         "romaji": "ni",
                         "meaning": [
-                            "be",
-                            "is"
+                            "at (place, time)",
+                            "in",
+                            "on",
+                            "during"
                         ],
                         "format": [
                             "u"
                         ]
                     },
                     {
-                        "morpheme": "なっ",
-                        "romaji": "natsu",
+                        "morpheme": "なった",
+                        "romaji": "natta",
                         "meaning": [
                             "to become",
                             "to get",
@@ -5635,16 +5239,7 @@
                             "to reach",
                             "to attain"
                         ],
-                        "format": [
-                            "u"
-                        ]
-                    },
-                    {
-                        "morpheme": "た",
-                        "romaji": "ta",
-                        "meaning": [
-                            "other (esp. people and abstract matters)"
-                        ],
+                        "baseForm": "成る",
                         "format": [
                             "u"
                         ]
@@ -5655,7 +5250,7 @@
                         "meaning": []
                     }
                 ],
-                "romaji": "konbini de mo ① dekiru you ni natsu ta .",
+                "romaji": "konbini de mo ① dekiru you ni natta .",
                 "translation": "You can now do ① at convenience stores."
             },
             {
@@ -5685,13 +5280,12 @@
                         "morpheme": "し",
                         "romaji": "shi",
                         "meaning": [
-                            "to become",
-                            "to get",
-                            "to grow",
-                            "to turn",
-                            "to reach",
-                            "to attain"
-                        ]
+                            "Mr",
+                            "Mrs",
+                            "Ms",
+                            "Miss"
+                        ],
+                        "baseForm": "為る"
                     },
                     {
                         "morpheme": "、",
@@ -5745,9 +5339,10 @@
                         "morpheme": "いく",
                         "romaji": "iku",
                         "meaning": [
-                            "some",
-                            "several",
-                            "a few"
+                            "to go",
+                            "to move (towards)",
+                            "to head (towards)",
+                            "to leave (for)"
                         ]
                     },
                     {
@@ -5772,10 +5367,10 @@
                         "morpheme": "ある",
                         "romaji": "aru",
                         "meaning": [
-                            "to be",
-                            "to exist",
-                            "to live"
-                        ]
+                            "a certain ...",
+                            "some ..."
+                        ],
+                        "baseForm": "有る"
                     },
                     {
                         "morpheme": "（",
@@ -5813,38 +5408,28 @@
                         ]
                     },
                     {
-                        "morpheme": "さ",
-                        "romaji": "sa",
+                        "morpheme": "される",
+                        "romaji": "sareru",
                         "meaning": [
-                            "to become",
-                            "to get",
-                            "to grow",
-                            "to turn",
-                            "to reach",
-                            "to attain"
-                        ]
-                    },
-                    {
-                        "morpheme": "れる",
-                        "romaji": "reru",
-                        "meaning": [
-                            "indicates passive voice (incl. the \"suffering passive\")"
-                        ]
+                            "to be done (to someone or something)"
+                        ],
+                        "baseForm": "為る"
                     },
                     {
                         "morpheme": "こと",
                         "romaji": "koto",
                         "meaning": [
-                            "thing",
-                            "matter"
+                            "word",
+                            "remark",
+                            "statement"
                         ]
                     },
                     {
                         "morpheme": "で",
                         "romaji": "de",
                         "meaning": [
-                            "be",
-                            "is"
+                            "at",
+                            "in"
                         ]
                     },
                     {
@@ -5853,43 +5438,28 @@
                         "meaning": []
                     }
                 ],
-                "romaji": "machi no naka ni iku tsu mo aru ( ② ) ga riyou sa reru koto de ,",
+                "romaji": "machi no naka ni iku tsu mo aru ( ② ) ga riyou sareru koto de ,",
                 "translation": "There are several (②) in the town, and by being used,"
             },
             {
                 "sentence": [
                     {
-                        "morpheme": "忙しく",
-                        "romaji": "isogashiku",
+                        "morpheme": "忙しくて",
+                        "romaji": "isogashikute",
                         "meaning": [
                             "busy",
                             "occupied",
                             "hectic"
-                        ]
+                        ],
+                        "baseForm": "忙しい"
                     },
                     {
-                        "morpheme": "て",
-                        "romaji": "te",
-                        "meaning": [
-                            "you said",
-                            "he said",
-                            "she said",
-                            "they said"
-                        ]
-                    },
-                    {
-                        "morpheme": "支払え",
-                        "romaji": "shiharaie",
+                        "morpheme": "支払えない",
+                        "romaji": "shiharaienai",
                         "meaning": [
                             "to pay"
-                        ]
-                    },
-                    {
-                        "morpheme": "ない",
-                        "romaji": "nai",
-                        "meaning": [
-                            "not"
-                        ]
+                        ],
+                        "baseForm": "支払う"
                     },
                     {
                         "morpheme": "と",
@@ -5906,14 +5476,16 @@
                             "to say",
                             "to utter",
                             "to declare"
-                        ]
+                        ],
+                        "baseForm": "言う"
                     },
                     {
                         "morpheme": "こと",
                         "romaji": "koto",
                         "meaning": [
-                            "thing",
-                            "matter"
+                            "word",
+                            "remark",
+                            "statement"
                         ]
                     },
                     {
@@ -5947,13 +5519,14 @@
                             "seldom",
                             "rare"
                         ],
+                        "baseForm": "少ない",
                         "format": [
                             "u"
                         ]
                     },
                     {
-                        "morpheme": "なっ",
-                        "romaji": "natsu",
+                        "morpheme": "なった",
+                        "romaji": "natta",
                         "meaning": [
                             "to become",
                             "to get",
@@ -5962,16 +5535,7 @@
                             "to reach",
                             "to attain"
                         ],
-                        "format": [
-                            "u"
-                        ]
-                    },
-                    {
-                        "morpheme": "た",
-                        "romaji": "ta",
-                        "meaning": [
-                            "other (esp. people and abstract matters)"
-                        ],
+                        "baseForm": "成る",
                         "format": [
                             "u"
                         ]
@@ -5980,8 +5544,7 @@
                         "morpheme": "よう",
                         "romaji": "you",
                         "meaning": [
-                            "appearing ...",
-                            "looking ..."
+                            "(the) positive"
                         ]
                     },
                     {
@@ -5998,7 +5561,7 @@
                         "meaning": []
                     }
                 ],
-                "romaji": "isogashiku te shiharaie nai to iu koto ha ③ sukunaku natsu ta you da .",
+                "romaji": "isogashikute shiharaienai to iu koto ha ③ sukunaku natta you da .",
                 "translation": "③It seems that the number of cases of being too busy to pay has decreased."
             }
         ]
@@ -6038,6 +5601,7 @@
                             "to be possible",
                             "to be permitted (to do)"
                         ],
+                        "baseForm": "出来る",
                         "format": [
                             "u"
                         ]
@@ -6046,8 +5610,7 @@
                         "morpheme": "よう",
                         "romaji": "you",
                         "meaning": [
-                            "appearing ...",
-                            "looking ..."
+                            "(the) positive"
                         ],
                         "format": [
                             "u"
@@ -6057,16 +5620,18 @@
                         "morpheme": "に",
                         "romaji": "ni",
                         "meaning": [
-                            "be",
-                            "is"
+                            "at (place, time)",
+                            "in",
+                            "on",
+                            "during"
                         ],
                         "format": [
                             "u"
                         ]
                     },
                     {
-                        "morpheme": "なっ",
-                        "romaji": "natsu",
+                        "morpheme": "なった",
+                        "romaji": "natta",
                         "meaning": [
                             "to become",
                             "to get",
@@ -6075,16 +5640,7 @@
                             "to reach",
                             "to attain"
                         ],
-                        "format": [
-                            "u"
-                        ]
-                    },
-                    {
-                        "morpheme": "た",
-                        "romaji": "ta",
-                        "meaning": [
-                            "other (esp. people and abstract matters)"
-                        ],
+                        "baseForm": "成る",
                         "format": [
                             "u"
                         ]
@@ -6176,7 +5732,7 @@
                     ]
                 ],
                 "answer": 2,
-                "romajiQues": "ton 1 ① dekiru you ni natsu ta no ha nani ka .",
+                "romajiQues": "ton 1 ① dekiru you ni natta no ha nani ka .",
                 "translationQues": "Question 1 ①What made you able to do this?",
                 "romajiOption": [
                     "denki ryoukin",
@@ -6253,9 +5809,7 @@
                         "morpheme": "どれ",
                         "romaji": "dore",
                         "meaning": [
-                            "which",
-                            "where",
-                            "who"
+                            "which (of three or more)"
                         ]
                     },
                     {
@@ -6374,13 +5928,14 @@
                             "seldom",
                             "rare"
                         ],
+                        "baseForm": "少ない",
                         "format": [
                             "u"
                         ]
                     },
                     {
-                        "morpheme": "なっ",
-                        "romaji": "natsu",
+                        "morpheme": "なった",
+                        "romaji": "natta",
                         "meaning": [
                             "to become",
                             "to get",
@@ -6389,16 +5944,7 @@
                             "to reach",
                             "to attain"
                         ],
-                        "format": [
-                            "u"
-                        ]
-                    },
-                    {
-                        "morpheme": "た",
-                        "romaji": "ta",
-                        "meaning": [
-                            "other (esp. people and abstract matters)"
-                        ],
+                        "baseForm": "成る",
                         "format": [
                             "u"
                         ]
@@ -6444,44 +5990,30 @@
                 "options": [
                     [
                         {
-                            "morpheme": "忙しく",
-                            "romaji": "isogashiku",
+                            "morpheme": "忙しくて",
+                            "romaji": "isogashikute",
                             "meaning": [
                                 "busy",
                                 "occupied",
                                 "hectic"
-                            ]
+                            ],
+                            "baseForm": "忙しい"
                         },
                         {
-                            "morpheme": "て",
-                            "romaji": "te",
-                            "meaning": [
-                                "you said",
-                                "he said",
-                                "she said",
-                                "they said"
-                            ]
-                        },
-                        {
-                            "morpheme": "支払え",
-                            "romaji": "shiharaie",
+                            "morpheme": "支払えない",
+                            "romaji": "shiharaienai",
                             "meaning": [
                                 "to pay"
-                            ]
-                        },
-                        {
-                            "morpheme": "ない",
-                            "romaji": "nai",
-                            "meaning": [
-                                "not"
-                            ]
+                            ],
+                            "baseForm": "支払う"
                         },
                         {
                             "morpheme": "こと",
                             "romaji": "koto",
                             "meaning": [
-                                "thing",
-                                "matter"
+                                "word",
+                                "remark",
+                                "statement"
                             ]
                         }
                     ],
@@ -6523,8 +6055,9 @@
                             "morpheme": "こと",
                             "romaji": "koto",
                             "meaning": [
-                                "thing",
-                                "matter"
+                                "word",
+                                "remark",
+                                "statement"
                             ]
                         }
                     ],
@@ -6556,8 +6089,9 @@
                             "morpheme": "こと",
                             "romaji": "koto",
                             "meaning": [
-                                "thing",
-                                "matter"
+                                "word",
+                                "remark",
+                                "statement"
                             ]
                         }
                     ],
@@ -6589,17 +6123,18 @@
                             "morpheme": "こと",
                             "romaji": "koto",
                             "meaning": [
-                                "thing",
-                                "matter"
+                                "word",
+                                "remark",
+                                "statement"
                             ]
                         }
                     ]
                 ],
                 "answer": 0,
-                "romajiQues": "ton 3 ③ sukunaku natsu ta no ha nani ka .",
+                "romajiQues": "ton 3 ③ sukunaku natta no ha nani ka .",
                 "translationQues": "Question 3 ③What has decreased?",
                 "romajiOption": [
-                    "isogashiku te shiharaie nai koto",
+                    "isogashikute shiharaienai koto",
                     "yuubin kyoku de shiharau koto",
                     "ginkou de shiharau koto",
                     "ryoukin wo shiharau koto"
@@ -6716,29 +6251,15 @@
                         ]
                     },
                     {
-                        "morpheme": "決まり",
-                        "romaji": "kimari",
+                        "morpheme": "決まりました",
+                        "romaji": "kimarimashita",
                         "meaning": [
                             "to be decided",
                             "to be settled",
                             "to be fixed",
                             "to be arranged"
-                        ]
-                    },
-                    {
-                        "morpheme": "まし",
-                        "romaji": "mashi",
-                        "meaning": [
-                            "to increase",
-                            "to grow"
-                        ]
-                    },
-                    {
-                        "morpheme": "た",
-                        "romaji": "ta",
-                        "meaning": [
-                            "other (esp. people and abstract matters)"
-                        ]
+                        ],
+                        "baseForm": "決まる"
                     },
                     {
                         "morpheme": "。",
@@ -6746,7 +6267,7 @@
                         "meaning": []
                     }
                 ],
-                "romaji": "tsugi no ( ① ) ga kimari mashi ta .",
+                "romaji": "tsugi no ( ① ) ga kimarimashita .",
                 "translation": "The next (①) has been decided."
             },
             {
@@ -6984,13 +6505,13 @@
                         "morpheme": "する",
                         "romaji": "suru",
                         "meaning": [
-                            "to become",
-                            "to get",
-                            "to grow",
-                            "to turn",
-                            "to reach",
-                            "to attain"
-                        ]
+                            "to rub",
+                            "to chafe",
+                            "to strike (match)",
+                            "to file",
+                            "to frost (glass)"
+                        ],
+                        "baseForm": "為る"
                     },
                     {
                         "morpheme": "人",
@@ -7093,8 +6614,9 @@
                         "morpheme": "こと",
                         "romaji": "koto",
                         "meaning": [
-                            "thing",
-                            "matter"
+                            "word",
+                            "remark",
+                            "statement"
                         ]
                     },
                     {
@@ -7187,25 +6709,15 @@
                         ]
                     },
                     {
-                        "morpheme": "つい",
-                        "romaji": "tsui",
+                        "morpheme": "ついて",
+                        "romaji": "tsuite",
                         "meaning": [
-                            "to be attached",
-                            "to be connected with",
-                            "to adhere",
-                            "to stick",
-                            "to cling"
-                        ]
-                    },
-                    {
-                        "morpheme": "て",
-                        "romaji": "te",
-                        "meaning": [
-                            "you said",
-                            "he said",
-                            "she said",
-                            "they said"
-                        ]
+                            "about",
+                            "concerning",
+                            "as to",
+                            "regarding"
+                        ],
+                        "baseForm": "つく"
                     },
                     {
                         "morpheme": "は",
@@ -7220,7 +6732,7 @@
                         "meaning": []
                     }
                 ],
-                "romaji": "( ③ ) ni ten igai ni tsui te ha ,",
+                "romaji": "( ③ ) ni ten igai ni tsuite ha ,",
                 "translation": "(③) Regarding other than two points,"
             },
             {
@@ -7244,20 +6756,13 @@
                         ]
                     },
                     {
-                        "morpheme": "話し合い",
-                        "romaji": "hanashiai",
+                        "morpheme": "話し合います",
+                        "romaji": "hanashiaimasu",
                         "meaning": [
                             "to discuss",
                             "to talk together"
-                        ]
-                    },
-                    {
-                        "morpheme": "ます",
-                        "romaji": "masu",
-                        "meaning": [
-                            "to increase",
-                            "to grow"
-                        ]
+                        ],
+                        "baseForm": "話し合う"
                     },
                     {
                         "morpheme": "。",
@@ -7265,7 +6770,7 @@
                         "meaning": []
                     }
                 ],
-                "romaji": "jikai mata hanashiai masu .",
+                "romaji": "jikai mata hanashiaimasu .",
                 "translation": "We'll talk again next time."
             },
             {
@@ -7351,8 +6856,9 @@
                         "morpheme": "こと",
                         "romaji": "koto",
                         "meaning": [
-                            "thing",
-                            "matter"
+                            "word",
+                            "remark",
+                            "statement"
                         ]
                     }
                 ],
@@ -7428,9 +6934,7 @@
                         "morpheme": "どれ",
                         "romaji": "dore",
                         "meaning": [
-                            "which",
-                            "where",
-                            "who"
+                            "which (of three or more)"
                         ]
                     },
                     {
@@ -7464,8 +6968,9 @@
                             "morpheme": "こと",
                             "romaji": "koto",
                             "meaning": [
-                                "thing",
-                                "matter"
+                                "word",
+                                "remark",
+                                "statement"
                             ]
                         }
                     ],
@@ -7474,8 +6979,9 @@
                             "morpheme": "とき",
                             "romaji": "toki",
                             "meaning": [
+                                "time",
                                 "hour",
-                                "o'clock"
+                                "moment"
                             ]
                         }
                     ],
@@ -7572,9 +7078,7 @@
                         "morpheme": "どれ",
                         "romaji": "dore",
                         "meaning": [
-                            "which",
-                            "where",
-                            "who"
+                            "which (of three or more)"
                         ]
                     },
                     {
@@ -7708,9 +7212,7 @@
                         "morpheme": "どれ",
                         "romaji": "dore",
                         "meaning": [
-                            "which",
-                            "where",
-                            "who"
+                            "which (of three or more)"
                         ]
                     },
                     {
@@ -7744,8 +7246,9 @@
                             "morpheme": "その",
                             "romaji": "sono",
                             "meaning": [
-                                "that",
-                                "the"
+                                "garden",
+                                "orchard",
+                                "park"
                             ]
                         }
                     ],
@@ -8045,13 +7548,13 @@
                         "morpheme": "する",
                         "romaji": "suru",
                         "meaning": [
-                            "to become",
-                            "to get",
-                            "to grow",
-                            "to turn",
-                            "to reach",
-                            "to attain"
-                        ]
+                            "to rub",
+                            "to chafe",
+                            "to strike (match)",
+                            "to file",
+                            "to frost (glass)"
+                        ],
+                        "baseForm": "為る"
                     },
                     {
                         "morpheme": "方",
@@ -8156,10 +7659,11 @@
                         "morpheme": "問い合わせ",
                         "romaji": "toiawase",
                         "meaning": [
-                            "to enquire",
-                            "to inquire",
-                            "to seek information"
+                            "inquiry",
+                            "query",
+                            "enquiry"
                         ],
+                        "baseForm": "問い合わせる",
                         "format": [
                             "u"
                         ]
@@ -8168,10 +7672,9 @@
                         "morpheme": "ください",
                         "romaji": "kudasai",
                         "meaning": [
-                            "to give",
-                            "to confer",
-                            "to bestow"
+                            "please (give me)"
                         ],
+                        "baseForm": "下さる",
                         "format": [
                             "u"
                         ]
@@ -8279,21 +7782,14 @@
                         ]
                     },
                     {
-                        "morpheme": "でき",
-                        "romaji": "deki",
+                        "morpheme": "できます",
+                        "romaji": "dekimasu",
                         "meaning": [
                             "to be able to do",
                             "to be possible",
                             "to be permitted (to do)"
-                        ]
-                    },
-                    {
-                        "morpheme": "ます",
-                        "romaji": "masu",
-                        "meaning": [
-                            "to increase",
-                            "to grow"
-                        ]
+                        ],
+                        "baseForm": "出来る"
                     },
                     {
                         "morpheme": "。",
@@ -8301,7 +7797,7 @@
                         "meaning": []
                     }
                 ],
-                "romaji": "jitaku ( ※ 1 ) de soudan wo ukeru ( ③ ) mo deki masu .",
+                "romaji": "jitaku ( ※ 1 ) de soudan wo ukeru ( ③ ) mo dekimasu .",
                 "translation": "You can also receive a consultation (③) at your home (*1)."
             },
             {
@@ -8441,9 +7937,7 @@
                         "morpheme": "どれ",
                         "romaji": "dore",
                         "meaning": [
-                            "which",
-                            "where",
-                            "who"
+                            "which (of three or more)"
                         ]
                     },
                     {
@@ -8475,8 +7969,9 @@
                             "morpheme": "その",
                             "romaji": "sono",
                             "meaning": [
-                                "that",
-                                "the"
+                                "garden",
+                                "orchard",
+                                "park"
                             ]
                         }
                     ],
@@ -8485,9 +7980,7 @@
                             "morpheme": "どれ",
                             "romaji": "dore",
                             "meaning": [
-                                "which",
-                                "where",
-                                "who"
+                                "which (of three or more)"
                             ]
                         }
                     ],
@@ -8553,10 +8046,11 @@
                         "morpheme": "問い合わせ",
                         "romaji": "toiawase",
                         "meaning": [
-                            "to enquire",
-                            "to inquire",
-                            "to seek information"
+                            "inquiry",
+                            "query",
+                            "enquiry"
                         ],
+                        "baseForm": "問い合わせる",
                         "format": [
                             "u"
                         ]
@@ -8565,10 +8059,9 @@
                         "morpheme": "ください",
                         "romaji": "kudasai",
                         "meaning": [
-                            "to give",
-                            "to confer",
-                            "to bestow"
+                            "please (give me)"
                         ],
+                        "baseForm": "下さる",
                         "format": [
                             "u"
                         ]
@@ -8585,20 +8078,14 @@
                         ]
                     },
                     {
-                        "morpheme": "ある",
-                        "romaji": "aru",
+                        "morpheme": "あるが",
+                        "romaji": "aruga",
                         "meaning": [
                             "to be",
                             "to exist",
                             "to live"
-                        ]
-                    },
-                    {
-                        "morpheme": "が",
-                        "romaji": "ga",
-                        "meaning": [
-                            "indicates the subject of a sentence"
-                        ]
+                        ],
+                        "baseForm": "有る"
                     },
                     {
                         "morpheme": "、",
@@ -8844,21 +8331,14 @@
                             ]
                         },
                         {
-                            "morpheme": "行け",
-                            "romaji": "ike",
+                            "morpheme": "行けない",
+                            "romaji": "ikenai",
                             "meaning": [
-                                "to go",
-                                "to move (towards)",
-                                "to head (towards)",
-                                "to leave (for)"
-                            ]
-                        },
-                        {
-                            "morpheme": "ない",
-                            "romaji": "nai",
-                            "meaning": [
-                                "not"
-                            ]
+                                "bad",
+                                "wrong",
+                                "naughty"
+                            ],
+                            "baseForm": "行く"
                         },
                         {
                             "morpheme": "市民",
@@ -8871,13 +8351,13 @@
                     ]
                 ],
                 "answer": 3,
-                "romajiQues": "ton 2 ② o toiawase kudasai to aru ga , ( toiawaseru ) no ha dare ka .",
+                "romajiQues": "ton 2 ② o toiawase kudasai to aruga , ( toiawaseru ) no ha dare ka .",
                 "translationQues": "Question 2 ② It says \"Please contact us\", but who should \"inquire\"?",
                 "romajiOption": [
                     "kenkou soudan shitsu no nin",
                     "kenkou soudan ni iku shimin",
                     "65 toshi ika no shimin",
-                    "dai 1 ・ dai 3 mokuyou nichi ni ike nai shimin"
+                    "dai 1 ・ dai 3 mokuyou nichi ni ikenai shimin"
                 ],
                 "translationOption": [
                     "Health consultation room person",
@@ -8948,9 +8428,7 @@
                         "morpheme": "どれ",
                         "romaji": "dore",
                         "meaning": [
-                            "which",
-                            "where",
-                            "who"
+                            "which (of three or more)"
                         ]
                     },
                     {
@@ -8972,11 +8450,7 @@
                             "morpheme": "もの",
                             "romaji": "mono",
                             "meaning": [
-                                "thing",
-                                "object",
-                                "article",
-                                "stuff",
-                                "substance"
+                                "indicates reason or excuse"
                             ]
                         }
                     ],
@@ -9007,8 +8481,9 @@
                             "morpheme": "こと",
                             "romaji": "koto",
                             "meaning": [
-                                "thing",
-                                "matter"
+                                "word",
+                                "remark",
+                                "statement"
                             ]
                         }
                     ]
@@ -9083,8 +8558,10 @@
                         "morpheme": "さま",
                         "romaji": "sama",
                         "meaning": [
-                            "appearing ...",
-                            "looking ..."
+                            "Mr",
+                            "Mrs",
+                            "Miss",
+                            "Ms"
                         ]
                     }
                 ],
@@ -9137,9 +8614,11 @@
                         "morpheme": "いで",
                         "romaji": "ide",
                         "meaning": [
-                            "to go",
-                            "to come"
-                        ]
+                            "oh no",
+                            "well",
+                            "er"
+                        ],
+                        "baseForm": "出でる"
                     },
                     {
                         "morpheme": "に",
@@ -9155,13 +8634,9 @@
                         "morpheme": "なる",
                         "romaji": "naru",
                         "meaning": [
-                            "to become",
-                            "to get",
-                            "to grow",
-                            "to turn",
-                            "to reach",
-                            "to attain"
-                        ]
+                            "to bear fruit"
+                        ],
+                        "baseForm": "成る"
                     },
                     {
                         "morpheme": "（",
@@ -9283,12 +8758,10 @@
                         "morpheme": "乗り",
                         "romaji": "nori",
                         "meaning": [
-                            "to get on (train, plane, bus, ship, etc.)",
-                            "to get in",
-                            "to board",
-                            "to take",
-                            "to embark"
-                        ]
+                            "riding",
+                            "ride"
+                        ],
+                        "baseForm": "乗る"
                     },
                     {
                         "morpheme": "、",
@@ -9345,18 +8818,18 @@
                         "morpheme": "降り",
                         "romaji": "ori",
                         "meaning": [
-                            "to fall (of rain, snow, ash, etc.)",
-                            "to come down"
-                        ]
+                            "down-train",
+                            "train heading toward the ending point of its route"
+                        ],
+                        "baseForm": "降る"
                     },
                     {
                         "morpheme": "ください",
                         "romaji": "kudasai",
                         "meaning": [
-                            "to give",
-                            "to confer",
-                            "to bestow"
-                        ]
+                            "please (give me)"
+                        ],
+                        "baseForm": "下さる"
                     },
                     {
                         "morpheme": "。",
@@ -9396,21 +8869,12 @@
                         ]
                     },
                     {
-                        "morpheme": "歩い",
-                        "romaji": "arui",
+                        "morpheme": "歩いて",
+                        "romaji": "aruite",
                         "meaning": [
                             "to walk"
-                        ]
-                    },
-                    {
-                        "morpheme": "て",
-                        "romaji": "te",
-                        "meaning": [
-                            "you said",
-                            "he said",
-                            "she said",
-                            "they said"
-                        ]
+                        ],
+                        "baseForm": "歩く"
                     },
                     {
                         "morpheme": "7",
@@ -9449,7 +8913,7 @@
                         "meaning": []
                     }
                 ],
-                "romaji": "( ② ) kara arui te 7 fun hodo desu .",
+                "romaji": "( ② ) kara aruite 7 fun hodo desu .",
                 "translation": "It is about 7 minutes walk from (②)."
             },
             {
@@ -9505,8 +8969,7 @@
                         "morpheme": "お",
                         "romaji": "o",
                         "meaning": [
-                            "oh!",
-                            "good heavens!"
+                            "honorific/polite/humble prefix"
                         ],
                         "format": [
                             "u"
@@ -9524,8 +8987,8 @@
                         ]
                     },
                     {
-                        "morpheme": "いただけれ",
-                        "romaji": "itadakere",
+                        "morpheme": "いただければ",
+                        "romaji": "itadakereba",
                         "meaning": [
                             "to receive",
                             "to get",
@@ -9533,17 +8996,7 @@
                             "to take",
                             "to buy"
                         ],
-                        "format": [
-                            "u"
-                        ]
-                    },
-                    {
-                        "morpheme": "ば",
-                        "romaji": "ba",
-                        "meaning": [
-                            "if ... then",
-                            "when"
-                        ],
+                        "baseForm": "頂く",
                         "format": [
                             "u"
                         ]
@@ -9554,7 +9007,7 @@
                         "meaning": []
                     }
                 ],
-                "romaji": "(maru) (maru) eki kara ③ o denwa itadakere ba ,",
+                "romaji": "(maru) (maru) eki kara ③ o denwa itadakereba ,",
                 "translation": "If you call ③ from 〇〇 station,"
             },
             {
@@ -9615,47 +9068,27 @@
                         "morpheme": "待ち",
                         "romaji": "machi",
                         "meaning": [
-                            "to wait"
-                        ]
+                            "waiting",
+                            "waiting time"
+                        ],
+                        "baseForm": "待つ"
                     },
                     {
-                        "morpheme": "し",
-                        "romaji": "shi",
+                        "morpheme": "して",
+                        "romaji": "shite",
                         "meaning": [
-                            "to become",
-                            "to get",
-                            "to grow",
-                            "to turn",
-                            "to reach",
-                            "to attain"
-                        ]
+                            "doer",
+                            "performer"
+                        ],
+                        "baseForm": "為る"
                     },
                     {
-                        "morpheme": "て",
-                        "romaji": "te",
+                        "morpheme": "います",
+                        "romaji": "imasu",
                         "meaning": [
-                            "you said",
-                            "he said",
-                            "she said",
-                            "they said"
-                        ]
-                    },
-                    {
-                        "morpheme": "い",
-                        "romaji": "i",
-                        "meaning": [
-                            "to be (animate)",
-                            "to be",
-                            "to exist"
-                        ]
-                    },
-                    {
-                        "morpheme": "ます",
-                        "romaji": "masu",
-                        "meaning": [
-                            "to increase",
-                            "to grow"
-                        ]
+                            "to be"
+                        ],
+                        "baseForm": "居る"
                     },
                     {
                         "morpheme": "。",
@@ -9663,7 +9096,7 @@
                         "meaning": []
                     }
                 ],
-                "romaji": "( gakkou mae ) basu tei de o machi shi te i masu .",
+                "romaji": "( gakkou mae ) basu tei de o machi shite imasu .",
                 "translation": "We will be waiting for you at the \"School-mae\" bus stop."
             },
             {
@@ -9746,9 +9179,7 @@
                         "morpheme": "どれ",
                         "romaji": "dore",
                         "meaning": [
-                            "which",
-                            "where",
-                            "who"
+                            "which (of three or more)"
                         ]
                     },
                     {
@@ -9782,8 +9213,9 @@
                             "morpheme": "こと",
                             "romaji": "koto",
                             "meaning": [
-                                "thing",
-                                "matter"
+                                "word",
+                                "remark",
+                                "statement"
                             ]
                         }
                     ],
@@ -9792,8 +9224,9 @@
                             "morpheme": "とき",
                             "romaji": "toki",
                             "meaning": [
+                                "time",
                                 "hour",
-                                "o'clock"
+                                "moment"
                             ]
                         }
                     ],
@@ -9802,11 +9235,7 @@
                             "morpheme": "もの",
                             "romaji": "mono",
                             "meaning": [
-                                "thing",
-                                "object",
-                                "article",
-                                "stuff",
-                                "substance"
+                                "indicates reason or excuse"
                             ]
                         }
                     ]
@@ -9889,9 +9318,7 @@
                         "morpheme": "どれ",
                         "romaji": "dore",
                         "meaning": [
-                            "which",
-                            "where",
-                            "who"
+                            "which (of three or more)"
                         ]
                     },
                     {
@@ -9913,8 +9340,10 @@
                             "morpheme": "ここ",
                             "romaji": "koko",
                             "meaning": [
-                                "here",
-                                "this place"
+                                "individual",
+                                "one by one",
+                                "separate",
+                                "each"
                             ]
                         }
                     ],
@@ -9923,7 +9352,8 @@
                             "morpheme": "そこ",
                             "romaji": "soko",
                             "meaning": [
-                                "there (place relatively near listener)"
+                                "bottom",
+                                "sole"
                             ],
                             "format": [
                                 "u"
@@ -10008,8 +9438,8 @@
                         ]
                     },
                     {
-                        "morpheme": "いただけれ",
-                        "romaji": "itadakere",
+                        "morpheme": "いただければ",
+                        "romaji": "itadakereba",
                         "meaning": [
                             "to receive",
                             "to get",
@@ -10017,17 +9447,7 @@
                             "to take",
                             "to buy"
                         ],
-                        "format": [
-                            "u"
-                        ]
-                    },
-                    {
-                        "morpheme": "ば",
-                        "romaji": "ba",
-                        "meaning": [
-                            "if ... then",
-                            "when"
-                        ],
+                        "baseForm": "頂く",
                         "format": [
                             "u"
                         ]
@@ -10044,20 +9464,14 @@
                         ]
                     },
                     {
-                        "morpheme": "ある",
-                        "romaji": "aru",
+                        "morpheme": "あるが",
+                        "romaji": "aruga",
                         "meaning": [
                             "to be",
                             "to exist",
                             "to live"
-                        ]
-                    },
-                    {
-                        "morpheme": "が",
-                        "romaji": "ga",
-                        "meaning": [
-                            "indicates the subject of a sentence"
-                        ]
+                        ],
+                        "baseForm": "有る"
                     },
                     {
                         "morpheme": "、",
@@ -10093,7 +9507,8 @@
                             "to accept",
                             "to take",
                             "to buy"
-                        ]
+                        ],
+                        "baseForm": "頂く"
                     },
                     {
                         "morpheme": "」",
@@ -10232,7 +9647,7 @@
                     ]
                 ],
                 "answer": 0,
-                "romajiQues": "ton 3 ③ o denwa itadakere ba to aru ga , ( o denwa itadaku ) no ha dare ka .",
+                "romajiQues": "ton 3 ③ o denwa itadakereba to aruga , ( o denwa itadaku ) no ha dare ka .",
                 "translationQues": "Question 3 ③ It says that you can call me, but who will \"call me\"?",
                 "romajiOption": [
                     "yamada san",
