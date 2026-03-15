@@ -5,407 +5,1083 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comprehensions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;600&family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
 
     <style>
+        /* ── Light theme (default) ── */
+        :root {
+            --ink: #1a1714;
+            --ink-light: #4a4540;
+            --ink-faint: #8a8480;
+            --paper: #faf8f4;
+            --paper-warm: #f2ede4;
+            --paper-mid: #e8e0d4;
+            --surface: #ffffff;
+            --accent: #c0392b;
+            --accent-soft: #e8d5d2;
+            --accent-blue: #2980b9;
+            --accent-blue-soft: #d4e8f5;
+            --green: #27ae60;
+            --green-soft: #d4edda;
+            --radius: 4px;
+            --transition: 0.2s ease;
+            --reading-size: 1.2rem;
+        }
+
+        /* ── Dark theme ── */
+        [data-theme="dark"] {
+            --ink: #e8e4df;
+            --ink-light: #b0a89e;
+            --ink-faint: #6a6460;
+            --paper: #141210;
+            --paper-warm: #1c1916;
+            --paper-mid: #2a2520;
+            --surface: #1e1b18;
+            --accent: #e05c4a;
+            --accent-soft: #3a1e1a;
+            --accent-blue: #5ba8d4;
+            --accent-blue-soft: #1a2e3a;
+            --green: #4caf7d;
+            --green-soft: #1a2e22;
+        }
+
         * {
             box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            background-color: white;
-            font-size: 30px;
-        }
-
-        h1 {
-            color: #333;
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        .section-heading {
-            font-size: 40px;
-            margin-top: 25px;
-            margin-bottom: 10px;
-            color: #222;
-        }
-
-        .section-divider {
-            border: none;
-            border-top: 2px solid #ccc;
-            margin: 20px 0;
-        }
-
-        ul {
-            list-style-type: none;
+            margin: 0;
             padding: 0;
         }
 
-        li {
-            background-color: #fff;
-            margin: 8px 0;
-            padding: 12px;
+        body {
+            font-family: 'Noto Serif JP', serif;
+            background-color: var(--paper);
+            color: var(--ink);
+            font-size: 16px;
+            line-height: 1.85;
+            min-height: 100vh;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        /* ── Page wrapper ── */
+        .page {
+            max-width: var(--page-max-width, 680px);
+            margin: 0 auto;
+            padding: 32px var(--page-margin, 20px) 80px;
+        }
+
+        /* ── Header ── */
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 36px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--paper-mid);
+            position: relative;
+        }
+
+        header::after {
+            content: '';
+            display: block;
+            width: 40px;
+            height: 3px;
+            background: var(--accent);
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+        }
+
+        .header-title h1 {
+            font-family: 'DM Serif Display', serif;
+            font-size: 1.9rem;
+            font-weight: 400;
+            letter-spacing: 0.02em;
+            color: var(--ink);
+        }
+
+        .header-title span {
+            display: block;
+            font-family: 'DM Mono', monospace;
+            font-size: 0.7rem;
+            color: var(--ink-faint);
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            margin-bottom: 4px;
+        }
+
+        /* ── Header controls ── */
+        .ctrl-btn {
             cursor: pointer;
-            border-radius: 5px;
-            transition: background-color 0.3s;
+            background: var(--surface);
+            border: 1px solid var(--paper-mid);
+            color: var(--ink-faint);
+            border-radius: var(--radius);
+            padding: 5px 10px;
+            font-family: 'DM Mono', monospace;
+            font-size: 0.75rem;
+            letter-spacing: 0.04em;
+            transition: background var(--transition), color var(--transition), border-color var(--transition);
+            user-select: none;
+            white-space: nowrap;
         }
 
-        li:hover {
-            background-color: #e0e0e0;
+        .ctrl-btn:hover {
+            background: var(--paper-warm);
+            color: var(--ink);
+            border-color: var(--ink-faint);
         }
 
+        /* ── List ── */
+        #comprehension-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        #comprehension-list li {
+            background: var(--surface);
+            border: 1px solid var(--paper-mid);
+            border-left: 3px solid transparent;
+            padding: 18px 22px;
+            cursor: pointer;
+            border-radius: var(--radius);
+            font-size: 1.05rem;
+            color: var(--ink-light);
+            transition: border-color var(--transition), background var(--transition), color var(--transition), transform var(--transition);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        #comprehension-list li::before {
+            content: '読';
+            font-size: 0.75rem;
+            color: var(--ink-faint);
+            border: 1px solid var(--paper-mid);
+            border-radius: 2px;
+            padding: 2px 5px;
+            flex-shrink: 0;
+            transition: background var(--transition), color var(--transition), border-color var(--transition);
+        }
+
+        #comprehension-list li:hover {
+            border-left-color: var(--accent);
+            background: var(--paper-warm);
+            color: var(--ink);
+            transform: translateX(3px);
+        }
+
+        #comprehension-list li:hover::before {
+            background: var(--accent);
+            color: white;
+            border-color: var(--accent);
+        }
+
+        /* ── Comprehension content ── */
         #comprehension {
             display: none;
-            margin-top: 20px;
+            animation: fadeIn 0.3s ease;
         }
 
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(8px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* reading toolbar removed */
+
+        /* ── Spacing variable ── */
+        #comprehension .sentence p {
+            letter-spacing: var(--morpheme-spacing, 0.05em);
+            word-spacing: var(--morpheme-word-spacing, 0.3em);
+        }
+
+        /* ── Settings number input ── */
+        .settings-input {
+            width: 62px;
+            background: var(--paper-warm);
+            border: 1px solid var(--paper-mid);
+            border-radius: 3px;
+            color: var(--ink);
+            font-family: 'DM Mono', monospace;
+            font-size: 0.78rem;
+            padding: 4px 6px;
+            text-align: center;
+            outline: none;
+            transition: border-color var(--transition);
+        }
+
+        .settings-input:focus {
+            border-color: var(--accent-blue);
+        }
+
+        /* ── Fixed settings button (always visible top-right) ── */
+        #settings-fab {
+            position: fixed;
+            top: 16px;
+            right: 16px;
+            z-index: 200;
+            cursor: pointer;
+            background: var(--surface);
+            border: 1px solid var(--paper-mid);
+            color: var(--ink-faint);
+            border-radius: var(--radius);
+            width: 36px;
+            height: 36px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+            transition: background var(--transition), color var(--transition), border-color var(--transition);
+            user-select: none;
+        }
+
+        #settings-fab:hover {
+            background: var(--paper-warm);
+            color: var(--ink);
+            border-color: var(--ink-faint);
+        }
+
+        /* ── Settings panel (anchored to FAB) ── */
+        #settings-panel {
+            display: none;
+            position: fixed;
+            top: 60px;
+            right: 16px;
+            background: var(--surface);
+            border: 1px solid var(--paper-mid);
+            border-radius: 6px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+            padding: 16px 18px;
+            min-width: 220px;
+            z-index: 200;
+            animation: slideDown 0.18s ease;
+        }
+
+        #settings-panel.open {
+            display: block;
+        }
+
+        /* keep old .settings-btn for any remnants */
+        .settings-btn {
+            display: none;
+        }
+
+        .settings-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            padding: 8px 0;
+            border-bottom: 1px solid var(--paper-mid);
+        }
+
+        .settings-row:last-child {
+            border-bottom: none;
+        }
+
+        .settings-label {
+            font-family: 'DM Mono', monospace;
+            font-size: 0.72rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--ink-faint);
+        }
+
+        .settings-controls {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .unit-label {
+            font-family: 'DM Mono', monospace;
+            font-size: 0.72rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--ink-faint);
+            width: 2.2em;
+            text-align: left;
+        }
+
+        .step-btn {
+            cursor: pointer;
+            background: var(--paper-warm);
+            border: 1px solid var(--paper-mid);
+            color: var(--ink);
+            border-radius: 3px;
+            width: 28px;
+            height: 28px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'DM Mono', monospace;
+            font-size: 0.85rem;
+            transition: background var(--transition), border-color var(--transition);
+            user-select: none;
+        }
+
+        .step-btn:hover {
+            background: var(--accent);
+            color: white;
+            border-color: var(--accent);
+        }
+
+        .step-value {
+            font-family: 'DM Mono', monospace;
+            font-size: 0.78rem;
+            color: var(--ink);
+            min-width: 36px;
+            text-align: center;
+        }
+
+
+
+        /* ── Section heading ── */
+        .section-heading {
+            font-family: 'DM Serif Display', serif;
+            font-size: 1.5rem;
+            font-weight: 400;
+            color: var(--ink);
+            margin: 32px 0 16px;
+            padding-left: 14px;
+            border-left: 3px solid var(--accent);
+        }
+
+        /* ── Divider ── */
+        .section-divider {
+            border: none;
+            border-top: 1px solid var(--paper-mid);
+            margin: 24px 0;
+        }
+
+        /* ── Sentence block ── */
         .sentence {
-            margin-bottom: 12px;
+            padding: var(--sentence-gap, 6px) 0;
         }
 
-        p {
-            margin: 6px 0;
+        .sentence p {
+            font-size: var(--reading-size);
+            line-height: 1.6;
         }
 
-        /* 🔥 FIXED ARROW SIZE */
+        .sentence>p:first-child {
+            line-height: var(--line-height, 1.8);
+        }
+
+        /* ── Toggle arrow ── */
         .toggle-arrow {
             cursor: pointer;
-            color: #3399ff;
-            font-size: 24px;
-            /* force consistent size */
+            color: var(--ink-faint);
+            font-size: 10px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            vertical-align: middle;
+            width: 22px;
+            height: 22px;
+            border: 1px solid var(--paper-mid);
+            border-radius: 50%;
+            margin-left: 6px;
+            transition: background var(--transition), color var(--transition), border-color var(--transition);
+            user-select: none;
+        }
+
+        .toggle-arrow:hover {
+            background: var(--accent-blue-soft);
+            border-color: var(--accent-blue);
+            color: var(--accent-blue);
+        }
+
+        /* ── Translation reveal ── */
+        .translation {
+            display: none;
+            padding: 12px 16px;
+            background: var(--accent-blue-soft);
+            border-left: 3px solid var(--accent-blue);
+            border-radius: 0 var(--radius) var(--radius) 0;
+            margin-top: 10px;
+            color: var(--accent-blue);
+            font-size: calc(var(--reading-size) * 0.85);
+            font-style: italic;
+            line-height: 1.7;
+            animation: slideDown 0.18s ease;
+        }
+
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-4px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* ── MCQ ── */
+        .sentence p strong {
+            color: var(--accent);
+            font-weight: 600;
+            font-family: 'DM Mono', monospace;
+            font-size: 0.8rem;
+            letter-spacing: 0.04em;
+            margin-right: 4px;
+        }
+
+        .sentence>p+p {
+            color: var(--ink-light);
+            font-size: calc(var(--reading-size) * 0.95);
+            margin-top: 2px;
+        }
+
+        .mcq-option {
+            margin-top: var(--sentence-gap, 6px) !important;
+            line-height: 1.6 !important;
         }
 
         .toggle-answer {
             cursor: pointer;
-            color: #3399ff;
+            font-family: 'DM Mono', monospace;
+            font-size: 0.75rem;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            color: var(--accent-blue);
+            border: 1px solid var(--accent-blue);
+            padding: 5px 14px;
+            border-radius: 20px;
+            display: inline-block;
+            margin-top: 8px;
+            transition: background var(--transition), color var(--transition);
         }
 
-        .toggle-arrow:active,
-        .toggle-answer:active {
-            color: #ff9933;
-        }
-
-        .difficult {
-            cursor: pointer;
-            background-color: #e9e9e9;
-            border-right: 5px solid white;
-        }
-
-        #comprehension.popup-active .difficult:hover {
-            background-color: #e9e9e9;
-        }
-
-        @media (hover: hover) {
-            .difficult:hover {
-                background-color: #A4E1F6;
-            }
-        }
-
-        .popup {
-            display: none;
-            position: absolute;
-            background: #fcedff;
-            border: 1px solid #333;
-            padding: 10px;
-            border-radius: 6px;
-            max-width: 250px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-            z-index: 1000;
-        }
-
-        .romaji {
-            color: gray;
-        }
-
-        .meaning {
-            color: green;
-        }
-
-        .translation {
-            display: none;
-            padding: 6px;
-            background: #3399ff;
-            border-radius: 4px;
-            margin-top: 6px;
+        .toggle-answer:hover {
+            background: var(--accent-blue);
             color: white;
         }
 
         .mcq-answer {
             display: none;
-            padding: 6px;
-            background: #d4edda;
-            border-radius: 5px;
-            margin-top: 6px;
+            padding: 10px 16px;
+            background: var(--green-soft);
+            border-left: 3px solid var(--green);
+            border-radius: 0 var(--radius) var(--radius) 0;
+            margin-top: 8px;
+            color: var(--green);
+            font-family: 'DM Mono', monospace;
+            font-size: 0.88rem;
+            animation: slideDown 0.18s ease;
         }
 
-        .back-footer {
-            display: block;
-            margin-top: 25px;
-            text-align: center;
+        /* ── Difficult word ── */
+        .difficult {
             cursor: pointer;
-            color: #3399ff;
-            text-decoration: underline;
+            border-bottom: 2px dotted var(--accent);
+            transition: background var(--transition), color var(--transition);
+            border-radius: 2px;
+            padding: 0 1px;
         }
 
+        .difficult:hover {
+            background: var(--accent-soft);
+            color: var(--accent);
+        }
+
+        /* ── Popup ── */
+        .popup {
+            display: none;
+            position: absolute;
+            background: var(--surface);
+            border: 1px solid var(--paper-mid);
+            box-shadow: 0 8px 28px rgba(0, 0, 0, 0.18);
+            padding: 14px 16px;
+            border-radius: 6px;
+            min-width: 160px;
+            max-width: 240px;
+            z-index: 1000;
+        }
+
+        .popup::before {
+            content: '';
+            position: absolute;
+            top: -6px;
+            left: 14px;
+            width: 10px;
+            height: 10px;
+            background: var(--surface);
+            border-left: 1px solid var(--paper-mid);
+            border-top: 1px solid var(--paper-mid);
+            transform: rotate(45deg);
+        }
+
+        .romaji {
+            font-family: 'DM Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--ink-faint);
+            letter-spacing: 0.04em;
+            margin-bottom: 4px;
+        }
+
+        .meaning {
+            color: var(--green);
+            font-size: 0.95rem;
+            font-weight: 600;
+            line-height: 1.5;
+        }
+
+        .popup a {
+            display: inline-block;
+            margin-top: 8px;
+            font-family: 'DM Mono', monospace;
+            font-size: 0.75rem;
+            color: var(--accent-blue);
+            text-decoration: none;
+            letter-spacing: 0.04em;
+            border: 1px solid var(--accent-blue-soft);
+            padding: 2px 8px;
+            border-radius: 20px;
+            transition: background var(--transition);
+        }
+
+        .popup a:hover {
+            background: var(--accent-blue-soft);
+        }
+
+        /* ── Furigana ── */
         ruby rt {
-            font-size: 0.7em;
-            color: gray;
+            font-size: 0.55em;
+            color: var(--ink-faint);
+            font-family: 'Noto Serif JP', serif;
+        }
+
+        /* ── Back footer ── */
+        .back-footer {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 52px;
+            cursor: pointer;
+            color: var(--ink-faint);
+            font-family: 'DM Mono', monospace;
+            font-size: 0.78rem;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            width: fit-content;
+            padding: 10px 0;
+            border-top: 1px solid var(--paper-mid);
+            transition: color var(--transition);
+        }
+
+        .back-footer::before {
+            content: '←';
+            font-size: 1rem;
+        }
+
+        .back-footer:hover {
+            color: var(--accent);
+        }
+
+        /* ── Scrollbar ── */
+        ::-webkit-scrollbar {
+            width: 5px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--paper);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--paper-mid);
+            border-radius: 3px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--ink-faint);
+        }
+
+        /* ── Mobile ── */
+        @media (max-width: 480px) {
+            .page {
+                padding: 20px var(--page-margin, 16px) 80px;
+            }
+
+            .header-title h1 {
+                font-size: 1.5rem;
+            }
+
+            .ctrl-btn {
+                padding: 6px 8px;
+                font-size: 0.7rem;
+            }
+
+            .toggle-arrow {
+                width: 32px;
+                height: 32px;
+            }
         }
     </style>
 </head>
 
 <body>
 
-    <h1>Comprehensions</h1>
+    <div class="page">
+        <header>
+            <div class="header-title">
+                <h1><span>Japanese</span>Comprehensions</h1>
+            </div>
+            <div class="header-controls"></div>
+        </header>
 
-    <ul id="comprehension-list"></ul>
-    <div id="comprehension"></div>
+        <ul id="comprehension-list"></ul>
+        <div id="comprehension"></div>
+    </div>
+
+    <!-- Fixed settings FAB — always visible -->
+    <button id="settings-fab" title="Settings">⚙</button>
+    <div id="settings-panel">
+        <div class="settings-row">
+            <span class="settings-label">Dark mode</span>
+            <button class="ctrl-btn" id="dark-toggle-btn">☽ Dark</button>
+        </div>
+        <div class="settings-row">
+            <span class="settings-label">Text size</span>
+            <div class="settings-controls">
+                <button class="step-btn" id="font-decrease">−</button>
+                <input class="settings-input" id="font-size-input" type="number" value="1.2" step="0.05" min="0.7"
+                    max="2.5">
+                <button class="step-btn" id="font-increase">+</button>
+                <span class="unit-label">rem</span>
+            </div>
+        </div>
+        <div class="settings-row">
+            <span class="settings-label">Letter spacing</span>
+            <div class="settings-controls">
+                <button class="step-btn" id="letter-decrease">−</button>
+                <input class="settings-input" id="letter-spacing-input" type="number" value="0.05" step="0.01"
+                    min="-0.1" max="0.5">
+                <button class="step-btn" id="letter-increase">+</button>
+                <span class="unit-label">em</span>
+            </div>
+        </div>
+        <div class="settings-row">
+            <span class="settings-label">Word spacing</span>
+            <div class="settings-controls">
+                <button class="step-btn" id="word-decrease">−</button>
+                <input class="settings-input" id="word-spacing-input" type="number" value="0.3" step="0.05" min="-0.5"
+                    max="2">
+                <button class="step-btn" id="word-increase">+</button>
+                <span class="unit-label">em</span>
+            </div>
+        </div>
+        <div class="settings-row">
+            <span class="settings-label">Line height</span>
+            <div class="settings-controls">
+                <button class="step-btn" id="lineheight-decrease">−</button>
+                <input class="settings-input" id="lineheight-input" type="number" value="1.8" step="0.1" min="1"
+                    max="4">
+                <button class="step-btn" id="lineheight-increase">+</button>
+                <span class="unit-label">lh</span>
+            </div>
+        </div>
+        <div class="settings-row">
+            <span class="settings-label">Sentence gap</span>
+            <div class="settings-controls">
+                <button class="step-btn" id="gap-decrease">−</button>
+                <input class="settings-input" id="gap-input" type="number" value="6" step="2" min="0" max="60">
+                <button class="step-btn" id="gap-increase">+</button>
+                <span class="unit-label">px</span>
+            </div>
+        </div>
+        <div class="settings-row">
+            <span class="settings-label">Side margin</span>
+            <div class="settings-controls">
+                <button class="step-btn" id="margin-decrease">−</button>
+                <input class="settings-input" id="margin-input" type="number" value="20" step="4" min="0" max="120">
+                <button class="step-btn" id="margin-increase">+</button>
+                <span class="unit-label">px</span>
+            </div>
+        </div>
+    </div>
+
     <div id="popup" class="popup"></div>
 
     <script>
 
-        const list = document.getElementById('comprehension-list');
-        const comprehension = document.getElementById('comprehension');
-        const popup = document.getElementById('popup');
-
-        let comprehensionData = {};
-        let activeWord = null;
-
-        let comprehensionList = [
+        // ── Config ─────────────────────────────────────────────
+        // Add new comprehensions here — no need to touch any other code
+        const COMPREHENSION_LIST = [
             { name: "d1", text: "Dokkai 1" },
             { name: "test_dokkai", text: "Test" }
         ];
 
-        comprehensionList.forEach(item => {
-            list.innerHTML += `<li data-name="${item.name}">${item.text}</li>`;
+        const BASE_URL = "https://raw.githubusercontent.com/BhumikRajput/Flashcards/main/assets/comprehensions/";
+
+        // ── DOM refs ────────────────────────────────────────────
+        const listEl = document.getElementById('comprehension-list');
+        const comprehension = document.getElementById('comprehension');
+        const popup = document.getElementById('popup');
+
+        // ── State ───────────────────────────────────────────────
+        const cache = {};   // name → parsed JSON, so each file is only fetched once
+
+        // ── Build list ──────────────────────────────────────────
+        const fragment = document.createDocumentFragment();
+        COMPREHENSION_LIST.forEach(({ name, text }) => {
+            const li = document.createElement('li');
+            li.dataset.name = name;
+            li.textContent = text;
+            fragment.appendChild(li);
         });
+        listEl.appendChild(fragment);
 
-        async function loadJSON(item) {
-            const name = item.getAttribute('data-name');
-            const url = `https://raw.githubusercontent.com/BhumikRajput/Flashcards/main/assets/comprehensions/${name}.json`;
+        // ── Data fetching ───────────────────────────────────────
+        async function fetchComprehension(name) {
+            if (cache[name]) return cache[name];
 
-            if (!comprehensionData[name]) {
-                const response = await fetch(url);
-                if (!response.ok) return null;
-                comprehensionData[name] = await response.json();
-            }
-            return comprehensionData[name];
+            const res = await fetch(`${BASE_URL}${name}.json`);
+            if (!res.ok) throw new Error(`Failed to load "${name}" (${res.status})`);
+
+            cache[name] = await res.json();
+            return cache[name];
         }
 
-        // Render token
+        // ── Token renderer ──────────────────────────────────────
         function renderToken(token) {
             let text = token.morpheme;
 
-            // formatting
-            if (token.format && Array.isArray(token.format)) {
-                token.format.forEach(f => {
-                    if (f === 'b') text = `<b>${text}</b>`;
-                    if (f === 'i') text = `<i>${text}</i>`;
-                    if (f === 'u') text = `<u>${text}</u>`;
-                    if (f === 's') text = `<s>${text}</s>`;
-                });
-            }
+            // inline formatting
+            (token.format || []).forEach(f => {
+                const tags = { b: 'b', i: 'i', u: 'u', s: 's' };
+                if (tags[f]) text = `<${tags[f]}>${text}</${tags[f]}>`;
+            });
 
             // furigana
             if (token.furigana) {
                 text = `<ruby>${text}<rt>${token.furigana}</rt></ruby>`;
             }
 
-            // difficult word
-            if (token.meaning !== null && token.meaning !== undefined) {
+            // vocabulary popup trigger
+            // treat empty string as "no meaning" so only explicit values get marked
+            if (token.meaning != null && token.meaning !== '') {
                 text = `<span class="difficult"
-        data-meaning="${token.meaning}"
-        data-romaji="${token.romaji || ''}">
-        ${text}
-    </span>`;
+                    data-meaning="${token.meaning}"
+                    data-romaji="${token.romaji || ''}">${text}</span>`;
             }
 
             return text;
         }
 
-        // Load comprehension
-        list.addEventListener('click', async (e) => {
+        // ── Section renderers ───────────────────────────────────
+        function renderTokens(tokens) {
+            return tokens.map(renderToken).join(' ');
+        }
+
+        function renderParagraph(section) {
+            return section.data.map(({ sentence, translation }) => `
+                <div class="sentence" data-meaning="${translation || ''}">
+                    <p>${renderTokens(sentence)} <span class="toggle-arrow">▾</span></p>
+                    <div class="translation"></div>
+                </div>`
+            ).join('');
+        }
+
+        function renderMCQ(section) {
+            return section.data.map((q, index) => {
+                // answers are stored 0-indexed in JSON, displayed 1-indexed
+                const displayAnswer = q.answer + 1;
+
+                const optionsHTML = q.options.map((option, i) =>
+                    `<p class="mcq-option">${i + 1}. ${renderTokens(option)}</p>`
+                ).join('');
+
+                return `
+                <div class="sentence" data-meaning="${q.translationQues || ''}">
+                    <p><strong>Q${index + 1}</strong> ${renderTokens(q.question)} <span class="toggle-arrow">▾</span></p>
+                    <div class="translation"></div>
+                    ${optionsHTML}
+                    <p><span class="toggle-answer">Show Answer</span></p>
+                    <div class="mcq-answer">✓ Correct Answer: ${displayAnswer}</div>
+                </div>`;
+            }).join('');
+        }
+
+        // ── Full comprehension renderer ─────────────────────────
+        function renderComprehension(data) {
+            const sectionRenderers = {
+                heading: s => `<div class="section-heading">${s.text}</div>`,
+                break: () => `<br>`,
+                line: () => `<hr class="section-divider">`,
+                paragraph: renderParagraph,
+                mcq: renderMCQ
+            };
+
+            const body = data.map(section => {
+                const renderer = sectionRenderers[section.type];
+                return renderer ? renderer(section) : '';
+            }).join('');
+
+            return body + `<span class="back-footer">Back to list</span>`;
+        }
+
+        // ── List click — load & show comprehension ──────────────
+        listEl.addEventListener('click', async (e) => {
             const item = e.target.closest('li');
             if (!item) return;
 
-            let data = await loadJSON(item);
-            if (!data) return;
+            const name = item.dataset.name;
 
-            comprehension.innerHTML = "";
-            list.style.display = 'none';
+            // Show loading state
+            const originalText = item.textContent;
+            item.textContent = 'Loading…';
+            item.style.pointerEvents = 'none';
 
-            let html = "";
-
-            data.forEach(section => {
-
-                if (section.type === "heading") {
-                    html += `<div class="section-heading">${section.text}</div>`;
+            try {
+                const data = await fetchComprehension(name);
+                listEl.style.display = 'none';
+                comprehension.innerHTML = renderComprehension(data);
+                comprehension.style.display = 'block';
+            } catch (err) {
+                item.textContent = '⚠ Failed to load — tap to retry';
+                item.style.color = 'var(--accent)';
+            } finally {
+                // Restore item regardless of success/failure
+                if (listEl.style.display !== 'none') {
+                    item.textContent = originalText;
+                    item.style.color = '';
+                    item.style.pointerEvents = '';
                 }
-
-                // type "break" adds blank line
-                if (section.type === "break") {
-                    html += `<br>`;
-                }
-
-                // type "line" adds visible horizontal rule
-                if (section.type === "line") {
-                    html += `<hr class="section-divider">`;
-                }
-
-                if (section.type === "paragraph") {
-
-                    section.data.forEach(sentenceDict => {
-
-                        let sentenceObj = '';
-
-                        sentenceDict.sentence.forEach(token => {
-                            sentenceObj += renderToken(token);
-                        });
-
-                        html += `
-        <div class="sentence" data-meaning="${sentenceDict.translation || ''}">
-            <p>${sentenceObj} <span class="toggle-arrow">▼</span></p>
-            <div class="translation"></div>
-        </div>
-        `;
-                    });
-
-                    // Removed automatic <hr>
-                }
-
-                if (section.type === "mcq") {
-
-                    section.data.forEach((questionObj, index) => {
-
-                        let questionHTML = '';
-
-                        questionObj.question.forEach(token => {
-                            questionHTML += renderToken(token);
-                        });
-
-                        html += `
-        <div class="sentence" data-meaning="${questionObj.translationQues || ''}">
-            <p><strong>Q${index + 1}:</strong> ${questionHTML} <span class="toggle-arrow">▼</span></p>
-            <div class="translation"></div>
-        `;
-
-                        questionObj.options.forEach((option, i) => {
-
-                            let optionHTML = '';
-
-                            option.forEach(token => {
-                                optionHTML += renderToken(token);
-                            });
-
-                            html += `<p>${i + 1}. ${optionHTML}</p>`;
-                        });
-
-                        html += `
-            <p><span class="toggle-answer">Show Answer</span></p>
-            <div class="mcq-answer">Correct Answer: ${questionObj.answer + 1}</div>
-        </div>
-        `;
-                    });
-                }
-            });
-
-            html += `<span class="back-footer">Back to list</span>`;
-
-            comprehension.innerHTML = html;
-            comprehension.style.display = 'block';
+            }
         });
 
-        // Main click handler
-        comprehension.addEventListener('click', function (e) {
+        // ── Popup: close when clicking outside ─────────────────
+        document.addEventListener('click', (e) => {
+            if (popup.style.display !== 'block') return;
+            // keep open if click is on a difficult word or inside the popup
+            if (e.target.closest('.difficult') || e.target.closest('#popup')) return;
+            popup.style.display = 'none';
+        });
 
+        // ── Comprehension click handler ─────────────────────────
+        comprehension.addEventListener('click', (e) => {
             const target = e.target;
 
-            // If popup is open, close it first
-            if (popup.style.display === 'block') {
-                popup.style.display = 'none';
-                activeWord = null;
-                comprehension.classList.remove('popup-active');
-                e.stopPropagation();
-                e.preventDefault();
-                return;
-            }
-
-            // Difficult word popup
+            // Difficult word → show popup
             const difficultWord = target.closest('.difficult');
-
             if (difficultWord) {
-
-                activeWord = difficultWord;
-
                 const morpheme = difficultWord.textContent.trim();
 
                 popup.innerHTML = `
-    <div class="romaji">${difficultWord.dataset.romaji}</div>
-    <div class="meaning">${difficultWord.dataset.meaning.split(',').join('; ')}</div>
-    <div style="margin-top:6px;">
-        <a href="https://jisho.org/search/${encodeURIComponent(morpheme)}" target="_blank" style="color:#3399ff; text-decoration:underline;">
-            jisho
-        </a>
-    </div>
-`;
+                    <div class="romaji">${difficultWord.dataset.romaji}</div>
+                    <div class="meaning">${difficultWord.dataset.meaning.split(',').join('; ')}</div>
+                    <div>
+                        <a href="https://jisho.org/search/${encodeURIComponent(morpheme)}" target="_blank">
+                            jisho.org →
+                        </a>
+                    </div>`;
 
                 popup.style.display = 'block';
-                comprehension.classList.add('popup-active');
 
+                // Clamp popup to viewport so it never clips off the right edge
                 const rect = difficultWord.getBoundingClientRect();
-
-                popup.style.top = rect.bottom + window.scrollY + 8 + "px";
-                popup.style.left = rect.left + window.scrollX + "px";
-
+                const popupWidth = 240;
+                const left = Math.min(
+                    rect.left + window.scrollX,
+                    window.innerWidth - popupWidth - 12
+                );
+                popup.style.top = `${rect.bottom + window.scrollY + 10}px`;
+                popup.style.left = `${left}px`;
                 return;
             }
 
-            // Toggle translation
+            // Translation toggle
             if (target.classList.contains('toggle-arrow')) {
-
                 const sentence = target.closest('.sentence');
                 const div = sentence.querySelector('.translation');
+                const open = div.style.display === 'block';
 
-                if (div.style.display === 'block') {
-                    div.style.display = 'none';
-                    target.textContent = '▼';
-                } else {
-                    div.textContent = sentence.dataset.meaning;
-                    div.style.display = 'block';
-                    target.textContent = '▲';
-                }
-
+                div.textContent = open ? '' : sentence.dataset.meaning;
+                div.style.display = open ? 'none' : 'block';
+                target.textContent = open ? '▾' : '▴';
                 return;
             }
 
-            // Toggle MCQ answer
+            // MCQ answer toggle
             if (target.classList.contains('toggle-answer')) {
-
                 const sentence = target.closest('.sentence');
                 const div = sentence.querySelector('.mcq-answer');
+                const open = div.style.display === 'block';
 
-                if (div.style.display === 'block') {
-                    div.style.display = 'none';
-                    target.textContent = 'Show Answer';
-                } else {
-                    div.style.display = 'block';
-                    target.textContent = 'Hide Answer';
-                }
-
+                div.style.display = open ? 'none' : 'block';
+                target.textContent = open ? 'Show Answer' : 'Hide Answer';
                 return;
             }
 
-            // Back button
+            // Back to list
             if (target.classList.contains('back-footer')) {
                 comprehension.style.display = 'none';
                 comprehension.innerHTML = '';
-                list.style.display = 'block';
+                listEl.style.display = 'block';
                 popup.style.display = 'none';
+
+                // restore any failed list item styles
+                listEl.querySelectorAll('li').forEach(li => {
+                    li.style.pointerEvents = '';
+                    li.style.color = '';
+                });
                 return;
             }
-
         });
 
+        // ── State ───────────────────────────────────────────────
+        const root = document.documentElement;
+        let isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        let fontSize = 2;
+        let letterSpacing = 0.05;
+        let wordSpacing = 0;
+        let pageMargin = 20;
+        let lineHeight = 1.3;
+        let sentenceGap = 15;
+
+        // ── Helpers ──────────────────────────────────────────
+        function round(val, decimals) {
+            return Math.round(val * 10 ** decimals) / 10 ** decimals;
+        }
+
+        function clamp(val, min, max) {
+            return Math.min(Math.max(val, min), max);
+        }
+
+        function syncInput(id, val) {
+            const el = document.getElementById(id);
+            if (el) el.value = val;
+        }
+
+        // ── Apply functions ──────────────────────────────────
+        function applyTheme() {
+            root.setAttribute('data-theme', isDark ? 'dark' : 'light');
+            const btn = document.getElementById('dark-toggle-btn');
+            if (btn) btn.textContent = isDark ? '☀ Light' : '☽ Dark';
+        }
+
+        function applyFontSize() {
+            root.style.setProperty('--reading-size', fontSize + 'rem');
+            syncInput('font-size-input', fontSize);
+        }
+
+        function applySpacing() {
+            root.style.setProperty('--morpheme-spacing', letterSpacing + 'em');
+            root.style.setProperty('--morpheme-word-spacing', wordSpacing + 'em');
+            syncInput('letter-spacing-input', letterSpacing);
+            syncInput('word-spacing-input', wordSpacing);
+        }
+
+        function applyLineHeight() {
+            root.style.setProperty('--line-height', lineHeight);
+            syncInput('lineheight-input', lineHeight);
+        }
+
+        function applySentenceGap() {
+            root.style.setProperty('--sentence-gap', sentenceGap + 'px');
+            syncInput('gap-input', sentenceGap);
+        }
+
+        function applyMargin() {
+            root.style.setProperty('--page-margin', pageMargin + 'px');
+            root.style.setProperty('--page-max-width', 'none');
+            syncInput('margin-input', pageMargin);
+        }
+
+        applyTheme();
+        applyFontSize();
+        applySpacing();
+        applyMargin();
+        applyLineHeight();
+        applySentenceGap();
+
+        // ── FAB: toggle settings panel ───────────────────────
+        const fab = document.getElementById('settings-fab');
+        const panel = document.getElementById('settings-panel');
+
+        fab.addEventListener('click', (e) => {
+            panel.classList.toggle('open');
+            e.stopPropagation();
+        });
+
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('#settings-panel') && !e.target.closest('#settings-fab')) {
+                panel.classList.remove('open');
+            }
+        });
+
+        // ── Settings panel: button clicks ────────────────────
+        panel.addEventListener('click', (e) => {
+            const id = e.target.id;
+
+            if (id === 'dark-toggle-btn') {
+                isDark = !isDark; applyTheme(); return;
+            }
+            if (id === 'font-increase') {
+                fontSize = round(clamp(fontSize + 0.05, 0.7, 2.5), 2); applyFontSize(); return;
+            }
+            if (id === 'font-decrease') {
+                fontSize = round(clamp(fontSize - 0.05, 0.7, 2.5), 2); applyFontSize(); return;
+            }
+            if (id === 'letter-increase') {
+                letterSpacing = round(clamp(letterSpacing + 0.01, -0.1, 0.5), 3); applySpacing(); return;
+            }
+            if (id === 'letter-decrease') {
+                letterSpacing = round(clamp(letterSpacing - 0.01, -0.1, 0.5), 3); applySpacing(); return;
+            }
+            if (id === 'word-increase') {
+                wordSpacing = round(clamp(wordSpacing + 0.05, 0, 2), 2); applySpacing(); return;
+            }
+            if (id === 'word-decrease') {
+                wordSpacing = round(clamp(wordSpacing - 0.05, -0.5, 2), 2); applySpacing(); return;
+            }
+            if (id === 'lineheight-increase') {
+                lineHeight = round(clamp(lineHeight + 0.1, 1, 4), 1); applyLineHeight(); return;
+            }
+            if (id === 'lineheight-decrease') {
+                lineHeight = round(clamp(lineHeight - 0.1, 1, 4), 1); applyLineHeight(); return;
+            }
+            if (id === 'gap-increase') {
+                sentenceGap = clamp(sentenceGap + 2, 0, 60); applySentenceGap(); return;
+            }
+            if (id === 'gap-decrease') {
+                sentenceGap = clamp(sentenceGap - 2, 0, 60); applySentenceGap(); return;
+            }
+            if (id === 'margin-increase') {
+                pageMargin = clamp(pageMargin + 4, 0, 120); applyMargin(); return;
+            }
+            if (id === 'margin-decrease') {
+                pageMargin = clamp(pageMargin - 4, 0, 120); applyMargin(); return;
+            }
+        });
+
+        // ── Settings panel: direct input typing ──────────────
+        panel.addEventListener('input', (e) => {
+            const val = parseFloat(e.target.value);
+            if (isNaN(val)) return;
+            if (e.target.id === 'font-size-input') { fontSize = val; applyFontSize(); }
+            if (e.target.id === 'letter-spacing-input') { letterSpacing = val; applySpacing(); }
+            if (e.target.id === 'word-spacing-input') { wordSpacing = val; applySpacing(); }
+            if (e.target.id === 'margin-input') { pageMargin = val; applyMargin(); }
+            if (e.target.id === 'lineheight-input') { lineHeight = val; applyLineHeight(); }
+            if (e.target.id === 'gap-input') { sentenceGap = val; applySentenceGap(); }
+        });
     </script>
 </body>
 
