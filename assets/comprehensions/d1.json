@@ -119,6 +119,9 @@
         ]
     },
     {
+        "type": "break"
+    },
+    {
         "type": "heading",
         "text": "1"
     },
@@ -891,9 +894,6 @@
         ]
     },
     {
-        "type": "break"
-    },
-    {
         "type": "line"
     },
     {
@@ -1545,6 +1545,9 @@
         ]
     },
     {
+        "type": "break"
+    },
+    {
         "type": "heading",
         "text": "2"
     },
@@ -2169,9 +2172,6 @@
         ]
     },
     {
-        "type": "break"
-    },
-    {
         "type": "line"
     },
     {
@@ -2643,6 +2643,9 @@
                 ]
             }
         ]
+    },
+    {
+        "type": "break"
     },
     {
         "type": "heading",
@@ -3259,9 +3262,6 @@
         ]
     },
     {
-        "type": "break"
-    },
-    {
         "type": "line"
     },
     {
@@ -3809,6 +3809,9 @@
                 ]
             }
         ]
+    },
+    {
+        "type": "break"
     },
     {
         "type": "heading",
@@ -4498,9 +4501,6 @@
                 "translation": "It was still very interesting."
             }
         ]
-    },
-    {
-        "type": "break"
     },
     {
         "type": "line"
