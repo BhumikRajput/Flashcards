@@ -1,0 +1,2364 @@
+[
+    {
+        "type": "paragraph",
+        "data": [
+            {
+                "sentence": [
+                    {
+                        "morpheme": "問題",
+                        "romaji": "mondai",
+                        "meaning": [
+                            "question (e.g. on a test)",
+                            "problem"
+                        ]
+                    },
+                    {
+                        "morpheme": "つぎ",
+                        "romaji": "tsugi",
+                        "meaning": [
+                            "next",
+                            "following",
+                            "subsequent"
+                        ]
+                    },
+                    {
+                        "morpheme": "の",
+                        "romaji": "no",
+                        "meaning": [
+                            "field",
+                            "plain"
+                        ]
+                    },
+                    {
+                        "morpheme": "文章",
+                        "romaji": "bunshou",
+                        "meaning": [
+                            "writing",
+                            "composition",
+                            "essay",
+                            "article",
+                            "passage",
+                            "prose",
+                            "(writing) style"
+                        ],
+                        "furigana": "ぶんしょう"
+                    },
+                    {
+                        "morpheme": "を",
+                        "romaji": "wo",
+                        "meaning": [
+                            "indicates direct object of action"
+                        ],
+                        "furigana": "ぶんしょう"
+                    },
+                    {
+                        "morpheme": "読んで",
+                        "romaji": "yonde",
+                        "meaning": [
+                            "to read"
+                        ],
+                        "baseForm": "読む"
+                    },
+                    {
+                        "morpheme": "、",
+                        "romaji": ",",
+                        "meaning": []
+                    }
+                ],
+                "romaji": "mondai tsugi no bunshou wo yonde ,",
+                "translation": "Question Read the following passage,"
+            },
+            {
+                "sentence": [
+                    {
+                        "morpheme": "質問",
+                        "romaji": "shitsumon",
+                        "meaning": [
+                            "question",
+                            "inquiry",
+                            "enquiry"
+                        ]
+                    },
+                    {
+                        "morpheme": "に",
+                        "romaji": "ni",
+                        "meaning": [
+                            "at (place, time)",
+                            "in",
+                            "on",
+                            "during"
+                        ]
+                    },
+                    {
+                        "morpheme": "答え",
+                        "romaji": "kotae",
+                        "meaning": [
+                            "answer",
+                            "reply",
+                            "response"
+                        ],
+                        "baseForm": "答える"
+                    },
+                    {
+                        "morpheme": "なさい",
+                        "romaji": "nasai",
+                        "meaning": [
+                            "do ..."
+                        ],
+                        "baseForm": "為さる"
+                    },
+                    {
+                        "morpheme": "。",
+                        "romaji": ".",
+                        "meaning": []
+                    }
+                ],
+                "romaji": "shitsumon ni kotae nasai .",
+                "translation": "Answer the questions."
+            },
+            {
+                "sentence": [
+                    {
+                        "morpheme": "答え",
+                        "romaji": "kotae",
+                        "meaning": [
+                            "answer",
+                            "reply",
+                            "response"
+                        ]
+                    },
+                    {
+                        "morpheme": "は",
+                        "romaji": "ha",
+                        "meaning": [
+                            "indicates sentence topic"
+                        ]
+                    },
+                    {
+                        "morpheme": "、",
+                        "romaji": ",",
+                        "meaning": []
+                    }
+                ],
+                "romaji": "kotae ha ,",
+                "translation": "The answer is"
+            },
+            {
+                "sentence": [
+                    {
+                        "morpheme": "1",
+                        "romaji": "1",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "・",
+                        "romaji": "・",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "2",
+                        "romaji": "2",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "・",
+                        "romaji": "・",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "3",
+                        "romaji": "3",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "・",
+                        "romaji": "・",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "4",
+                        "romaji": "4",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "から",
+                        "romaji": "kara",
+                        "meaning": [
+                            "emptiness",
+                            "being empty"
+                        ]
+                    },
+                    {
+                        "morpheme": "最も",
+                        "romaji": "mottomo",
+                        "meaning": [
+                            "most",
+                            "extremely"
+                        ]
+                    },
+                    {
+                        "morpheme": "よい",
+                        "romaji": "yoi",
+                        "meaning": [
+                            "drunkenness",
+                            "intoxication"
+                        ],
+                        "baseForm": "良い"
+                    },
+                    {
+                        "morpheme": "もの",
+                        "romaji": "mono",
+                        "meaning": [
+                            "indicates reason or excuse"
+                        ]
+                    },
+                    {
+                        "morpheme": "を",
+                        "romaji": "wo",
+                        "meaning": [
+                            "indicates direct object of action"
+                        ]
+                    },
+                    {
+                        "morpheme": "一",
+                        "romaji": "ichi",
+                        "meaning": [
+                            "one"
+                        ]
+                    },
+                    {
+                        "morpheme": "つ",
+                        "romaji": "tsu",
+                        "meaning": [
+                            "general-purpose counter"
+                        ]
+                    },
+                    {
+                        "morpheme": "えらび",
+                        "romaji": "erabi",
+                        "meaning": [
+                            "choosing",
+                            "selecting",
+                            "deciding (on)"
+                        ],
+                        "baseForm": "選ぶ"
+                    },
+                    {
+                        "morpheme": "なさい",
+                        "romaji": "nasai",
+                        "meaning": [
+                            "do ..."
+                        ],
+                        "baseForm": "為さる"
+                    },
+                    {
+                        "morpheme": "。",
+                        "romaji": ".",
+                        "meaning": []
+                    }
+                ],
+                "romaji": "1 ・ 2 ・ 3 ・ 4 kara mottomo yoi mono wo ichi tsu erabi nasai .",
+                "translation": "Choose the best one from 1, 2, 3, and 4."
+            }
+        ]
+    },
+    {
+        "type": "line"
+    },
+    {
+        "type": "paragraph",
+        "data": [
+            {
+                "sentence": [
+                    {
+                        "morpheme": "日本",
+                        "romaji": "nippon",
+                        "meaning": [
+                            "Japan"
+                        ]
+                    },
+                    {
+                        "morpheme": "に",
+                        "romaji": "ni",
+                        "meaning": [
+                            "at (place, time)",
+                            "in",
+                            "on",
+                            "during"
+                        ]
+                    },
+                    {
+                        "morpheme": "は",
+                        "romaji": "ha",
+                        "meaning": [
+                            "indicates sentence topic"
+                        ]
+                    },
+                    {
+                        "morpheme": "昔",
+                        "romaji": "mukashi",
+                        "meaning": [
+                            "the old days",
+                            "the past",
+                            "former times",
+                            "a long time ago"
+                        ]
+                    },
+                    {
+                        "morpheme": "から",
+                        "romaji": "kara",
+                        "meaning": [
+                            "emptiness",
+                            "being empty"
+                        ]
+                    },
+                    {
+                        "morpheme": "、",
+                        "romaji": ",",
+                        "meaning": []
+                    }
+                ],
+                "romaji": "nippon ni ha mukashi kara ,",
+                "translation": "In Japan since ancient times,"
+            },
+            {
+                "sentence": [
+                    {
+                        "morpheme": "「",
+                        "romaji": "(",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "虫干し",
+                        "romaji": "mushiboshi",
+                        "meaning": [
+                            "airing of clothes, hanging scrolls, etc. (to prevent damage from insects and mould)"
+                        ],
+                        "furigana": "むしぼ"
+                    },
+                    {
+                        "morpheme": "」",
+                        "romaji": ")",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "と",
+                        "romaji": "to",
+                        "meaning": [
+                            "way",
+                            "route"
+                        ]
+                    },
+                    {
+                        "morpheme": "いう",
+                        "romaji": "iu",
+                        "meaning": [
+                            "to say",
+                            "to utter",
+                            "to declare"
+                        ],
+                        "baseForm": "言う"
+                    },
+                    {
+                        "morpheme": "習慣",
+                        "romaji": "shuukan",
+                        "meaning": [
+                            "habit"
+                        ]
+                    },
+                    {
+                        "morpheme": "が",
+                        "romaji": "ga",
+                        "meaning": [
+                            "indicates the subject of a sentence"
+                        ]
+                    },
+                    {
+                        "morpheme": "あります",
+                        "romaji": "arimasu",
+                        "meaning": [
+                            "to be",
+                            "to exist",
+                            "to live"
+                        ],
+                        "baseForm": "有る"
+                    },
+                    {
+                        "morpheme": "。",
+                        "romaji": ".",
+                        "meaning": []
+                    }
+                ],
+                "romaji": "( mushiboshi ) to iu shuukan ga arimasu .",
+                "translation": "There is a custom called \"Mushiboshi\"."
+            },
+            {
+                "sentence": [
+                    {
+                        "morpheme": "着物",
+                        "romaji": "kimono",
+                        "meaning": [
+                            "kimono",
+                            "Japanese traditional clothing (esp. full-length)"
+                        ]
+                    },
+                    {
+                        "morpheme": "の",
+                        "romaji": "no",
+                        "meaning": [
+                            "field",
+                            "plain"
+                        ]
+                    },
+                    {
+                        "morpheme": "湿気",
+                        "romaji": "shikke",
+                        "meaning": [
+                            "moisture",
+                            "humidity",
+                            "dampness"
+                        ],
+                        "furigana": "しっけ"
+                    },
+                    {
+                        "morpheme": "(",
+                        "romaji": "(",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "※",
+                        "romaji": "※",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "1",
+                        "romaji": "1",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": ")",
+                        "romaji": ")",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "を",
+                        "romaji": "wo",
+                        "meaning": [
+                            "indicates direct object of action"
+                        ]
+                    },
+                    {
+                        "morpheme": "取り",
+                        "romaji": "tori",
+                        "meaning": [
+                            "taking",
+                            "taker",
+                            "collecting",
+                            "collector",
+                            "remover",
+                            "removal"
+                        ],
+                        "baseForm": "取る"
+                    },
+                    {
+                        "morpheme": "、",
+                        "romaji": ",",
+                        "meaning": []
+                    }
+                ],
+                "romaji": "kimono no shikke ( ※ 1 ) wo tori ,",
+                "translation": "Remove the moisture (*1) from the kimono,"
+            },
+            {
+                "sentence": [
+                    {
+                        "morpheme": "虫",
+                        "romaji": "mushi",
+                        "meaning": [
+                            "insect",
+                            "bug",
+                            "cricket",
+                            "moth"
+                        ]
+                    },
+                    {
+                        "morpheme": "や",
+                        "romaji": "ya",
+                        "meaning": [
+                            "such things as ...",
+                            "and ... and"
+                        ]
+                    },
+                    {
+                        "morpheme": "カビ",
+                        "romaji": "kabi",
+                        "meaning": [
+                            "mold",
+                            "mould",
+                            "mildew"
+                        ]
+                    },
+                    {
+                        "morpheme": "(",
+                        "romaji": "(",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "※",
+                        "romaji": "※",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "2",
+                        "romaji": "2",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": ")",
+                        "romaji": ")",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "など",
+                        "romaji": "nado",
+                        "meaning": [
+                            "et cetera",
+                            "etc.",
+                            "and the like",
+                            "and so forth"
+                        ]
+                    },
+                    {
+                        "morpheme": "を",
+                        "romaji": "wo",
+                        "meaning": [
+                            "indicates direct object of action"
+                        ]
+                    },
+                    {
+                        "morpheme": "防ぐ",
+                        "romaji": "fusegu",
+                        "meaning": [
+                            "to defend against",
+                            "to protect against"
+                        ]
+                    },
+                    {
+                        "morpheme": "ため",
+                        "romaji": "tame",
+                        "meaning": [
+                            "good",
+                            "advantage",
+                            "benefit",
+                            "welfare"
+                        ]
+                    },
+                    {
+                        "morpheme": "の",
+                        "romaji": "no",
+                        "meaning": [
+                            "field",
+                            "plain"
+                        ]
+                    },
+                    {
+                        "morpheme": "もの",
+                        "romaji": "mono",
+                        "meaning": [
+                            "indicates reason or excuse"
+                        ]
+                    },
+                    {
+                        "morpheme": "です",
+                        "romaji": "desu",
+                        "meaning": [
+                            "be",
+                            "is"
+                        ]
+                    },
+                    {
+                        "morpheme": "。",
+                        "romaji": ".",
+                        "meaning": []
+                    }
+                ],
+                "romaji": "mushi ya kabi ( ※ 2 ) nado wo fusegu tame no mono desu .",
+                "translation": "This is to prevent insects and mold (*2)."
+            },
+            {
+                "sentence": [
+                    {
+                        "morpheme": "梅雨",
+                        "romaji": "tsuyu",
+                        "meaning": [
+                            "(East Asian) rainy season (in Japan, usu. from early June to mid-July)"
+                        ],
+                        "furigana": "つゆ"
+                    },
+                    {
+                        "morpheme": "が",
+                        "romaji": "ga",
+                        "meaning": [
+                            "indicates the subject of a sentence"
+                        ]
+                    },
+                    {
+                        "morpheme": "終わった",
+                        "romaji": "owatta",
+                        "meaning": [
+                            "to end",
+                            "to come to an end",
+                            "to finish",
+                            "to close",
+                            "to be over"
+                        ],
+                        "baseForm": "終わる"
+                    },
+                    {
+                        "morpheme": "7",
+                        "romaji": "7",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "月",
+                        "romaji": "gatsu",
+                        "meaning": [
+                            "Moon"
+                        ]
+                    },
+                    {
+                        "morpheme": "下旬",
+                        "romaji": "gejun",
+                        "meaning": [
+                            "last third of a month",
+                            "21st to the last day of a month"
+                        ],
+                        "furigana": "げじゅん"
+                    },
+                    {
+                        "morpheme": "から",
+                        "romaji": "kara",
+                        "meaning": [
+                            "emptiness",
+                            "being empty"
+                        ]
+                    },
+                    {
+                        "morpheme": "8",
+                        "romaji": "8",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "月",
+                        "romaji": "gatsu",
+                        "meaning": [
+                            "Moon"
+                        ]
+                    },
+                    {
+                        "morpheme": "上旬",
+                        "romaji": "joujun",
+                        "meaning": [
+                            "first third of a month",
+                            "first ten days of a month"
+                        ],
+                        "furigana": "じょうじゅん"
+                    },
+                    {
+                        "morpheme": "に",
+                        "romaji": "ni",
+                        "meaning": [
+                            "at (place, time)",
+                            "in",
+                            "on",
+                            "during"
+                        ]
+                    },
+                    {
+                        "morpheme": "行う",
+                        "romaji": "okonau",
+                        "meaning": [
+                            "to perform",
+                            "to do",
+                            "to conduct oneself",
+                            "to carry out"
+                        ]
+                    },
+                    {
+                        "morpheme": "こと",
+                        "romaji": "koto",
+                        "meaning": [
+                            "word",
+                            "remark",
+                            "statement"
+                        ]
+                    },
+                    {
+                        "morpheme": "が",
+                        "romaji": "ga",
+                        "meaning": [
+                            "indicates the subject of a sentence"
+                        ]
+                    },
+                    {
+                        "morpheme": "多いです",
+                        "romaji": "ooidesu",
+                        "meaning": [
+                            "many",
+                            "numerous",
+                            "a lot"
+                        ],
+                        "baseForm": "多い"
+                    },
+                    {
+                        "morpheme": "。",
+                        "romaji": ".",
+                        "meaning": []
+                    }
+                ],
+                "romaji": "tsuyu ga owatta 7 gatsu gejun kara 8 gatsu joujun ni okonau koto ga ooidesu .",
+                "translation": "It is often held from late July to early August after the rainy season ends."
+            },
+            {
+                "sentence": [
+                    {
+                        "morpheme": "梅雨",
+                        "romaji": "tsuyu",
+                        "meaning": [
+                            "(East Asian) rainy season (in Japan, usu. from early June to mid-July)"
+                        ],
+                        "furigana": "つゆ"
+                    },
+                    {
+                        "morpheme": "の",
+                        "romaji": "no",
+                        "meaning": [
+                            "field",
+                            "plain"
+                        ]
+                    },
+                    {
+                        "morpheme": "間",
+                        "romaji": "kan",
+                        "meaning": [
+                            "interval",
+                            "period of time"
+                        ]
+                    },
+                    {
+                        "morpheme": "に",
+                        "romaji": "ni",
+                        "meaning": [
+                            "at (place, time)",
+                            "in",
+                            "on",
+                            "during"
+                        ]
+                    },
+                    {
+                        "morpheme": "着物",
+                        "romaji": "kimono",
+                        "meaning": [
+                            "kimono",
+                            "Japanese traditional clothing (esp. full-length)"
+                        ]
+                    },
+                    {
+                        "morpheme": "が",
+                        "romaji": "ga",
+                        "meaning": [
+                            "indicates the subject of a sentence"
+                        ]
+                    },
+                    {
+                        "morpheme": "湿気",
+                        "romaji": "shikke",
+                        "meaning": [
+                            "moisture",
+                            "humidity",
+                            "dampness"
+                        ],
+                        "furigana": "しっけ"
+                    },
+                    {
+                        "morpheme": "を",
+                        "romaji": "wo",
+                        "meaning": [
+                            "indicates direct object of action"
+                        ]
+                    },
+                    {
+                        "morpheme": "含んで",
+                        "romaji": "fukunde",
+                        "meaning": [
+                            "to contain",
+                            "to comprise",
+                            "to have",
+                            "to hold",
+                            "to include",
+                            "to embrace"
+                        ],
+                        "baseForm": "含む",
+                        "furigana": "ふく"
+                    },
+                    {
+                        "morpheme": "しまうからです",
+                        "romaji": "shimaukaradesu",
+                        "meaning": [
+                            "to finish",
+                            "to stop",
+                            "to end",
+                            "to put an end to",
+                            "to bring to a close"
+                        ],
+                        "baseForm": "仕舞う"
+                    },
+                    {
+                        "morpheme": "。",
+                        "romaji": ".",
+                        "meaning": []
+                    }
+                ],
+                "romaji": "tsuyu no kan ni kimono ga shikke wo fukunde shimaukaradesu .",
+                "translation": "This is because the kimono will absorb moisture during the rainy season."
+            }
+        ]
+    },
+    {
+        "type": "break"
+    },
+    {
+        "type": "paragraph",
+        "data": [
+            {
+                "sentence": [
+                    {
+                        "morpheme": "2",
+                        "romaji": "2",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "、",
+                        "romaji": ",",
+                        "meaning": []
+                    }
+                ],
+                "romaji": "2 ,",
+                "translation": "2,"
+            },
+            {
+                "sentence": [
+                    {
+                        "morpheme": "3",
+                        "romaji": "3",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "日",
+                        "romaji": "nichi",
+                        "meaning": [
+                            "Sunday"
+                        ]
+                    },
+                    {
+                        "morpheme": "晴れて",
+                        "romaji": "harete",
+                        "meaning": [
+                            "openly",
+                            "publicly",
+                            "in public",
+                            "formally",
+                            "officially",
+                            "duly"
+                        ],
+                        "baseForm": "晴れる"
+                    },
+                    {
+                        "morpheme": "乾燥",
+                        "romaji": "kansou",
+                        "meaning": [
+                            "dryness",
+                            "aridity",
+                            "drying (e.g. clothes)",
+                            "dehydration",
+                            "desiccation"
+                        ],
+                        "furigana": "かんそう"
+                    },
+                    {
+                        "morpheme": "した",
+                        "romaji": "shita",
+                        "meaning": [
+                            "tongue"
+                        ],
+                        "baseForm": "為る"
+                    },
+                    {
+                        "morpheme": "日",
+                        "romaji": "nichi",
+                        "meaning": [
+                            "Sunday"
+                        ]
+                    },
+                    {
+                        "morpheme": "が",
+                        "romaji": "ga",
+                        "meaning": [
+                            "indicates the subject of a sentence"
+                        ]
+                    },
+                    {
+                        "morpheme": "続いた",
+                        "romaji": "tsuzuita",
+                        "meaning": [
+                            "to continue",
+                            "to last",
+                            "to go on"
+                        ],
+                        "baseForm": "続く"
+                    },
+                    {
+                        "morpheme": "あと",
+                        "romaji": "ato",
+                        "meaning": [
+                            "trace",
+                            "tracks",
+                            "mark",
+                            "sign"
+                        ]
+                    },
+                    {
+                        "morpheme": "、",
+                        "romaji": ",",
+                        "meaning": []
+                    }
+                ],
+                "romaji": "3 nichi harete kansou shita nichi ga tsuzuita ato ,",
+                "translation": "After three sunny and dry days,"
+            },
+            {
+                "sentence": [
+                    {
+                        "morpheme": "午前",
+                        "romaji": "gozen",
+                        "meaning": [
+                            "morning",
+                            "a.m."
+                        ]
+                    },
+                    {
+                        "morpheme": "10",
+                        "romaji": "10",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "時",
+                        "romaji": "toki",
+                        "meaning": [
+                            "hour",
+                            "o'clock"
+                        ]
+                    },
+                    {
+                        "morpheme": "から",
+                        "romaji": "kara",
+                        "meaning": [
+                            "emptiness",
+                            "being empty"
+                        ]
+                    },
+                    {
+                        "morpheme": "午後",
+                        "romaji": "gogo",
+                        "meaning": [
+                            "afternoon",
+                            "p.m."
+                        ]
+                    },
+                    {
+                        "morpheme": "3",
+                        "romaji": "3",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "時",
+                        "romaji": "toki",
+                        "meaning": [
+                            "hour",
+                            "o'clock"
+                        ]
+                    },
+                    {
+                        "morpheme": "ごろ",
+                        "romaji": "goro",
+                        "meaning": [
+                            "(approximate) time",
+                            "around",
+                            "about",
+                            "toward"
+                        ]
+                    },
+                    {
+                        "morpheme": "まで",
+                        "romaji": "made",
+                        "meaning": [
+                            "until (a time)",
+                            "till",
+                            "to",
+                            "up to"
+                        ]
+                    },
+                    {
+                        "morpheme": "、",
+                        "romaji": ",",
+                        "meaning": []
+                    }
+                ],
+                "romaji": "gozen 10 toki kara gogo 3 toki goro made ,",
+                "translation": "From 10 a.m. to around 3 p.m."
+            },
+            {
+                "sentence": [
+                    {
+                        "morpheme": "風",
+                        "romaji": "kaze",
+                        "meaning": [
+                            "method",
+                            "manner",
+                            "way",
+                            "style"
+                        ]
+                    },
+                    {
+                        "morpheme": "が",
+                        "romaji": "ga",
+                        "meaning": [
+                            "indicates the subject of a sentence"
+                        ]
+                    },
+                    {
+                        "morpheme": "よく",
+                        "romaji": "yoku",
+                        "meaning": [
+                            "nicely",
+                            "properly",
+                            "well",
+                            "skillfully",
+                            "skilfully"
+                        ]
+                    },
+                    {
+                        "morpheme": "通る",
+                        "romaji": "touru",
+                        "meaning": [
+                            "to go by",
+                            "to go past",
+                            "to go along",
+                            "to travel along",
+                            "to pass through",
+                            "to use (a road)",
+                            "to take (a route)",
+                            "to go via",
+                            "to go by way of"
+                        ]
+                    },
+                    {
+                        "morpheme": "部屋",
+                        "romaji": "heya",
+                        "meaning": [
+                            "room",
+                            "chamber"
+                        ]
+                    },
+                    {
+                        "morpheme": "で",
+                        "romaji": "de",
+                        "meaning": [
+                            "at",
+                            "in"
+                        ]
+                    },
+                    {
+                        "morpheme": "、",
+                        "romaji": ",",
+                        "meaning": []
+                    }
+                ],
+                "romaji": "kaze ga yoku touru heya de ,",
+                "translation": "In a room with good ventilation,"
+            },
+            {
+                "sentence": [
+                    {
+                        "morpheme": "着物",
+                        "romaji": "kimono",
+                        "meaning": [
+                            "kimono",
+                            "Japanese traditional clothing (esp. full-length)"
+                        ]
+                    },
+                    {
+                        "morpheme": "が",
+                        "romaji": "ga",
+                        "meaning": [
+                            "indicates the subject of a sentence"
+                        ]
+                    },
+                    {
+                        "morpheme": "風",
+                        "romaji": "kaze",
+                        "meaning": [
+                            "method",
+                            "manner",
+                            "way",
+                            "style"
+                        ]
+                    },
+                    {
+                        "morpheme": "に",
+                        "romaji": "ni",
+                        "meaning": [
+                            "at (place, time)",
+                            "in",
+                            "on",
+                            "during"
+                        ]
+                    },
+                    {
+                        "morpheme": "当たる",
+                        "romaji": "ataru",
+                        "meaning": [
+                            "to be hit",
+                            "to strike"
+                        ],
+                        "furigana": "あ"
+                    },
+                    {
+                        "morpheme": "よう",
+                        "romaji": "you",
+                        "meaning": [
+                            "(the) positive"
+                        ]
+                    },
+                    {
+                        "morpheme": "に",
+                        "romaji": "ni",
+                        "meaning": [
+                            "at (place, time)",
+                            "in",
+                            "on",
+                            "during"
+                        ]
+                    },
+                    {
+                        "morpheme": "します",
+                        "romaji": "shimasu",
+                        "meaning": [
+                            "to become",
+                            "to get",
+                            "to grow",
+                            "to turn",
+                            "to reach",
+                            "to attain"
+                        ],
+                        "baseForm": "為る"
+                    },
+                    {
+                        "morpheme": "。",
+                        "romaji": ".",
+                        "meaning": []
+                    }
+                ],
+                "romaji": "kimono ga kaze ni ataru you ni shimasu .",
+                "translation": "Allow the kimono to be exposed to the wind."
+            },
+            {
+                "sentence": [
+                    {
+                        "morpheme": "また",
+                        "romaji": "mata",
+                        "meaning": [
+                            "again",
+                            "once more",
+                            "once again",
+                            "another time",
+                            "some other time"
+                        ]
+                    },
+                    {
+                        "morpheme": "、",
+                        "romaji": ",",
+                        "meaning": []
+                    }
+                ],
+                "romaji": "mata ,",
+                "translation": "Also,"
+            },
+            {
+                "sentence": [
+                    {
+                        "morpheme": "その",
+                        "romaji": "sono",
+                        "meaning": [
+                            "garden",
+                            "orchard",
+                            "park"
+                        ]
+                    },
+                    {
+                        "morpheme": "間",
+                        "romaji": "kan",
+                        "meaning": [
+                            "interval",
+                            "period of time"
+                        ]
+                    },
+                    {
+                        "morpheme": "に",
+                        "romaji": "ni",
+                        "meaning": [
+                            "at (place, time)",
+                            "in",
+                            "on",
+                            "during"
+                        ]
+                    },
+                    {
+                        "morpheme": "汚れた",
+                        "romaji": "yogoreta",
+                        "meaning": [
+                            "to get dirty",
+                            "to become dirty"
+                        ],
+                        "baseForm": "汚れる"
+                    },
+                    {
+                        "morpheme": "ところ",
+                        "romaji": "tokoro",
+                        "meaning": [
+                            "place",
+                            "spot",
+                            "scene",
+                            "site"
+                        ]
+                    },
+                    {
+                        "morpheme": "は",
+                        "romaji": "ha",
+                        "meaning": [
+                            "indicates sentence topic"
+                        ]
+                    },
+                    {
+                        "morpheme": "ないか",
+                        "romaji": "naika",
+                        "meaning": [
+                            "internal medicine"
+                        ],
+                        "baseForm": "無い"
+                    },
+                    {
+                        "morpheme": "調べます",
+                        "romaji": "shirabemasu",
+                        "meaning": [
+                            "to examine",
+                            "to look up",
+                            "to investigate",
+                            "to check up",
+                            "to sense",
+                            "to study",
+                            "to inquire",
+                            "to search"
+                        ],
+                        "baseForm": "調べる"
+                    },
+                    {
+                        "morpheme": "。",
+                        "romaji": ".",
+                        "meaning": []
+                    }
+                ],
+                "romaji": "sono kan ni yogoreta tokoro ha naika shirabemasu .",
+                "translation": "In between, check to see if there are any dirty spots."
+            }
+        ]
+    },
+    {
+        "type": "break"
+    },
+    {
+        "type": "paragraph",
+        "data": [
+            {
+                "sentence": [
+                    {
+                        "morpheme": "最近",
+                        "romaji": "saikin",
+                        "meaning": [
+                            "recently",
+                            "lately",
+                            "these days",
+                            "nowadays",
+                            "right now"
+                        ]
+                    },
+                    {
+                        "morpheme": "あまり",
+                        "romaji": "amari",
+                        "meaning": [
+                            "remainder",
+                            "remnant",
+                            "rest",
+                            "balance",
+                            "surplus",
+                            "remains (of a meal)",
+                            "leftovers"
+                        ]
+                    },
+                    {
+                        "morpheme": "見られなく",
+                        "romaji": "mirarenaku",
+                        "meaning": [
+                            "to see",
+                            "to look",
+                            "to watch",
+                            "to view",
+                            "to observe"
+                        ],
+                        "baseForm": "見る"
+                    },
+                    {
+                        "morpheme": "なった",
+                        "romaji": "natta",
+                        "meaning": [
+                            "to become",
+                            "to get",
+                            "to grow",
+                            "to turn",
+                            "to reach",
+                            "to attain"
+                        ],
+                        "baseForm": "成る"
+                    },
+                    {
+                        "morpheme": "習慣",
+                        "romaji": "shuukan",
+                        "meaning": [
+                            "habit"
+                        ]
+                    },
+                    {
+                        "morpheme": "です",
+                        "romaji": "desu",
+                        "meaning": [
+                            "be",
+                            "is"
+                        ]
+                    },
+                    {
+                        "morpheme": "が",
+                        "romaji": "ga",
+                        "meaning": [
+                            "indicates the subject of a sentence"
+                        ]
+                    },
+                    {
+                        "morpheme": "、",
+                        "romaji": ",",
+                        "meaning": []
+                    }
+                ],
+                "romaji": "saikin amari mirarenaku natta shuukan desu ga ,",
+                "translation": "This is a custom that is rarely seen these days,"
+            },
+            {
+                "sentence": [
+                    {
+                        "morpheme": "日本",
+                        "romaji": "nippon",
+                        "meaning": [
+                            "Japan"
+                        ]
+                    },
+                    {
+                        "morpheme": "の",
+                        "romaji": "no",
+                        "meaning": [
+                            "field",
+                            "plain"
+                        ]
+                    },
+                    {
+                        "morpheme": "気候",
+                        "romaji": "kikou",
+                        "meaning": [
+                            "climate"
+                        ]
+                    },
+                    {
+                        "morpheme": "に",
+                        "romaji": "ni",
+                        "meaning": [
+                            "at (place, time)",
+                            "in",
+                            "on",
+                            "during"
+                        ]
+                    },
+                    {
+                        "morpheme": "合った",
+                        "romaji": "atsuta",
+                        "meaning": [
+                            "to come together",
+                            "to merge",
+                            "to unite",
+                            "to meet"
+                        ],
+                        "baseForm": "合う"
+                    },
+                    {
+                        "morpheme": "生活",
+                        "romaji": "seikatsu",
+                        "meaning": [
+                            "life",
+                            "living"
+                        ]
+                    },
+                    {
+                        "morpheme": "の",
+                        "romaji": "no",
+                        "meaning": [
+                            "field",
+                            "plain"
+                        ]
+                    },
+                    {
+                        "morpheme": "工夫",
+                        "romaji": "kufuu",
+                        "meaning": [
+                            "devising (a way)",
+                            "contriving",
+                            "inventing",
+                            "thinking up",
+                            "figuring out",
+                            "coming up with",
+                            "working out"
+                        ]
+                    },
+                    {
+                        "morpheme": "と",
+                        "romaji": "to",
+                        "meaning": [
+                            "way",
+                            "route"
+                        ]
+                    },
+                    {
+                        "morpheme": "して",
+                        "romaji": "shite",
+                        "meaning": [
+                            "doer",
+                            "performer"
+                        ],
+                        "baseForm": "為る"
+                    },
+                    {
+                        "morpheme": "、",
+                        "romaji": ",",
+                        "meaning": []
+                    }
+                ],
+                "romaji": "nippon no kikou ni atsuta seikatsu no kufuu to shite ,",
+                "translation": "As a way of living that suits Japan's climate,"
+            },
+            {
+                "sentence": [
+                    {
+                        "morpheme": "現代",
+                        "romaji": "gendai",
+                        "meaning": [
+                            "present age",
+                            "present day",
+                            "today"
+                        ]
+                    },
+                    {
+                        "morpheme": "の",
+                        "romaji": "no",
+                        "meaning": [
+                            "field",
+                            "plain"
+                        ]
+                    },
+                    {
+                        "morpheme": "洋服",
+                        "romaji": "youfuku",
+                        "meaning": [
+                            "Western-style clothes (cf. traditional Japanese clothes)"
+                        ]
+                    },
+                    {
+                        "morpheme": "に",
+                        "romaji": "ni",
+                        "meaning": [
+                            "at (place, time)",
+                            "in",
+                            "on",
+                            "during"
+                        ]
+                    },
+                    {
+                        "morpheme": "も",
+                        "romaji": "mo",
+                        "meaning": [
+                            "too",
+                            "also",
+                            "in addition",
+                            "as well",
+                            "(not) either (in a negative sentence)"
+                        ]
+                    },
+                    {
+                        "morpheme": "役",
+                        "romaji": "yaku",
+                        "meaning": [
+                            "role",
+                            "assignment",
+                            "responsibility",
+                            "duty",
+                            "function",
+                            "job",
+                            "service"
+                        ]
+                    },
+                    {
+                        "morpheme": "に",
+                        "romaji": "ni",
+                        "meaning": [
+                            "at (place, time)",
+                            "in",
+                            "on",
+                            "during"
+                        ]
+                    },
+                    {
+                        "morpheme": "立つ",
+                        "romaji": "tatsu",
+                        "meaning": [
+                            "to stand (up)",
+                            "to rise",
+                            "to get to one's feet",
+                            "to stand on end (e.g. of hairs)",
+                            "to stick up"
+                        ]
+                    },
+                    {
+                        "morpheme": "の",
+                        "romaji": "no",
+                        "meaning": [
+                            "field",
+                            "plain"
+                        ]
+                    },
+                    {
+                        "morpheme": "で",
+                        "romaji": "de",
+                        "meaning": [
+                            "at",
+                            "in"
+                        ]
+                    },
+                    {
+                        "morpheme": "は",
+                        "romaji": "ha",
+                        "meaning": [
+                            "indicates sentence topic"
+                        ]
+                    },
+                    {
+                        "morpheme": "ない",
+                        "romaji": "nai",
+                        "meaning": [
+                            "not"
+                        ],
+                        "baseForm": "無い"
+                    },
+                    {
+                        "morpheme": "か",
+                        "romaji": "ka",
+                        "meaning": [
+                            "indicates a question"
+                        ]
+                    },
+                    {
+                        "morpheme": "と",
+                        "romaji": "to",
+                        "meaning": [
+                            "way",
+                            "route"
+                        ]
+                    },
+                    {
+                        "morpheme": "思います",
+                        "romaji": "omoimasu",
+                        "meaning": [
+                            "to think",
+                            "to consider",
+                            "to believe",
+                            "to reckon"
+                        ],
+                        "baseForm": "思う"
+                    },
+                    {
+                        "morpheme": "。",
+                        "romaji": ".",
+                        "meaning": []
+                    }
+                ],
+                "romaji": "gendai no youfuku ni mo yaku ni tatsu no de ha nai ka to omoimasu .",
+                "translation": "I think it will be useful for modern clothes as well."
+            }
+        ]
+    },
+    {
+        "type": "break"
+    },
+    {
+        "type": "paragraph",
+        "data": [
+            {
+                "sentence": [
+                    {
+                        "morpheme": "(",
+                        "romaji": "(",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "※",
+                        "romaji": "※",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "1",
+                        "romaji": "1",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": ")",
+                        "romaji": ")",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "湿気",
+                        "romaji": "shikke",
+                        "meaning": [
+                            "moisture",
+                            "humidity",
+                            "dampness"
+                        ],
+                        "furigana": "しっけ"
+                    },
+                    {
+                        "morpheme": "：",
+                        "romaji": ":",
+                        "meaning": [],
+                        "furigana": "しっけ"
+                    },
+                    {
+                        "morpheme": "物",
+                        "romaji": "mono",
+                        "meaning": [
+                            "thing",
+                            "object",
+                            "article",
+                            "stuff",
+                            "substance"
+                        ]
+                    },
+                    {
+                        "morpheme": "や",
+                        "romaji": "ya",
+                        "meaning": [
+                            "such things as ...",
+                            "and ... and"
+                        ]
+                    },
+                    {
+                        "morpheme": "空気",
+                        "romaji": "kuuki",
+                        "meaning": [
+                            "air",
+                            "atmosphere"
+                        ]
+                    },
+                    {
+                        "morpheme": "の",
+                        "romaji": "no",
+                        "meaning": [
+                            "field",
+                            "plain"
+                        ]
+                    },
+                    {
+                        "morpheme": "中",
+                        "romaji": "naka",
+                        "meaning": [
+                            "(all) through (e.g. the night)",
+                            "throughout (e.g. the year)",
+                            "all ... long"
+                        ]
+                    },
+                    {
+                        "morpheme": "に",
+                        "romaji": "ni",
+                        "meaning": [
+                            "at (place, time)",
+                            "in",
+                            "on",
+                            "during"
+                        ]
+                    },
+                    {
+                        "morpheme": "ある",
+                        "romaji": "aru",
+                        "meaning": [
+                            "a certain ...",
+                            "some ..."
+                        ],
+                        "baseForm": "有る"
+                    },
+                    {
+                        "morpheme": "水",
+                        "romaji": "mizu",
+                        "meaning": [
+                            "water (esp. cool or cold)"
+                        ]
+                    },
+                    {
+                        "morpheme": "。",
+                        "romaji": ".",
+                        "meaning": []
+                    }
+                ],
+                "romaji": "( ※ 1 ) shikke : mono ya kuuki no naka ni aru mizu .",
+                "translation": "(*1) Humidity: Water in objects and air."
+            },
+            {
+                "sentence": [
+                    {
+                        "morpheme": "目",
+                        "romaji": "me",
+                        "meaning": [
+                            "eye",
+                            "eyeball"
+                        ]
+                    },
+                    {
+                        "morpheme": "に",
+                        "romaji": "ni",
+                        "meaning": [
+                            "at (place, time)",
+                            "in",
+                            "on",
+                            "during"
+                        ]
+                    },
+                    {
+                        "morpheme": "は",
+                        "romaji": "ha",
+                        "meaning": [
+                            "indicates sentence topic"
+                        ]
+                    },
+                    {
+                        "morpheme": "見えない",
+                        "romaji": "mienai",
+                        "meaning": [
+                            "to be seen",
+                            "to be visible",
+                            "to be in sight"
+                        ],
+                        "baseForm": "見える"
+                    }
+                ],
+                "romaji": "me ni ha mienai",
+                "translation": "invisible to the eye"
+            }
+        ]
+    },
+    {
+        "type": "paragraph",
+        "data": [
+            {
+                "sentence": [
+                    {
+                        "morpheme": "(",
+                        "romaji": "(",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "※",
+                        "romaji": "※",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "2",
+                        "romaji": "2",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": ")",
+                        "romaji": ")",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "カビ",
+                        "romaji": "kabi",
+                        "meaning": [
+                            "mold",
+                            "mould",
+                            "mildew"
+                        ]
+                    },
+                    {
+                        "morpheme": "：",
+                        "romaji": ":",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "気温",
+                        "romaji": "kion",
+                        "meaning": [
+                            "(air) temperature"
+                        ]
+                    },
+                    {
+                        "morpheme": "が",
+                        "romaji": "ga",
+                        "meaning": [
+                            "indicates the subject of a sentence"
+                        ]
+                    },
+                    {
+                        "morpheme": "高く",
+                        "romaji": "takaku",
+                        "meaning": [
+                            "high",
+                            "tall"
+                        ],
+                        "baseForm": "高い"
+                    },
+                    {
+                        "morpheme": "湿気",
+                        "romaji": "shikke",
+                        "meaning": [
+                            "moisture",
+                            "humidity",
+                            "dampness"
+                        ]
+                    },
+                    {
+                        "morpheme": "が",
+                        "romaji": "ga",
+                        "meaning": [
+                            "indicates the subject of a sentence"
+                        ]
+                    },
+                    {
+                        "morpheme": "ある",
+                        "romaji": "aru",
+                        "meaning": [
+                            "a certain ...",
+                            "some ..."
+                        ],
+                        "baseForm": "有る"
+                    },
+                    {
+                        "morpheme": "ところ",
+                        "romaji": "tokoro",
+                        "meaning": [
+                            "place",
+                            "spot",
+                            "scene",
+                            "site"
+                        ]
+                    },
+                    {
+                        "morpheme": "で",
+                        "romaji": "de",
+                        "meaning": [
+                            "at",
+                            "in"
+                        ]
+                    },
+                    {
+                        "morpheme": "、",
+                        "romaji": ",",
+                        "meaning": []
+                    }
+                ],
+                "romaji": "( ※ 2 ) kabi : kion ga takaku shikke ga aru tokoro de ,",
+                "translation": "(*2) Mold: In places with high temperatures and humidity,"
+            },
+            {
+                "sentence": [
+                    {
+                        "morpheme": "食べ物",
+                        "romaji": "tabemono",
+                        "meaning": [
+                            "food"
+                        ]
+                    },
+                    {
+                        "morpheme": "や",
+                        "romaji": "ya",
+                        "meaning": [
+                            "such things as ...",
+                            "and ... and"
+                        ]
+                    },
+                    {
+                        "morpheme": "服",
+                        "romaji": "fuku",
+                        "meaning": [
+                            "clothes (esp. Western clothes)",
+                            "clothing",
+                            "dress",
+                            "costume",
+                            "suit",
+                            "outfit"
+                        ]
+                    },
+                    {
+                        "morpheme": "に",
+                        "romaji": "ni",
+                        "meaning": [
+                            "at (place, time)",
+                            "in",
+                            "on",
+                            "during"
+                        ]
+                    },
+                    {
+                        "morpheme": "生える",
+                        "romaji": "haeru",
+                        "meaning": [
+                            "to grow",
+                            "to spring up",
+                            "to sprout"
+                        ],
+                        "furigana": "は"
+                    },
+                    {
+                        "morpheme": "非常",
+                        "romaji": "hijou",
+                        "meaning": [
+                            "emergency"
+                        ]
+                    },
+                    {
+                        "morpheme": "に",
+                        "romaji": "ni",
+                        "meaning": [
+                            "at (place, time)",
+                            "in",
+                            "on",
+                            "during"
+                        ]
+                    },
+                    {
+                        "morpheme": "小さな",
+                        "romaji": "chiisana",
+                        "meaning": [
+                            "small",
+                            "little",
+                            "tiny"
+                        ]
+                    },
+                    {
+                        "morpheme": "生物",
+                        "romaji": "seibutsu",
+                        "meaning": [
+                            "living thing",
+                            "organism",
+                            "creature",
+                            "life"
+                        ],
+                        "furigana": "せいぶつ"
+                    }
+                ],
+                "romaji": "tabemono ya fuku ni haeru hijou ni chiisana seibutsu",
+                "translation": "very small organisms that grow on food and clothing"
+            }
+        ]
+    },
+    {
+        "type": "line"
+    },
+    {
+        "type": "mcq",
+        "data": [
+            {
+                "question": [
+                    {
+                        "morpheme": "虫干し",
+                        "romaji": "mushiboshi",
+                        "meaning": [
+                            "airing of clothes, hanging scrolls, etc. (to prevent damage from insects and mould)"
+                        ],
+                        "furigana": "むしば"
+                    },
+                    {
+                        "morpheme": "を",
+                        "romaji": "wo",
+                        "meaning": [
+                            "indicates direct object of action"
+                        ]
+                    },
+                    {
+                        "morpheme": "する",
+                        "romaji": "suru",
+                        "meaning": [
+                            "to rub",
+                            "to chafe",
+                            "to strike (match)",
+                            "to file",
+                            "to frost (glass)"
+                        ],
+                        "baseForm": "為る"
+                    },
+                    {
+                        "morpheme": "理由",
+                        "romaji": "riyuu",
+                        "meaning": [
+                            "reason",
+                            "grounds",
+                            "pretext",
+                            "excuse",
+                            "motive"
+                        ]
+                    },
+                    {
+                        "morpheme": "は",
+                        "romaji": "ha",
+                        "meaning": [
+                            "indicates sentence topic"
+                        ]
+                    },
+                    {
+                        "morpheme": "何",
+                        "romaji": "nani",
+                        "meaning": [
+                            "what"
+                        ]
+                    },
+                    {
+                        "morpheme": "か",
+                        "romaji": "ka",
+                        "meaning": [
+                            "indicates a question"
+                        ]
+                    },
+                    {
+                        "morpheme": "。",
+                        "romaji": ".",
+                        "meaning": []
+                    }
+                ],
+                "options": [
+                    [
+                        {
+                            "morpheme": "昔",
+                            "romaji": "mukashi",
+                            "meaning": [
+                                "the old days",
+                                "the past",
+                                "former times",
+                                "a long time ago"
+                            ]
+                        },
+                        {
+                            "morpheme": "から",
+                            "romaji": "kara",
+                            "meaning": [
+                                "emptiness",
+                                "being empty"
+                            ]
+                        },
+                        {
+                            "morpheme": "の",
+                            "romaji": "no",
+                            "meaning": [
+                                "field",
+                                "plain"
+                            ]
+                        },
+                        {
+                            "morpheme": "習慣",
+                            "romaji": "shuukan",
+                            "meaning": [
+                                "habit"
+                            ]
+                        },
+                        {
+                            "morpheme": "だ",
+                            "romaji": "da",
+                            "meaning": [
+                                "be",
+                                "is"
+                            ]
+                        },
+                        {
+                            "morpheme": "から",
+                            "romaji": "kara",
+                            "meaning": [
+                                "emptiness",
+                                "being empty"
+                            ]
+                        },
+                        {
+                            "morpheme": "。",
+                            "romaji": ".",
+                            "meaning": []
+                        }
+                    ],
+                    [
+                        {
+                            "morpheme": "着物",
+                            "romaji": "kimono",
+                            "meaning": [
+                                "kimono",
+                                "Japanese traditional clothing (esp. full-length)"
+                            ]
+                        },
+                        {
+                            "morpheme": "の",
+                            "romaji": "no",
+                            "meaning": [
+                                "field",
+                                "plain"
+                            ]
+                        },
+                        {
+                            "morpheme": "色",
+                            "romaji": "iro",
+                            "meaning": [
+                                "colour",
+                                "color",
+                                "hue",
+                                "tint",
+                                "tinge",
+                                "shade"
+                            ]
+                        },
+                        {
+                            "morpheme": "が",
+                            "romaji": "ga",
+                            "meaning": [
+                                "indicates the subject of a sentence"
+                            ]
+                        },
+                        {
+                            "morpheme": "変わらない",
+                            "romaji": "kawaranai",
+                            "meaning": [
+                                "constant",
+                                "invariant"
+                            ],
+                            "baseForm": "変わる"
+                        },
+                        {
+                            "morpheme": "よう",
+                            "romaji": "you",
+                            "meaning": [
+                                "(the) positive"
+                            ]
+                        },
+                        {
+                            "morpheme": "に",
+                            "romaji": "ni",
+                            "meaning": [
+                                "at (place, time)",
+                                "in",
+                                "on",
+                                "during"
+                            ]
+                        },
+                        {
+                            "morpheme": "する",
+                            "romaji": "suru",
+                            "meaning": [
+                                "to rub",
+                                "to chafe",
+                                "to strike (match)",
+                                "to file",
+                                "to frost (glass)"
+                            ],
+                            "baseForm": "為る"
+                        },
+                        {
+                            "morpheme": "ため",
+                            "romaji": "tame",
+                            "meaning": [
+                                "good",
+                                "advantage",
+                                "benefit",
+                                "welfare"
+                            ]
+                        },
+                        {
+                            "morpheme": "。",
+                            "romaji": ".",
+                            "meaning": []
+                        }
+                    ],
+                    [
+                        {
+                            "morpheme": "着物",
+                            "romaji": "kimono",
+                            "meaning": [
+                                "kimono",
+                                "Japanese traditional clothing (esp. full-length)"
+                            ]
+                        },
+                        {
+                            "morpheme": "を",
+                            "romaji": "wo",
+                            "meaning": [
+                                "indicates direct object of action"
+                            ]
+                        },
+                        {
+                            "morpheme": "乾燥",
+                            "romaji": "kansou",
+                            "meaning": [
+                                "dryness",
+                                "aridity",
+                                "drying (e.g. clothes)",
+                                "dehydration",
+                                "desiccation"
+                            ],
+                            "furigana": "かんそう"
+                        },
+                        {
+                            "morpheme": "させる",
+                            "romaji": "saseru",
+                            "meaning": [
+                                "to make (someone) do"
+                            ],
+                            "baseForm": "為る"
+                        },
+                        {
+                            "morpheme": "ため",
+                            "romaji": "tame",
+                            "meaning": [
+                                "good",
+                                "advantage",
+                                "benefit",
+                                "welfare"
+                            ]
+                        },
+                        {
+                            "morpheme": "。",
+                            "romaji": ".",
+                            "meaning": []
+                        }
+                    ],
+                    [
+                        {
+                            "morpheme": "風",
+                            "romaji": "kaze",
+                            "meaning": [
+                                "method",
+                                "manner",
+                                "way",
+                                "style"
+                            ]
+                        },
+                        {
+                            "morpheme": "を",
+                            "romaji": "wo",
+                            "meaning": [
+                                "indicates direct object of action"
+                            ]
+                        },
+                        {
+                            "morpheme": "通して",
+                            "romaji": "toushite",
+                            "meaning": [
+                                "to stick through",
+                                "to force through"
+                            ],
+                            "baseForm": "通す"
+                        },
+                        {
+                            "morpheme": "部屋",
+                            "romaji": "heya",
+                            "meaning": [
+                                "room",
+                                "chamber"
+                            ]
+                        },
+                        {
+                            "morpheme": "を",
+                            "romaji": "wo",
+                            "meaning": [
+                                "indicates direct object of action"
+                            ]
+                        },
+                        {
+                            "morpheme": "乾燥",
+                            "romaji": "kansou",
+                            "meaning": [
+                                "dryness",
+                                "aridity",
+                                "drying (e.g. clothes)",
+                                "dehydration",
+                                "desiccation"
+                            ],
+                            "furigana": "かんそう"
+                        },
+                        {
+                            "morpheme": "させる",
+                            "romaji": "saseru",
+                            "meaning": [
+                                "to make (someone) do"
+                            ],
+                            "baseForm": "為る"
+                        },
+                        {
+                            "morpheme": "ため",
+                            "romaji": "tame",
+                            "meaning": [
+                                "good",
+                                "advantage",
+                                "benefit",
+                                "welfare"
+                            ]
+                        },
+                        {
+                            "morpheme": "。",
+                            "romaji": ".",
+                            "meaning": []
+                        }
+                    ]
+                ],
+                "answer": 3,
+                "romajiQues": "mushiboshi wo suru riyuu ha nani ka .",
+                "translationQues": "What is the reason for drying insects?",
+                "romajiOption": [
+                    "mukashi kara no shuukan da kara .",
+                    "kimono no iro ga kawaranai you ni suru tame .",
+                    "kimono wo kansou saseru tame .",
+                    "kaze wo toushite heya wo kansou saseru tame ."
+                ],
+                "translationOption": [
+                    "Because it's an old habit.",
+                    "To prevent the color of the kimono from changing.",
+                    "To dry the kimono.",
+                    "To allow air to dry the room."
+                ]
+            }
+        ]
+    }
+]
