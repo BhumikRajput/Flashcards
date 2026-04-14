@@ -1,0 +1,2083 @@
+[
+    {
+        "type": "paragraph",
+        "data": [
+            {
+                "sentence": [
+                    {
+                        "morpheme": "問題",
+                        "romaji": "mondai",
+                        "meaning": [
+                            "question (e.g. on a test)",
+                            "problem"
+                        ]
+                    },
+                    {
+                        "morpheme": "つぎ",
+                        "romaji": "tsugi",
+                        "meaning": [
+                            "next",
+                            "following",
+                            "subsequent"
+                        ]
+                    },
+                    {
+                        "morpheme": "の",
+                        "romaji": "no",
+                        "meaning": [
+                            "field",
+                            "plain"
+                        ]
+                    },
+                    {
+                        "morpheme": "文章",
+                        "romaji": "bunshou",
+                        "meaning": [
+                            "writing",
+                            "composition",
+                            "essay",
+                            "article",
+                            "passage",
+                            "prose",
+                            "(writing) style"
+                        ],
+                        "furigana": "ぶんしょう"
+                    },
+                    {
+                        "morpheme": "を",
+                        "romaji": "wo",
+                        "meaning": [
+                            "indicates direct object of action"
+                        ],
+                        "furigana": "ぶんしょう"
+                    },
+                    {
+                        "morpheme": "読んで",
+                        "romaji": "yonde",
+                        "meaning": [
+                            "to read"
+                        ],
+                        "baseForm": "読む"
+                    },
+                    {
+                        "morpheme": "、",
+                        "romaji": ",",
+                        "meaning": []
+                    }
+                ],
+                "romaji": "mondai tsugi no bunshou wo yonde ,",
+                "translation": "Question Read the following passage,"
+            },
+            {
+                "sentence": [
+                    {
+                        "morpheme": "質問",
+                        "romaji": "shitsumon",
+                        "meaning": [
+                            "question",
+                            "inquiry",
+                            "enquiry"
+                        ]
+                    },
+                    {
+                        "morpheme": "に",
+                        "romaji": "ni",
+                        "meaning": [
+                            "at (place, time)",
+                            "in",
+                            "on",
+                            "during"
+                        ]
+                    },
+                    {
+                        "morpheme": "答え",
+                        "romaji": "kotae",
+                        "meaning": [
+                            "answer",
+                            "reply",
+                            "response"
+                        ],
+                        "baseForm": "答える"
+                    },
+                    {
+                        "morpheme": "なさい",
+                        "romaji": "nasai",
+                        "meaning": [
+                            "do ..."
+                        ],
+                        "baseForm": "為さる"
+                    },
+                    {
+                        "morpheme": "。",
+                        "romaji": ".",
+                        "meaning": []
+                    }
+                ],
+                "romaji": "shitsumon ni kotae nasai .",
+                "translation": "Answer the questions."
+            },
+            {
+                "sentence": [
+                    {
+                        "morpheme": "答え",
+                        "romaji": "kotae",
+                        "meaning": [
+                            "answer",
+                            "reply",
+                            "response"
+                        ]
+                    },
+                    {
+                        "morpheme": "は",
+                        "romaji": "ha",
+                        "meaning": [
+                            "indicates sentence topic"
+                        ]
+                    },
+                    {
+                        "morpheme": "、",
+                        "romaji": ",",
+                        "meaning": []
+                    }
+                ],
+                "romaji": "kotae ha ,",
+                "translation": "The answer is"
+            },
+            {
+                "sentence": [
+                    {
+                        "morpheme": "1",
+                        "romaji": "1",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "・",
+                        "romaji": "・",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "2",
+                        "romaji": "2",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "・",
+                        "romaji": "・",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "3",
+                        "romaji": "3",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "・",
+                        "romaji": "・",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "4",
+                        "romaji": "4",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "から",
+                        "romaji": "kara",
+                        "meaning": [
+                            "emptiness",
+                            "being empty"
+                        ]
+                    },
+                    {
+                        "morpheme": "最も",
+                        "romaji": "mottomo",
+                        "meaning": [
+                            "most",
+                            "extremely"
+                        ]
+                    },
+                    {
+                        "morpheme": "よい",
+                        "romaji": "yoi",
+                        "meaning": [
+                            "drunkenness",
+                            "intoxication"
+                        ],
+                        "baseForm": "良い"
+                    },
+                    {
+                        "morpheme": "もの",
+                        "romaji": "mono",
+                        "meaning": [
+                            "indicates reason or excuse"
+                        ]
+                    },
+                    {
+                        "morpheme": "を",
+                        "romaji": "wo",
+                        "meaning": [
+                            "indicates direct object of action"
+                        ]
+                    },
+                    {
+                        "morpheme": "一",
+                        "romaji": "ichi",
+                        "meaning": [
+                            "one"
+                        ]
+                    },
+                    {
+                        "morpheme": "つ",
+                        "romaji": "tsu",
+                        "meaning": [
+                            "general-purpose counter"
+                        ]
+                    },
+                    {
+                        "morpheme": "えらび",
+                        "romaji": "erabi",
+                        "meaning": [
+                            "choosing",
+                            "selecting",
+                            "deciding (on)"
+                        ],
+                        "baseForm": "選ぶ"
+                    },
+                    {
+                        "morpheme": "なさい",
+                        "romaji": "nasai",
+                        "meaning": [
+                            "do ..."
+                        ],
+                        "baseForm": "為さる"
+                    },
+                    {
+                        "morpheme": "。",
+                        "romaji": ".",
+                        "meaning": []
+                    }
+                ],
+                "romaji": "1 ・ 2 ・ 3 ・ 4 kara mottomo yoi mono wo ichi tsu erabi nasai .",
+                "translation": "Choose the best one from 1, 2, 3, and 4."
+            }
+        ]
+    },
+    {
+        "type": "line"
+    },
+    {
+        "type": "paragraph",
+        "data": [
+            {
+                "sentence": [
+                    {
+                        "morpheme": "・",
+                        "romaji": "・",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "・",
+                        "romaji": "・",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "・",
+                        "romaji": "・",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "・",
+                        "romaji": "・",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "申込",
+                        "romaji": "moushikomi",
+                        "meaning": [
+                            "application",
+                            "entry",
+                            "request",
+                            "subscription",
+                            "offer",
+                            "proposal",
+                            "overture",
+                            "challenge"
+                        ]
+                    },
+                    {
+                        "morpheme": "手続",
+                        "romaji": "tetsuzuki",
+                        "meaning": [
+                            "procedure",
+                            "process",
+                            "proceedings",
+                            "formalities"
+                        ],
+                        "furigana": "てつづき"
+                    },
+                    {
+                        "morpheme": "の",
+                        "romaji": "no",
+                        "meaning": [
+                            "field",
+                            "plain"
+                        ]
+                    },
+                    {
+                        "morpheme": "完了",
+                        "romaji": "kanryou",
+                        "meaning": [
+                            "completion",
+                            "conclusion"
+                        ]
+                    },
+                    {
+                        "morpheme": "後",
+                        "romaji": "nochi",
+                        "meaning": [
+                            "after"
+                        ]
+                    },
+                    {
+                        "morpheme": "は",
+                        "romaji": "ha",
+                        "meaning": [
+                            "indicates sentence topic"
+                        ]
+                    },
+                    {
+                        "morpheme": "、",
+                        "romaji": ",",
+                        "meaning": []
+                    }
+                ],
+                "romaji": "・ ・ ・ ・ moushikomi tetsuzuki no kanryou nochi ha ,",
+                "translation": "...After completing the application procedure,"
+            },
+            {
+                "sentence": [
+                    {
+                        "morpheme": "一",
+                        "romaji": "ichi",
+                        "meaning": [
+                            "one"
+                        ]
+                    },
+                    {
+                        "morpheme": "度",
+                        "romaji": "do",
+                        "meaning": [
+                            "degree (angle, temperature, scale, etc.)"
+                        ]
+                    },
+                    {
+                        "morpheme": "お",
+                        "romaji": "o",
+                        "meaning": [
+                            "honorific/polite/humble prefix"
+                        ]
+                    },
+                    {
+                        "morpheme": "納め",
+                        "romaji": "osame",
+                        "meaning": [
+                            "the end (of)",
+                            "last time (doing)",
+                            "finishing up",
+                            "closing"
+                        ],
+                        "baseForm": "収める",
+                        "furigana": "おさ"
+                    },
+                    {
+                        "morpheme": "いただいた",
+                        "romaji": "itadaita",
+                        "meaning": [
+                            "to receive",
+                            "to get",
+                            "to accept",
+                            "to take",
+                            "to buy"
+                        ],
+                        "baseForm": "頂く"
+                    },
+                    {
+                        "morpheme": "費用",
+                        "romaji": "hiyou",
+                        "meaning": [
+                            "cost",
+                            "expense"
+                        ],
+                        "furigana": "ひよう"
+                    },
+                    {
+                        "morpheme": "（",
+                        "romaji": "(",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "テキスト",
+                        "romaji": "tekisuto",
+                        "meaning": [
+                            "text"
+                        ]
+                    },
+                    {
+                        "morpheme": "代",
+                        "romaji": "dai",
+                        "meaning": [
+                            "world",
+                            "society",
+                            "public"
+                        ]
+                    },
+                    {
+                        "morpheme": "を",
+                        "romaji": "wo",
+                        "meaning": [
+                            "indicates direct object of action"
+                        ]
+                    },
+                    {
+                        "morpheme": "含む",
+                        "romaji": "fukumu",
+                        "meaning": [
+                            "to contain",
+                            "to comprise",
+                            "to have",
+                            "to hold",
+                            "to include",
+                            "to embrace"
+                        ],
+                        "furigana": "ふく"
+                    },
+                    {
+                        "morpheme": "）",
+                        "romaji": ")",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "は",
+                        "romaji": "ha",
+                        "meaning": [
+                            "indicates sentence topic"
+                        ]
+                    },
+                    {
+                        "morpheme": "お",
+                        "romaji": "o",
+                        "meaning": [
+                            "honorific/polite/humble prefix"
+                        ]
+                    },
+                    {
+                        "morpheme": "返し",
+                        "romaji": "kaeshi",
+                        "meaning": [
+                            "reversal",
+                            "return"
+                        ],
+                        "baseForm": "返す"
+                    },
+                    {
+                        "morpheme": "できません",
+                        "romaji": "dekimasen",
+                        "meaning": [
+                            "to be able to do",
+                            "to be possible",
+                            "to be permitted (to do)"
+                        ],
+                        "baseForm": "出来る"
+                    },
+                    {
+                        "morpheme": "。",
+                        "romaji": ".",
+                        "meaning": []
+                    }
+                ],
+                "romaji": "ichi do o osame itadaita hiyou ( tekisuto dai wo fukumu ) ha o kaeshi dekimasen .",
+                "translation": "Once paid, fees (including textbook fees) cannot be refunded."
+            },
+            {
+                "sentence": [
+                    {
+                        "morpheme": "ただし",
+                        "romaji": "tadashi",
+                        "meaning": [
+                            "but",
+                            "however",
+                            "provided that"
+                        ]
+                    },
+                    {
+                        "morpheme": "、",
+                        "romaji": ",",
+                        "meaning": []
+                    }
+                ],
+                "romaji": "tadashi ,",
+                "translation": "however,"
+            },
+            {
+                "sentence": [
+                    {
+                        "morpheme": "引っ越し",
+                        "romaji": "hikkoshi",
+                        "meaning": [
+                            "moving (dwelling, office, etc.)",
+                            "changing residence"
+                        ]
+                    },
+                    {
+                        "morpheme": "・",
+                        "romaji": "・",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "入院",
+                        "romaji": "nyuuin",
+                        "meaning": [
+                            "hospitalization",
+                            "hospitalisation"
+                        ]
+                    },
+                    {
+                        "morpheme": "など",
+                        "romaji": "nado",
+                        "meaning": [
+                            "et cetera",
+                            "etc.",
+                            "and the like",
+                            "and so forth"
+                        ]
+                    },
+                    {
+                        "morpheme": "の",
+                        "romaji": "no",
+                        "meaning": [
+                            "field",
+                            "plain"
+                        ]
+                    },
+                    {
+                        "morpheme": "理由",
+                        "romaji": "riyuu",
+                        "meaning": [
+                            "reason",
+                            "grounds",
+                            "pretext",
+                            "excuse",
+                            "motive"
+                        ]
+                    },
+                    {
+                        "morpheme": "に",
+                        "romaji": "ni",
+                        "meaning": [
+                            "at (place, time)",
+                            "in",
+                            "on",
+                            "during"
+                        ]
+                    },
+                    {
+                        "morpheme": "よる",
+                        "romaji": "yoru",
+                        "meaning": [
+                            "to choose",
+                            "to select",
+                            "to pick out"
+                        ],
+                        "baseForm": "因る"
+                    },
+                    {
+                        "morpheme": "キャンセル",
+                        "romaji": "kyanseru",
+                        "meaning": [
+                            "cancellation"
+                        ]
+                    },
+                    {
+                        "morpheme": "(",
+                        "romaji": "(",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "※",
+                        "romaji": "※",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "1",
+                        "romaji": "1",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": ")",
+                        "romaji": ")",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "の",
+                        "romaji": "no",
+                        "meaning": [
+                            "field",
+                            "plain"
+                        ]
+                    },
+                    {
+                        "morpheme": "場合",
+                        "romaji": "baai",
+                        "meaning": [
+                            "case",
+                            "occasion",
+                            "situation",
+                            "circumstances"
+                        ]
+                    },
+                    {
+                        "morpheme": "は",
+                        "romaji": "ha",
+                        "meaning": [
+                            "indicates sentence topic"
+                        ]
+                    },
+                    {
+                        "morpheme": "、",
+                        "romaji": ",",
+                        "meaning": []
+                    }
+                ],
+                "romaji": "hikkoshi ・ nyuuin nado no riyuu ni yoru kyanseru ( ※ 1 ) no baai ha ,",
+                "translation": "In the case of cancellation (*1) due to reasons such as moving or hospitalization,"
+            },
+            {
+                "sentence": [
+                    {
+                        "morpheme": "授業",
+                        "romaji": "jugyou",
+                        "meaning": [
+                            "lesson",
+                            "class",
+                            "teaching",
+                            "instruction",
+                            "classwork",
+                            "schoolwork"
+                        ]
+                    },
+                    {
+                        "morpheme": "が",
+                        "romaji": "ga",
+                        "meaning": [
+                            "indicates the subject of a sentence"
+                        ]
+                    },
+                    {
+                        "morpheme": "開始",
+                        "romaji": "kaishi",
+                        "meaning": [
+                            "start",
+                            "commencement",
+                            "beginning",
+                            "initiation"
+                        ]
+                    },
+                    {
+                        "morpheme": "される",
+                        "romaji": "sareru",
+                        "meaning": [
+                            "to be done (to someone or something)"
+                        ],
+                        "baseForm": "為る"
+                    },
+                    {
+                        "morpheme": "前",
+                        "romaji": "mae",
+                        "meaning": [
+                            "in front (of)",
+                            "before (e.g. a building)"
+                        ]
+                    },
+                    {
+                        "morpheme": "に",
+                        "romaji": "ni",
+                        "meaning": [
+                            "at (place, time)",
+                            "in",
+                            "on",
+                            "during"
+                        ]
+                    },
+                    {
+                        "morpheme": "その",
+                        "romaji": "sono",
+                        "meaning": [
+                            "garden",
+                            "orchard",
+                            "park"
+                        ]
+                    },
+                    {
+                        "morpheme": "内容",
+                        "romaji": "naiyou",
+                        "meaning": [
+                            "contents",
+                            "content",
+                            "substance",
+                            "matter",
+                            "detail",
+                            "import"
+                        ]
+                    },
+                    {
+                        "morpheme": "を",
+                        "romaji": "wo",
+                        "meaning": [
+                            "indicates direct object of action"
+                        ]
+                    },
+                    {
+                        "morpheme": "証明",
+                        "romaji": "shoumei",
+                        "meaning": [
+                            "proof",
+                            "testimony",
+                            "demonstration",
+                            "verification",
+                            "certification"
+                        ],
+                        "furigana": "しょうめい"
+                    },
+                    {
+                        "morpheme": "する",
+                        "romaji": "suru",
+                        "meaning": [
+                            "to rub",
+                            "to chafe",
+                            "to strike (match)",
+                            "to file",
+                            "to frost (glass)"
+                        ],
+                        "baseForm": "為る"
+                    },
+                    {
+                        "morpheme": "書類",
+                        "romaji": "shorui",
+                        "meaning": [
+                            "document",
+                            "papers"
+                        ]
+                    },
+                    {
+                        "morpheme": "を",
+                        "romaji": "wo",
+                        "meaning": [
+                            "indicates direct object of action"
+                        ]
+                    },
+                    {
+                        "morpheme": "提出",
+                        "romaji": "teishutsu",
+                        "meaning": [
+                            "presentation (of documents)",
+                            "submission (of an application, report, etc.)",
+                            "production (e.g. of evidence)",
+                            "introduction (e.g. of a bill)",
+                            "filing",
+                            "turning in"
+                        ],
+                        "furigana": "ていしゅつ"
+                    },
+                    {
+                        "morpheme": "して",
+                        "romaji": "shite",
+                        "meaning": [
+                            "doer",
+                            "performer"
+                        ],
+                        "baseForm": "為る"
+                    },
+                    {
+                        "morpheme": "いただければ",
+                        "romaji": "itadakereba",
+                        "meaning": [
+                            "to receive",
+                            "to get",
+                            "to accept",
+                            "to take",
+                            "to buy"
+                        ],
+                        "baseForm": "頂く"
+                    },
+                    {
+                        "morpheme": "、",
+                        "romaji": ",",
+                        "meaning": []
+                    }
+                ],
+                "romaji": "jugyou ga kaishi sareru mae ni sono naiyou wo shoumei suru shorui wo teishutsu shite itadakereba ,",
+                "translation": "If you can submit documents proving the content before the class starts,"
+            },
+            {
+                "sentence": [
+                    {
+                        "morpheme": "費用",
+                        "romaji": "hiyou",
+                        "meaning": [
+                            "cost",
+                            "expense"
+                        ],
+                        "furigana": "ひよう"
+                    },
+                    {
+                        "morpheme": "の",
+                        "romaji": "no",
+                        "meaning": [
+                            "field",
+                            "plain"
+                        ]
+                    },
+                    {
+                        "morpheme": "10",
+                        "romaji": "10",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "%",
+                        "romaji": "%",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "の",
+                        "romaji": "no",
+                        "meaning": [
+                            "field",
+                            "plain"
+                        ]
+                    },
+                    {
+                        "morpheme": "手数",
+                        "romaji": "tesuu",
+                        "meaning": [
+                            "trouble",
+                            "bother"
+                        ]
+                    },
+                    {
+                        "morpheme": "料",
+                        "romaji": "ryou",
+                        "meaning": [
+                            "fee",
+                            "charge",
+                            "rate"
+                        ]
+                    },
+                    {
+                        "morpheme": "(",
+                        "romaji": "(",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "※",
+                        "romaji": "※",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "2",
+                        "romaji": "2",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": ")",
+                        "romaji": ")",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "を",
+                        "romaji": "wo",
+                        "meaning": [
+                            "indicates direct object of action"
+                        ]
+                    },
+                    {
+                        "morpheme": "引いた",
+                        "romaji": "hiita",
+                        "meaning": [
+                            "to pull",
+                            "to tug",
+                            "to lead (e.g. a horse)"
+                        ],
+                        "baseForm": "引く"
+                    },
+                    {
+                        "morpheme": "金額",
+                        "romaji": "kingaku",
+                        "meaning": [
+                            "amount of money",
+                            "sum"
+                        ]
+                    },
+                    {
+                        "morpheme": "を",
+                        "romaji": "wo",
+                        "meaning": [
+                            "indicates direct object of action"
+                        ]
+                    },
+                    {
+                        "morpheme": "お",
+                        "romaji": "o",
+                        "meaning": [
+                            "honorific/polite/humble prefix"
+                        ]
+                    },
+                    {
+                        "morpheme": "返し",
+                        "romaji": "kaeshi",
+                        "meaning": [
+                            "reversal",
+                            "return"
+                        ],
+                        "baseForm": "返す"
+                    },
+                    {
+                        "morpheme": "いたします",
+                        "romaji": "itashimasu",
+                        "meaning": [
+                            "to do"
+                        ],
+                        "baseForm": "致す"
+                    },
+                    {
+                        "morpheme": "。",
+                        "romaji": ".",
+                        "meaning": []
+                    }
+                ],
+                "romaji": "hiyou no 10 % no tesuu ryou ( ※ 2 ) wo hiita kingaku wo o kaeshi itashimasu .",
+                "translation": "We will refund the amount minus a 10% handling fee (*2)."
+            },
+            {
+                "sentence": [
+                    {
+                        "morpheme": "授業",
+                        "romaji": "jugyou",
+                        "meaning": [
+                            "lesson",
+                            "class",
+                            "teaching",
+                            "instruction",
+                            "classwork",
+                            "schoolwork"
+                        ]
+                    },
+                    {
+                        "morpheme": "が",
+                        "romaji": "ga",
+                        "meaning": [
+                            "indicates the subject of a sentence"
+                        ]
+                    },
+                    {
+                        "morpheme": "開始",
+                        "romaji": "kaishi",
+                        "meaning": [
+                            "start",
+                            "commencement",
+                            "beginning",
+                            "initiation"
+                        ]
+                    },
+                    {
+                        "morpheme": "されて",
+                        "romaji": "sarete",
+                        "meaning": [
+                            "to become",
+                            "to get",
+                            "to grow",
+                            "to turn",
+                            "to reach",
+                            "to attain"
+                        ],
+                        "baseForm": "為る"
+                    },
+                    {
+                        "morpheme": "から",
+                        "romaji": "kara",
+                        "meaning": [
+                            "emptiness",
+                            "being empty"
+                        ]
+                    },
+                    {
+                        "morpheme": "の",
+                        "romaji": "no",
+                        "meaning": [
+                            "field",
+                            "plain"
+                        ]
+                    },
+                    {
+                        "morpheme": "キャンセル",
+                        "romaji": "kyanseru",
+                        "meaning": [
+                            "cancellation"
+                        ]
+                    },
+                    {
+                        "morpheme": "の",
+                        "romaji": "no",
+                        "meaning": [
+                            "field",
+                            "plain"
+                        ]
+                    },
+                    {
+                        "morpheme": "場合",
+                        "romaji": "baai",
+                        "meaning": [
+                            "case",
+                            "occasion",
+                            "situation",
+                            "circumstances"
+                        ]
+                    },
+                    {
+                        "morpheme": "は",
+                        "romaji": "ha",
+                        "meaning": [
+                            "indicates sentence topic"
+                        ]
+                    },
+                    {
+                        "morpheme": "お",
+                        "romaji": "o",
+                        "meaning": [
+                            "honorific/polite/humble prefix"
+                        ]
+                    },
+                    {
+                        "morpheme": "返し",
+                        "romaji": "kaeshi",
+                        "meaning": [
+                            "reversal",
+                            "return"
+                        ],
+                        "baseForm": "返す"
+                    },
+                    {
+                        "morpheme": "できません",
+                        "romaji": "dekimasen",
+                        "meaning": [
+                            "to be able to do",
+                            "to be possible",
+                            "to be permitted (to do)"
+                        ],
+                        "baseForm": "出来る"
+                    },
+                    {
+                        "morpheme": "の",
+                        "romaji": "no",
+                        "meaning": [
+                            "field",
+                            "plain"
+                        ]
+                    },
+                    {
+                        "morpheme": "で",
+                        "romaji": "de",
+                        "meaning": [
+                            "at",
+                            "in"
+                        ]
+                    },
+                    {
+                        "morpheme": "、",
+                        "romaji": ",",
+                        "meaning": []
+                    }
+                ],
+                "romaji": "jugyou ga kaishi sarete kara no kyanseru no baai ha o kaeshi dekimasen no de ,",
+                "translation": "If you cancel after the class has started, we will not be able to refund your refund."
+            },
+            {
+                "sentence": [
+                    {
+                        "morpheme": "ご",
+                        "romaji": "go",
+                        "meaning": [
+                            "after"
+                        ]
+                    },
+                    {
+                        "morpheme": "注意",
+                        "romaji": "chuui",
+                        "meaning": [
+                            "attention",
+                            "notice",
+                            "heed"
+                        ]
+                    },
+                    {
+                        "morpheme": "ください",
+                        "romaji": "kudasai",
+                        "meaning": [
+                            "please (give me)"
+                        ],
+                        "baseForm": "下さる"
+                    },
+                    {
+                        "morpheme": "。",
+                        "romaji": ".",
+                        "meaning": []
+                    }
+                ],
+                "romaji": "go chuui kudasai .",
+                "translation": "please note."
+            }
+        ]
+    },
+    {
+        "type": "break"
+    },
+    {
+        "type": "paragraph",
+        "data": [
+            {
+                "sentence": [
+                    {
+                        "morpheme": "(",
+                        "romaji": "(",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "※",
+                        "romaji": "※",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "1",
+                        "romaji": "1",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": ")",
+                        "romaji": ")",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "キャンセル",
+                        "romaji": "kyanseru",
+                        "meaning": [
+                            "cancellation"
+                        ]
+                    },
+                    {
+                        "morpheme": "：",
+                        "romaji": ":",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "取り消す",
+                        "romaji": "torikesu",
+                        "meaning": [
+                            "to cancel",
+                            "to withdraw",
+                            "to retract",
+                            "to take back (words, etc.)",
+                            "to revoke"
+                        ]
+                    },
+                    {
+                        "morpheme": "こと",
+                        "romaji": "koto",
+                        "meaning": [
+                            "word",
+                            "remark",
+                            "statement"
+                        ]
+                    }
+                ],
+                "romaji": "( ※ 1 ) kyanseru : torikesu koto",
+                "translation": "(*1) Cancellation: To cancel."
+            }
+        ]
+    },
+    {
+        "type": "paragraph",
+        "data": [
+            {
+                "sentence": [
+                    {
+                        "morpheme": "(",
+                        "romaji": "(",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "※",
+                        "romaji": "※",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "2",
+                        "romaji": "2",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": ")",
+                        "romaji": ")",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "手数",
+                        "romaji": "tesuu",
+                        "meaning": [
+                            "trouble",
+                            "bother"
+                        ],
+                        "furigana": "てすうりょう"
+                    },
+                    {
+                        "morpheme": "料",
+                        "romaji": "ryou",
+                        "meaning": [
+                            "fee",
+                            "charge",
+                            "rate"
+                        ],
+                        "furigana": "てすうりょう"
+                    },
+                    {
+                        "morpheme": "：",
+                        "romaji": ":",
+                        "meaning": [],
+                        "furigana": "てすうりょう"
+                    },
+                    {
+                        "morpheme": "だれ",
+                        "romaji": "dare",
+                        "meaning": [
+                            "who"
+                        ]
+                    },
+                    {
+                        "morpheme": "か",
+                        "romaji": "ka",
+                        "meaning": [
+                            "indicates a question"
+                        ]
+                    },
+                    {
+                        "morpheme": "の",
+                        "romaji": "no",
+                        "meaning": [
+                            "field",
+                            "plain"
+                        ]
+                    },
+                    {
+                        "morpheme": "ため",
+                        "romaji": "tame",
+                        "meaning": [
+                            "good",
+                            "advantage",
+                            "benefit",
+                            "welfare"
+                        ]
+                    },
+                    {
+                        "morpheme": "に",
+                        "romaji": "ni",
+                        "meaning": [
+                            "at (place, time)",
+                            "in",
+                            "on",
+                            "during"
+                        ]
+                    },
+                    {
+                        "morpheme": "何",
+                        "romaji": "nani",
+                        "meaning": [
+                            "what"
+                        ]
+                    },
+                    {
+                        "morpheme": "か",
+                        "romaji": "ka",
+                        "meaning": [
+                            "indicates a question"
+                        ]
+                    },
+                    {
+                        "morpheme": "を",
+                        "romaji": "wo",
+                        "meaning": [
+                            "indicates direct object of action"
+                        ]
+                    },
+                    {
+                        "morpheme": "した",
+                        "romaji": "shita",
+                        "meaning": [
+                            "tongue"
+                        ],
+                        "baseForm": "為る"
+                    },
+                    {
+                        "morpheme": "とき",
+                        "romaji": "toki",
+                        "meaning": [
+                            "time",
+                            "hour",
+                            "moment"
+                        ]
+                    },
+                    {
+                        "morpheme": "に",
+                        "romaji": "ni",
+                        "meaning": [
+                            "at (place, time)",
+                            "in",
+                            "on",
+                            "during"
+                        ]
+                    },
+                    {
+                        "morpheme": "、",
+                        "romaji": ",",
+                        "meaning": []
+                    }
+                ],
+                "romaji": "( ※ 2 ) tesuu ryou : dare ka no tame ni nani ka wo shita toki ni ,",
+                "translation": "(*2) Fee: When you do something for someone,"
+            },
+            {
+                "sentence": [
+                    {
+                        "morpheme": "その",
+                        "romaji": "sono",
+                        "meaning": [
+                            "garden",
+                            "orchard",
+                            "park"
+                        ]
+                    },
+                    {
+                        "morpheme": "手間",
+                        "romaji": "tema",
+                        "meaning": [
+                            "time",
+                            "labour",
+                            "labor"
+                        ],
+                        "furigana": "てま"
+                    },
+                    {
+                        "morpheme": "に",
+                        "romaji": "ni",
+                        "meaning": [
+                            "at (place, time)",
+                            "in",
+                            "on",
+                            "during"
+                        ]
+                    },
+                    {
+                        "morpheme": "対して",
+                        "romaji": "taishite",
+                        "meaning": [
+                            "for",
+                            "in regard to",
+                            "per"
+                        ],
+                        "baseForm": "対する"
+                    },
+                    {
+                        "morpheme": "払われる",
+                        "romaji": "harawareru",
+                        "meaning": [
+                            "to pay (e.g. money, bill)"
+                        ],
+                        "baseForm": "払う"
+                    },
+                    {
+                        "morpheme": "お",
+                        "romaji": "o",
+                        "meaning": [
+                            "honorific/polite/humble prefix"
+                        ]
+                    },
+                    {
+                        "morpheme": "金",
+                        "romaji": "kin",
+                        "meaning": [
+                            "gold"
+                        ]
+                    }
+                ],
+                "romaji": "sono tema ni taishite harawareru o kin",
+                "translation": "money paid for the effort"
+            }
+        ]
+    },
+    {
+        "type": "line"
+    },
+    {
+        "type": "mcq",
+        "data": [
+            {
+                "question": [
+                    {
+                        "morpheme": "キャンセル",
+                        "romaji": "kyanseru",
+                        "meaning": [
+                            "cancellation"
+                        ]
+                    },
+                    {
+                        "morpheme": "の",
+                        "romaji": "no",
+                        "meaning": [
+                            "field",
+                            "plain"
+                        ]
+                    },
+                    {
+                        "morpheme": "場合",
+                        "romaji": "baai",
+                        "meaning": [
+                            "case",
+                            "occasion",
+                            "situation",
+                            "circumstances"
+                        ]
+                    },
+                    {
+                        "morpheme": "の",
+                        "romaji": "no",
+                        "meaning": [
+                            "field",
+                            "plain"
+                        ]
+                    },
+                    {
+                        "morpheme": "返金",
+                        "romaji": "henkin",
+                        "meaning": [
+                            "refund",
+                            "repayment",
+                            "reimbursement"
+                        ]
+                    },
+                    {
+                        "morpheme": "に",
+                        "romaji": "ni",
+                        "meaning": [
+                            "at (place, time)",
+                            "in",
+                            "on",
+                            "during"
+                        ]
+                    },
+                    {
+                        "morpheme": "ついて",
+                        "romaji": "tsuite",
+                        "meaning": [
+                            "about",
+                            "concerning",
+                            "as to",
+                            "regarding"
+                        ],
+                        "baseForm": "つく"
+                    },
+                    {
+                        "morpheme": "、",
+                        "romaji": ",",
+                        "meaning": []
+                    },
+                    {
+                        "morpheme": "正しい",
+                        "romaji": "tadashii",
+                        "meaning": [
+                            "right",
+                            "correct"
+                        ]
+                    },
+                    {
+                        "morpheme": "の",
+                        "romaji": "no",
+                        "meaning": [
+                            "field",
+                            "plain"
+                        ]
+                    },
+                    {
+                        "morpheme": "は",
+                        "romaji": "ha",
+                        "meaning": [
+                            "indicates sentence topic"
+                        ]
+                    },
+                    {
+                        "morpheme": "どれ",
+                        "romaji": "dore",
+                        "meaning": [
+                            "which (of three or more)"
+                        ]
+                    },
+                    {
+                        "morpheme": "か",
+                        "romaji": "ka",
+                        "meaning": [
+                            "indicates a question"
+                        ]
+                    },
+                    {
+                        "morpheme": "。",
+                        "romaji": ".",
+                        "meaning": []
+                    }
+                ],
+                "options": [
+                    [
+                        {
+                            "morpheme": "引っ越し",
+                            "romaji": "hikkoshi",
+                            "meaning": [
+                                "moving (dwelling, office, etc.)",
+                                "changing residence"
+                            ]
+                        },
+                        {
+                            "morpheme": "の",
+                            "romaji": "no",
+                            "meaning": [
+                                "field",
+                                "plain"
+                            ]
+                        },
+                        {
+                            "morpheme": "場合",
+                            "romaji": "baai",
+                            "meaning": [
+                                "case",
+                                "occasion",
+                                "situation",
+                                "circumstances"
+                            ]
+                        },
+                        {
+                            "morpheme": "は",
+                            "romaji": "ha",
+                            "meaning": [
+                                "indicates sentence topic"
+                            ]
+                        },
+                        {
+                            "morpheme": "、",
+                            "romaji": ",",
+                            "meaning": []
+                        },
+                        {
+                            "morpheme": "授業",
+                            "romaji": "jugyou",
+                            "meaning": [
+                                "lesson",
+                                "class",
+                                "teaching",
+                                "instruction",
+                                "classwork",
+                                "schoolwork"
+                            ]
+                        },
+                        {
+                            "morpheme": "開始",
+                            "romaji": "kaishi",
+                            "meaning": [
+                                "start",
+                                "commencement",
+                                "beginning",
+                                "initiation"
+                            ]
+                        },
+                        {
+                            "morpheme": "前",
+                            "romaji": "mae",
+                            "meaning": [
+                                "in front (of)",
+                                "before (e.g. a building)"
+                            ]
+                        },
+                        {
+                            "morpheme": "に",
+                            "romaji": "ni",
+                            "meaning": [
+                                "at (place, time)",
+                                "in",
+                                "on",
+                                "during"
+                            ]
+                        },
+                        {
+                            "morpheme": "証明",
+                            "romaji": "shoumei",
+                            "meaning": [
+                                "proof",
+                                "testimony",
+                                "demonstration",
+                                "verification",
+                                "certification"
+                            ],
+                            "furigana": "しょうめい"
+                        },
+                        {
+                            "morpheme": "書類",
+                            "romaji": "shorui",
+                            "meaning": [
+                                "document",
+                                "papers"
+                            ]
+                        },
+                        {
+                            "morpheme": "を",
+                            "romaji": "wo",
+                            "meaning": [
+                                "indicates direct object of action"
+                            ]
+                        },
+                        {
+                            "morpheme": "出せば",
+                            "romaji": "daseba",
+                            "meaning": [
+                                "to take out",
+                                "to get out"
+                            ],
+                            "baseForm": "出す"
+                        },
+                        {
+                            "morpheme": "90",
+                            "romaji": "90",
+                            "meaning": []
+                        },
+                        {
+                            "morpheme": "%",
+                            "romaji": "%",
+                            "meaning": []
+                        },
+                        {
+                            "morpheme": "返す",
+                            "romaji": "kaesu",
+                            "meaning": [
+                                "to return (something)",
+                                "to restore",
+                                "to put back"
+                            ]
+                        },
+                        {
+                            "morpheme": "。",
+                            "romaji": ".",
+                            "meaning": []
+                        }
+                    ],
+                    [
+                        {
+                            "morpheme": "引っ越し",
+                            "romaji": "hikkoshi",
+                            "meaning": [
+                                "moving (dwelling, office, etc.)",
+                                "changing residence"
+                            ]
+                        },
+                        {
+                            "morpheme": "の",
+                            "romaji": "no",
+                            "meaning": [
+                                "field",
+                                "plain"
+                            ]
+                        },
+                        {
+                            "morpheme": "場合",
+                            "romaji": "baai",
+                            "meaning": [
+                                "case",
+                                "occasion",
+                                "situation",
+                                "circumstances"
+                            ]
+                        },
+                        {
+                            "morpheme": "は",
+                            "romaji": "ha",
+                            "meaning": [
+                                "indicates sentence topic"
+                            ]
+                        },
+                        {
+                            "morpheme": "、",
+                            "romaji": ",",
+                            "meaning": []
+                        },
+                        {
+                            "morpheme": "授業",
+                            "romaji": "jugyou",
+                            "meaning": [
+                                "lesson",
+                                "class",
+                                "teaching",
+                                "instruction",
+                                "classwork",
+                                "schoolwork"
+                            ]
+                        },
+                        {
+                            "morpheme": "が",
+                            "romaji": "ga",
+                            "meaning": [
+                                "indicates the subject of a sentence"
+                            ]
+                        },
+                        {
+                            "morpheme": "始まって",
+                            "romaji": "hajimatte",
+                            "meaning": [
+                                "to begin",
+                                "to start",
+                                "to commence"
+                            ],
+                            "baseForm": "始まる"
+                        },
+                        {
+                            "morpheme": "から",
+                            "romaji": "kara",
+                            "meaning": [
+                                "emptiness",
+                                "being empty"
+                            ]
+                        },
+                        {
+                            "morpheme": "で",
+                            "romaji": "de",
+                            "meaning": [
+                                "at",
+                                "in"
+                            ]
+                        },
+                        {
+                            "morpheme": "も",
+                            "romaji": "mo",
+                            "meaning": [
+                                "too",
+                                "also",
+                                "in addition",
+                                "as well",
+                                "(not) either (in a negative sentence)"
+                            ]
+                        },
+                        {
+                            "morpheme": "全部",
+                            "romaji": "zenbu",
+                            "meaning": [
+                                "all",
+                                "entire",
+                                "whole",
+                                "altogether"
+                            ]
+                        },
+                        {
+                            "morpheme": "返す",
+                            "romaji": "kaesu",
+                            "meaning": [
+                                "to return (something)",
+                                "to restore",
+                                "to put back"
+                            ]
+                        },
+                        {
+                            "morpheme": "。",
+                            "romaji": ".",
+                            "meaning": []
+                        }
+                    ],
+                    [
+                        {
+                            "morpheme": "入院",
+                            "romaji": "nyuuin",
+                            "meaning": [
+                                "hospitalization",
+                                "hospitalisation"
+                            ]
+                        },
+                        {
+                            "morpheme": "の",
+                            "romaji": "no",
+                            "meaning": [
+                                "field",
+                                "plain"
+                            ]
+                        },
+                        {
+                            "morpheme": "場合",
+                            "romaji": "baai",
+                            "meaning": [
+                                "case",
+                                "occasion",
+                                "situation",
+                                "circumstances"
+                            ]
+                        },
+                        {
+                            "morpheme": "は",
+                            "romaji": "ha",
+                            "meaning": [
+                                "indicates sentence topic"
+                            ]
+                        },
+                        {
+                            "morpheme": "、",
+                            "romaji": ",",
+                            "meaning": []
+                        },
+                        {
+                            "morpheme": "授業",
+                            "romaji": "jugyou",
+                            "meaning": [
+                                "lesson",
+                                "class",
+                                "teaching",
+                                "instruction",
+                                "classwork",
+                                "schoolwork"
+                            ]
+                        },
+                        {
+                            "morpheme": "が",
+                            "romaji": "ga",
+                            "meaning": [
+                                "indicates the subject of a sentence"
+                            ]
+                        },
+                        {
+                            "morpheme": "始まって",
+                            "romaji": "hajimatte",
+                            "meaning": [
+                                "to begin",
+                                "to start",
+                                "to commence"
+                            ],
+                            "baseForm": "始まる"
+                        },
+                        {
+                            "morpheme": "から",
+                            "romaji": "kara",
+                            "meaning": [
+                                "emptiness",
+                                "being empty"
+                            ]
+                        },
+                        {
+                            "morpheme": "で",
+                            "romaji": "de",
+                            "meaning": [
+                                "at",
+                                "in"
+                            ]
+                        },
+                        {
+                            "morpheme": "も",
+                            "romaji": "mo",
+                            "meaning": [
+                                "too",
+                                "also",
+                                "in addition",
+                                "as well",
+                                "(not) either (in a negative sentence)"
+                            ]
+                        },
+                        {
+                            "morpheme": "全部",
+                            "romaji": "zenbu",
+                            "meaning": [
+                                "all",
+                                "entire",
+                                "whole",
+                                "altogether"
+                            ]
+                        },
+                        {
+                            "morpheme": "返す",
+                            "romaji": "kaesu",
+                            "meaning": [
+                                "to return (something)",
+                                "to restore",
+                                "to put back"
+                            ]
+                        },
+                        {
+                            "morpheme": "。",
+                            "romaji": ".",
+                            "meaning": []
+                        }
+                    ],
+                    [
+                        {
+                            "morpheme": "入院",
+                            "romaji": "nyuuin",
+                            "meaning": [
+                                "hospitalization",
+                                "hospitalisation"
+                            ]
+                        },
+                        {
+                            "morpheme": "の",
+                            "romaji": "no",
+                            "meaning": [
+                                "field",
+                                "plain"
+                            ]
+                        },
+                        {
+                            "morpheme": "場合",
+                            "romaji": "baai",
+                            "meaning": [
+                                "case",
+                                "occasion",
+                                "situation",
+                                "circumstances"
+                            ]
+                        },
+                        {
+                            "morpheme": "は",
+                            "romaji": "ha",
+                            "meaning": [
+                                "indicates sentence topic"
+                            ]
+                        },
+                        {
+                            "morpheme": "、",
+                            "romaji": ",",
+                            "meaning": []
+                        },
+                        {
+                            "morpheme": "授業",
+                            "romaji": "jugyou",
+                            "meaning": [
+                                "lesson",
+                                "class",
+                                "teaching",
+                                "instruction",
+                                "classwork",
+                                "schoolwork"
+                            ]
+                        },
+                        {
+                            "morpheme": "開始",
+                            "romaji": "kaishi",
+                            "meaning": [
+                                "start",
+                                "commencement",
+                                "beginning",
+                                "initiation"
+                            ]
+                        },
+                        {
+                            "morpheme": "前",
+                            "romaji": "mae",
+                            "meaning": [
+                                "in front (of)",
+                                "before (e.g. a building)"
+                            ]
+                        },
+                        {
+                            "morpheme": "に",
+                            "romaji": "ni",
+                            "meaning": [
+                                "at (place, time)",
+                                "in",
+                                "on",
+                                "during"
+                            ]
+                        },
+                        {
+                            "morpheme": "証明",
+                            "romaji": "shoumei",
+                            "meaning": [
+                                "proof",
+                                "testimony",
+                                "demonstration",
+                                "verification",
+                                "certification"
+                            ],
+                            "furigana": "しょうめい"
+                        },
+                        {
+                            "morpheme": "書類",
+                            "romaji": "shorui",
+                            "meaning": [
+                                "document",
+                                "papers"
+                            ]
+                        },
+                        {
+                            "morpheme": "を",
+                            "romaji": "wo",
+                            "meaning": [
+                                "indicates direct object of action"
+                            ]
+                        },
+                        {
+                            "morpheme": "出せば",
+                            "romaji": "daseba",
+                            "meaning": [
+                                "to take out",
+                                "to get out"
+                            ],
+                            "baseForm": "出す"
+                        },
+                        {
+                            "morpheme": "全部",
+                            "romaji": "zenbu",
+                            "meaning": [
+                                "all",
+                                "entire",
+                                "whole",
+                                "altogether"
+                            ]
+                        },
+                        {
+                            "morpheme": "返す",
+                            "romaji": "kaesu",
+                            "meaning": [
+                                "to return (something)",
+                                "to restore",
+                                "to put back"
+                            ]
+                        },
+                        {
+                            "morpheme": "。",
+                            "romaji": ".",
+                            "meaning": []
+                        }
+                    ]
+                ],
+                "answer": 1,
+                "romajiQues": "kyanseru no baai no henkin ni tsuite , tadashii no ha dore ka .",
+                "translationQues": "Which of the following is correct regarding refunds in case of cancellation?",
+                "romajiOption": [
+                    "hikkoshi no baai ha , jugyou kaishi mae ni shoumei shorui wo daseba 90 % kaesu .",
+                    "hikkoshi no baai ha , jugyou ga hajimatte kara de mo zenbu kaesu .",
+                    "nyuuin no baai ha , jugyou ga hajimatte kara de mo zenbu kaesu .",
+                    "nyuuin no baai ha , jugyou kaishi mae ni shoumei shorui wo daseba zenbu kaesu ."
+                ],
+                "translationOption": [
+                    "If you move, 90% of the fee will be refunded if you submit proof of payment before classes start.",
+                    "If you move, return everything even after classes start.",
+                    "If you are hospitalized, you will have to return everything even after classes start.",
+                    "If you are hospitalized, all proof documents will be returned if you submit them before classes start."
+                ]
+            }
+        ]
+    }
+]
