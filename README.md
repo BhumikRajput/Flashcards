@@ -6,45 +6,66 @@ A lightweight, offline-friendly web app for studying Japanese vocabulary (and an
 
 ---
 
+## Description
+
+Flashcards is a simple and fast web app designed for efficient vocabulary study, especially Japanese.
+
+You can import your own custom decks in JSON format or use the built-in N4 and N5 vocabulary & kanji decks. The study system is deliberately lightweight:
+
+- Flip the card with a tap or the Spacebar
+- Swipe up (or press ↑) when you know the card — it gets removed from the current session
+- Swipe down (or press ↓) when you don’t know it — the card will reappear after about 30 seconds for reinforcement
+
+Progress is never lost: you can export the remaining cards at any time and continue later from exactly where you left off.
+
+In addition to the flashcard mode, the project includes two companion tools:
+
+- **Vocab** – A clean table view of any selected decks with direct links to Jisho and Takoboto
+- **Dokkai** – Interactive reading practice with clickable vocabulary, furigana, sentence translations, and multiple-choice questions
+
+The entire app runs in the browser with no build step or external dependencies.
+
+---
+
 ## Features
 
 ### Flashcard Study Mode
 - Import custom decks as JSON or load premade N4 / N5 vocabulary & kanji decks
 - Bidirectional cards (front → back **and** back → front)
-- Simple, fast controls:
+- Simple controls:
   - **Space / Tap** → Flip card
   - **↑ / Swipe up** → Mark as known (remove from session)
   - **↓ / Swipe down** → Mark as unknown (reappear after ~30 seconds)
 - Visual feedback (green / red flash)
 - Export remaining cards anytime to continue later
-- Works great on both desktop and mobile
+- Works on both desktop and mobile
 
 ### Extra Tools
-- **Vocab** – Table view of selected decks with one-click lookup on Jisho / Takoboto
-- **Dokkai** – Interactive reading comprehension practice with:
+- **Vocab** – Table view of selected decks with one-click dictionary lookup
+- **Dokkai** – Interactive reading comprehension with:
   - Clickable vocabulary (romaji + meaning popup + Jisho link)
   - Toggleable sentence translations
   - Multiple-choice questions with revealable answers
   - Furigana support
-  - Dark mode + adjustable font size, letter/word spacing, line height, margins
+  - Dark mode + adjustable font size, spacing, line height, and margins
 - Help page with key bindings and logic explanation
 
 ---
 
 ## Quick Start
 
-1. Clone the repo
+1. Clone the repository
    ```bash
    git clone https://github.com/BhumikRajput/Flashcards.git
    ```
 2. Open `index.html` in any modern browser  
-   (or deploy the whole folder to GitHub Pages / any static host)
+   (or deploy the folder to GitHub Pages / any static host)
 
 No build step or dependencies required.
 
 ---
 
-## How to Use the Flashcard App
+## How to Use
 
 1. Click the menu button (☰)
 2. Choose **Inbuilt** to select premade N4/N5 decks, or **Import** to load your own JSON
@@ -97,7 +118,7 @@ The app automatically creates reverse cards (back → front).
 
 ---
 
-## Controls Summary
+## Controls
 
 | Action               | Desktop       | Mobile       |
 |----------------------|---------------|--------------|
@@ -110,15 +131,5 @@ The app automatically creates reverse cards (back → front).
 
 ## License
 
-MIT License – feel free to use, modify, and share.
-
----
-
-## Author
-
-**Bhumik Rajput**  
-[bhumikrohilla@gmail.com](mailto:bhumikrohilla@gmail.com)
-
----
-
-Happy studying! 🇯🇵
+MIT License
+```
