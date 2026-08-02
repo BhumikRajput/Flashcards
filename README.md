@@ -132,4 +132,3 @@ The app automatically creates reverse cards (back → front).
 ## License
 
 MIT License
-```
